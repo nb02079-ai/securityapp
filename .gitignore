@@ -5,6 +5,7 @@ data/*
 !data/eval/
 data/eval/*
 !data/eval/*_ids.csv
+!data/eval/scam/
 
 # extract_candidates.py 결과물 (대화 원문 포함)
 candidates_out/
@@ -44,3 +45,4 @@ captures/
 .vscode/
 .DS_Store
 Thumbs.db
+
