@@ -4,7 +4,11 @@
 자유 메모(plan.md 5.2 1단계)와 라벨링을 사례 작성자가 아닌 사람·세션이 할 때 쓴다.
 
 사용법
-  python tools/scam/make_blind.py data/eval/scam/*.jsonl --out <저장소 밖 폴더>
+  python tools/scam/make_blind.py data/eval/scam/*.jsonl --out <저장소 밖 폴더> [--shuffle-seed N]
+
+  --shuffle-seed 없이 실행하면 파일 이름 순서대로 C01, C02 … 를 붙인다 (자유 메모 때 쓴 방식).
+  --shuffle-seed N 을 주면 같은 N에서 항상 같은 순서로 섞는다. 라벨링부터는 섞은 판을 쓴다
+  (파일 목록을 아는 사람이 번호표 없이 사례를 알아맞히지 못하게).
 
 지우는 것
   - 출처 표시(provenance), 근거 메모(source_note), 날짜 근거(day_source)
@@ -22,6 +26,7 @@ import argparse
 import csv
 import json
 import os
+import random
 import sys
 
 
@@ -62,6 +67,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("files", nargs="+")
     ap.add_argument("--out", required=True)
+    ap.add_argument("--shuffle-seed", type=int, default=None,
+                    help="주면 사례 순서를 이 시드로 섞어 번호를 붙임")
     args = ap.parse_args()
     os.makedirs(args.out, exist_ok=True)
 
@@ -71,7 +78,13 @@ def main():
           "- `[사진]`, `[파일]`은 사진·파일이 왔다는 표시만 보이는 메시지입니다.",
           "- `(링크)`, `(계좌번호)` 등은 원래 내용이 있던 자리를 가린 것입니다.\n"]
     key = []
-    for i, path in enumerate(sorted(args.files), 1):
+    # 같은 파일을 두 번 넣어도 한 번만 (번호가 겹치거나 사례가 중복되지 않게)
+    files = sorted({os.path.realpath(f) for f in args.files}, key=os.path.basename)
+    if len({os.path.basename(f) for f in files}) != len(files):
+        sys.exit("[오류] 다른 폴더에 같은 이름의 파일이 있음")
+    if args.shuffle_seed is not None:
+        random.Random(args.shuffle_seed).shuffle(files)
+    for i, path in enumerate(files, 1):
         with open(path, encoding="utf-8") as f:
             lines = [json.loads(l) for l in f if l.strip()]
         meta, msgs = lines[0], lines[1:]
@@ -95,6 +108,8 @@ def main():
         w.writeheader()
         w.writerows(key)
     print(f"가림판 {len(key)}건 → {os.path.join(args.out, 'blind_cases.md')}")
+    order = "파일 이름 순서" if args.shuffle_seed is None else f"시드 {args.shuffle_seed}로 섞음"
+    print(f"번호 순서: {order}")
     print(f"번호표 → {os.path.join(args.out, 'blind_key.csv')} (새 세션에 넣지 말 것)")
 
 
