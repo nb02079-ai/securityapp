@@ -1,0 +1,11 @@
+case,n_messages,first_suggest,first_transfer_before,transfer_seen,reason
+C01,10,7,7,Y,first_suggest=7(배송비 보내 주세요); first_transfer_before=7(나 8번 배송비 보냈어요 직전)
+C02,19,7,7,Y,first_suggest=7(소액으로 한번 해 보실래요); first_transfer_before=7(나 9번 3만 원 넣어 봤어요 직전; 8번은 방법 안내)
+C03,18,13,13,Y,first_suggest=13(300만 원만 먼저 보내 주면); first_transfer_before=13(나 15번 300만 원 보냈어요 직전; 14는 계좌 확인 링크)
+C04,24,12,18,Y,first_suggest=12(내부 청약·물량 확보 권유); first_transfer_before=18(나 19번 입금했어요 직전)
+C05,13,8,10,Y,first_suggest=8(비상장주식 매수하면 회복); first_transfer_before=10(나 11번 1만 8천 주 매수했습니다 직전)
+C06,22,11,11,Y,first_suggest=11(5만 원 입금 시 환급 과제); first_transfer_before=11(나 18번 5만 원만 해 볼게요 → 이후 입금 진행으로 보임; 구체 지시 11)
+C07,8,7,7,Y,first_suggest=7(통관비를 대신 지불해 주세요); first_transfer_before=7(나 8번 통관비 보냈어요 직전)
+C08,37,15,27,Y,first_suggest=15(P 프로젝트 소개·기회); first_transfer_before=27(나 28번 5천만 원 보냈습니다 직전)
+C09,21,3,7,Y,first_suggest=3(비트코인 투자를 해 보세요); first_transfer_before=7(나 6번 10만 원만 해 볼게요 후 7·8이 주소·계좌 지정; 송금은 그 직후 추정)
+C10,15,3,6,Y,first_suggest=3(매달 40%·원금 보장); first_transfer_before=6(나 7번 보냈어 직전)

@@ -7,7 +7,7 @@
 
 결과 (엑셀에서 바로 열리도록 UTF-8 BOM)
   label_messages.csv  상대방 메시지마다 한 줄: 신호·단계·확신·메모 칸이 비어 있음
-  label_points.csv    사례마다 한 줄: 첫 금전 권유·첫 송금 직전 칸이 비어 있음
+  label_points.csv    사례마다 한 줄: 첫 금전 권유·첫 송금 의사 직전·첫 송금 직전 칸이 비어 있음 (기준표 v2 4장)
   --cases 를 주면 그 사례만 넣는다 (두 번째 라벨러용)
 
 같은 파일·같은 시드로 make_blind.py를 돌린 가림판과 번호가 같다 (순서 규칙을 그대로 따름).
@@ -63,7 +63,8 @@ def main():
                              "sender": display_sender(m, rn[m["room"]]), "text": m["text"],
                              "signals": "", "stage": "", "confidence": "", "note": ""})
         point_rows.append({"case": cid, "n_messages": len(msgs), "first_suggest": "",
-                           "first_transfer_before": "", "transfer_seen": "", "reason": ""})
+                           "first_intent_before": "", "first_transfer_before": "",
+                           "transfer_seen": "", "reason": ""})
 
     missing = want - seen
     if missing:
