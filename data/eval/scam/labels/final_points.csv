@@ -1,0 +1,11 @@
+case_id,first_suggest,first_intent_before,first_transfer_before,transfer_seen,source
+scam08_veteran_gold,7,7,7,Y,세 모델 일치
+scam05_romance_crypto_A,7,8,8,Y,세 모델 일치
+scam06_romance_customs_B,13,14,14,Y,세 모델 일치
+scam02_ipo_leadingroom,5,18,18,Y,세 모델 일치
+scam03_recovery_invest,8,8,10,Y,first_intent_before=판정
+scam10_sidejob_mission,11,17,11,N,세 모델 일치
+scam04_perfumer_romance,7,7,7,Y,세 모델 일치
+scam01_leadingroom_band,7,20,27,Y,first_suggest=판정; first_intent_before=판정
+scam07_celebrity_crypto_C,3,5,8,Y,세 모델 일치
+scam09_acquaintance_nasdaq,3,4,6,Y,세 모델 일치

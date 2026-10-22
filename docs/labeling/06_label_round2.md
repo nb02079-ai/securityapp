@@ -57,3 +57,10 @@
   - 판정할 칸 41개 ([adjudication_items.csv](label_results/v2/adjudication_items.csv)): 셋이 모두 다른 단계 2칸, v2.1에서 규칙이 바뀐 칸, 금전 지점 중 갈린 3곳. 사용자가 `tools/scam/make_adjudication_xlsx.py`로 만든 판정 양식에서 **기준표 v2.1 문장을 보고** 고름 (읽으면서 바로 판단하는 방식이 아님)
   - 사례 작성 세션은 판정하지 않음
 - v2.1은 이후 확장 사례(10 → 30건)의 라벨링부터 적용합니다.
+
+## 5. 최종 라벨 (2026-10-22)
+
+- 사용자가 판정 41칸을 채움. 기준표 v2.1 문장과 다르게 보인 5곳과 빈 칸 1곳은 채팅에서 확인 후 고침 (판정 파일의 메모 칸에 기록): C05·C08 의사 지점은 "묻는 말도 의사 표현"을 확인해 8·20, C10 14 [파일]은 추가요구, C08 30 [사진]은 앞 메시지를 따라 신뢰, C09 13은 D3만(D2 제외), C05 6 P1 붙임
+- 결과: [data/eval/scam/labels/](../../data/eval/scam/labels/) — 메시지 122줄(신호 판정 23칸, 단계 판정 15칸), 사례 10건(금전 지점 판정 3곳, 나머지 7건은 세 모델 일치)
+- 판정 파일: [label_results/v2/adjudication_final.xlsx](label_results/v2/adjudication_final.xlsx), 합치는 도구: `tools/scam/finalize_labels.py`
+
