@@ -1,0 +1,51 @@
+# ── 데이터: 재배포 금지 원문이 섞일 수 있어 기본적으로 모두 제외 ──
+# 저장소에 넣어도 되는 것은 data/README.md 와 data/eval/*_ids.csv 뿐
+data/*
+!data/README.md
+!data/eval/
+data/eval/*
+!data/eval/*_ids.csv
+!data/eval/scam/
+
+# extract_candidates.py 결과물 (대화 원문 포함)
+candidates_out/
+candidates_*.csv
+candidates_*.jsonl
+review_*.csv
+review_*.txt
+replay_*/
+echo_check_*.txt
+
+# AI Hub·외부 데이터 압축 파일
+*.zip
+*.tar
+*.tar.gz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Kotlin / Android (작업 2단계부터)
+.gradle/
+build/
+local.properties
+*.apk
+*.aab
+*.jks
+*.keystore
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 편집기·OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+
+# Kotlin 2.x 컴파일러 작업 폴더
+.kotlin/
