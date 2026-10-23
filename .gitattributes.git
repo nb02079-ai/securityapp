@@ -1,0 +1,6 @@
+# 줄바꿈: gradlew는 리눅스(GitHub Actions)에서 실행되므로 LF, 윈도우용 .bat은 CRLF
+gradlew     text eol=lf
+*.bat       text eol=crlf
+*.sh        text eol=lf
+*.jar       binary
+*.xlsx      binary
