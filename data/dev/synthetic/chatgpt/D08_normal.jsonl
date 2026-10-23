@@ -1,0 +1,14 @@
+{"type": "meta", "case_id": "chatgpt_D08", "kind": "normal", "scam_type": "친구 사이 급하게 돈 빌리기", "model": "chatgpt", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "지수", "is_user": false, "day": 0, "text": "야 미안한데 지금 지갑을 집에 두고 나왔어"}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "얼마 필요한데?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "지수", "is_user": false, "day": 0, "text": "3만원만 빌려줄 수 있어? 버스랑 점심값이 없어"}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "지금 보내줄게. 계좌 그대로지?"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "지수", "is_user": false, "day": 0, "text": "응 OO은행 계좌 그대로야"}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "보냈어 확인해봐"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "지수", "is_user": false, "day": 0, "text": "입금 확인! 진짜 고맙다"}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "급한 일 있나 했네 ㅋㅋ"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "지수", "is_user": false, "day": 0, "text": "카드가 결제 오류나서 고객센터 가야할듯"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "지수", "is_user": false, "day": 1, "text": "어제 빌린 돈 지금 보냈어"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "확인했어 잘 들어왔네"}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "지수", "is_user": false, "day": 1, "text": "다음에 커피 내가 살게"}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "됐어 담엔 지갑 챙겨 ㅎㅎ"}

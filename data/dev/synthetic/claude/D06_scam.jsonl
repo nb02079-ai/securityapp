@@ -1,0 +1,20 @@
+{"type": "meta", "case_id": "claude_D06", "kind": "scam", "scam_type": "메신저 피싱(지인 사칭 상품권)", "model": "claude", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1(민지, 모르는 번호)", "sender": "민지", "is_user": false, "day": 0, "text": "은영아 바빠?"}
+{"type": "message", "seq": 2, "room": "1:1(민지, 모르는 번호)", "sender": "나", "is_user": true, "day": 0, "text": "아니 왜? 근데 번호 바꿨어?"}
+{"type": "message", "seq": 3, "room": "1:1(민지, 모르는 번호)", "sender": "민지", "is_user": false, "day": 0, "text": "응 폰 고장나서 임시폰이야ㅠ"}
+{"type": "message", "seq": 4, "room": "1:1(민지, 모르는 번호)", "sender": "민지", "is_user": false, "day": 0, "text": "부탁하나 해도돼?"}
+{"type": "message", "seq": 5, "room": "1:1(민지, 모르는 번호)", "sender": "나", "is_user": true, "day": 0, "text": "뭔데"}
+{"type": "message", "seq": 6, "room": "1:1(민지, 모르는 번호)", "sender": "민지", "is_user": false, "day": 0, "text": "거래처에 상품권 보내야되는데 내 카드가 본인인증이 안돼서"}
+{"type": "message", "seq": 7, "room": "1:1(민지, 모르는 번호)", "sender": "민지", "is_user": false, "day": 0, "text": "문화상품권 10만원짜리 5장만 사서 핀번호 사진찍어 보내줄수있어? 저녁에 바로 갚을게"}
+{"type": "message", "seq": 8, "room": "1:1(민지, 모르는 번호)", "sender": "나", "is_user": true, "day": 0, "text": "50만원??"}
+{"type": "message", "seq": 9, "room": "1:1(민지, 모르는 번호)", "sender": "민지", "is_user": false, "day": 0, "text": "응 급해서ㅠㅠ 편의점에서 사면돼"}
+{"type": "message", "seq": 10, "room": "1:1(민지, 모르는 번호)", "sender": "나", "is_user": true, "day": 0, "text": "전화해도돼?"}
+{"type": "message", "seq": 11, "room": "1:1(민지, 모르는 번호)", "sender": "민지", "is_user": false, "day": 0, "text": "지금 회의중이라 통화가 안돼"}
+{"type": "message", "seq": 12, "room": "1:1(민지, 모르는 번호)", "sender": "나", "is_user": true, "day": 0, "text": "그럼 우리 작년에 제주도 갔을때 숙소 이름 뭐였지"}
+{"type": "message", "seq": 13, "room": "1:1(민지, 모르는 번호)", "sender": "민지", "is_user": false, "day": 0, "text": "갑자기 그건 왜ㅋㅋ 기억안나"}
+{"type": "message", "seq": 14, "room": "1:1(민지, 모르는 번호)", "sender": "민지", "is_user": false, "day": 0, "text": "빨리 좀 부탁해 30분안에 보내야돼"}
+{"type": "message", "seq": 15, "room": "1:1(민지, 모르는 번호)", "sender": "나", "is_user": true, "day": 0, "text": "방금 민지 원래 번호로 전화했는데 받던데? 누구세요"}
+{"type": "message", "seq": 16, "room": "1:1(민지)", "sender": "나", "is_user": true, "day": 0, "text": "민지야 니 이름이랑 프사로 누가 상품권 사달래"}
+{"type": "message", "seq": 17, "room": "1:1(민지)", "sender": "민지", "is_user": false, "day": 0, "text": "헐 나 아니야!! 프사 퍼갔나봐"}
+{"type": "message", "seq": 18, "room": "1:1(민지)", "sender": "나", "is_user": true, "day": 0, "text": "신고했어 너도 프사 바꾸고 다른 애들한테도 말해"}
+{"type": "message", "seq": 19, "room": "1:1(민지)", "sender": "민지", "is_user": false, "day": 0, "text": "ㅠㅠ 고마워 진짜"}

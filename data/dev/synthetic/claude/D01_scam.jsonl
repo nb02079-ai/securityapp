@@ -1,0 +1,32 @@
+{"type": "meta", "case_id": "claude_D01", "kind": "scam", "scam_type": "공모주 내부 청약", "model": "claude", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "단체방(공모주 정보 공유방)", "sender": "김비서", "is_user": false, "day": 0, "text": "금일 ◇◇바이오 공모주 기관배정 물량 일부 회원님들께 우선 배정해드립니다. 신청은 담당 실장님께 1:1로 해주세요"}
+{"type": "message", "seq": 2, "room": "단체방(공모주 정보 공유방)", "sender": "회원_박", "is_user": false, "day": 0, "text": "저번에 받은거 상장날 두배 됐어요 감사합니다~"}
+{"type": "message", "seq": 3, "room": "단체방(공모주 정보 공유방)", "sender": "회원_88", "is_user": false, "day": 0, "text": "[사진]"}
+{"type": "message", "seq": 4, "room": "단체방(공모주 정보 공유방)", "sender": "회원_88", "is_user": false, "day": 0, "text": "인증합니다 ㅎㅎ 실장님 최고"}
+{"type": "message", "seq": 5, "room": "단체방(공모주 정보 공유방)", "sender": "김비서", "is_user": false, "day": 0, "text": "수량 한정이라 선착순 마감됩니다"}
+{"type": "message", "seq": 6, "room": "1:1(최실장)", "sender": "최실장", "is_user": false, "day": 1, "text": "안녕하세요 회원님 △△증권 기관영업팀 최실장입니다. 공모주 내부청약 문의주셔서 연락드립니다"}
+{"type": "message", "seq": 7, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 1, "text": "네 안녕하세요 단체방 보고 연락드렸어요"}
+{"type": "message", "seq": 8, "room": "1:1(최실장)", "sender": "최실장", "is_user": false, "day": 1, "text": "일반청약은 경쟁률 때문에 몇 주 못받으시는데 저희는 기관배정분이라 신청하신 만큼 100% 배정됩니다"}
+{"type": "message", "seq": 9, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 1, "text": "근데 공모주는 증권사 앱에서 하는거 아니에요?"}
+{"type": "message", "seq": 10, "room": "1:1(최실장)", "sender": "최실장", "is_user": false, "day": 1, "text": "앱은 일반청약이구요 기관배정분은 전용 플랫폼에서 따로 진행합니다 (링크)"}
+{"type": "message", "seq": 11, "room": "1:1(최실장)", "sender": "최실장", "is_user": false, "day": 1, "text": "최소 300만원부터 가능하시고 상장 첫날 매도하시면 됩니다"}
+{"type": "message", "seq": 12, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 1, "text": "300은 좀 큰데"}
+{"type": "message", "seq": 13, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 1, "text": "200은 안되나요"}
+{"type": "message", "seq": 14, "room": "1:1(최실장)", "sender": "최실장", "is_user": false, "day": 1, "text": "원칙상 안되는데 첫 참여시니까 제가 맞춰드릴게요 ㅎㅎ 오늘 3시 마감이에요"}
+{"type": "message", "seq": 15, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 1, "text": "입금 어디로 하면 돼요"}
+{"type": "message", "seq": 16, "room": "1:1(최실장)", "sender": "최실장", "is_user": false, "day": 1, "text": "법인 가상계좌 안내드립니다 (계좌번호) 입금자명은 회원번호로 해주세요"}
+{"type": "message", "seq": 17, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 1, "text": "보냈어요 [사진]"}
+{"type": "message", "seq": 18, "room": "1:1(최실장)", "sender": "최실장", "is_user": false, "day": 1, "text": "확인됐습니다. 상장일은 5일 뒤입니다"}
+{"type": "message", "seq": 19, "room": "1:1(최실장)", "sender": "최실장", "is_user": false, "day": 6, "text": "축하드립니다 ◇◇바이오 상장 첫날 +118% 마감했습니다 [사진]"}
+{"type": "message", "seq": 20, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 6, "text": "헐 진짜요?? 그럼 출금하면 되는거죠"}
+{"type": "message", "seq": 21, "room": "1:1(최실장)", "sender": "최실장", "is_user": false, "day": 6, "text": "네 다만 수익금이 기준금액 넘으셔서 VIP 등급 전환 후에 출금 가능하십니다"}
+{"type": "message", "seq": 22, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 6, "text": "그게 뭔데요"}
+{"type": "message", "seq": 23, "room": "1:1(최실장)", "sender": "최실장", "is_user": false, "day": 6, "text": "보증금 500 넣으시면 원금+수익금 전액 같이 출금됩니다"}
+{"type": "message", "seq": 24, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 6, "text": "처음엔 그런 말 없었잖아요"}
+{"type": "message", "seq": 25, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 6, "text": "그냥 원금이라도 빼주세요"}
+{"type": "message", "seq": 26, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 7, "text": "실장님?"}
+{"type": "message", "seq": 27, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 7, "text": "왜 답이 없으세요"}
+{"type": "message", "seq": 28, "room": "1:1(최실장)", "sender": "최실장", "is_user": false, "day": 8, "text": "시스템 점검중이었습니다. 보증금 미입금시 계좌 동결 처리되는 점 참고 부탁드립니다"}
+{"type": "message", "seq": 29, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 8, "text": "동결이요?? 제 돈인데요"}
+{"type": "message", "seq": 30, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 8, "text": "단체방 다시 들어가보려니까 저 내보내졌던데요"}
+{"type": "message", "seq": 31, "room": "1:1(최실장)", "sender": "나", "is_user": true, "day": 9, "text": "오늘 경찰서 갑니다"}

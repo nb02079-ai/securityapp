@@ -1,0 +1,15 @@
+{"type": "meta", "case_id": "chatgpt_D02", "kind": "scam", "scam_type": "로맨스 뒤 해외 물품 배송비 대납", "model": "chatgpt", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "에릭", "is_user": false, "day": 0, "text": "안녕하세요 :) 사진 속 강아지 너무 귀엽네요"}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "프로필 보고 말 거신 거예요? ㅎㅎ"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "에릭", "is_user": false, "day": 3, "text": "오늘도 일 끝났어요. 당신이랑 얘기하는 게 제일 편해요."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 6, "text": "우리 아직 직접 만난 적도 없는데 신기하네요"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "에릭", "is_user": false, "day": 8, "text": "다음 달에 한국 갈 생각이에요. 작은 선물도 보냈어요."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 9, "text": "뭘 보냈는데요? 주소 알려준 적 있나?"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "에릭", "is_user": false, "day": 9, "text": "전에 알려준 주소 맞아요. 시계랑 향수예요 [사진]"}
+{"type": "message", "seq": 8, "room": "문자", "sender": "배송센터", "is_user": false, "day": 10, "text": "해외 물품 통관 보류. 보관 및 보험료 납부 필요: (링크)"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "나", "is_user": true, "day": 10, "text": "배송비가 왜 이렇게 비싸요?"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "에릭", "is_user": false, "day": 10, "text": "나도 당황했어요. 카드가 잠겨서 그런데 잠깐 대신 내줄 수 있어요?"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "나", "is_user": true, "day": 10, "text": "배송센터에서 개인 계좌로 보내라고 해요?"}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "에릭", "is_user": false, "day": 10, "text": "담당자가 임시 계좌라네요. 내가 도착하면 바로 갚을게요."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 11, "text": "확인할 때까지 돈 안 보낼게요."}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "에릭", "is_user": false, "day": 11, "text": "나를 못 믿는 거예요? 우리 사이가 이 정도였나요"}

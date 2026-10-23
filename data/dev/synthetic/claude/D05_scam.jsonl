@@ -1,0 +1,23 @@
+{"type": "meta", "case_id": "claude_D05", "kind": "scam", "scam_type": "지인 소개 고수익 펀드", "model": "claude", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1(지훈)", "sender": "지훈", "is_user": false, "day": 0, "text": "야 오랜만 잘지내냐"}
+{"type": "message", "seq": 2, "room": "1:1(지훈)", "sender": "나", "is_user": true, "day": 0, "text": "오 지훈 웬일ㅋㅋ"}
+{"type": "message", "seq": 3, "room": "1:1(지훈)", "sender": "지훈", "is_user": false, "day": 0, "text": "다름이 아니라 나 요즘 넣고있는 펀드가 있는데 괜찮아서 너 생각났어"}
+{"type": "message", "seq": 4, "room": "1:1(지훈)", "sender": "지훈", "is_user": false, "day": 0, "text": "월 8% 고정배당이야 나 6개월째 받는중"}
+{"type": "message", "seq": 5, "room": "1:1(지훈)", "sender": "나", "is_user": true, "day": 0, "text": "월8%?? 연으로 치면 96인데"}
+{"type": "message", "seq": 6, "room": "1:1(지훈)", "sender": "지훈", "is_user": false, "day": 0, "text": "해외 부동산 브릿지론 펀드래 운용사 팀장님 소개해줄게"}
+{"type": "message", "seq": 7, "room": "단체방(지훈, 박팀장, 나)", "sender": "지훈", "is_user": false, "day": 0, "text": "팀장님 얘가 제 대학 동기에요"}
+{"type": "message", "seq": 8, "room": "단체방(지훈, 박팀장, 나)", "sender": "박팀장", "is_user": false, "day": 0, "text": "안녕하세요 □□자산운용 박팀장입니다 지훈씨한테 말씀 많이 들었어요"}
+{"type": "message", "seq": 9, "room": "단체방(지훈, 박팀장, 나)", "sender": "박팀장", "is_user": false, "day": 0, "text": "사모 형태라 소개로만 모집하고 최소 1천만원입니다. 상품설명서 드릴게요 [파일]"}
+{"type": "message", "seq": 10, "room": "단체방(지훈, 박팀장, 나)", "sender": "나", "is_user": true, "day": 0, "text": "자료 봤는데 운용사 이름이 금융투자협회 조회가 안되던데요"}
+{"type": "message", "seq": 11, "room": "단체방(지훈, 박팀장, 나)", "sender": "박팀장", "is_user": false, "day": 0, "text": "해외법인이 운용해서 국내 조회는 안됩니다"}
+{"type": "message", "seq": 12, "room": "단체방(지훈, 박팀장, 나)", "sender": "나", "is_user": true, "day": 0, "text": "그럼 국내에서 모집하는거 자체가 문제 아닌가요?"}
+{"type": "message", "seq": 13, "room": "단체방(지훈, 박팀장, 나)", "sender": "박팀장", "is_user": false, "day": 0, "text": "정식 판매가 아니라 투자조합 형태라 괜찮습니다 원금보장 특약도 있어요"}
+{"type": "message", "seq": 14, "room": "단체방(지훈, 박팀장, 나)", "sender": "지훈", "is_user": false, "day": 0, "text": "야 내가 받고있다니까 ㅋㅋ 나 믿어"}
+{"type": "message", "seq": 15, "room": "1:1(지훈)", "sender": "나", "is_user": true, "day": 1, "text": "지훈아 너 원금 빼본적은 있어?"}
+{"type": "message", "seq": 16, "room": "1:1(지훈)", "sender": "지훈", "is_user": false, "day": 1, "text": "아니 아직 재투자중 복리라서"}
+{"type": "message", "seq": 17, "room": "1:1(지훈)", "sender": "나", "is_user": true, "day": 1, "text": "한번 원금 일부만 빼봐 진짜 빠지는지"}
+{"type": "message", "seq": 18, "room": "1:1(지훈)", "sender": "지훈", "is_user": false, "day": 1, "text": "..해볼게"}
+{"type": "message", "seq": 19, "room": "1:1(지훈)", "sender": "지훈", "is_user": false, "day": 4, "text": "출금신청했는데 이번분기 만기 전엔 안된대"}
+{"type": "message", "seq": 20, "room": "1:1(지훈)", "sender": "나", "is_user": true, "day": 4, "text": "그거 좀 위험해보여 금감원에 한번 물어봐 진짜로"}
+{"type": "message", "seq": 21, "room": "단체방(지훈, 박팀장, 나)", "sender": "박팀장", "is_user": false, "day": 4, "text": "나님 이번주 모집 마감입니다 결정 부탁드려요"}
+{"type": "message", "seq": 22, "room": "단체방(지훈, 박팀장, 나)", "sender": "나", "is_user": true, "day": 4, "text": "저는 안하겠습니다"}

@@ -1,0 +1,20 @@
+{"type": "meta", "case_id": "gemini_D06", "kind": "scam", "scam_type": "결혼 정보·만남 앱 투자 권유", "model": "gemini", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "정우진", "is_user": false, "day": 0, "text": "안녕하세요 OO님! 매칭 앱에서 매칭되어서 연락드렸어요. 잘 부탁드립니다~"}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "아 네 안녕하세요 우진님! 반가워요."}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "정우진", "is_user": false, "day": 2, "text": "저는 강남에서 자산운용 관련 자문업 하고 있어요. OO님은 어떤 일 하세요?"}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "저는 그냥 평범한 회사원이에요 ㅎㅎ"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "정우진", "is_user": false, "day": 5, "text": "오늘 퇴근하고 맛있는 거 드셨나요? 나중에 진지하게 만나면서 맛집 많이 다니고 싶네요."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 5, "text": "좋죠! 빨리 직접 만나서 얘기 나누면 좋겠어요."}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "정우진", "is_user": false, "day": 10, "text": "OO님, 제가 사실 개인적으로 삼촌 통해서만 들어가는 비공개 금융 재테크 정보를 쓰고 있는데요."}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "정우진", "is_user": false, "day": 10, "text": "우리 앞으로 결혼 자금도 모으고 해야 하니까 OO님도 같이 소액이라도 해볼래요?"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "나", "is_user": true, "day": 10, "text": "어떤 재테크인데요? 제가 주식이나 코인은 잘 몰라서요..."}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "정우진", "is_user": false, "day": 11, "text": "홍콩 외환 차익 거래 시스템인데요, 제가 분석 신호 나올 때마다 알려드릴 테니까 사이트 가입만 하시면 돼요 (링크)"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "나", "is_user": true, "day": 11, "text": "우진님 믿고 가입해볼게요."}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "정우진", "is_user": false, "day": 12, "text": "우선 테스트로 100만원만 넣어보세요. (계좌번호) 여기로 입금하면 가상화폐 포인트로 전환됩니다."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 12, "text": "100만원 입금했어요! [사진]"}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "정우진", "is_user": false, "day": 13, "text": "보셨죠? 하루 만에 30만원 수익 났어요! 이번 주에 VIP 전용 타이밍 나오는데 1,000만원 정도 크게 넣어보면 어때요?"}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "나", "is_user": true, "day": 13, "text": "1,000만원은 너무 큰 금액인데... 적금 깨야 되거든요."}
+{"type": "message", "seq": 16, "room": "1:1", "sender": "정우진", "is_user": false, "day": 14, "text": "우리 미래를 위한 투자인데 나 못 믿어? 내가 손해 보면 내 돈으로 다 메꿔줄게."}
+{"type": "message", "seq": 17, "room": "1:1", "sender": "나", "is_user": true, "day": 14, "text": "아무리 그래도 아직 직접 만나보지도 못했는데 1,000만원은 무리예요."}
+{"type": "message", "seq": 18, "room": "1:1", "sender": "정우진", "is_user": false, "day": 15, "text": "결혼까지 생각한다면서 나를 이렇게 못 믿는다고? 진짜 서운하네."}
+{"type": "message", "seq": 19, "room": "1:1", "sender": "나", "is_user": true, "day": 15, "text": "돈 이야기 자꾸 하시니까 부담스럽네요. 이번 만남은 없던 걸로 해요."}

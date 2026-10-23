@@ -1,0 +1,17 @@
+{"type": "meta", "case_id": "claude_D02", "kind": "scam", "scam_type": "유명인 사칭 코인", "model": "claude", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "문자", "sender": "(전화번호)", "is_user": false, "day": 0, "text": "[국제발신] 김OO 대표 무료 코인 특강 당첨되셨습니다 카톡 추가 후 확인 (링크)"}
+{"type": "message", "seq": 2, "room": "1:1(김OO대표 비서실)", "sender": "김OO대표 비서실", "is_user": false, "day": 0, "text": "안녕하세요 김OO 대표님 공식 비서실입니다. 대표님이 직접 고른 신규코인 사전배정 대상자로 선정되셨습니다"}
+{"type": "message", "seq": 3, "room": "1:1(김OO대표 비서실)", "sender": "나", "is_user": true, "day": 0, "text": "김OO 대표님이면 방송 나오는 그분이요?"}
+{"type": "message", "seq": 4, "room": "1:1(김OO대표 비서실)", "sender": "김OO대표 비서실", "is_user": false, "day": 0, "text": "네 맞습니다 대표님이 개미투자자 돕는 차원에서 소수에게만 열어드리는 겁니다 [사진]"}
+{"type": "message", "seq": 5, "room": "1:1(김OO대표 비서실)", "sender": "김OO대표 비서실", "is_user": false, "day": 0, "text": "상장전 1개 50원이고 상장 후 최소 20배 예상입니다"}
+{"type": "message", "seq": 6, "room": "1:1(김OO대표 비서실)", "sender": "나", "is_user": true, "day": 0, "text": "대표님이 직접 하시는거에요?"}
+{"type": "message", "seq": 7, "room": "1:1(김OO대표 비서실)", "sender": "김OO대표 비서실", "is_user": false, "day": 0, "text": "대표님은 일정상 비서실에서 대행합니다. 대표님 음성 인사 들어보세요 [파일]"}
+{"type": "message", "seq": 8, "room": "1:1(김OO대표 비서실)", "sender": "김OO대표 비서실", "is_user": false, "day": 0, "text": "오늘 자정까지 100만원 이상 입금하시면 배정 확정됩니다"}
+{"type": "message", "seq": 9, "room": "1:1(김OO대표 비서실)", "sender": "나", "is_user": true, "day": 0, "text": "근데 그 대표 유튜브에 사칭 조심하라는 공지 있던데"}
+{"type": "message", "seq": 10, "room": "1:1(김OO대표 비서실)", "sender": "김OO대표 비서실", "is_user": false, "day": 0, "text": "그건 다른 사칭계정 얘기구요 저희는 공식입니다 인증서 보내드릴게요 [사진]"}
+{"type": "message", "seq": 11, "room": "1:1(김OO대표 비서실)", "sender": "나", "is_user": true, "day": 0, "text": "공식이면 공식채널에 공지가 있어야되는거 아닌가요"}
+{"type": "message", "seq": 12, "room": "1:1(김OO대표 비서실)", "sender": "김OO대표 비서실", "is_user": false, "day": 0, "text": "비공개 배정이라 공지는 안합니다. 입금은 이 지갑으로 해주세요 (지갑 주소)"}
+{"type": "message", "seq": 13, "room": "1:1(김OO대표 비서실)", "sender": "김OO대표 비서실", "is_user": false, "day": 0, "text": "현재 남은자리 9자리입니다"}
+{"type": "message", "seq": 14, "room": "1:1(김OO대표 비서실)", "sender": "김OO대표 비서실", "is_user": false, "day": 1, "text": "회원님 8자리 남았습니다"}
+{"type": "message", "seq": 15, "room": "1:1(김OO대표 비서실)", "sender": "김OO대표 비서실", "is_user": false, "day": 1, "text": "확인하시면 회신 부탁드립니다"}
+{"type": "message", "seq": 16, "room": "1:1(김OO대표 비서실)", "sender": "나", "is_user": true, "day": 1, "text": "안 할게요 신고하고 차단합니다"}

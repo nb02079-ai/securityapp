@@ -1,0 +1,22 @@
+{"type": "meta", "case_id": "claude_D08", "kind": "normal", "scam_type": "친구 단체방 여행비 정산", "model": "claude", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "단체방(부산 3인방)", "sender": "수빈", "is_user": false, "day": 0, "text": "다들 잘 들어갔냐ㅋㅋ"}
+{"type": "message", "seq": 2, "room": "단체방(부산 3인방)", "sender": "현우", "is_user": false, "day": 0, "text": "기절함"}
+{"type": "message", "seq": 3, "room": "단체방(부산 3인방)", "sender": "나", "is_user": true, "day": 0, "text": "아직 다리아파"}
+{"type": "message", "seq": 4, "room": "단체방(부산 3인방)", "sender": "수빈", "is_user": false, "day": 0, "text": "정산하자 나 숙소 24만 결제했고"}
+{"type": "message", "seq": 5, "room": "단체방(부산 3인방)", "sender": "현우", "is_user": false, "day": 0, "text": "나 렌트 15만이랑 기름 4만"}
+{"type": "message", "seq": 6, "room": "단체방(부산 3인방)", "sender": "나", "is_user": true, "day": 0, "text": "나 첫날 회 9만6천이랑 카페 2만1천"}
+{"type": "message", "seq": 7, "room": "단체방(부산 3인방)", "sender": "수빈", "is_user": false, "day": 0, "text": "엑셀 돌림 [사진] 총 547000 인당 182333"}
+{"type": "message", "seq": 8, "room": "단체방(부산 3인방)", "sender": "수빈", "is_user": false, "day": 0, "text": "그냥 18만2천으로 하자"}
+{"type": "message", "seq": 9, "room": "단체방(부산 3인방)", "sender": "현우", "is_user": false, "day": 0, "text": "ㅇㅋ 누가 누구한테 보내면됨"}
+{"type": "message", "seq": 10, "room": "단체방(부산 3인방)", "sender": "수빈", "is_user": false, "day": 0, "text": "나 24만 냈으니까 58000 받고 현우 19만이니까 8000 받고 너 117000 냈으니까 65000 보내면 됨"}
+{"type": "message", "seq": 11, "room": "단체방(부산 3인방)", "sender": "나", "is_user": true, "day": 0, "text": "아 내가 보내는거구나ㅋㅋ"}
+{"type": "message", "seq": 12, "room": "단체방(부산 3인방)", "sender": "나", "is_user": true, "day": 0, "text": "수빈 58000 현우 7000?"}
+{"type": "message", "seq": 13, "room": "단체방(부산 3인방)", "sender": "수빈", "is_user": false, "day": 0, "text": "8천ㅋㅋ 수학 무엇"}
+{"type": "message", "seq": 14, "room": "단체방(부산 3인방)", "sender": "나", "is_user": true, "day": 0, "text": "ㅋㅋㅋ 수빈 계좌 다시 알려줘"}
+{"type": "message", "seq": 15, "room": "단체방(부산 3인방)", "sender": "수빈", "is_user": false, "day": 0, "text": "(계좌번호) OO은행"}
+{"type": "message", "seq": 16, "room": "단체방(부산 3인방)", "sender": "나", "is_user": true, "day": 0, "text": "보냄 [사진]"}
+{"type": "message", "seq": 17, "room": "단체방(부산 3인방)", "sender": "나", "is_user": true, "day": 0, "text": "현우는 카톡송금으로 보낼게"}
+{"type": "message", "seq": 18, "room": "단체방(부산 3인방)", "sender": "현우", "is_user": false, "day": 0, "text": "받음 땡큐"}
+{"type": "message", "seq": 19, "room": "단체방(부산 3인방)", "sender": "수빈", "is_user": false, "day": 1, "text": "입금 확인 ㅇㅋ 다음 여행 대비로 모임통장 만들까 월 3만씩"}
+{"type": "message", "seq": 20, "room": "단체방(부산 3인방)", "sender": "현우", "is_user": false, "day": 1, "text": "ㄱㄱ 내가 개설할게 초대 보낼게"}
+{"type": "message", "seq": 21, "room": "단체방(부산 3인방)", "sender": "나", "is_user": true, "day": 1, "text": "좋아 자동이체 걸어둘게"}

@@ -1,0 +1,16 @@
+{"type": "meta", "case_id": "chatgpt_D06", "kind": "scam", "scam_type": "투자 손실 회복 대행", "model": "chatgpt", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "회복컨설팅", "is_user": false, "day": 0, "text": "온라인 투자 피해금 회복 상담 도와드립니다."}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "어디서 제 연락처를 알았죠?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "회복컨설팅", "is_user": false, "day": 0, "text": "상담 신청 목록에서 확인했습니다."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "예전에 투자 손실이 있긴 한데요."}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "회복컨설팅", "is_user": false, "day": 1, "text": "자료만 있으면 회수 가능성을 검토할 수 있어요."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "확실히 돌려받을 수 있는 건 아니죠?"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "회복컨설팅", "is_user": false, "day": 2, "text": "대부분 회수됩니다. 성공 사례도 많습니다 [파일]"}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "회복컨설팅", "is_user": false, "day": 3, "text": "착수 비용 25만원만 먼저 처리해주세요."}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "성공보수 방식은 안 되나요?"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "회복컨설팅", "is_user": false, "day": 3, "text": "절차상 선임비가 있어야 사건 접수가 됩니다."}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "나", "is_user": true, "day": 4, "text": "사업자 정보와 계약서부터 보고 싶어요."}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "회복컨설팅", "is_user": false, "day": 4, "text": "자료는 결제 후 제공됩니다."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 4, "text": "피해 회복을 도와준다면서 선결제부터 요구하는 건 이상하네요."}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "회복컨설팅", "is_user": false, "day": 4, "text": "오늘 접수 마감이라 지금 결정하셔야 합니다."}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "나", "is_user": true, "day": 5, "text": "입금하지 않겠습니다. 대화도 여기서 끝낼게요."}

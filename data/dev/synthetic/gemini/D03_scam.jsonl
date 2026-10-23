@@ -1,0 +1,16 @@
+{"type": "meta", "case_id": "gemini_D03", "kind": "scam", "scam_type": "공공기관 사칭 환급", "model": "gemini", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "문자", "sender": "국민건강보험", "is_user": false, "day": 0, "text": "[건강보험공단] 미청구 건강보험 환급금 485,200원이 발생했습니다. 신청기한 임박 (링크)"}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "방금 문자 받고 카톡 오픈프로필로 문의드립니다. 건강보험 환급금 문자 진짜인가요?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "건보센터지원관", "is_user": false, "day": 0, "text": "네 안녕하세요, 국민건강보험공단 환급지원팀입니다. 본인 확인 위해 성함과 생년월일 말씀해 주세요."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "김OO 880101 입니다."}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "건보센터지원관", "is_user": false, "day": 0, "text": "네 조회 결과 과오납된 보험료 485,200원 환급 대상 맞으십니다."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "아 다행이네요. 신청하려면 어떻게 해야 하나요?"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "건보센터지원관", "is_user": false, "day": 0, "text": "본인인증 및 계좌 검증 절차가 필요합니다. 아래 보내드리는 임시 환급 애플리케이션을 설치해 주세요 (링크)"}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "앱을 직접 설치해야 하나요? 홈페이지에서는 안 되나요?"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "건보센터지원관", "is_user": false, "day": 0, "text": "현재 시스템 점검 중이라 모바일 보안 모듈 앱을 통해서만 즉시 당일 입금이 가능합니다."}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "설치하고 실행했더니 권한 승인하라고 나오는데요"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "건보센터지원관", "is_user": false, "day": 0, "text": "네 보안 권한 허용 누르시고, 환급받으실 은행 계좌의 원격 인증을 위해 계좌 비밀번호 앞 2자리를 입력해 주세요."}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "네? 공공기관에서 계좌 비밀번호를 요구하나요? 이상한데요."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "건보센터지원관", "is_user": false, "day": 0, "text": "본인확인용 보안 절차일 뿐입니다. 오늘 미신청시 환급금은 국고로 귀속됩니다."}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "아무래도 찜찜해서 공단 정식 대표번호로 전화해서 확인해보겠습니다."}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "건보센터지원관", "is_user": false, "day": 0, "text": "고객님 대표번호 전화하시면 상담 연결 지연되어 지급 취소됩니다."}

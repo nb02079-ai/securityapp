@@ -1,0 +1,16 @@
+{"type": "meta", "case_id": "gemini_D11", "kind": "normal", "scam_type": "학원·병원 수납 안내", "model": "gemini", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "문자", "sender": "OO어학원", "is_user": false, "day": 0, "text": "[OO어학원] 안녕하세요 김OO 회원님, 11월 영어회화 수강료 수납 안내드립니다. 결제 금액: 180,000원 (링크)"}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "안녕하세요 수강료 문자 받고 문의드립니다. 혹시 제로페이 결제도 가능한가요?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "OO어학원 행정실", "is_user": false, "day": 0, "text": "네 고객님 데스크 방문해주시면 제로페이 및 지역사랑상품권 결제 가능합니다."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "오늘 수업 전에 방문해서 결제할게요. 온라인 계좌이체는 안 되나요?"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "OO어학원 행정실", "is_user": false, "day": 0, "text": "계좌이체도 가능하십니다. (계좌번호) OO은행 (예금주: OO어학원) 으로 입금 후 성함 말씀해주세요."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "방금 180,000원 이체했습니다. 현금영수증 발행도 부탁드려요 (전화번호)"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "OO어학원 행정실", "is_user": false, "day": 0, "text": "입금 확인되셨습니다. 현금영수증 소득공제용으로 발행 완료해 드렸습니다 [사진]."}
+{"type": "message", "seq": 8, "room": "문자", "sender": "△△치과의원", "is_user": false, "day": 3, "text": "[△△치과] 김OO님 10/26(월) 15:30 스케일링 및 정기검진 예약 안내. 예약 변경시 미리 연락 바랍니다."}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "치과 카톡 채널 맞나요? 예약 시간 16:30으로 변경 가능한지 문의드립니다."}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "△△치과 데스크", "is_user": false, "day": 3, "text": "네 안녕하세요 김OO님, 10/26(월) 16:30으로 예약 변경 도와드렸습니다."}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "나", "is_user": true, "day": 6, "text": "오늘 진료 잘 받았습니다. 혹시 실손보험 청구용 진료비 세부내역서 파일로 받을 수 있을까요?"}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "△△치과 데스크", "is_user": false, "day": 6, "text": "네 고객님, 본인확인 후 pdf 파일로 발송해 드립니다 [파일]."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 6, "text": "서류 잘 받았습니다. 감사합니다!"}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "△△치과 데스크", "is_user": false, "day": 6, "text": "네 다음 정기검진 때 뵙겠습니다. 좋은 하루 되세요!"}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "나", "is_user": true, "day": 6, "text": "네 수고하세요~"}

@@ -1,0 +1,13 @@
+{"type": "meta", "case_id": "chatgpt_D10", "kind": "normal", "scam_type": "가족 단체방 주식 이야기", "model": "chatgpt", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "가족 단체방", "sender": "아빠", "is_user": false, "day": 0, "text": "요즘 주식 계좌 수익률이 좀 회복됐네"}
+{"type": "message", "seq": 2, "room": "가족 단체방", "sender": "나", "is_user": true, "day": 0, "text": "뭐 샀는데요?"}
+{"type": "message", "seq": 3, "room": "가족 단체방", "sender": "엄마", "is_user": false, "day": 0, "text": "아빠는 또 차트만 보고 있더라 ㅋㅋ"}
+{"type": "message", "seq": 4, "room": "가족 단체방", "sender": "아빠", "is_user": false, "day": 0, "text": "△△증권에 오래 들고 있던 ETF가 조금 올랐어"}
+{"type": "message", "seq": 5, "room": "가족 단체방", "sender": "나", "is_user": true, "day": 0, "text": "저는 아직 마이너스라 그냥 두는 중"}
+{"type": "message", "seq": 6, "room": "가족 단체방", "sender": "아빠", "is_user": false, "day": 0, "text": "남 돈 말 듣고 급하게 사지는 마라"}
+{"type": "message", "seq": 7, "room": "가족 단체방", "sender": "언니", "is_user": false, "day": 1, "text": "나도 이번 달 적립식 금액 줄였어"}
+{"type": "message", "seq": 8, "room": "가족 단체방", "sender": "나", "is_user": true, "day": 1, "text": "자동이체 금액은 앱에서 바꾸면 되죠?"}
+{"type": "message", "seq": 9, "room": "가족 단체방", "sender": "아빠", "is_user": false, "day": 1, "text": "응 변경 전에 수수료 있는지 확인하고"}
+{"type": "message", "seq": 10, "room": "가족 단체방", "sender": "엄마", "is_user": false, "day": 1, "text": "점심 먹고 이야기하자. 주식 얘긴 그만 ㅎㅎ"}
+{"type": "message", "seq": 11, "room": "가족 단체방", "sender": "나", "is_user": true, "day": 2, "text": "이번 달은 추가 매수 안 하기로 했어요"}
+{"type": "message", "seq": 12, "room": "가족 단체방", "sender": "아빠", "is_user": false, "day": 2, "text": "그래 네 계획대로 해"}

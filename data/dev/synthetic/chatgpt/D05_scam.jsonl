@@ -1,0 +1,15 @@
+{"type": "meta", "case_id": "chatgpt_D05", "kind": "scam", "scam_type": "대출 수수료 선입금", "model": "chatgpt", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "상담사", "is_user": false, "day": 0, "text": "신청하신 대출 한도 확인됐습니다."}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "신용점수가 낮은데 가능한가요?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "상담사", "is_user": false, "day": 0, "text": "보증 심사로 진행하면 가능합니다."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "금리는 어느 정도예요?"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "상담사", "is_user": false, "day": 0, "text": "심사 완료 후 확정되고 오늘 실행 가능합니다."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "상담사", "is_user": false, "day": 0, "text": "다만 보증 등록비 18만원을 먼저 보내셔야 합니다."}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "대출금에서 빼는 건 안 되나요?"}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "상담사", "is_user": false, "day": 0, "text": "시스템상 선입금만 됩니다. 입금 확인 즉시 실행해요."}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "회사 주소랑 등록 정보 보내주세요."}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "상담사", "is_user": false, "day": 0, "text": "담당자 배정 전이라 지금은 안내 어렵습니다."}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "정식 금융사면 등록 정보가 있어야 하는 거 아닌가요"}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "상담사", "is_user": false, "day": 0, "text": "이 기회를 놓치면 심사가 다시 어려워질 수 있어요."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "OO은행 공식 상담 창구에 확인했는데 선입금 요구는 없대요."}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "상담사", "is_user": false, "day": 1, "text": "그쪽에서 잘 모르는 겁니다. 입금하시면 설명드릴게요."}

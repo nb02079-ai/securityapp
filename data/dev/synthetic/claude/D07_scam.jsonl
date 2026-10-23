@@ -1,0 +1,31 @@
+{"type": "meta", "case_id": "claude_D07", "kind": "scam", "scam_type": "로맨스 뒤 출금 수수료", "model": "claude", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1(Daniel)", "sender": "Daniel", "is_user": false, "day": 0, "text": "안녕하세요 번역기 써요 이 번호 서연씨 맞아요?"}
+{"type": "message", "seq": 2, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 0, "text": "아니요 잘못 보내신거 같아요"}
+{"type": "message", "seq": 3, "room": "1:1(Daniel)", "sender": "Daniel", "is_user": false, "day": 0, "text": "아 죄송합니다. 저는 싱가포르에서 일하는 엔지니어 다니엘이에요 한국 좋아해요"}
+{"type": "message", "seq": 4, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 0, "text": "아 네 ㅎㅎ"}
+{"type": "message", "seq": 5, "room": "1:1(Daniel)", "sender": "Daniel", "is_user": false, "day": 3, "text": "좋은 아침이에요 [사진] 오늘 여기 비와요"}
+{"type": "message", "seq": 6, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 3, "text": "여긴 맑아요 출근중이에요"}
+{"type": "message", "seq": 7, "room": "1:1(Daniel)", "sender": "Daniel", "is_user": false, "day": 9, "text": "당신이랑 얘기하면 하루가 행복해요"}
+{"type": "message", "seq": 8, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 9, "text": "ㅎㅎ 저도 재밌어요"}
+{"type": "message", "seq": 9, "room": "1:1(Daniel)", "sender": "Daniel", "is_user": false, "day": 17, "text": "엄마가 한국 드라마 좋아해요 언젠가 당신 만나러 서울 가고싶어요"}
+{"type": "message", "seq": 10, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 17, "text": "오면 맛있는거 사줄게요"}
+{"type": "message", "seq": 11, "room": "1:1(Daniel)", "sender": "Daniel", "is_user": false, "day": 24, "text": "저는 삼촌이 알려준 금 선물거래 해요 오늘 수익 [사진]"}
+{"type": "message", "seq": 12, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 24, "text": "우와 많이 버셨네요"}
+{"type": "message", "seq": 13, "room": "1:1(Daniel)", "sender": "Daniel", "is_user": false, "day": 24, "text": "당신도 해봐요 우리 미래를 위해서. 내가 알려줄게요 (링크)"}
+{"type": "message", "seq": 14, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 24, "text": "저 이런거 잘 몰라요"}
+{"type": "message", "seq": 15, "room": "1:1(Daniel)", "sender": "Daniel", "is_user": false, "day": 24, "text": "처음엔 작게 100만원만 해요 매수 시간은 내가 알려줄게요"}
+{"type": "message", "seq": 16, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 26, "text": "가입하고 100 넣었어요"}
+{"type": "message", "seq": 17, "room": "1:1(Daniel)", "sender": "Daniel", "is_user": false, "day": 26, "text": "지금 매수하세요 10분 뒤에 팔아요"}
+{"type": "message", "seq": 18, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 27, "text": "와 하루만에 140 됐어요"}
+{"type": "message", "seq": 19, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 33, "text": "그동안 넣은거 합쳐서 지금 2300이에요 이번에 출금해보려구요"}
+{"type": "message", "seq": 20, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 33, "text": "근데 출금 누르니까 수수료 15% 먼저 입금하래요 345만원이요"}
+{"type": "message", "seq": 21, "room": "1:1(Daniel)", "sender": "Daniel", "is_user": false, "day": 33, "text": "그건 정상이에요 자금세탁 방지 규정. 나도 냈어요"}
+{"type": "message", "seq": 22, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 33, "text": "수익에서 빼면 안되나"}
+{"type": "message", "seq": 23, "room": "1:1(Daniel)", "sender": "Daniel", "is_user": false, "day": 33, "text": "규정이라 안돼요ㅠ 내가 50 보태줄게요 우리 미래니까"}
+{"type": "message", "seq": 24, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 35, "text": "보냈어요 근데 이번엔 소득세 신고 보증금을 또 내래요"}
+{"type": "message", "seq": 25, "room": "1:1(Daniel)", "sender": "Daniel", "is_user": false, "day": 35, "text": "이상하네요 내가 고객센터에 물어볼게요"}
+{"type": "message", "seq": 26, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 36, "text": "다니엘 영상통화 한번만 해요"}
+{"type": "message", "seq": 27, "room": "1:1(Daniel)", "sender": "Daniel", "is_user": false, "day": 36, "text": "회사 보안구역이라 카메라 안돼요 미안해요"}
+{"type": "message", "seq": 28, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 38, "text": "검색해보니까 그 사이트 피해자 모임이 있어요"}
+{"type": "message", "seq": 29, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 38, "text": "당신 진짜 다니엘 맞아요?"}
+{"type": "message", "seq": 30, "room": "1:1(Daniel)", "sender": "나", "is_user": true, "day": 40, "text": "답 좀 해줘요"}

@@ -30,8 +30,11 @@ class RoomContext {
     var userJustRefused = false
         private set
 
-    /** 단체방으로 볼지: 상대방 쪽 보낸 사람이 둘 이상 */
-    val isGroup: Boolean get() = senderCounts.size >= 2
+    /** 알림이 알려 준 단체방 여부 (없으면 null) */
+    private var groupFlag: Boolean? = null
+
+    /** 단체방으로 볼지: 알림이 알려 준 값, 모르면 상대방 쪽 보낸 사람이 둘 이상 */
+    val isGroup: Boolean get() = groupFlag ?: (senderCounts.size >= 2)
 
     /** 방을 연 사람(가장 먼저 말한 상대)을 운영자로 본다 */
     val operator: String? get() = senderCounts.keys.firstOrNull()
@@ -53,7 +56,8 @@ class RoomContext {
     }
 
     /** 단체방 판단에 쓰기 위해 보낸 사람만 미리 알린다 (첫 메시지에서 운영자를 정하려고) */
-    internal fun noteSender(sender: String) {
+    internal fun noteSender(sender: String, isGroup: Boolean?) {
         if (sender !in senderCounts) senderCounts[sender] = 0
+        if (isGroup != null) groupFlag = isGroup
     }
 }

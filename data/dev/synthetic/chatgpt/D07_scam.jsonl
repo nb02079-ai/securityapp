@@ -1,0 +1,15 @@
+{"type": "meta", "case_id": "chatgpt_D07", "kind": "scam", "scam_type": "해외 구인(대리 송금 아르바이트)", "model": "chatgpt", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "채용담당", "is_user": false, "day": 0, "text": "재택 단기 업무입니다. 하루 30분, 건당 정산."}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "어떤 업무인지 자세히 알려주세요."}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "채용담당", "is_user": false, "day": 0, "text": "해외 고객 결제금을 받아 지정된 곳으로 전달하는 일입니다."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "제 개인 계좌로 돈을 받는 건가요?"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "채용담당", "is_user": false, "day": 0, "text": "네, 전달만 하면 되고 수수료는 본인이 가져가세요."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "회사 이름이랑 계약서 먼저 받을 수 있나요?"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "채용담당", "is_user": false, "day": 1, "text": "보안상 계약은 업무 시작 후 진행합니다."}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "돈 출처나 거래 내역은 확인해 주나요?"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "채용담당", "is_user": false, "day": 1, "text": "그런 건 신경 안 쓰셔도 됩니다. 정해진 금액만 보내면 돼요."}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "계좌를 빌려주는 일처럼 보여서 불안한데요."}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "채용담당", "is_user": false, "day": 2, "text": "괜히 복잡하게 생각 마세요. 오늘 시작하면 보너스 있어요."}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "계약서와 사업자 정보 없으면 진행 못 합니다."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "채용담당", "is_user": false, "day": 2, "text": "그럼 이번 채용은 어렵겠네요."}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "네, 지원 취소할게요."}

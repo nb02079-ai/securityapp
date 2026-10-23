@@ -1,0 +1,24 @@
+{"type": "meta", "case_id": "claude_D03", "kind": "scam", "scam_type": "재택 부업 선입금", "model": "claude", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "문자", "sender": "(전화번호)", "is_user": false, "day": 0, "text": "[Web발신] 하루 1~2시간 재택 상품후기 업무 일당 5만원 보장 카톡 문의 (링크)"}
+{"type": "message", "seq": 2, "room": "1:1(재택업무 이팀장)", "sender": "나", "is_user": true, "day": 0, "text": "문자 보고 연락드려요 재택알바 아직 구하시나요"}
+{"type": "message", "seq": 3, "room": "1:1(재택업무 이팀장)", "sender": "이팀장", "is_user": false, "day": 0, "text": "반갑습니다~ 네 쇼핑몰 구매대행 후기 작성 업무입니다"}
+{"type": "message", "seq": 4, "room": "1:1(재택업무 이팀장)", "sender": "이팀장", "is_user": false, "day": 0, "text": "회원님이 지정상품 먼저 결제하시면 결제금액+수수료 10% 바로 환급해드려요"}
+{"type": "message", "seq": 5, "room": "1:1(재택업무 이팀장)", "sender": "나", "is_user": true, "day": 0, "text": "제 돈으로 먼저 사는거에요?"}
+{"type": "message", "seq": 6, "room": "1:1(재택업무 이팀장)", "sender": "이팀장", "is_user": false, "day": 0, "text": "네 처음엔 2만원짜리로 테스트 해보세요 (링크)"}
+{"type": "message", "seq": 7, "room": "1:1(재택업무 이팀장)", "sender": "나", "is_user": true, "day": 0, "text": "했어요"}
+{"type": "message", "seq": 8, "room": "1:1(재택업무 이팀장)", "sender": "이팀장", "is_user": false, "day": 0, "text": "22000원 입금됐습니다 확인해보세요"}
+{"type": "message", "seq": 9, "room": "1:1(재택업무 이팀장)", "sender": "나", "is_user": true, "day": 0, "text": "오 진짜 들어왔네 ㅎㅎ"}
+{"type": "message", "seq": 10, "room": "1:1(재택업무 이팀장)", "sender": "이팀장", "is_user": false, "day": 1, "text": "오늘은 단체미션 진행합니다 3건 연속이고 마지막에 한번에 정산돼요"}
+{"type": "message", "seq": 11, "room": "1:1(재택업무 이팀장)", "sender": "이팀장", "is_user": false, "day": 1, "text": "1건 10만 2건 30만 3건 70만입니다 정산때 30% 붙어요"}
+{"type": "message", "seq": 12, "room": "1:1(재택업무 이팀장)", "sender": "나", "is_user": true, "day": 1, "text": "70은 좀 많은데.."}
+{"type": "message", "seq": 13, "room": "1:1(재택업무 이팀장)", "sender": "이팀장", "is_user": false, "day": 1, "text": "미션 중간에 멈추시면 앞 금액 정산이 안돼요ㅠ 규정이라 저도 어쩔수없어요"}
+{"type": "message", "seq": 14, "room": "1:1(재택업무 이팀장)", "sender": "나", "is_user": true, "day": 1, "text": "일단 10 30 했어요"}
+{"type": "message", "seq": 15, "room": "1:1(재택업무 이팀장)", "sender": "나", "is_user": true, "day": 1, "text": "70은 마이너스통장 써야되는데"}
+{"type": "message", "seq": 16, "room": "1:1(재택업무 이팀장)", "sender": "이팀장", "is_user": false, "day": 1, "text": "지금 멈추시면 40 그냥 날리시는거에요 회원님"}
+{"type": "message", "seq": 17, "room": "1:1(재택업무 이팀장)", "sender": "나", "is_user": true, "day": 1, "text": "보냈어요"}
+{"type": "message", "seq": 18, "room": "1:1(재택업무 이팀장)", "sender": "나", "is_user": true, "day": 2, "text": "정산 언제 되요?"}
+{"type": "message", "seq": 19, "room": "1:1(재택업무 이팀장)", "sender": "이팀장", "is_user": false, "day": 2, "text": "회원님 미션중 주문번호 오류가 나서 계정이 잠겼습니다. 해제비용 50 입금하셔야 전액 환급돼요"}
+{"type": "message", "seq": 20, "room": "1:1(재택업무 이팀장)", "sender": "나", "is_user": true, "day": 2, "text": "장난하세요?? 바로 준다면서요"}
+{"type": "message", "seq": 21, "room": "1:1(재택업무 이팀장)", "sender": "나", "is_user": true, "day": 2, "text": "110만원이에요 제돈"}
+{"type": "message", "seq": 22, "room": "1:1(재택업무 이팀장)", "sender": "이팀장", "is_user": false, "day": 2, "text": "저도 도와드리고 싶은데 시스템이라서요.."}
+{"type": "message", "seq": 23, "room": "1:1(재택업무 이팀장)", "sender": "나", "is_user": true, "day": 3, "text": "은행에 지급정지 신청했어요 돈 돌려주세요"}

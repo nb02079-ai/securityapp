@@ -26,7 +26,7 @@ class ActDetector {
 
     fun detect(message: Message, ctx: RoomContext): Result {
         if (message.isUser) return Result(emptyList(), emptyList())
-        ctx.noteSender(message.sender)
+        ctx.noteSender(message.sender, message.isGroup)
         val n = NormalizedText.of(message.text)
         val c = n.compact
         val found = LinkedHashMap<Signal, IntRange>()
@@ -46,7 +46,9 @@ class ActDetector {
         // ── D 요구 ──
         hit(Signal.D1, Lexicon.D1)
         val sellOnly = Lexicon.D2_SELL.containsMatchIn(c) && !Lexicon.D2_BUY.containsMatchIn(c)
-        if (!sellOnly) hit(Signal.D2, Lexicon.D2)
+        if (!sellOnly && !hit(Signal.D2, Lexicon.D2) && Lexicon.D2_CONTEXT.containsMatchIn(c)) {
+            hit(Signal.D2, Lexicon.D2_GENERIC)
+        }
         val d5 = hit(Signal.D5, Lexicon.D5)
         // 출금하려고 내는 돈이면 D5만 (기준표 D3 "붙이지 않는 경우")
         if (!d5) hit(Signal.D3, Lexicon.D3)
@@ -54,7 +56,7 @@ class ActDetector {
             Lexicon.D4_ACCOUNT_SHAPE.find(message.text)?.let { found.putIfAbsent(Signal.D4, it.range) }
         }
         hit(Signal.D6, Lexicon.D6)
-        if (!Lexicon.D7_AMOUNT_ONLY.containsMatchIn(c)) hit(Signal.D7, Lexicon.D7)
+        if (!Lexicon.D7_AMOUNT_ONLY.containsMatchIn(c) && !Lexicon.D7_NOT.containsMatchIn(c)) hit(Signal.D7, Lexicon.D7)
 
         // ── P 설득 ──
         if (!Lexicon.P1_HEDGE.containsMatchIn(c)) hit(Signal.P1, Lexicon.P1)
@@ -70,7 +72,8 @@ class ActDetector {
         // G3: 대출 권유·큰 금액 유리 규칙, 또는 앞서 요구한 금액보다 큰 금액을 요구
         if (!hit(Signal.G3, Lexicon.G3_LOAN) && !hit(Signal.G3, Lexicon.G3_TIER)) {
             val maxNow = amounts.maxOrNull()
-            if (maxNow != null && ctx.maxDemandAmount > 0 && maxNow > ctx.maxDemandAmount) {
+            val risingInOne = amounts.size >= 3 && amounts.zipWithNext().all { (a, b) -> b > a }
+            if (maxNow != null && ((ctx.maxDemandAmount > 0 && maxNow > ctx.maxDemandAmount) || risingInOne)) {
                 found.putIfAbsent(Signal.G3, message.text.indices)
             }
         }
@@ -80,10 +83,11 @@ class ActDetector {
             found.putIfAbsent(Signal.G4, Lexicon.G4.find(c)?.let { n.toOriginal(it.range) } ?: message.text.indices)
         }
         // G2: 돈과 상관없던 대화가 이 메시지에서 돈 이야기로 넘어감 (방마다 한 번)
-        val moneyNow = moneyDemand || found.containsKey(Signal.P1) || found.containsKey(Signal.G1) ||
-            Lexicon.MONEY_WORDS.containsMatchIn(c)
+        // 계좌 안내(D4)만으로는 "돈 이야기로 넘어감"으로 보지 않음 (정산·거래에도 흔함)
+        val moneyNow = found.keys.any { it == Signal.D2 || it == Signal.D3 || it == Signal.D5 } ||
+            found.containsKey(Signal.P1) || found.containsKey(Signal.G1) || Lexicon.G2_TRIGGER.containsMatchIn(c)
         if (moneyNow && !ctx.moneyTalkStarted && ctx.nonMoneyCounterpartBefore >= G2_MIN_BEFORE) {
-            found.putIfAbsent(Signal.G2, Lexicon.MONEY_WORDS.find(c)?.let { n.toOriginal(it.range) } ?: message.text.indices)
+            found.putIfAbsent(Signal.G2, Lexicon.G2_TRIGGER.find(c)?.let { n.toOriginal(it.range) } ?: message.text.indices)
         }
 
         // ── R 관계 ──

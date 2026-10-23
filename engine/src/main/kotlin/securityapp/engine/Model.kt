@@ -10,18 +10,23 @@ data class Message(
     val sender: String,
     val text: String,
     val isUser: Boolean = false,
+    /**
+     * 단체방인지. 안드로이드 알림은 단체 대화 여부를 따로 알려 주므로(MessagingStyle.isGroupConversation) 앱에서는 그 값을 넣는다.
+     * 모르면 null — 그때는 상대방 쪽 보낸 사람이 둘 이상이면 단체방으로 본다.
+     */
+    val isGroup: Boolean? = null,
 )
 
 /** 신호 분류 (docs/labeling/03_label_guide.md 2장) */
 enum class Category { RELATION, DEMAND, PERSUASION, PROGRESS }
 
-/** 기준표 v2.1의 신호 17개. 코드는 라벨 파일·기준표와 같아야 한다. */
+/** 기준표(v2.2)의 신호 17개. 코드는 라벨 파일·기준표와 같아야 한다. */
 enum class Signal(val code: String, val label: String, val category: Category) {
     R1("R1", "단체방 맞장구", Category.RELATION),
     R2("R2", "친밀감 쌓기", Category.RELATION),
     D1("D1", "채널 이동 요구", Category.DEMAND),
     D2("D2", "투자금 입금 요구", Category.DEMAND),
-    D3("D3", "대납·차용 요구", Category.DEMAND),
+    D3("D3", "대납·차용·선납 요구", Category.DEMAND),
     D4("D4", "지정 계좌·경로 통제", Category.DEMAND),
     D5("D5", "출금 조건부 추가 입금", Category.DEMAND),
     D6("D6", "비밀 유지·고립 요구", Category.DEMAND),

@@ -1,0 +1,19 @@
+{"type": "meta", "case_id": "gemini_D02", "kind": "scam", "scam_type": "군인·의사 사칭 로맨스", "model": "gemini", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "David", "is_user": false, "day": 0, "text": "안녕하세요! 인스타그램에서 보고 인상이 너무 좋으셔서 메시지 드렸어요."}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "아 네 안녕하세요~ 프로필 보니까 해외에 계신가 봐요?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "David", "is_user": false, "day": 0, "text": "네 저는 UN 평화유지군 소속 군의관으로 파병 중입니다. 시리아에 있어요."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "David", "is_user": false, "day": 3, "text": "오늘도 파병지 업무가 피곤했지만 OO씨 생각이 많이 났어요 [사진]"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "고생이 많으시네요 ㅠㅠ 언제 한국 돌아오시나요?"}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "David", "is_user": false, "day": 7, "text": "다음 달에 파병 마치고 한국으로 완전히 이주하려고 합니다. 한국에서 OO씨를 직접 만나고 싶어요."}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "나", "is_user": true, "day": 7, "text": "정말요? 오시면 맛있는 거 먹으러 가요!"}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "David", "is_user": false, "day": 14, "text": "OO씨, 제가 군 생활 동안 모은 자산과 금괴를 한국으로 먼저 배송하려고 합니다."}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "David", "is_user": false, "day": 14, "text": "현지 사정 때문에 군용 특수 외교 택배로 보내야 하는데, 수령인을 OO씨 이름으로 해도 될까요?"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 14, "text": "네? 귀중품을 저한테 보내신다고요? 약간 부담스러운데요..."}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "David", "is_user": false, "day": 15, "text": "믿을 사람이 OO씨밖에 없습니다. 부탁드릴게요. 배송 신청 완료했습니다."}
+{"type": "message", "seq": 12, "room": "문자", "sender": "외교물류센터", "is_user": false, "day": 17, "text": "[OO외교물류] David 님이 보낸 외교 화물이 터미널 통관 대기 중입니다. 통관 수수료 350만원 입금 요망 (계좌번호)"}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 17, "text": "David씨, 물류회사에서 통관 수수료 350만원 내라고 문자가 왔어요."}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "David", "is_user": false, "day": 17, "text": "아 맞다, 현지 파병지라 제가 송금이 안 됩니다. OO씨가 먼저 내주시면 한국 가자마자 2배로 돌려드릴게요."}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "나", "is_user": true, "day": 17, "text": "350만원이나요? 큰돈이라 지금 당장은 없는데..."}
+{"type": "message", "seq": 16, "room": "1:1", "sender": "David", "is_user": false, "day": 18, "text": "오늘 안으로 안 내면 화물이 압류됩니다. 제발 제 전 재산을 지켜주세요 부탁입니다."}
+{"type": "message", "seq": 17, "room": "1:1", "sender": "나", "is_user": true, "day": 18, "text": "아무리 그래도 얼굴도 안 본 사이에 350만원은 너무 과한 것 같아요. 송금 못 해드립니다."}
+{"type": "message", "seq": 18, "room": "1:1", "sender": "David", "is_user": false, "day": 18, "text": "어떻게 나를 못 믿나요? 정말 너무하십니다..."}

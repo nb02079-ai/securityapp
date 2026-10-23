@@ -1,0 +1,15 @@
+{"type": "meta", "case_id": "chatgpt_D04", "kind": "scam", "scam_type": "중고거래 가짜 안전결제", "model": "chatgpt", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "구매자", "is_user": false, "day": 0, "text": "올리신 태블릿 아직 판매하시나요?"}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "네 있어요. 직거래도 가능합니다."}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "구매자", "is_user": false, "day": 0, "text": "제가 멀어서 안전결제로 할게요."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "앱 안에 있는 결제 기능 말씀하시는 거죠?"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "구매자", "is_user": false, "day": 0, "text": "네 여기서 진행하면 돼요 (링크)"}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "링크가 공식 앱 주소랑 다른데요"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "구매자", "is_user": false, "day": 0, "text": "새 시스템이라 그래요. 결제 완료됐다고 뜰 거예요."}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "로그인하니 수수료 입금하라고 나오는데요"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "구매자", "is_user": false, "day": 0, "text": "판매자 인증 비용이라 먼저 내야 해요."}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "구매자가 결제했다면서 왜 제가 돈을 보내죠?"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "구매자", "is_user": false, "day": 0, "text": "지금 안 하면 주문 취소되고 신고 처리될 수도 있어요."}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "공식 고객센터에 확인할게요."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "구매자", "is_user": false, "day": 0, "text": "시간 끌지 마시고 빨리 처리해주세요."}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "고객센터에서 외부 링크는 이용하지 말라고 해서 거래 취소합니다."}

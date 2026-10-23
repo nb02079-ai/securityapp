@@ -48,6 +48,16 @@ class ActDetectorTest {
         assertNot("지금 매도하세요", Signal.D2)
     }
 
+    @Test fun `D3 선납 - 무엇을 받으려면 먼저 내라는 돈 (기준표 v2_2)`() {
+        assertHas("대출 실행 전에 등록비 15만원을 먼저 입금하셔야 합니다", Signal.D3)
+        assertHas("가입비는 아래로 먼저 보내 주셔야 진행돼요", Signal.D3)
+    }
+
+    @Test fun `D3 아님 - 단어 속에 우연히 들어간 짧은 낱말`() {
+        assertNot("다음 달에 등급전환 예정입니다", Signal.D3)
+        assertNot("전화번호 바꿔서 연락했어", Signal.D3)
+    }
+
     @Test fun `D3 대납·차용`() {
         assertHas("어머니 수술비가 급해서 그런데 조금만 빌려 줄 수 있어요? 다음 주에 갚을게요", Signal.D3)
         assertHas("배송비만 내 주면 돼요", Signal.D3)
@@ -64,6 +74,11 @@ class ActDetectorTest {
         assertFalse(Signal.D3 in got, "출금용이면 D3가 아님: $got")
     }
 
+    @Test fun `D5 미납 시 동결 위협, 별도 납부해야 출금`() {
+        assertHas("세금을 따로 납부하셔야 출금 승인이 됩니다", Signal.D5)
+        assertHas("미납 시 계정이 동결 처리됩니다", Signal.D5)
+    }
+
     @Test fun `D6 비밀 유지`() {
         assertHas("가족분들한테는 수익 나고 말씀하세요", Signal.D6)
         assertHas("이건 꼭 비밀로 해 주세요", Signal.D6)
@@ -73,9 +88,15 @@ class ActDetectorTest {
         assertHas("본인 확인을 위해 신분증 사진 부탁드려요", Signal.D7)
     }
 
-    @Test fun `D7 아님 - 손실 금액, 상대가 정보를 주는 메시지`() {
+    @Test fun `D7 아님 - 손실 금액, 상대가 정보를 주는 메시지, 가져오라는 안내`() {
         assertNot("손실 금액 남겨 주세요", Signal.D7)
         assertNot("오늘 시장은 반도체가 강했습니다", Signal.D7)
+        assertNot("방문하실 때 신분증 지참 부탁드립니다", Signal.D7)
+        assertNot("궁금하시면 대표 전화번호로 확인 부탁드려요", Signal.D7)
+    }
+
+    @Test fun `D7 생년월일·성함 요구`() {
+        assertHas("확인을 위해 성함과 생년월일 말씀해 주세요", Signal.D7)
     }
 
     // ── P 설득 ──
@@ -94,6 +115,12 @@ class ActDetectorTest {
         assertHas("제 사원증 찍어서 보낼게요", Signal.P2)
     }
 
+    @Test fun `P1 배수 약속과 손해 보전`() {
+        assertHas("오르면 최소 10배는 예상합니다", Signal.P1)
+        assertHas("혹시 손해 보면 제가 다 메꿔 드릴게요", Signal.P1)
+        assertHas("하루에 원금의 1.5%씩 들어와요", Signal.P1)
+    }
+
     @Test fun `P2 아님 - 평범한 소개`() {
         assertNot("회사원이에요", Signal.P2)
     }
@@ -105,6 +132,11 @@ class ActDetectorTest {
 
     @Test fun `P4 확인 회피`() {
         assertHas("카메라가 고장 나서 영상통화는 다음에 해요", Signal.P4)
+        assertHas("지금은 통화가 어려워 문자로 할게", Signal.P4)
+    }
+
+    @Test fun `P3 아님 - 마감하겠다는 말`() {
+        assertNot("오늘 정산은 제가 마감할게요", Signal.P3)
     }
 
     // ── G 진행 ──
@@ -112,8 +144,9 @@ class ActDetectorTest {
         assertHas("가입 축하금 2만 원 보내 드렸어요, 통장 보시면 있을 거예요", Signal.G1)
     }
 
-    @Test fun `G1 아님 - 앞으로 주겠다는 약속`() {
+    @Test fun `G1 아님 - 앞으로 주겠다는 약속, 본인이 냈다는 말`() {
         assertNot("다음 주에 수익금 보내 드릴게요", Signal.G1)
+        assertNot("저도 회비 입금 완료했습니다", Signal.G1)
     }
 
     @Test fun `G2 화제 급전환 - 돈과 무관한 대화 뒤 처음 돈 이야기`() {
@@ -123,6 +156,13 @@ class ActDetectorTest {
         assertTrue(Signal.G2 in signalsOf("참, 요즘 코인 해 보셨어요?", ctx))
         // 이미 돈 이야기가 시작된 뒤에는 다시 붙지 않음
         assertFalse(Signal.G2 in signalsOf("코인은 지금이 기회예요", ctx))
+    }
+
+    @Test fun `G2 아님 - 정산 중 계좌 안내`() {
+        val ctx = RoomContext()
+        signalsOf("다들 잘 들어갔어?", ctx)
+        signalsOf("사진 정리해서 올릴게", ctx)
+        assertFalse(Signal.G2 in signalsOf("내 계좌번호 다시 보낼게 123-456-789012", ctx))
     }
 
     @Test fun `G2 아님 - 처음부터 투자 이야기`() {
@@ -137,8 +177,14 @@ class ActDetectorTest {
         assertTrue(Signal.G3 in signalsOf("이번에는 300만 원 넣어 보세요", ctx))
     }
 
-    @Test fun `G3 아님 - 첫 금액 제시`() {
+    @Test fun `G3 아님 - 첫 금액 제시, 대출 상품 안내`() {
         assertNot("처음엔 50만 원만 넣어 보세요", Signal.G3)
+        assertNot("신청하신 대출 한도 조회가 끝났습니다", Signal.G3)
+    }
+
+    @Test fun `G3 대출받아 넣으라, 한 메시지 안에서 금액이 커짐`() {
+        assertHas("마이너스통장 써서라도 더 넣으세요", Signal.G3)
+        assertHas("단계별로 10만원 투자, 다음 30만원, 마지막 100만원 넣어 보세요", Signal.G3)
     }
 
     @Test fun `G4 거절 뒤 붙잡기`() {
@@ -147,6 +193,11 @@ class ActDetectorTest {
         val me = Message("1:1", "나", "저는 이제 그만하고 싶어요", isUser = true)
         detector.record(me, detector.detect(me, ctx), ctx)
         assertTrue(Signal.G4 in signalsOf("그래도 10만 원만 더 넣어 보세요", ctx))
+    }
+
+    @Test fun `G4 멈추면 손해, 못 믿느냐는 말`() {
+        assertHas("여기서 멈추시면 앞에 넣은 것도 못 받아요", Signal.G4)
+        assertHas("저를 못 믿어요?", Signal.G4)
     }
 
     @Test fun `G4 아님 - 거절 없이 다시 요구`() {
@@ -168,8 +219,23 @@ class ActDetectorTest {
         assertFalse(Signal.R1 in detector.detect(op2, ctx).signals)
     }
 
-    @Test fun `R1 아님 - 1대1 대화`() {
+    @Test fun `R1 아님 - 1대1 대화, 단체방의 단순 인사`() {
         assertNot("감사합니다 최고예요", Signal.R1)
+        val ctx = RoomContext()
+        for ((who, text) in listOf("총무" to "회비 안내드려요", "회원1" to "감사합니다 수고 많으세요")) {
+            val m = Message("동호회", who, text)
+            val r = detector.detect(m, ctx)
+            detector.record(m, r, ctx)
+            if (who == "회원1") assertFalse(Signal.R1 in r.signals, "${r.signals}")
+        }
+    }
+
+    @Test fun `R1 아님 - 알림이 1대1이라고 알려 준 방에 다른 사람이 끼어든 경우`() {
+        val ctx = RoomContext()
+        val a = Message("상담", "담당자", "안녕하세요", isGroup = false)
+        detector.record(a, detector.detect(a, ctx), ctx)
+        val b = Message("상담", "고객센터", "수익금 확인되었습니다", isGroup = false)
+        assertFalse(Signal.R1 in detector.detect(b, ctx).signals)
     }
 
     @Test fun `R2 친밀감`() {
@@ -179,7 +245,7 @@ class ActDetectorTest {
 
     // ── 공통 ──
     @Test fun `회피 표기 - 띄어쓰기와 기호를 끼워 넣어도 찾음`() {
-        assertHas("입 금 해 주세요", Signal.D2)
+        assertHas("투자금 입 금 해 주세요", Signal.D2)
         assertHas("대.출 받아서라도 넣으세요", Signal.G3)
         assertHas("비*밀로 해 주세요", Signal.D6)
     }

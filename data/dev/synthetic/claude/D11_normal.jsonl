@@ -1,0 +1,18 @@
+{"type": "meta", "case_id": "claude_D11", "kind": "normal", "scam_type": "은행 상담 예약 안내 대화", "model": "claude", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "문자", "sender": "OO은행", "is_user": false, "day": 0, "text": "[OO은행] 고객님의 정기예금이 11월 2일 만기 예정입니다. 재예치 또는 해지는 영업점 방문이나 앱에서 가능합니다. 당행은 문자로 링크를 보내거나 비밀번호를 묻지 않습니다."}
+{"type": "message", "seq": 2, "room": "OO은행 □□지점 채널", "sender": "나", "is_user": true, "day": 1, "text": "안녕하세요 정기예금 만기 상담 예약하고 싶어요"}
+{"type": "message", "seq": 3, "room": "OO은행 □□지점 채널", "sender": "OO은행 □□지점", "is_user": false, "day": 1, "text": "안녕하세요 OO은행 □□지점입니다. 희망하시는 날짜와 시간대 알려주세요"}
+{"type": "message", "seq": 4, "room": "OO은행 □□지점 채널", "sender": "나", "is_user": true, "day": 1, "text": "다음주 화요일 오후 2시쯤 될까요"}
+{"type": "message", "seq": 5, "room": "OO은행 □□지점 채널", "sender": "OO은행 □□지점", "is_user": false, "day": 1, "text": "화요일은 14시 30분 가능합니다. 그 시간으로 예약 도와드릴까요?"}
+{"type": "message", "seq": 6, "room": "OO은행 □□지점 채널", "sender": "나", "is_user": true, "day": 1, "text": "네 그걸로 해주세요"}
+{"type": "message", "seq": 7, "room": "OO은행 □□지점 채널", "sender": "OO은행 □□지점", "is_user": false, "day": 1, "text": "예약되었습니다. 신분증 지참해주시고 비밀번호는 상담 시 고객님께서 직접 단말기에 입력하시면 됩니다"}
+{"type": "message", "seq": 8, "room": "OO은행 □□지점 채널", "sender": "나", "is_user": true, "day": 1, "text": "만기금 일부는 다른 은행 제 계좌로 옮기려는데 그것도 그날 되나요?"}
+{"type": "message", "seq": 9, "room": "OO은행 □□지점 채널", "sender": "OO은행 □□지점", "is_user": false, "day": 1, "text": "네 본인 명의 계좌면 창구에서 이체 가능합니다. 받으실 계좌번호 메모해오시면 됩니다"}
+{"type": "message", "seq": 10, "room": "OO은행 □□지점 채널", "sender": "나", "is_user": true, "day": 1, "text": "요즘 예금 금리는 어느정도에요?"}
+{"type": "message", "seq": 11, "room": "OO은행 □□지점 채널", "sender": "OO은행 □□지점", "is_user": false, "day": 1, "text": "상품과 기간별로 달라서 상담때 자세히 안내드릴게요. 앱에서 현재 고시금리도 확인하실 수 있습니다"}
+{"type": "message", "seq": 12, "room": "OO은행 □□지점 채널", "sender": "나", "is_user": true, "day": 1, "text": "아 그리고 어제 예금보호 확인하라고 링크 있는 문자 왔는데 그거 은행에서 보낸거에요?"}
+{"type": "message", "seq": 13, "room": "OO은행 □□지점 채널", "sender": "OO은행 □□지점", "is_user": false, "day": 1, "text": "저희는 문자로 링크를 보내지 않습니다. 열지 마시고 삭제해주세요. 의심되시면 대표번호 (전화번호)로 확인 부탁드립니다"}
+{"type": "message", "seq": 14, "room": "OO은행 □□지점 채널", "sender": "나", "is_user": true, "day": 1, "text": "네 감사합니다"}
+{"type": "message", "seq": 15, "room": "문자", "sender": "OO은행", "is_user": false, "day": 5, "text": "[OO은행] 내일 14:30 □□지점 상담 예약이 있습니다. 신분증을 지참해주세요."}
+{"type": "message", "seq": 16, "room": "OO은행 □□지점 채널", "sender": "나", "is_user": true, "day": 6, "text": "지금 도착했는데 번호표 뽑아야 되나요?"}
+{"type": "message", "seq": 17, "room": "OO은행 □□지점 채널", "sender": "OO은행 □□지점", "is_user": false, "day": 6, "text": "예약 고객님은 번호표 없이 2번 창구로 오시면 됩니다"}

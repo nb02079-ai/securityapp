@@ -1,0 +1,21 @@
+{"type": "meta", "case_id": "gemini_D04", "kind": "scam", "scam_type": "쇼핑몰 리뷰 부업", "model": "gemini", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "OO쇼핑 마케팅", "is_user": false, "day": 0, "text": "안녕하세요! OO쇼핑몰 리뷰 작성 단기 알바 모집 중입니다. 하루 30분 투자로 5~10만원 가능합니다."}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "어떤 일인가요? 진짜 당일 지급되나요?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "OO쇼핑 마케팅", "is_user": false, "day": 0, "text": "네 지정해드리는 상품 구매 후 리뷰를 작성해주시면 물품 대금과 작성 수수료 10%를 10분 내로 되돌려드립니다."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "우선 한 번 테스트로 해볼 수 있나요?"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "OO쇼핑 마케팅", "is_user": false, "day": 0, "text": "네 첫 상품입니다. 50,000원 상품 결제 후 계좌 보내주세요 (링크)"}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "구매 완료했습니다 [사진] (계좌번호) 로 입금해주세요."}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "OO쇼핑 마케팅", "is_user": false, "day": 0, "text": "확인되었습니다! 원금 50,000원 + 수수료 5,000원 총 55,000원 입금드렸습니다."}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "오 바로 들어왔네요! 다음 건도 진행할게요."}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "OO쇼핑 마케팅", "is_user": false, "day": 0, "text": "이번 미션은 VIP 연계 미션으로 3개가 세트입니다. 첫번째 30만원 상품 결제해주세요 (링크)"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "30만원 결제했습니다 [사진]"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "OO쇼핑 마케팅", "is_user": false, "day": 0, "text": "네 2차 상품은 70만원 결제 건입니다 (링크)"}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "70만원 결제 완료했습니다. 이제 환급해주시나요?"}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "OO쇼핑 마케팅", "is_user": false, "day": 0, "text": "3세트 완성하셔야 합니다. 마지막 150만원 결제 건 부탁드립니다 (링크)"}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "네? 금액이 너무 커지는데... 100만원 먼저 환급해주시면 안 되나요?"}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "OO쇼핑 마케팅", "is_user": false, "day": 0, "text": "시스템상 세트 미션 미완료 시 전액 동결됩니다. 마지막 건 진행하셔야 총 275만원 이체됩니다."}
+{"type": "message", "seq": 16, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "돈이 모자란데 어떡하죠... 일단 알겠습니다 [사진] 150만원 결제했어요."}
+{"type": "message", "seq": 17, "room": "1:1", "sender": "OO쇼핑 마케팅", "is_user": false, "day": 0, "text": "수고하셨습니다. 그런데 입금 기한 초과로 전산 오차가 발생해 보증금 100만원을 추가 입금하셔야 전체 출금이 가능합니다."}
+{"type": "message", "seq": 18, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "뭐라고요? 아니 이미 250만원이나 냈는데 또 내라고요? 이거 사기 아니에요?"}
+{"type": "message", "seq": 19, "room": "1:1", "sender": "OO쇼핑 마케팅", "is_user": false, "day": 0, "text": "규정상 어쩔 수 없습니다. 보증금 입금 안 하시면 기존 금액도 정산 불가합니다."}
+{"type": "message", "seq": 20, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "말도 안 되는 소리 하지 마세요. 당장 경찰에 신고하겠습니다."}

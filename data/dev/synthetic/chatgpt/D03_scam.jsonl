@@ -1,0 +1,15 @@
+{"type": "meta", "case_id": "chatgpt_D03", "kind": "scam", "scam_type": "가족 사칭(폰이 고장 나서)", "model": "chatgpt", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "문자", "sender": "딸", "is_user": false, "day": 0, "text": "엄마 나 폰 고장나서 친구 폰으로 문자해"}
+{"type": "message", "seq": 2, "room": "문자", "sender": "나", "is_user": true, "day": 0, "text": "누구야? 이름부터 말해봐"}
+{"type": "message", "seq": 3, "room": "문자", "sender": "딸", "is_user": false, "day": 0, "text": "나야 엄마 ㅠ 액정이 나가서 통화는 안돼"}
+{"type": "message", "seq": 4, "room": "문자", "sender": "나", "is_user": true, "day": 0, "text": "목소리라도 듣자. 잠깐 전화해"}
+{"type": "message", "seq": 5, "room": "문자", "sender": "딸", "is_user": false, "day": 0, "text": "마이크도 안돼. 급하게 결제해야 하는데 인증 좀 도와줘"}
+{"type": "message", "seq": 6, "room": "문자", "sender": "나", "is_user": true, "day": 0, "text": "무슨 결제인데?"}
+{"type": "message", "seq": 7, "room": "문자", "sender": "딸", "is_user": false, "day": 0, "text": "휴대폰으로 본인확인하고 상품권 사면 돼"}
+{"type": "message", "seq": 8, "room": "문자", "sender": "나", "is_user": true, "day": 0, "text": "네가 평소 쓰는 말투랑 좀 다른데"}
+{"type": "message", "seq": 9, "room": "문자", "sender": "딸", "is_user": false, "day": 0, "text": "엄마 지금 바빠 죽겠어. 빨리 부탁해"}
+{"type": "message", "seq": 10, "room": "문자", "sender": "나", "is_user": true, "day": 0, "text": "네가 어릴 때 키우던 고양이 이름 뭐였지?"}
+{"type": "message", "seq": 11, "room": "문자", "sender": "딸", "is_user": false, "day": 0, "text": "아 진짜 그걸 왜 지금 물어봐"}
+{"type": "message", "seq": 12, "room": "문자", "sender": "나", "is_user": true, "day": 0, "text": "확인 안 되면 아무것도 안 해. 아빠한테 전화해볼게"}
+{"type": "message", "seq": 13, "room": "문자", "sender": "딸", "is_user": false, "day": 0, "text": "아빠한테는 말하지 말고 나중에 설명할게"}
+{"type": "message", "seq": 14, "room": "문자", "sender": "나", "is_user": true, "day": 0, "text": "일단 여기서 멈출게. 원래 번호로 연락할 때까지 기다릴게"}

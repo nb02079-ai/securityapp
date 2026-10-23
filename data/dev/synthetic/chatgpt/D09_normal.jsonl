@@ -1,0 +1,14 @@
+{"type": "meta", "case_id": "chatgpt_D09", "kind": "normal", "scam_type": "동호회 단체방 공동구매 입금 안내", "model": "chatgpt", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "단체방", "sender": "민재", "is_user": false, "day": 0, "text": "등산 모임 공구 물통 수량 오늘 마감할게요"}
+{"type": "message", "seq": 2, "room": "단체방", "sender": "나", "is_user": true, "day": 0, "text": "저는 2개 신청이요"}
+{"type": "message", "seq": 3, "room": "단체방", "sender": "수빈", "is_user": false, "day": 0, "text": "색상은 회색으로 부탁해요"}
+{"type": "message", "seq": 4, "room": "단체방", "sender": "민재", "is_user": false, "day": 0, "text": "개당 12000원이고 배송비는 인원수대로 나눠요"}
+{"type": "message", "seq": 5, "room": "단체방", "sender": "나", "is_user": true, "day": 0, "text": "입금은 지난번 모임 회비 계좌로 하면 되나요?"}
+{"type": "message", "seq": 6, "room": "단체방", "sender": "민재", "is_user": false, "day": 0, "text": "네 공지에 올린 OO은행 계좌 맞습니다"}
+{"type": "message", "seq": 7, "room": "단체방", "sender": "현우", "is_user": false, "day": 0, "text": "총액 계산해서 개인톡으로도 보내주세요"}
+{"type": "message", "seq": 8, "room": "단체방", "sender": "민재", "is_user": false, "day": 0, "text": "수량 확인표 [파일] 올렸습니다"}
+{"type": "message", "seq": 9, "room": "단체방", "sender": "나", "is_user": true, "day": 1, "text": "2개 값이랑 배송비 합쳐서 보냈어요"}
+{"type": "message", "seq": 10, "room": "단체방", "sender": "민재", "is_user": false, "day": 1, "text": "확인했습니다. 입금자명이 달라서 혹시 이름 알려주세요"}
+{"type": "message", "seq": 11, "room": "단체방", "sender": "나", "is_user": true, "day": 1, "text": "제 이름으로 보냈어요. 끝 두 글자는 동일해요"}
+{"type": "message", "seq": 12, "room": "단체방", "sender": "민재", "is_user": false, "day": 2, "text": "확인됐어요. 다음 주 산행 때 나눠드릴게요"}
+{"type": "message", "seq": 13, "room": "단체방", "sender": "수빈", "is_user": false, "day": 2, "text": "감사합니다 수고 많으세요!"}

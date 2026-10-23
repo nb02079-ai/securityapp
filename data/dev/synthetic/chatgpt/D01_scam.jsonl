@@ -1,0 +1,15 @@
+{"type": "meta", "case_id": "chatgpt_D01", "kind": "scam", "scam_type": "코인 거래소 리딩방", "model": "chatgpt", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "단체방", "sender": "운영팀", "is_user": false, "day": 0, "text": "오늘 신규 상장 코인 흐름 공유합니다. 매수는 각자 판단하세요."}
+{"type": "message", "seq": 2, "room": "단체방", "sender": "나", "is_user": true, "day": 0, "text": "방금 들어왔어요. 초보인데 괜찮나요?"}
+{"type": "message", "seq": 3, "room": "단체방", "sender": "민호", "is_user": false, "day": 0, "text": "저도 초보였는데 여기서 몇 번 수익 봤어요"}
+{"type": "message", "seq": 4, "room": "단체방", "sender": "운영팀", "is_user": false, "day": 0, "text": "오늘은 소액으로 흐름만 보셔도 됩니다."}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "민호", "is_user": false, "day": 1, "text": "어제 설명 이해됐어요?"}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "아직 잘 모르겠어요 ㅠ"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "민호", "is_user": false, "day": 1, "text": "제가 매수 타이밍 알려드릴게요. 유료방은 수익 나면 내셔도 되고요."}
+{"type": "message", "seq": 8, "room": "단체방", "sender": "운영팀", "is_user": false, "day": 2, "text": "VIP 전용 신호는 오늘 오후 2시에 공개합니다."}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "VIP는 얼마예요?"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "민호", "is_user": false, "day": 2, "text": "가입비는 (계좌번호)로 보내면 바로 등록돼요. 이번 주만 할인이라네요."}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "수익 보장되는 건 아니죠?"}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "민호", "is_user": false, "day": 2, "text": "투자라 보장은 없지만 손실 본 분은 거의 없어요."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "생각해보니 좀 급하게 결정하는 것 같아서 안 할게요."}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "민호", "is_user": false, "day": 3, "text": "기회 놓치면 아쉬울 텐데요. 오늘 안에만 답 주세요."}

@@ -1,0 +1,17 @@
+{"type": "meta", "case_id": "gemini_D08", "kind": "normal", "scam_type": "회사 회식비·경조사비 걷기", "model": "gemini", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "단체방", "sender": "박총무", "is_user": false, "day": 0, "text": "팀원 여러분, 다음 주 금요일 총무팀 회식 및 김차장님 부친상 경조사비 모금 관련 안내드립니다."}
+{"type": "message", "seq": 2, "room": "단체방", "sender": "이대리", "is_user": false, "day": 0, "text": "아 차장님 부친상 소식 들었습니다... 경조사비 기본 얼마씩 내나요?"}
+{"type": "message", "seq": 3, "room": "단체방", "sender": "박총무", "is_user": false, "day": 0, "text": "경조사비는 자율인데 보통 5만원씩 하고 계십니다. 회식 참가비 2만원 합쳐서 총 7만원씩 부서 계좌로 입금 부탁드립니다."}
+{"type": "message", "seq": 4, "room": "단체방", "sender": "박총무", "is_user": false, "day": 0, "text": "부서 계좌: (계좌번호) OO은행 (예금주: 박총무)"}
+{"type": "message", "seq": 5, "room": "단체방", "sender": "나", "is_user": true, "day": 0, "text": "박총무님, 회식은 야근 때문에 참석 못 할 것 같은데 경조사비 5만원만 보낼게요!"}
+{"type": "message", "seq": 6, "room": "단체방", "sender": "박총무", "is_user": false, "day": 0, "text": "네 OO씨! 회식 미참석자는 5만원만 입금해주시면 됩니다."}
+{"type": "message", "seq": 7, "room": "단체방", "sender": "나", "is_user": true, "day": 1, "text": "방금 5만원 입금했습니다~ 확인 부탁드려요 [사진]"}
+{"type": "message", "seq": 8, "room": "단체방", "sender": "박총무", "is_user": false, "day": 1, "text": "네 OO씨 5만원 입금 확인되었습니다! 감사합니다."}
+{"type": "message", "seq": 9, "room": "단체방", "sender": "최사원", "is_user": false, "day": 1, "text": "저도 7만원 입금 완료했습니다!"}
+{"type": "message", "seq": 10, "room": "단체방", "sender": "박총무", "is_user": false, "day": 2, "text": "현재까지 8분 입금 완료해주셨습니다. 아직 안 보내신 분들은 오늘 내로 부탁드립니다."}
+{"type": "message", "seq": 11, "room": "단체방", "sender": "정과장", "is_user": false, "day": 2, "text": "앗 죄송합니다 깜빡했네요 지금 바로 이체할게요."}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "박총무", "is_user": false, "day": 2, "text": "OO씨, 혹시 지난달 동호회비 미납금 1만원도 같이 정산 가능할까요?"}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "아 지난달 동호회비 안 냈었나요? 몰랐네요 1만원 바로 보내드릴게요."}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "박총무", "is_user": false, "day": 2, "text": "네 아까 그 부서 계좌 (계좌번호) 로 주시면 됩니다."}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "1만원 보냈습니다! 확인해보세요."}
+{"type": "message", "seq": 16, "room": "1:1", "sender": "박총무", "is_user": false, "day": 2, "text": "확인했습니다! 정산 잘 마감할게요 수고하세요~"}

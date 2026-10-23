@@ -1,0 +1,14 @@
+{"type": "meta", "case_id": "chatgpt_D11", "kind": "normal", "scam_type": "연인 사이 선물·송금", "model": "chatgpt", "source": "합성 (docs/dev/01_synthetic_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "도윤", "is_user": false, "day": 0, "text": "오늘 택배 도착했어?"}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "응 방금 받았어 ㅠㅠ 너무 귀엽다"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "도윤", "is_user": false, "day": 0, "text": "생일 선물 미리 보낸 거야. 맘에 들면 됐지"}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "얼마나 썼어 이런 걸 다"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "도윤", "is_user": false, "day": 0, "text": "가격보다 네가 좋아할 것 같아서 골랐어"}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "저녁은 내가 살게. 예약해둘까?"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "도윤", "is_user": false, "day": 0, "text": "좋지 근데 이번 달 내가 좀 빠듯해서 저렴한 데 가자"}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "당연하지 ㅎㅎ 내가 밥값 보낼까?"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "도윤", "is_user": false, "day": 0, "text": "아냐 오늘은 네가 예약만 해줘"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "기념일 케이크 값 반 보내놨어"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "도윤", "is_user": false, "day": 1, "text": "확인했어 고마워! 나머지는 내가 낼게"}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "다음엔 같이 골라서 사자"}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "도윤", "is_user": false, "day": 1, "text": "콜 ❤️"}
