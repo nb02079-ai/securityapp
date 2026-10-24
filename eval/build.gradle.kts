@@ -18,6 +18,12 @@ application {
     mainClass.set("securityapp.eval.MainKt")
 }
 
+// 상대 경로(--input data/dev/synthetic 등)를 저장소 최상위 기준으로, 콘솔 한글은 UTF-8로 (Windows는 chcp 65001)
+tasks.named<JavaExec>("run") {
+    workingDir = rootProject.projectDir
+    jvmArgs("-Dfile.encoding=UTF-8", "-Dstdout.encoding=UTF-8", "-Dstderr.encoding=UTF-8")
+}
+
 tasks.test {
     useJUnitPlatform()
 }

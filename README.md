@@ -5,13 +5,13 @@
 
 단일 문자의 스미싱 링크를 판별하는 서비스는 이미 많습니다. 이 프로젝트는 그 이후, **카카오톡으로 옮겨 가 몇 주에 걸쳐 신뢰를 쌓은 뒤 돈을 요구하는 대화의 흐름**을 다룹니다.
 
-## 현재 상태 (2026-10-23)
+## 현재 상태 (2026-10-24)
 
 | 작업 단계 | 내용 | 상태 |
 |---|---|---|
 | 0. 사전 점검 | 데이터 확보, 과제 규칙·장비 확인 | 진행 중 |
 | 1. 데이터·단계 체계 검증 | 평가 세트 구축, 신호 체계 가설 검증 | 진행 중 — 일반 대화 43건 확정, 사기 재구성 10건 잠금, 신호 체계 v2, 라벨링 2회(모델 간 κ 0.82) 후 기준표 v2.1·최종 라벨 확정, 다음은 작업 2단계 |
-| 2. 판정 엔진 + 재생 평가 | 순수 Kotlin 엔진, 3단 비교 | 진행 중 — 설계, 프로젝트 골격, 개발 세트(합성 33건), 행위 감지 v1, 흐름 판정 v1(개발 세트 사기 15/21 경고, 정상 0/12 경고), 다음은 재생 평가기 |
+| 2. 판정 엔진 + 재생 평가 | 순수 Kotlin 엔진, 3단 비교 | 진행 중 — 설계, 프로젝트 골격, 개발 세트(합성 33건), 행위 감지 v1, 흐름 판정 v1(개발 세트 사기 15/21 경고, 정상 0/12 경고), 재생 평가기(세 방식 비교·지표), 다음은 AI-Hub 개발용 일반 대화 확인 → engine-v1 고정 |
 | 3. 의미 검증 | 기준선 대비 성능, 대상자 반응 | 예정 |
 | 4. 엔진 개선 | 필요 시 소형 모델 비교 | 예정 |
 | 5. 안드로이드 앱 적용 | 알림 수집, 경고 화면, 보안 대책 | 예정 |
@@ -61,7 +61,7 @@
         └── finalize_labels.py        다수결 + 판정 → 최종 라벨
 ```
 
-작업 2단계 (진행 중): `engine/` (판정 엔진, 순수 Kotlin), `eval/` (재생 평가기) — 설계는 [docs/stage2_engine_design.md](docs/stage2_engine_design.md), 환경 준비는 [docs/dev/00_setup_windows.md](docs/dev/00_setup_windows.md). 빌드·테스트: `gradlew.bat test` (GitHub Actions에서 push마다 자동 실행)
+작업 2단계 (진행 중): `engine/` (판정 엔진, 순수 Kotlin), `eval/` (재생 평가기) — 설계는 [docs/stage2_engine_design.md](docs/stage2_engine_design.md), 환경 준비는 [docs/dev/00_setup_windows.md](docs/dev/00_setup_windows.md). 빌드·테스트: `gradlew.bat test` (GitHub Actions에서 push마다 자동 실행). 재생 평가: `gradlew.bat :eval:run --args="…"` ([docs/dev/04_replay_eval.md](docs/dev/04_replay_eval.md))
 
 예정: `app/` (안드로이드 앱, 작업 5단계)
 

@@ -510,7 +510,7 @@ def cmd_sample(args):
         for r in chosen:
             r = dict(r)
             r["bucket"] = name
-            r["selected"] = ""
+            r["selected"] = "Y" if args.select_all else ""
             picked.append(r)
         note = "" if n == sizes[name] or sizes[name] >= 999 else f" (요청 {sizes[name]}개보다 적음)"
         print(f"  {name}: 후보 {len(pool):,}개 중 {n}개{note} - {desc}")
@@ -538,7 +538,10 @@ def cmd_sample(args):
 
     print(f"\n검토 목록 {len(picked)}개: {review_csv}")
     print(f"대화 원문: {review_txt}")
-    print("원문을 읽고 review CSV의 selected 칸에 Y를 적은 뒤 export --csv review 로 내보내세요.")
+    if args.select_all:
+        print("--select-all: 모두 selected=Y로 표시했습니다 (개발용, 직접 고르지 않음). 바로 export 하세요.")
+    else:
+        print("원문을 읽고 review CSV의 selected 칸에 Y를 적은 뒤 export --csv review 로 내보내세요.")
 
 
 # ---------------------------------------------------------------------------
@@ -579,8 +582,18 @@ def cmd_export(args):
                 fo.write(json.dumps({"type": "message", "seq": seq, "sender": m["sender"],
                                      "text": m["text"]}, ensure_ascii=False) + "\n")
 
+    # 저장소에 넣을 수 있는 ID 목록 (대화 내용 없음)
+    ids_csv = os.path.join(out_dir, f"selected_ids_{args.split}.csv")
+    with open(ids_csv, "w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["candidate_id", "bucket", "topic", "platform", "speaker_type"])
+        for cid in sorted(recs):
+            r = rows[cid]
+            w.writerow([cid, r.get("bucket", ""), r.get("topic", ""), r.get("platform", ""), r.get("speaker_type", "")])
+
     missing = set(rows) - set(recs)
     print(f"재생 파일 {len(recs)}개 저장: {replay_dir}")
+    print(f"ID 목록 (저장소에 넣을 수 있음, 대화 내용 없음): {ids_csv}")
     if missing:
         print(f"[경고] 고른 {len(missing)}개를 jsonl에서 찾지 못했습니다: {sorted(missing)[:10]}")
 
@@ -609,6 +622,7 @@ def main():
     m.add_argument("--n-romance", type=int, default=25, help="연애/결혼+만남 묶음 개수 (기본 25)")
     m.add_argument("--n-topic", type=int, default=15, help="주제만 맞는 묶음 개수 (기본 15)")
     m.add_argument("--force", action="store_true", help="기존 review 파일을 덮어쓰기")
+    m.add_argument("--select-all", action="store_true", help="뽑은 대화를 모두 selected=Y로 (개발용: 직접 고르지 않을 때)")
     m.set_defaults(func=cmd_sample)
 
     e = sub.add_parser("export", help="selected=Y 대화를 재생 형식으로 내보내기")
