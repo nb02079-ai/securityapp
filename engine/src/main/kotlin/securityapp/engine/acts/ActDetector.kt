@@ -22,8 +22,6 @@ class ActDetector {
         val signals: Set<Signal> get() = detections.map { it.signal }.toSet()
     }
 
-    private val photoOnly = Regex("^\\s*\\[(사진|파일|동영상|이모티콘)\\]\\s*$")
-
     fun detect(message: Message, ctx: RoomContext): Result {
         if (message.isUser) return Result(emptyList(), emptyList())
         ctx.noteSender(message.sender, message.isGroup)
@@ -38,7 +36,7 @@ class ActDetector {
         }
 
         // 사진·파일만 있는 메시지는 글자 신호가 없다. 기준표 v2.1의 "앞 설명을 따름"은 흐름 층에서 처리.
-        if (photoOnly.matches(message.text)) {
+        if (isPhotoOnly(message.text)) {
             if (ctx.isGroup && !ctx.isOperator(message.sender)) found[Signal.R1] = message.text.indices
             return Result(found.map { Detection(it.key, it.value) }, emptyList())
         }
@@ -109,5 +107,8 @@ class ActDetector {
     companion object {
         /** G2: 돈 이야기 전에 이만큼의 상대 메시지가 오가야 "갑자기 넘어감"으로 본다. 개발 세트로 다시 정함 */
         const val G2_MIN_BEFORE = 2
+        private val photoOnly = Regex("^\\s*\\[(사진|파일|동영상|이모티콘)\\]\\s*$")
+        /** 글자 없이 사진·파일만 보낸 메시지인지 (기준표 v2.1: 앞 설명을 따름 → 흐름 층에서 처리) */
+        fun isPhotoOnly(text: String): Boolean = photoOnly.matches(text)
     }
 }
