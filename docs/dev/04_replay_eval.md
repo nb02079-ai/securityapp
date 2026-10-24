@@ -59,6 +59,7 @@ gradlew.bat :eval:run --args="--input data/dev/synthetic --input <AI-Hub replay_
 ```
 
 - 상대 경로는 저장소 최상위 기준입니다.
+- Windows 명령 창은 먼저 `chcp 65001`을 실행해야 콘솔의 한글이 깨지지 않습니다 (결과 파일은 항상 UTF-8).
 - 인자에 한글을 넣지 않는 편이 안전합니다. 한글이 들어간 경로는 따옴표로 감쌉니다.
 - 평가 세트를 돌릴 때만 아래처럼 실행합니다 (작업 2-6).
   `--input data/eval/scam --input <replay_validation> --points data/eval/scam/labels/final_points.csv --labels data/eval/scam/labels/final_messages.csv --eval-set`
@@ -73,7 +74,18 @@ gradlew.bat :eval:run --args="--input data/dev/synthetic --input <AI-Hub replay_
 
 "상대만"과 "나 포함"의 결과는 같았습니다. 합성 정상 대화는 일부러 돈 이야기가 섞인 대화라, 단어 기준선과 행위 단독은 거의 모두 경고합니다.
 
-AI-Hub Training 개발용 일반 대화의 결과는 아래 6장 절차로 사용자 PC에서 돌려 덧붙입니다.
+### AI-Hub Training 일반 대화 200건 추가 (2026-10-24, 사용자 PC)
+
+| 방식 | 사기 경고 (합성 21건) | 일반 경고 (합성 12 + AI-Hub 200) | 그중 AI-Hub 200건 | 일반 주의 |
+|---|---|---|---|---|
+| 단어 기준선 | 17 | 45 | 34 (17%) | 0 |
+| 행위 단독 | 20 | 71 | 61 (31%) | 0 |
+| 행위 + 흐름 | 15 | **0** | **0** | 4 (AI-Hub 3: 연애·만남 1, 금전 2 / 합성 1: 지인 투자 제안) |
+
+- AI-Hub 대화는 화자마다 "나"로 놓고 돌린 결과입니다. "상대만"과 "나 포함"은 같았습니다.
+- **흐름 판정 v1의 계좌 안내 처리(결정 22)는 합성 정상 2건을 보고 정했는데, 그때 보지 않은 실제 일상 대화 200건에서도 경고 0건이었습니다.** 개발 세트에 맞춰진 정도는 크지 않은 것으로 봅니다.
+- 행위 감지만으로는 일상 대화의 31%에 경고가 나고, 흐름 판정을 붙이면 0%가 됩니다. 흐름 판정 층의 효과입니다 (평가 세트에서 다시 확인).
+- 주의가 난 3건(KAKAO_2350_08__s1, KAKAO_3091_18__s1, KAKAO_4116_18__s1)은 원문을 저장소에 옮기지 않으며, 주의는 오탐률에 넣지 않습니다.
 
 ## 6. AI-Hub Training 개발용 일반 대화 (사용자 PC)
 
@@ -83,5 +95,5 @@ AI-Hub Training 개발용 일반 대화의 결과는 아래 6장 절차로 사�
    py tools/aihub/extract_candidates.py sample --out <candidates_out> --split training --n-money 100 --n-romance 50 --n-group 25 --n-topic 25 --select-all
    py tools/aihub/extract_candidates.py export --out <candidates_out> --split training
    ```
-2. `export`가 만든 `selected_ids_training.csv`(대화 내용 없음)를 `data/dev/aihub_training_ids.csv`로 저장소에 넣습니다.
+2. `export`가 만든 `selected_ids_training.csv`(대화 내용 없음)를 `data/dev/aihub_training_ids.csv`로 저장소에 넣습니다 (넣었음).
 3. 재생 평가기를 돌리고, `report.md`(ID와 숫자만)를 결과로 씁니다.

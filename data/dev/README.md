@@ -16,5 +16,15 @@
 - 라벨은 붙이지 않습니다. 엔진이 어느 메시지에서 어떤 신호·경고를 냈는지만 봅니다.
 - 변환: `python tools/dev/import_synthetic.py data/dev/raw/dev_<모델>.csv --model <모델>`
 
-## AI-Hub Training 일반 대화 (예정)
-원문은 저장소에 넣지 않고 ID 목록(`*_ids.csv`)만 둡니다.
+## AI-Hub Training 일반 대화 (200건)
+원문은 저장소에 넣지 않고 ID 목록 [`aihub_training_ids.csv`](aihub_training_ids.csv)만 둡니다.
+
+- 뽑은 방법: Training 후보 18,766건에서 묶음마다 시드 20261020으로 무작위 추출, 직접 고르지 않고 모두 사용 (`--select-all`)
+- 묶음: 금전·투자·외부·지원금 100, 연애·만남 50, 다자간 25, 주제만 25 (평가 세트 43건과 비슷한 비율)
+- 평가 세트(Validation)와 겹치지 않음
+- 재현:
+  ```
+  py tools/aihub/extract_candidates.py scan   --data-root "<…>/01.데이터"
+  py tools/aihub/extract_candidates.py sample --out "<…>/candidates_out" --split training --n-money 100 --n-romance 50 --n-group 25 --n-topic 25 --select-all
+  py tools/aihub/extract_candidates.py export --out "<…>/candidates_out" --split training
+  ```
