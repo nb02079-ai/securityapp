@@ -1,0 +1,14 @@
+{"type": "meta", "case_id": "K07_military_parcel_romance", "kind": "scam", "label": "scam", "scam_type": "로맨스 (미군·의사 사칭 → 선물 배송비)", "model": "reconstructed", "source": {"title": "문화일보 — '미국인'에 '군인·의사' 사칭해 사랑 속삭이자 수억원씩 보냈다 (로맨스 스캠 판결문 73건 분석)", "url": "https://v.daum.net/v/20231203233907107", "published": "2023-12-03"}, "dev_points": {"first_suggest": 10, "first_transfer_before": 12}, "made_by": "규칙 작성 세션 (작업 4-2, 개발용)"}
+{"type": "message", "seq": 1, "room": "dm", "sender": "Michael", "is_user": false, "day": 0, "text": "Hello. 저는 시리아에 파병된 미군 의무 장교입니다. 번역기로 말해서 미안해요.", "provenance": "described", "source_note": "군인(32%)·의사(15%) 사칭, 미국 국적(43%), 파병 군인 사칭 예시"}
+{"type": "message", "seq": 2, "room": "dm", "sender": "나", "is_user": true, "day": 0, "text": "안녕하세요. 어떻게 저를 아세요?", "provenance": "connector", "source_note": ""}
+{"type": "message", "seq": 3, "room": "dm", "sender": "Michael", "is_user": false, "day": 0, "text": "당신 사진에서 따뜻한 마음을 봤어요. 친구가 되고 싶어요.", "provenance": "connector", "source_note": ""}
+{"type": "message", "seq": 4, "room": "dm", "sender": "Michael", "is_user": false, "day": 4, "text": "오늘은 부대가 조용해요. 종일 당신 메시지만 기다렸어요.", "provenance": "connector", "source_note": ""}
+{"type": "message", "seq": 5, "room": "dm", "sender": "나", "is_user": true, "day": 4, "text": "저도 기다리게 되네요", "provenance": "connector", "source_note": ""}
+{"type": "message", "seq": 6, "room": "dm", "sender": "Michael", "is_user": false, "day": 12, "text": "내 임무가 곧 끝나요. 끝나면 한국에 가서 당신과 살고 싶어요.", "provenance": "connector", "source_note": ""}
+{"type": "message", "seq": 7, "room": "dm", "sender": "Michael", "is_user": false, "day": 15, "text": "당신을 위해 선물이랑 내가 모은 돈을 상자에 넣어서 보냈어요 [사진]", "provenance": "described", "source_note": "돈과 선물을 보내겠다는 수법 (57%)"}
+{"type": "message", "seq": 8, "room": "dm", "sender": "나", "is_user": true, "day": 15, "text": "정말요? 무슨 상자요?", "provenance": "connector", "source_note": ""}
+{"type": "message", "seq": 9, "room": "dm", "sender": "외교 배송 담당", "is_user": false, "day": 17, "text": "고객님 앞으로 해외 화물이 도착해 보관 중입니다. 수령인 성함 맞으신지 회신 바랍니다.", "provenance": "described", "source_note": "짐 보관(15%)"}
+{"type": "message", "seq": 10, "room": "dm", "sender": "Michael", "is_user": false, "day": 17, "text": "돈과 선물을 보내려고 하니 소요되는 비용을 지불해달라", "provenance": "quote", "source_note": "판결문 분석의 대표 요구 (기사 인용)"}
+{"type": "message", "seq": 11, "room": "dm", "sender": "외교 배송 담당", "is_user": false, "day": 17, "text": "통관과 보관 비용 350만 원을 이 계좌로 보내 주시면 바로 배송됩니다 (계좌번호)", "provenance": "described", "source_note": "선물 배송 비용 요구 (금액은 재구성)"}
+{"type": "message", "seq": 12, "room": "dm", "sender": "나", "is_user": true, "day": 18, "text": "알겠어요. 보낼게요", "provenance": "connector", "source_note": ""}
+{"type": "message", "seq": 13, "room": "dm", "sender": "외교 배송 담당", "is_user": false, "day": 19, "text": "상자 안에 현금이 있어 신고 수수료가 추가로 나왔습니다.", "provenance": "described", "source_note": "추가 비용 (평균 피해 약 1억 원, 여러 차례 송금)"}

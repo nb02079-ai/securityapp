@@ -1,0 +1,14 @@
+{"type": "meta", "case_id": "K02_youtuber_band_fakeapp", "kind": "scam", "label": "scam", "scam_type": "투자 리딩방 (유명 유튜버 사칭 밴드 → 금융기관 사칭 앱)", "model": "reconstructed", "source": {"title": "블록미디어 — '100만 유튜버' 사진 도용하고 금융기관 사칭한 가짜 앱 가입 유도", "url": "https://www.blockmedia.co.kr/archives/932263", "published": "2025-06-22"}, "dev_points": {"first_suggest": 5, "first_transfer_before": 8}, "made_by": "규칙 작성 세션 (작업 4-2, 개발용)"}
+{"type": "message", "seq": 1, "room": "group", "sender": "운영진", "is_user": false, "day": 0, "text": "구독자 여러분 환영합니다. 선생님 방송 보시고 오신 분들만 모신 방입니다. 공지 꼭 읽어 주세요.", "provenance": "described", "source_note": "유명 유튜버 사진이 걸린 밴드, 70명 넘게 초대"}
+{"type": "message", "seq": 2, "room": "group", "sender": "회원 봄비", "is_user": false, "day": 0, "text": "방송 잘 보고 있어요! 여기서도 뵙네요", "provenance": "connector", "source_note": ""}
+{"type": "message", "seq": 3, "room": "group", "sender": "운영진", "is_user": false, "day": 2, "text": "오늘 시황 정리 올립니다. 내일부터는 앱으로 실시간 매매 안내 드립니다.", "provenance": "connector", "source_note": ""}
+{"type": "message", "seq": 4, "room": "group", "sender": "나", "is_user": true, "day": 2, "text": "앱은 어디서 받아요?", "provenance": "connector", "source_note": ""}
+{"type": "message", "seq": 5, "room": "group", "sender": "운영진", "is_user": false, "day": 3, "text": "ㅇㅇ증권에서 주관하는 ㅇㅇㅇ프로젝트에 참여하면 500% 수익을 낼 수 있다", "provenance": "quote", "source_note": "운영진 발언 (기사 인용)"}
+{"type": "message", "seq": 6, "room": "dm", "sender": "운영진", "is_user": false, "day": 3, "text": "회원님, OO증권 거래 앱 설치 링크 드립니다. 회원 등록 후 투자금 넣으시면 바로 시작돼요 (링크)", "provenance": "described", "source_note": "금융기관 이름이 적힌 가짜 증권거래 앱 가입 권유"}
+{"type": "message", "seq": 7, "room": "dm", "sender": "나", "is_user": true, "day": 3, "text": "OO증권 앱이면 믿을 만하네요", "provenance": "connector", "source_note": ""}
+{"type": "message", "seq": 8, "room": "dm", "sender": "운영진", "is_user": false, "day": 4, "text": "첫 입금은 1,000만 원부터 권해 드려요. 앱 화면 안내대로 이체하시면 됩니다.", "provenance": "described", "source_note": "첫 이체액 1,000만 원"}
+{"type": "message", "seq": 9, "room": "dm", "sender": "나", "is_user": true, "day": 5, "text": "넣었어요. 벌써 수익이 엄청 났네요", "provenance": "connector", "source_note": "앱에 순식간에 수천만 원 수익 표시"}
+{"type": "message", "seq": 10, "room": "dm", "sender": "운영진", "is_user": false, "day": 6, "text": "지금이 제일 좋을 때입니다. 더 넣으시면 프로젝트 배정이 커집니다.", "provenance": "described", "source_note": "열흘 남짓 1억 8,000만 원 이상 이체"}
+{"type": "message", "seq": 11, "room": "dm", "sender": "나", "is_user": true, "day": 14, "text": "출금하려고 고객센터에 물어봤는데요", "provenance": "connector", "source_note": ""}
+{"type": "message", "seq": 12, "room": "dm", "sender": "고객센터", "is_user": false, "day": 14, "text": "출금하시려면 수익금의 17%를 먼저 납부하셔야 합니다.", "provenance": "described", "source_note": "수익금 17% 선납 요구"}
+{"type": "message", "seq": 13, "room": "dm", "sender": "나", "is_user": true, "day": 15, "text": "제 계정이 없어졌어요. 이게 뭐예요?", "provenance": "connector", "source_note": "앱에서 탈퇴 처리"}

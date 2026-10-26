@@ -12,6 +12,7 @@ data/dev/*
 !data/dev/README.md
 !data/dev/synthetic/
 !data/dev/synthetic2/
+!data/dev/reconstructed/
 !data/dev/raw/
 !data/dev/*_ids.csv
 

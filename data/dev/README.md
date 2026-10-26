@@ -21,6 +21,10 @@
 - ChatGPT 12건(메시지 148개), Claude 12건(249개), Gemini 12건(188개, 예시 문구를 뺀 2차-B 지시문으로 다시 받음), Grok 12건(201개, 2차-B 지시문, 다른 유형). 처음 받은 Gemini 결과는 기준 미달이라 `raw/dev2_gemini_rejected.csv`로 보관
 - 지시문의 예시 문구를 그대로 쓴 메시지는 규칙을 고치는 근거로 쓰지 않음 (05 문서 "받은 결과 점검")
 
+## 공개 사례 재구성 (`reconstructed/`, 작업 4-2)
+- 8건 (K01~K08), 규칙 작성 세션이 평가 세트와 같은 방식(메시지별 provenance)으로 재구성. 출처와 피한 것은 [docs/dev/07_reconstructed_dev.md](../../docs/dev/07_reconstructed_dev.md)
+- 다시 만들기: `python tools/dev/reconstructed_dev.py`
+
 ## AI-Hub Training 일반 대화 (200건)
 원문은 저장소에 넣지 않고 ID 목록 [`aihub_training_ids.csv`](aihub_training_ids.csv)만 둡니다.
 
