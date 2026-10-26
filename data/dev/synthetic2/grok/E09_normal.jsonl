@@ -1,0 +1,16 @@
+{"type": "meta", "case_id": "grok_E09", "kind": "normal", "scam_type": "친척 결혼 축의금 모으기", "model": "grok", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "가족단톡", "sender": "고모", "is_user": false, "day": 0, "text": "다들 안녕 다음 달 사촌 결혼식 축의금 모을까 해서"}
+{"type": "message", "seq": 2, "room": "가족단톡", "sender": "나", "is_user": true, "day": 0, "text": "그래 좋은 생각이야"}
+{"type": "message", "seq": 3, "room": "가족단톡", "sender": "삼촌", "is_user": false, "day": 0, "text": "얼마씩 하면 적당할까"}
+{"type": "message", "seq": 4, "room": "가족단톡", "sender": "고모", "is_user": false, "day": 0, "text": "일인당 십만 원 정도로 하면 어때"}
+{"type": "message", "seq": 5, "room": "가족단톡", "sender": "이모", "is_user": false, "day": 0, "text": "나도 찬성"}
+{"type": "message", "seq": 6, "room": "가족단톡", "sender": "고모", "is_user": false, "day": 1, "text": "그럼 내가 계좌 열어서 모을게"}
+{"type": "message", "seq": 7, "room": "가족단톡", "sender": "고모", "is_user": false, "day": 1, "text": "OO은행 (계좌번호) 여기로 보내주면 돼"}
+{"type": "message", "seq": 8, "room": "가족단톡", "sender": "나", "is_user": true, "day": 1, "text": "알겠어 이번 주말에 보낼게"}
+{"type": "message", "seq": 9, "room": "가족단톡", "sender": "삼촌", "is_user": false, "day": 2, "text": "나 방금 보냈어"}
+{"type": "message", "seq": 10, "room": "가족단톡", "sender": "이모", "is_user": false, "day": 2, "text": "나도 입금 완료"}
+{"type": "message", "seq": 11, "room": "가족단톡", "sender": "나", "is_user": true, "day": 3, "text": "나도 보냈어 [사진]"}
+{"type": "message", "seq": 12, "room": "가족단톡", "sender": "고모", "is_user": false, "day": 3, "text": "다들 고마워 총 얼마 모였는지 나중에 공유할게"}
+{"type": "message", "seq": 13, "room": "가족단톡", "sender": "고모", "is_user": false, "day": 5, "text": "지금까지 팔십만 원 모였어 부족한 부분은 내가 채울게"}
+{"type": "message", "seq": 14, "room": "가족단톡", "sender": "나", "is_user": true, "day": 5, "text": "고생했어 고모"}
+{"type": "message", "seq": 15, "room": "가족단톡", "sender": "삼촌", "is_user": false, "day": 6, "text": "식장에서 보자"}

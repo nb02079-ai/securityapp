@@ -1,0 +1,18 @@
+{"type": "meta", "case_id": "gemini_E02", "kind": "scam", "scam_type": "해외 거래소 가입 유도", "model": "gemini", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "David_Global", "sender": "David", "is_user": false, "day": 0, "text": "Hello! Are you interested in crypto trading?"}
+{"type": "message", "seq": 2, "room": "David_Global", "sender": "David", "is_user": false, "day": 0, "text": "아 죄송합니다. 한국인이신가요? 번역기 사용해서 어색할 수 있습니다."}
+{"type": "message", "seq": 3, "room": "David_Global", "sender": "나", "is_user": true, "day": 0, "text": "네 한국인입니다. 누구신가요?"}
+{"type": "message", "seq": 4, "room": "David_Global", "sender": "David", "is_user": false, "day": 0, "text": "저는 싱가포르에서 차비 차익 거래 전문 분석가로 일하는 데비드입니다. 반가워요!"}
+{"type": "message", "seq": 5, "room": "David_Global", "sender": "David", "is_user": false, "day": 1, "text": "한국 거래소는 김치프리미엄 때문에 해외 거래소랑 가격 차이가 큰 거 아시나요?"}
+{"type": "message", "seq": 6, "room": "David_Global", "sender": "나", "is_user": true, "day": 1, "text": "어느 정도 차이 나는 건 알고 있어요."}
+{"type": "message", "seq": 7, "room": "David_Global", "sender": "David", "is_user": false, "day": 1, "text": "저희가 사용하는 글로벌 DEX 플랫폼 이용하면 무위험 Arbitrage 거래로 하루 3~5퍼센트 안정적 이익 발생합니다."}
+{"type": "message", "seq": 8, "room": "David_Global", "sender": "David", "is_user": false, "day": 1, "text": "플랫폼 링크입니다: (링크)"}
+{"type": "message", "seq": 9, "room": "David_Global", "sender": "David", "is_user": false, "day": 2, "text": "가입하시고 테더(USDT)를 거래소 지갑 주소로 충전하시면 됩니다."}
+{"type": "message", "seq": 10, "room": "David_Global", "sender": "나", "is_user": true, "day": 2, "text": "가입은 했는데 원화 입금이 안 되는데요?"}
+{"type": "message", "seq": 11, "room": "David_Global", "sender": "David", "is_user": false, "day": 2, "text": "해외 시스템이라 국내 원화 입력 가능하지 않습니다. 국내 거래소에서 리플 사서 저희 지갑 주소로 보내야 합니다."}
+{"type": "message", "seq": 12, "room": "David_Global", "sender": "David", "is_user": false, "day": 2, "text": "입금 지갑 주소: (지갑 주소)"}
+{"type": "message", "seq": 13, "room": "David_Global", "sender": "David", "is_user": false, "day": 2, "text": "초기 시드 200만 원 정도면 하루에 십만 원 이상 벌 수 있습니다."}
+{"type": "message", "seq": 14, "room": "David_Global", "sender": "나", "is_user": true, "day": 3, "text": "말씀하신 대로 리플 보내서 200만원 충전해 봤어요."}
+{"type": "message", "seq": 15, "room": "David_Global", "sender": "David", "is_user": false, "day": 3, "text": "네 확인되었습니다! 제가 드리는 신호대로 매수 버튼 누르시면 됩니다."}
+{"type": "message", "seq": 16, "room": "David_Global", "sender": "나", "is_user": true, "day": 4, "text": "와 정말 수익이 잡히네요. 그런데 이거 출금은 어떻게 하나요?"}
+{"type": "message", "seq": 17, "room": "David_Global", "sender": "David", "is_user": false, "day": 4, "text": "출금하려면 총자산 1천만 원 이상 채워야 시스템 자동 승인 완료됩니다. 추가 충전 진행해 주세요."}

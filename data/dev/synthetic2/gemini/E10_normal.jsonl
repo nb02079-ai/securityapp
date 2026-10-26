@@ -1,0 +1,16 @@
+{"type": "meta", "case_id": "gemini_E10", "kind": "normal", "scam_type": "주식 앱 고객센터 상담", "model": "gemini", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "△△증권 톡상담", "sender": "상담원", "is_user": false, "day": 0, "text": "안녕하십니까 고객님. △△증권 디지털 고객센터 상담원입니다. 무엇을 도와드릴까요?"}
+{"type": "message", "seq": 2, "room": "△△증권 톡상담", "sender": "나", "is_user": true, "day": 0, "text": "안녕하세요. 주식 해외주식 배당금 입금 관련해서 문의하려고요."}
+{"type": "message", "seq": 3, "room": "△△증권 톡상담", "sender": "상담원", "is_user": false, "day": 0, "text": "네 고객님, 해외주식 배당금 관련 문의시군요. 본인 확인 후 상세 내역 조회가 가능합니다."}
+{"type": "message", "seq": 4, "room": "△△증권 톡상담", "sender": "상담원", "is_user": false, "day": 0, "text": "고객님의 성함과 종합계좌번호 뒤 4자리를 말씀해 주시겠습니까?"}
+{"type": "message", "seq": 5, "room": "△△증권 톡상담", "sender": "나", "is_user": true, "day": 0, "text": "홍길동이고 계좌번호 뒤자리는 5678 입니다."}
+{"type": "message", "seq": 6, "room": "△△증권 톡상담", "sender": "상담원", "is_user": false, "day": 0, "text": "확인 감사드립니다. 어떤 종목의 배당금 문의이신가요?"}
+{"type": "message", "seq": 7, "room": "△△증권 톡상담", "sender": "나", "is_user": true, "day": 0, "text": "미국 주식 애플 배당금이 들어온 것 같은데 원화로 안 들어오고 달러로 찍혀 있어서요."}
+{"type": "message", "seq": 8, "room": "△△증권 톡상담", "sender": "상담원", "is_user": false, "day": 0, "text": "네 고객님, 해외주식 배당금은 기본적으로 외화 외화예수금(USD)으로 지급됩니다."}
+{"type": "message", "seq": 9, "room": "△△증권 톡상담", "sender": "상담원", "is_user": false, "day": 0, "text": "원화로 사용하시려면 앱 내 [환전/외화] 메뉴에서 원화 환전 절차를 진행해 주셔야 합니다."}
+{"type": "message", "seq": 10, "room": "△△증권 톡상담", "sender": "나", "is_user": true, "day": 0, "text": "아 환전을 직접 해야 하는군요. 환전 수수료가 따로 드나요?"}
+{"type": "message", "seq": 11, "room": "△△증권 톡상담", "sender": "상담원", "is_user": false, "day": 0, "text": "고객님께서는 우대 고객 등급이셔서 환전 수수료 80% 우대가 적용됩니다."}
+{"type": "message", "seq": 12, "room": "△△증권 톡상담", "sender": "나", "is_user": true, "day": 0, "text": "환전 신청하면 출금 통장 계좌로 바로 입금되나요?"}
+{"type": "message", "seq": 13, "room": "△△증권 톡상담", "sender": "상담원", "is_user": false, "day": 0, "text": "환전 완료 즉시 주식 계좌 원화 예수금으로 반영되며, 연계된 OO은행 계좌로 이체 출금도 즉시 가능하십니다."}
+{"type": "message", "seq": 14, "room": "△△증권 톡상담", "sender": "나", "is_user": true, "day": 0, "text": "네 친절한 설명 감사합니다! 앱에서 바로 신청해 볼게요."}
+{"type": "message", "seq": 15, "room": "△△증권 톡상담", "sender": "상담원", "is_user": false, "day": 0, "text": "더 궁금하신 사항이 없으시면 상담을 종료하겠습니다. 좋은 하루 되십시오!"}

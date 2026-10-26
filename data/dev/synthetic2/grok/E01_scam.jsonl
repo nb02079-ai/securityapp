@@ -1,0 +1,20 @@
+{"type": "meta", "case_id": "grok_E01", "kind": "scam", "scam_type": "코인 상장 전 프리세일 참여", "model": "grok", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1 채팅", "sender": "민수", "is_user": false, "day": 0, "text": "형 이번 신규 코인 프리세일 소식 들었어요?"}
+{"type": "message", "seq": 2, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 0, "text": "어떤 거?"}
+{"type": "message", "seq": 3, "room": "1:1 채팅", "sender": "민수", "is_user": false, "day": 0, "text": "다음 주 거래소 상장 확정된 프로젝트인데 지금 할당량 남아있어서요"}
+{"type": "message", "seq": 4, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 0, "text": "진짜야? 어디 거래소?"}
+{"type": "message", "seq": 5, "room": "1:1 채팅", "sender": "민수", "is_user": false, "day": 0, "text": "△△거래소요 공식 공지도 나왔어요 [사진]"}
+{"type": "message", "seq": 6, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 0, "text": "오 괜찮은데 어떻게 참여해?"}
+{"type": "message", "seq": 7, "room": "1:1 채팅", "sender": "민수", "is_user": false, "day": 1, "text": "지갑 연결하고 할당량 신청하면 돼요 최소 참여 금액이 좀 있긴 한데"}
+{"type": "message", "seq": 8, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 1, "text": "얼마야?"}
+{"type": "message", "seq": 9, "room": "1:1 채팅", "sender": "민수", "is_user": false, "day": 1, "text": "삼백만원부터 가능하고요 선착순이라 오늘 중으로 마감될 수도 있어요"}
+{"type": "message", "seq": 10, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 1, "text": "좀 고민되네"}
+{"type": "message", "seq": 11, "room": "1:1 채팅", "sender": "민수", "is_user": false, "day": 2, "text": "형 저번에 그 코인으로 수익 보신 거 기억나죠? 이번에도 비슷해요"}
+{"type": "message", "seq": 12, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 2, "text": "그래 그때는 잘됐지"}
+{"type": "message", "seq": 13, "room": "1:1 채팅", "sender": "민수", "is_user": false, "day": 2, "text": "지금 남은 물량이 한정적이에요 참여하시려면 지갑 주소로 보내주시면 바로 등록해드릴게요"}
+{"type": "message", "seq": 14, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 2, "text": "지갑 주소 어디야?"}
+{"type": "message", "seq": 15, "room": "1:1 채팅", "sender": "민수", "is_user": false, "day": 2, "text": "(지갑 주소) 여기로 보내주시면 됩니다"}
+{"type": "message", "seq": 16, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 3, "text": "보냈어 확인 좀"}
+{"type": "message", "seq": 17, "room": "1:1 채팅", "sender": "민수", "is_user": false, "day": 3, "text": "네 확인됐습니다 상장되면 바로 알려드릴게요"}
+{"type": "message", "seq": 18, "room": "1:1 채팅", "sender": "민수", "is_user": false, "day": 5, "text": "형 추가 할당량 나왔는데 참여하실래요? 수익률 더 높게 잡혔어요"}
+{"type": "message", "seq": 19, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 5, "text": "일단 이번 거 결과 보고 할게"}

@@ -1,0 +1,16 @@
+{"type": "meta", "case_id": "gemini_E03", "kind": "scam", "scam_type": "결혼 상대 소개 뒤 투자 권유", "model": "gemini", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "지민", "sender": "지민", "is_user": false, "day": 0, "text": "민우씨 오늘 퇴근 잘 하셨어요? 날씨가 많이 춥네요 ㅎㅎ"}
+{"type": "message", "seq": 2, "room": "지민", "sender": "나", "is_user": true, "day": 0, "text": "네 지민씨도 조심히 퇴근하셨나요? 오늘 고생 많으셨어요."}
+{"type": "message", "seq": 3, "room": "지민", "sender": "지민", "is_user": false, "day": 1, "text": "저희 벌써 만난 지 한 달째네요! 민우씨랑 얘기하면 늘 마음이 편해져요."}
+{"type": "message", "seq": 4, "room": "지민", "sender": "나", "is_user": true, "day": 1, "text": "저도 그래요. 지민씨처럼 진지하게 미래 생각하며 만난 사람은 처음이에요."}
+{"type": "message", "seq": 5, "room": "지민", "sender": "지민", "is_user": false, "day": 2, "text": "사실 저 요즘 진지하게 신혼집 알아보는 중이에요. 서울 아파트값 너무 올라서 걱정이죠?"}
+{"type": "message", "seq": 6, "room": "지민", "sender": "나", "is_user": true, "day": 2, "text": "맞아요... 대출 끼고 사려고 해도 금리가 높아서 쉽지 않네요."}
+{"type": "message", "seq": 7, "room": "지민", "sender": "지민", "is_user": false, "day": 2, "text": "제 삼촌이 금 자산 운용사 임원이신데요, 소수한테만 공개하는 금 선물 플랫폼이 있거든요."}
+{"type": "message", "seq": 8, "room": "지민", "sender": "지민", "is_user": false, "day": 2, "text": "저도 이걸로 몇 달 만에 칠천만 원 모아서 보탬이 되고 있어요."}
+{"type": "message", "seq": 9, "room": "지민", "sender": "나", "is_user": true, "day": 3, "text": "아 정말요? 안전한 건가요?"}
+{"type": "message", "seq": 10, "room": "지민", "sender": "지민", "is_user": false, "day": 3, "text": "응응 당연하죠! 삼촌이 직접 케어해 주시는 거라 손실 가능성 거의 없어요."}
+{"type": "message", "seq": 11, "room": "지민", "sender": "지민", "is_user": false, "day": 3, "text": "우리 같이 집 마련하려면 자산 확 불려야 하니까 민우씨도 조금만 해봐요."}
+{"type": "message", "seq": 12, "room": "지민", "sender": "지민", "is_user": false, "day": 3, "text": "일단 테스트 삼아 오십만 원만 지정 계좌로 송금해 볼래요? 제가 옆에서 도와줄게요."}
+{"type": "message", "seq": 13, "room": "지민", "sender": "나", "is_user": true, "day": 3, "text": "금융 플랫폼인데 개인 계좌로 돈을 보내야 하나요?"}
+{"type": "message", "seq": 14, "room": "지민", "sender": "지민", "is_user": false, "day": 3, "text": "소수 전용 VIP 에스크로 계좌라서 그래요! 절 믿으셔야죠 민우씨..."}
+{"type": "message", "seq": 15, "room": "지민", "sender": "지민", "is_user": false, "day": 3, "text": "OO은행 (계좌번호) 여기로 입금하고 스크린샷 보여주시면 승인 넣어드릴게요."}

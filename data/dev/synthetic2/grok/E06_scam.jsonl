@@ -1,0 +1,18 @@
+{"type": "meta", "case_id": "grok_E06", "kind": "scam", "scam_type": "지인 소개 해외 부동산 투자", "model": "grok", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1 채팅", "sender": "선배", "is_user": false, "day": 0, "text": "야 너 요즘 투자 뭐 해?"}
+{"type": "message", "seq": 2, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 0, "text": "별로 안 하고 있어"}
+{"type": "message", "seq": 3, "room": "1:1 채팅", "sender": "선배", "is_user": false, "day": 0, "text": "내가 아는 형이 동남아 부동산 건 하나 소개해줬는데 괜찮더라고"}
+{"type": "message", "seq": 4, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 0, "text": "어떤 건데?"}
+{"type": "message", "seq": 5, "room": "1:1 채팅", "sender": "선배", "is_user": false, "day": 1, "text": "리조트 분양 같은 건데 완공 전이라 가격이 저렴해"}
+{"type": "message", "seq": 6, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 1, "text": "위험하지 않아?"}
+{"type": "message", "seq": 7, "room": "1:1 채팅", "sender": "선배", "is_user": false, "day": 1, "text": "현지 법무법인 통해서 계약하는 거라 안전해 내가 작년에 한 건 벌써 시세가 올랐어"}
+{"type": "message", "seq": 8, "room": "1:1 채팅", "sender": "선배", "is_user": false, "day": 2, "text": "[사진] 이거 현장 사진이야"}
+{"type": "message", "seq": 9, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 2, "text": "괜찮은데 최소 금액이 얼마야?"}
+{"type": "message", "seq": 10, "room": "1:1 채팅", "sender": "선배", "is_user": false, "day": 2, "text": "오백만 원부터 가능해 계약금 성격이야"}
+{"type": "message", "seq": 11, "room": "1:1 채팅", "sender": "선배", "is_user": false, "day": 3, "text": "관심 있으면 담당자 연결해줄게"}
+{"type": "message", "seq": 12, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 3, "text": "일단 얘기는 들어볼게"}
+{"type": "message", "seq": 13, "room": "1:1 채팅", "sender": "담당자", "is_user": false, "day": 4, "text": "안녕하세요 선배님 소개로 연락드렸습니다"}
+{"type": "message", "seq": 14, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 4, "text": "네 안녕하세요"}
+{"type": "message", "seq": 15, "room": "1:1 채팅", "sender": "담당자", "is_user": false, "day": 4, "text": "자세한 자료는 (링크) 에서 확인 가능합니다"}
+{"type": "message", "seq": 16, "room": "1:1 채팅", "sender": "담당자", "is_user": false, "day": 5, "text": "계약 진행하시려면 보증금 삼백만 원을 먼저 입금해 주셔야 합니다"}
+{"type": "message", "seq": 17, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 5, "text": "좀 더 알아본 뒤에 연락드릴게요"}

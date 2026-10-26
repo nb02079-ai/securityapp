@@ -1,0 +1,18 @@
+{"type": "meta", "case_id": "grok_E02", "kind": "scam", "scam_type": "해외 주식 리딩 뒤 수수료 요구", "model": "grok", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "VIP리딩방", "sender": "담당자김", "is_user": false, "day": 0, "text": "안녕하세요 회원님 오늘 추천 종목 공유드립니다"}
+{"type": "message", "seq": 2, "room": "VIP리딩방", "sender": "담당자김", "is_user": false, "day": 0, "text": "[파일] 분석자료 확인해 주세요"}
+{"type": "message", "seq": 3, "room": "VIP리딩방", "sender": "나", "is_user": true, "day": 0, "text": "이 종목 괜찮은가요?"}
+{"type": "message", "seq": 4, "room": "VIP리딩방", "sender": "담당자김", "is_user": false, "day": 0, "text": "네 미국 시장에서 단기 상승 여력 큽니다 지금 매수 타이밍이에요"}
+{"type": "message", "seq": 5, "room": "VIP리딩방", "sender": "담당자김", "is_user": false, "day": 1, "text": "매수하신 분 손익 현황 공유 부탁드립니다"}
+{"type": "message", "seq": 6, "room": "VIP리딩방", "sender": "나", "is_user": true, "day": 1, "text": "어제 산 거 +12% 나왔어요"}
+{"type": "message", "seq": 7, "room": "VIP리딩방", "sender": "담당자김", "is_user": false, "day": 1, "text": "축하드립니다 다음 종목도 준비 중입니다"}
+{"type": "message", "seq": 8, "room": "VIP리딩방", "sender": "담당자김", "is_user": false, "day": 3, "text": "회원님 이번 달 수익률이 우수하셔서 특별 서비스 대상이 되셨습니다"}
+{"type": "message", "seq": 9, "room": "VIP리딩방", "sender": "나", "is_user": true, "day": 3, "text": "어떤 서비스요?"}
+{"type": "message", "seq": 10, "room": "VIP리딩방", "sender": "담당자김", "is_user": false, "day": 3, "text": "해외 계좌 연동 수수료 면제 혜택인데 사전 등록이 필요합니다"}
+{"type": "message", "seq": 11, "room": "VIP리딩방", "sender": "나", "is_user": true, "day": 3, "text": "비용이 있나요?"}
+{"type": "message", "seq": 12, "room": "VIP리딩방", "sender": "담당자김", "is_user": false, "day": 4, "text": "등록 보증금 개념으로 팔십만 원이 필요합니다 수익 실현 후 전액 환급됩니다"}
+{"type": "message", "seq": 13, "room": "VIP리딩방", "sender": "나", "is_user": true, "day": 4, "text": "환급 확실한가요?"}
+{"type": "message", "seq": 14, "room": "VIP리딩방", "sender": "담당자김", "is_user": false, "day": 4, "text": "네 약관에 명시되어 있습니다 계좌는 OO은행 (계좌번호) 입니다"}
+{"type": "message", "seq": 15, "room": "VIP리딩방", "sender": "나", "is_user": true, "day": 4, "text": "좀 부담되네요"}
+{"type": "message", "seq": 16, "room": "VIP리딩방", "sender": "담당자김", "is_user": false, "day": 5, "text": "오늘까지 신청해야 이번 주 종목 우선 배정됩니다"}
+{"type": "message", "seq": 17, "room": "VIP리딩방", "sender": "나", "is_user": true, "day": 5, "text": "일단 보류할게요"}

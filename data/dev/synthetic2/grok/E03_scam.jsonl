@@ -1,0 +1,18 @@
+{"type": "meta", "case_id": "grok_E03", "kind": "scam", "scam_type": "군인·의사 사칭 로맨스 뒤 송금 요청", "model": "grok", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1 채팅", "sender": "제이슨", "is_user": false, "day": 0, "text": "안녕하세요 프로필 보고 메시지 드려요"}
+{"type": "message", "seq": 2, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 0, "text": "누구세요?"}
+{"type": "message", "seq": 3, "room": "1:1 채팅", "sender": "제이슨", "is_user": false, "day": 0, "text": "저는 해외 파병 중인 장교입니다 한국 사람 만나고 싶어서 앱 가입했어요"}
+{"type": "message", "seq": 4, "room": "1:1 채팅", "sender": "제이슨", "is_user": false, "day": 1, "text": "[사진] 여기 부대 근처 풍경이에요"}
+{"type": "message", "seq": 5, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 1, "text": "멋있네요 어느 나라예요?"}
+{"type": "message", "seq": 6, "room": "1:1 채팅", "sender": "제이슨", "is_user": false, "day": 2, "text": "중동 쪽입니다 외롭네요 대화 자주 하고 싶어요"}
+{"type": "message", "seq": 7, "room": "1:1 채팅", "sender": "제이슨", "is_user": false, "day": 4, "text": "오늘도 근무 끝났어요 당신 생각 많이 했어요"}
+{"type": "message", "seq": 8, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 7, "text": "저도요 잘 지내세요"}
+{"type": "message", "seq": 9, "room": "1:1 채팅", "sender": "제이슨", "is_user": false, "day": 10, "text": "사실 제가 곧 휴가를 나오게 됐는데 문제가 생겼어요"}
+{"type": "message", "seq": 10, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 10, "text": "무슨 문제요?"}
+{"type": "message", "seq": 11, "room": "1:1 채팅", "sender": "제이슨", "is_user": false, "day": 10, "text": "휴가 서류 처리 비용이 갑자기 청구됐는데 지금 현지 계좌가 막혀서요"}
+{"type": "message", "seq": 12, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 10, "text": "얼마인데요?"}
+{"type": "message", "seq": 13, "room": "1:1 채팅", "sender": "제이슨", "is_user": false, "day": 11, "text": "이백오십만 원 정도예요 나중에 꼭 갚을게요 부탁합니다"}
+{"type": "message", "seq": 14, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 11, "text": "갑자기 너무 큰 금액이라 부담돼요"}
+{"type": "message", "seq": 15, "room": "1:1 채팅", "sender": "제이슨", "is_user": false, "day": 11, "text": "이해해요 정말 급해서 그래요 당신이 유일한 희망이에요"}
+{"type": "message", "seq": 16, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 12, "text": "죄송하지만 이 정도 금액은 못 도와주겠어요"}
+{"type": "message", "seq": 17, "room": "1:1 채팅", "sender": "제이슨", "is_user": false, "day": 12, "text": "알겠어요 그래도 연락은 계속 하고 싶어요"}

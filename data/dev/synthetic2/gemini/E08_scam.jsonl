@@ -1,0 +1,18 @@
+{"type": "meta", "case_id": "gemini_E08", "kind": "scam", "scam_type": "고수익 재택 과제", "model": "gemini", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "미디어마케팅_이팀장", "sender": "이팀장", "is_user": false, "day": 0, "text": "안녕하세요! 하루 30분 투자로 5만~15만원 버실 부업 모집글 보고 연락주셨나요?"}
+{"type": "message", "seq": 2, "room": "미디어마케팅_이팀장", "sender": "나", "is_user": true, "day": 0, "text": "네 초보자도 할 수 있는 일인가요? 컴퓨터 잘 못하는데..."}
+{"type": "message", "seq": 3, "room": "미디어마케팅_이팀장", "sender": "이팀장", "is_user": false, "day": 0, "text": "네 완전 간단합니다! 스마트폰이나 PC로 저희가 드리는 쇼핑몰 상품 좋아요 누르고 리뷰 작성 과제 수행하시면 됩니다."}
+{"type": "message", "seq": 4, "room": "미디어마케팅_이팀장", "sender": "이팀장", "is_user": false, "day": 0, "text": "첫 번째 맛보기 미션 진행해 볼게요. 아래 링크 들어가서 찜 누르시고 캡처해 주세요: (링크)"}
+{"type": "message", "seq": 5, "room": "미디어마케팅_이팀장", "sender": "나", "is_user": true, "day": 0, "text": "[사진]"}
+{"type": "message", "seq": 6, "room": "미디어마케팅_이팀장", "sender": "나", "is_user": true, "day": 0, "text": "캡처해서 보냈습니다."}
+{"type": "message", "seq": 7, "room": "미디어마케팅_이팀장", "sender": "이팀장", "is_user": false, "day": 0, "text": "확인되셨습니다! 정산금 1만원 지급을 위해 계좌번호 부탁드립니다."}
+{"type": "message", "seq": 8, "room": "미디어마케팅_이팀장", "sender": "나", "is_user": true, "day": 0, "text": "OO은행 (계좌번호) 입력했어요."}
+{"type": "message", "seq": 9, "room": "미디어마케팅_이팀장", "sender": "이팀장", "is_user": false, "day": 0, "text": "10,000원 입금 완료했습니다! 이제 본 미션 들어갈게요."}
+{"type": "message", "seq": 10, "room": "미디어마케팅_이팀장", "sender": "이팀장", "is_user": false, "day": 1, "text": "본 미션은 상품 구매 지수 높이기 과제입니다. 회원님이 미리 포인트 충전 후 구매 버튼 누르면 결제액+수수료 20% 바로 당일 환급됩니다."}
+{"type": "message", "seq": 11, "room": "미디어마케팅_이팀장", "sender": "이팀장", "is_user": false, "day": 1, "text": "1번 미션 금액은 30만원입니다. 충전 계좌로 300,000원 입금해 주시면 36만원으로 되돌려드립니다."}
+{"type": "message", "seq": 12, "room": "미디어마케팅_이팀장", "sender": "나", "is_user": true, "day": 1, "text": "제 돈을 먼저 입금해야 하나요? 약간 겁나는데요."}
+{"type": "message", "seq": 13, "room": "미디어마케팅_이팀장", "sender": "이팀장", "is_user": false, "day": 1, "text": "저희 사업자등록증[사진] 확인해 보세요. 정식 법인 마케팅 업체입니다."}
+{"type": "message", "seq": 14, "room": "미디어마케팅_이팀장", "sender": "나", "is_user": true, "day": 1, "text": "알겠습니다 30만원 입금했어요."}
+{"type": "message", "seq": 15, "room": "미디어마케팅_이팀장", "sender": "이팀장", "is_user": false, "day": 1, "text": "네 수령되었습니다. 연속 3회 과제 완성하셔야 일괄 출금 승인되는 시스템이라, 다음 2차 120만원 과제 진행 부탁드립니다!"}
+{"type": "message", "seq": 16, "room": "미디어마케팅_이팀장", "sender": "나", "is_user": true, "day": 1, "text": "예? 연속 과제라는 말은 없었잖아요! 30만원 그냥 돌려주세요!"}
+{"type": "message", "seq": 17, "room": "미디어마케팅_이팀장", "sender": "이팀장", "is_user": false, "day": 1, "text": "중도 포기 시 시스템 자동 락이 걸려 원금 환급도 불가능하십니다. 120만원 채우셔야 30만원 포함 전체 정산됩니다."}

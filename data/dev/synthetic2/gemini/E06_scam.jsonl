@@ -1,0 +1,17 @@
+{"type": "meta", "case_id": "gemini_E06", "kind": "scam", "scam_type": "투자 동호회 운영자의 1:1 연락", "model": "gemini", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "박회장_1:1", "sender": "박회장", "is_user": false, "day": 0, "text": "주식 대박 동호회 회원님 계시지요? 운영자 박회장입니다."}
+{"type": "message", "seq": 2, "room": "박회장_1:1", "sender": "나", "is_user": true, "day": 0, "text": "아 네! 회장님 안녕하세요. 늘 올려주시는 시황 분석 잘 보고 있습니다."}
+{"type": "message", "seq": 3, "room": "박회장_1:1", "sender": "박회장", "is_user": false, "day": 0, "text": "다름이 아니라, 동호회 게시판에는 보안상 못 올리는 특급 세력주 정보가 있어서 개인 메시지 드렸습니다."}
+{"type": "message", "seq": 4, "room": "박회장_1:1", "sender": "나", "is_user": true, "day": 0, "text": "저한테까지 개인 톡을 주시다니 영광입니다. 어떤 종목인가요?"}
+{"type": "message", "seq": 5, "room": "박회장_1:1", "sender": "박회장", "is_user": false, "day": 0, "text": "다음 달 바이오 임상 3상 승인 공시 예정인 비상장 기업입니다. 현재 기관 물량 삼십만 주를 저희 동호회 우수회원 전용으로 배정받았습니다."}
+{"type": "message", "seq": 6, "room": "박회장_1:1", "sender": "박회장", "is_user": false, "day": 0, "text": "현재 장외가 주당 5,000원인데, 상장 확정시 3만원 이상 슛팅 나옵니다."}
+{"type": "message", "seq": 7, "room": "박회장_1:1", "sender": "나", "is_user": true, "day": 0, "text": "우와... 최소 매수 단주는 얼마나 되나요?"}
+{"type": "message", "seq": 8, "room": "박회장_1:1", "sender": "박회장", "is_user": false, "day": 0, "text": "기본 1,000주 단위로 신청 받습니다. 즉 오백만 원부터 참여 가능하십니다."}
+{"type": "message", "seq": 9, "room": "박회장_1:1", "sender": "박회장", "is_user": false, "day": 0, "text": "[사진]"}
+{"type": "message", "seq": 10, "room": "박회장_1:1", "sender": "박회장", "is_user": false, "day": 0, "text": "이건 주주명부 및 증권사 인수 계약서입니다."}
+{"type": "message", "seq": 11, "room": "박회장_1:1", "sender": "나", "is_user": true, "day": 1, "text": "회장님, 제가 지금 여유 자금이 300만원밖에 없는데 혹시 600주만 먼저 구매할 수 있을까요?"}
+{"type": "message", "seq": 12, "room": "박회장_1:1", "sender": "박회장", "is_user": false, "day": 1, "text": "음... 원래는 안 되는데, 특별히 제 개인 물량에서 차감해서 진행해 드릴게요."}
+{"type": "message", "seq": 13, "room": "박회장_1:1", "sender": "박회장", "is_user": false, "day": 1, "text": "300만 원 선입금 주시면 주식 명의개서 절차 진행해 드리겠습니다."}
+{"type": "message", "seq": 14, "room": "박회장_1:1", "sender": "박회장", "is_user": false, "day": 1, "text": "OO은행 (계좌번호) 예금주: 박OO"}
+{"type": "message", "seq": 15, "room": "박회장_1:1", "sender": "나", "is_user": true, "day": 1, "text": "회사 계좌가 아니라 회장님 개인 계좌로 보내야 하나요?"}
+{"type": "message", "seq": 16, "room": "박회장_1:1", "sender": "박회장", "is_user": false, "day": 1, "text": "제가 총괄 매집해서 법인에 일괄 송금하는 시스템이라 그렇습니다. 의심스러우시면 이번 기회 넘기셔도 됩니다."}

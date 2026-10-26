@@ -1,0 +1,16 @@
+{"type": "meta", "case_id": "gemini_E05", "kind": "scam", "scam_type": "출금하려면 세금·수수료를 먼저 내라는 요구", "model": "gemini", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "△△인베스트_고객센터", "sender": "고객센터", "is_user": false, "day": 0, "text": "안녕하세요 회원님. △△인베스트 고객지원팀입니다."}
+{"type": "message", "seq": 2, "room": "△△인베스트_고객센터", "sender": "나", "is_user": true, "day": 0, "text": "네 어제 신청한 4500만원 출금 처리가 아직 안 되어서 메시지 보냅니다."}
+{"type": "message", "seq": 3, "room": "△△인베스트_고객센터", "sender": "고객센터", "is_user": false, "day": 0, "text": "확인 결과, 회원님의 총 수익금에 대한 소득세 원천징수 대상 건으로 확인되었습니다."}
+{"type": "message", "seq": 4, "room": "△△인베스트_고객센터", "sender": "나", "is_user": true, "day": 0, "text": "네? 원천징수면 출금 금액에서 차감하고 주면 되는 거 아닌가요?"}
+{"type": "message", "seq": 5, "room": "△△인베스트_고객센터", "sender": "고객센터", "is_user": false, "day": 0, "text": "당사는 관련 금융법상 출금액 차감 방식이 불가하며, 별도의 세금 납부 전용 계좌로 지정된 세액이 완납되어야만 정산 시스템이 개설됩니다."}
+{"type": "message", "seq": 6, "room": "△△인베스트_고객센터", "sender": "나", "is_user": true, "day": 0, "text": "세금이 얼마나 나오는데요?"}
+{"type": "message", "seq": 7, "room": "△△인베스트_고객센터", "sender": "고객센터", "is_user": false, "day": 0, "text": "수익금 4,500만 원의 22%에 해당하는 990만 원입니다."}
+{"type": "message", "seq": 8, "room": "△△인베스트_고객센터", "sender": "나", "is_user": true, "day": 0, "text": "무슨 세금을 천만 원 가까이 내라 하나요? 출금금액에서 떼고 주세요 제발."}
+{"type": "message", "seq": 9, "room": "△△인베스트_고객센터", "sender": "고객센터", "is_user": false, "day": 0, "text": "규정상 선납이 원칙입니다. 오늘 18시까지 납부되지 않을 경우 계좌가 동결 처리되어 자금 회수가 불가능해집니다."}
+{"type": "message", "seq": 10, "room": "△△인베스트_고객센터", "sender": "고객센터", "is_user": false, "day": 0, "text": "납부 계좌: OO은행 (계좌번호) 예금주: ㈜△△파이낸스"}
+{"type": "message", "seq": 11, "room": "△△인베스트_고객센터", "sender": "나", "is_user": true, "day": 1, "text": "겨우 돈 마련해서 990만 원 보냈습니다. 빨리 출금해 주세요."}
+{"type": "message", "seq": 12, "room": "△△인베스트_고객센터", "sender": "고객센터", "is_user": false, "day": 1, "text": "입금 확인되셨습니다. 다만, 회원님 계좌가 타인 명의 의심 계좌로 분류되어 금융감독원 이상거래 탐지시스템(FDS)에 걸렸습니다."}
+{"type": "message", "seq": 13, "room": "△△인베스트_고객센터", "sender": "고객센터", "is_user": false, "day": 1, "text": "해제를 위해서는 보증금 성격의 500만 원을 추가로 예치하셔야 출금 정상화가 가능합니다."}
+{"type": "message", "seq": 14, "room": "△△인베스트_고객센터", "sender": "나", "is_user": true, "day": 1, "text": "아니 또 돈을 내라니요? 이거 사기 아니에요? 당장 내 돈 돌려주세요!"}
+{"type": "message", "seq": 15, "room": "△△인베스트_고객센터", "sender": "고객센터", "is_user": false, "day": 1, "text": "수수료 및 보증 미납 시 출금 불가능하며 당사는 책임지지 않습니다."}

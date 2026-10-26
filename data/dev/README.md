@@ -18,7 +18,7 @@
 
 ## 합성 대화 2차 (`synthetic2/`, 작업 4-1)
 - 지시문: [docs/dev/05_synthetic_round2_prompt.md](../../docs/dev/05_synthetic_round2_prompt.md). 말투·금액 표기·돌려 말하기를 다양하게 요청함
-- ChatGPT 12건(메시지 148개), Claude 12건(249개). Gemini 결과는 기준 미달이라 `raw/dev2_gemini_rejected.csv`로 보관하고 다시 받음
+- ChatGPT 12건(메시지 148개), Claude 12건(249개), Gemini 12건(188개, 예시 문구를 뺀 2차-B 지시문으로 다시 받음), Grok 12건(201개, 2차-B 지시문, 다른 유형). 처음 받은 Gemini 결과는 기준 미달이라 `raw/dev2_gemini_rejected.csv`로 보관
 - 지시문의 예시 문구를 그대로 쓴 메시지는 규칙을 고치는 근거로 쓰지 않음 (05 문서 "받은 결과 점검")
 
 ## AI-Hub Training 일반 대화 (200건)

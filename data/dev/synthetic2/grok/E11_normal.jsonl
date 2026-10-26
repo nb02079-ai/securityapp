@@ -1,0 +1,16 @@
+{"type": "meta", "case_id": "grok_E11", "kind": "normal", "scam_type": "학부모 단톡방 체험학습비 안내", "model": "grok", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "3학년2반 학부모", "sender": "담임선생님", "is_user": false, "day": 0, "text": "안녕하세요 이번 주 금요일 체험학습 안내드립니다"}
+{"type": "message", "seq": 2, "room": "3학년2반 학부모", "sender": "담임선생님", "is_user": false, "day": 0, "text": "장소는 시립박물관이며 참가비는 일인당 만 오천 원입니다"}
+{"type": "message", "seq": 3, "room": "3학년2반 학부모", "sender": "학부모A", "is_user": false, "day": 0, "text": "네 알겠습니다"}
+{"type": "message", "seq": 4, "room": "3학년2반 학부모", "sender": "나", "is_user": true, "day": 0, "text": "급식비는 포함인가요?"}
+{"type": "message", "seq": 5, "room": "3학년2반 학부모", "sender": "담임선생님", "is_user": false, "day": 0, "text": "네 점심 도시락 비용 포함된 금액입니다"}
+{"type": "message", "seq": 6, "room": "3학년2반 학부모", "sender": "담임선생님", "is_user": false, "day": 1, "text": "입금은 내일까지 OO은행 (계좌번호) 으로 부탁드립니다"}
+{"type": "message", "seq": 7, "room": "3학년2반 학부모", "sender": "학부모B", "is_user": false, "day": 1, "text": "예금주 성함이 어떻게 되나요"}
+{"type": "message", "seq": 8, "room": "3학년2반 학부모", "sender": "담임선생님", "is_user": false, "day": 1, "text": "예금주 3학년2반운영비 입니다"}
+{"type": "message", "seq": 9, "room": "3학년2반 학부모", "sender": "나", "is_user": true, "day": 1, "text": "방금 입금했습니다"}
+{"type": "message", "seq": 10, "room": "3학년2반 학부모", "sender": "학부모A", "is_user": false, "day": 2, "text": "저도 보냈어요"}
+{"type": "message", "seq": 11, "room": "3학년2반 학부모", "sender": "담임선생님", "is_user": false, "day": 2, "text": "확인 감사합니다 아직 미입금 학부모는 내일까지 부탁드립니다"}
+{"type": "message", "seq": 12, "room": "3학년2반 학부모", "sender": "학부모C", "is_user": false, "day": 3, "text": "오늘 입금할게요"}
+{"type": "message", "seq": 13, "room": "3학년2반 학부모", "sender": "나", "is_user": true, "day": 3, "text": "아이 준비물 따로 있나요?"}
+{"type": "message", "seq": 14, "room": "3학년2반 학부모", "sender": "담임선생님", "is_user": false, "day": 3, "text": "물과 필기구만 챙기시면 됩니다"}
+{"type": "message", "seq": 15, "room": "3학년2반 학부모", "sender": "담임선생님", "is_user": false, "day": 4, "text": "모두 입금 확인됐습니다 금요일에 뵙겠습니다"}

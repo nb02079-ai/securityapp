@@ -1,0 +1,16 @@
+{"type": "meta", "case_id": "gemini_E04", "kind": "scam", "scam_type": "대출을 받아 투자하라는 권유", "model": "gemini", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "OO자산관리_김팀장", "sender": "김팀장", "is_user": false, "day": 0, "text": "[WEB 발신] (광고) 저금리 대환대출 및 투자 자금 원스톱 지원 안내 (전화번호)"}
+{"type": "message", "seq": 2, "room": "OO자산관리_김팀장", "sender": "나", "is_user": true, "day": 0, "text": "문자 보고 연락드립니다. 신용등급 낮아도 대출 가능한가요?"}
+{"type": "message", "seq": 3, "room": "OO자산관리_김팀장", "sender": "김팀장", "is_user": false, "day": 0, "text": "네 고객님 안녕하십니까. OO자산관리 김현우 팀장입니다."}
+{"type": "message", "seq": 4, "room": "OO자산관리_김팀장", "sender": "김팀장", "is_user": false, "day": 0, "text": "현재 정부 지원 정책 자금 연계 상품이 있어서 2~3%대 저금리로 최대 8,000만원까지 한도 나오십니다."}
+{"type": "message", "seq": 5, "room": "OO자산관리_김팀장", "sender": "나", "is_user": true, "day": 0, "text": "아 그래요? 제가 제2금융권 대출이 있어서 이자가 너무 부담스러웠거든요."}
+{"type": "message", "seq": 6, "room": "OO자산관리_김팀장", "sender": "김팀장", "is_user": false, "day": 1, "text": "네, 다만 한도를 최대한으로 끌어올리기 위해서는 기존 대출 상환 이력 및 투자 자산 보유 실적이 필요합니다."}
+{"type": "message", "seq": 7, "room": "OO자산관리_김팀장", "sender": "김팀장", "is_user": false, "day": 1, "text": "저희 제휴 캐피탈사를 통해 우선 3천만 원 신용대출을 받으신 뒤, 해당 자금을 저희 비상장주식 펀드에 2주간 예치하시는 조건입니다."}
+{"type": "message", "seq": 8, "room": "OO자산관리_김팀장", "sender": "나", "is_user": true, "day": 1, "text": "대출을 또 받아서 투자하라고요? 그건 좀 위험하지 않나요?"}
+{"type": "message", "seq": 9, "room": "OO자산관리_김팀장", "sender": "김팀장", "is_user": false, "day": 1, "text": "절대 아닙니다. 2주 뒤 비상장주식 상장 시 시세차익으로 대출금 전액 상환되고 원금 외에 확정 수익 20%가 추가로 발생합니다."}
+{"type": "message", "seq": 10, "room": "OO자산관리_김팀장", "sender": "김팀장", "is_user": false, "day": 1, "text": "즉, 고객님 돈 한 푼 안 들이고 대출 이자 해결하면서 600만 원 상당의 순수익을 얻어가시는 구조입니다."}
+{"type": "message", "seq": 11, "room": "OO자산관리_김팀장", "sender": "나", "is_user": true, "day": 1, "text": "만약 상장이 안 되면 대출금은 제가 다 갚아야 하는 거잖아요?"}
+{"type": "message", "seq": 12, "room": "OO자산관리_김팀장", "sender": "김팀장", "is_user": false, "day": 1, "text": "저희가 지급보증서[파일] 발급해 드리기 때문에 법적 책임은 모두 저희 회사에 있습니다."}
+{"type": "message", "seq": 13, "room": "OO자산관리_김팀장", "sender": "김팀장", "is_user": false, "day": 1, "text": "오늘 진행하시면 대출 실행액 중 투자 예치금 3,000만원을 지정된 수탁 계좌로 바로 집행해 드립니다."}
+{"type": "message", "seq": 14, "room": "OO자산관리_김팀장", "sender": "나", "is_user": true, "day": 1, "text": "죄송하지만 빚내서 투자하는 건 안 하고 싶네요. 안 하겠습니다."}
+{"type": "message", "seq": 15, "room": "OO자산관리_김팀장", "sender": "김팀장", "is_user": false, "day": 1, "text": "고객님 이런 좋은 기회 진짜 다시 안 옵니다. 다시 생각해 보세요."}

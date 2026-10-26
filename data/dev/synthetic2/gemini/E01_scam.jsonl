@@ -1,0 +1,18 @@
+{"type": "meta", "case_id": "gemini_E01", "kind": "scam", "scam_type": "유명 투자자 사칭 강의방", "model": "gemini", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "★OO선생님의 해외선물 무료 리딩방★", "sender": "OO선생님", "is_user": false, "day": 0, "text": "반갑습니다 여러분. 오늘 미국 증시 여파로 다들 걱정 많으셨죠?"}
+{"type": "message", "seq": 2, "room": "★OO선생님의 해외선물 무료 리딩방★", "sender": "OO선생님", "is_user": false, "day": 0, "text": "하지만 위기는 곧 기회입니다. 저희 전담팀에서 준비한 야간 포지션 공유해 드립니다."}
+{"type": "message", "seq": 3, "room": "★OO선생님의 해외선물 무료 리딩방★", "sender": "나", "is_user": true, "day": 0, "text": "선생님 어제 일러주신 타점에서 수익 났어요! 감사합니다."}
+{"type": "message", "seq": 4, "room": "★OO선생님의 해외선물 무료 리딩방★", "sender": "OO선생님", "is_user": false, "day": 0, "text": "축하합니다. 하지만 공개방에서 드리는 정보는 전체 전략의 20% 수준에 불과합니다."}
+{"type": "message", "seq": 5, "room": "★OO선생님의 해외선물 무료 리딩방★", "sender": "OO선생님", "is_user": false, "day": 0, "text": "이번 주 금요일 비농업 고용지수 발표 때 500% 이상 수익 목표로 하는 VIP 프로젝트 인원을 모집합니다."}
+{"type": "message", "seq": 6, "room": "★OO선생님의 해외선물 무료 리딩방★", "sender": "수석팀장", "is_user": false, "day": 0, "text": "[사진]"}
+{"type": "message", "seq": 7, "room": "★OO선생님의 해외선물 무료 리딩방★", "sender": "수석팀장", "is_user": false, "day": 0, "text": "방금 입증된 계좌 내역 확인하세요. 참여 희망하시는 분은 제 개인 톡으로 메시지 주세요."}
+{"type": "message", "seq": 8, "room": "수석팀장 1:1 상담", "sender": "나", "is_user": true, "day": 1, "text": "팀장님 VIP 프로젝트 참여하려면 조건이 어떻게 되나요?"}
+{"type": "message", "seq": 9, "room": "수석팀장 1:1 상담", "sender": "수석팀장", "is_user": false, "day": 1, "text": "네 회원님. 최소 운용 자산 금액이 1천500만원 이상이어야 탑승 가능하십니다."}
+{"type": "message", "seq": 10, "room": "수석팀장 1:1 상담", "sender": "나", "is_user": true, "day": 1, "text": "1,500만원이요? 생각보다 단위가 크네요..."}
+{"type": "message", "seq": 11, "room": "수석팀장 1:1 상담", "sender": "수석팀장", "is_user": false, "day": 1, "text": "시드머니가 커야 리스크 관리와 확실한 수익 보장이 됩니다. 오늘까지만 증거금 500만원 선입금 조건으로 예외 승인해 드릴게요."}
+{"type": "message", "seq": 12, "room": "수석팀장 1:1 상담", "sender": "수석팀장", "is_user": false, "day": 1, "text": "지정 법인 거래 계좌 안내해 드릴 테니 이쪽으로 먼저 보증금을 송금해 주시면 계정 발급 도와드립니다."}
+{"type": "message", "seq": 13, "room": "수석팀장 1:1 상담", "sender": "수석팀장", "is_user": false, "day": 1, "text": "OO증권 연계계좌: (계좌번호)"}
+{"type": "message", "seq": 14, "room": "수석팀장 1:1 상담", "sender": "나", "is_user": true, "day": 1, "text": "혹시 선생님 이름으로 된 공식 법인 계좌가 맞나요? 개인 이름 같은데요..."}
+{"type": "message", "seq": 15, "room": "수석팀장 1:1 상담", "sender": "수석팀장", "is_user": false, "day": 1, "text": "해외 세금 분리 과세 문제 때문에 제휴 파트너사 명의를 이용하는 것입니다. 문제 생기면 저희가 전액 보상합니다."}
+{"type": "message", "seq": 16, "room": "수석팀장 1:1 상담", "sender": "나", "is_user": true, "day": 1, "text": "조금만 더 고민해 보고 연락드려도 될까요?"}
+{"type": "message", "seq": 17, "room": "수석팀장 1:1 상담", "sender": "수석팀장", "is_user": false, "day": 1, "text": "오늘 마감하면 다음 분기까지 인원 추가 안 받습니다. 빠르게 결정하셔야 합니다."}

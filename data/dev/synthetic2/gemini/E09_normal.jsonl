@@ -1,0 +1,16 @@
+{"type": "meta", "case_id": "gemini_E09", "kind": "normal", "scam_type": "형제 사이 부모님 병원비 나누기", "model": "gemini", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "삼남매 단톡방", "sender": "큰형", "is_user": false, "day": 0, "text": "얘들아 아빠 오늘 퇴원 수속 마치셨다."}
+{"type": "message", "seq": 2, "room": "삼남매 단톡방", "sender": "둘째누나", "is_user": false, "day": 0, "text": "아 다행이다! 아빠 상태는 좀 어떠셔? 통증은 많이 줄으셨대?"}
+{"type": "message", "seq": 3, "room": "삼남매 단톡방", "sender": "큰형", "is_user": false, "day": 0, "text": "응 걸어 다니시는 건 훨씬 편해지셨어. 약 잘 챙겨 드시면 될 듯."}
+{"type": "message", "seq": 4, "room": "삼남매 단톡방", "sender": "나", "is_user": true, "day": 0, "text": "형 고생 많았어! 이번 병원비랑 수술비 최종 얼마 나왔어?"}
+{"type": "message", "seq": 5, "room": "삼남매 단톡방", "sender": "큰형", "is_user": false, "day": 0, "text": "[사진]"}
+{"type": "message", "seq": 6, "room": "삼남매 단톡방", "sender": "큰형", "is_user": false, "day": 0, "text": "영수증 찍어서 올렸어. 총합 360만 원 나왔다. 건강보험 적용되어서 생각보다 적게 나왔네."}
+{"type": "message", "seq": 7, "room": "삼남매 단톡방", "sender": "둘째누나", "is_user": false, "day": 0, "text": "그럼 셋이서 3분의 1씩 분담하면 되지? 인당 120만 원씩!"}
+{"type": "message", "seq": 8, "room": "삼남매 단톡방", "sender": "큰형", "is_user": false, "day": 0, "text": "응 120만원씩 보내주면 돼. 내 계좌로 입금 부탁해."}
+{"type": "message", "seq": 9, "room": "삼남매 단톡방", "sender": "큰형", "is_user": false, "day": 0, "text": "OO은행 (계좌번호) 김OO"}
+{"type": "message", "seq": 10, "room": "삼남매 단톡방", "sender": "둘째누나", "is_user": false, "day": 0, "text": "나 방금 형 계좌로 백이십 보내 완료했어!"}
+{"type": "message", "seq": 11, "room": "삼남매 단톡방", "sender": "나", "is_user": true, "day": 0, "text": "형 나 지금 계좌이체 하려고 하는데 토스 송금 한도 걸려서 나누어 보내야 할 것 같아."}
+{"type": "message", "seq": 12, "room": "삼남매 단톡방", "sender": "나", "is_user": true, "day": 0, "text": "우선 100만원 보냈고 나머지 20만원은 12시 지나서 보낼게!"}
+{"type": "message", "seq": 13, "room": "삼남매 단톡방", "sender": "큰형", "is_user": false, "day": 0, "text": "오케이 확인했어. 천천히 보내라 급한 거 아니니까."}
+{"type": "message", "seq": 14, "room": "삼남매 단톡방", "sender": "나", "is_user": true, "day": 1, "text": "형 잔액 20만원도 방금 입금 완료!"}
+{"type": "message", "seq": 15, "room": "삼남매 단톡방", "sender": "큰형", "is_user": false, "day": 1, "text": "고맙다 다들! 주말에 아빠 모시고 다 같이 식사나 하자."}

@@ -1,0 +1,17 @@
+{"type": "meta", "case_id": "grok_E08", "kind": "scam", "scam_type": "고액 알바 선입금 교육비", "model": "grok", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1 채팅", "sender": "채용담당", "is_user": false, "day": 0, "text": "지원해 주셔서 감사합니다 서류 합격하셨습니다"}
+{"type": "message", "seq": 2, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 0, "text": "정말요? 어떤 일인가요?"}
+{"type": "message", "seq": 3, "room": "1:1 채팅", "sender": "채용담당", "is_user": false, "day": 0, "text": "온라인 쇼핑몰 상품 관리 및 리뷰 작성 업무입니다"}
+{"type": "message", "seq": 4, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 0, "text": "시급이 어떻게 되나요?"}
+{"type": "message", "seq": 5, "room": "1:1 채팅", "sender": "채용담당", "is_user": false, "day": 0, "text": "시급 이만 오천 원이며 하루 네 시간 근무 기준입니다"}
+{"type": "message", "seq": 6, "room": "1:1 채팅", "sender": "채용담당", "is_user": false, "day": 1, "text": "정식 배정 전 필수 교육 과정이 있습니다"}
+{"type": "message", "seq": 7, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 1, "text": "교육은 어떻게 받나요?"}
+{"type": "message", "seq": 8, "room": "1:1 채팅", "sender": "채용담당", "is_user": false, "day": 1, "text": "온라인 영상 교육이며 교재비와 시스템 이용료가 발생합니다"}
+{"type": "message", "seq": 9, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 1, "text": "비용이 얼마죠?"}
+{"type": "message", "seq": 10, "room": "1:1 채팅", "sender": "채용담당", "is_user": false, "day": 2, "text": "총 육십칠만 원입니다 교육 수료 후 첫 급여에서 전액 공제해 드립니다"}
+{"type": "message", "seq": 11, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 2, "text": "선입금인가요?"}
+{"type": "message", "seq": 12, "room": "1:1 채팅", "sender": "채용담당", "is_user": false, "day": 2, "text": "네 계좌는 △△은행 (계좌번호) 예금주 교육센터입니다"}
+{"type": "message", "seq": 13, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 2, "text": "좀 부담스러운 금액이네요"}
+{"type": "message", "seq": 14, "room": "1:1 채팅", "sender": "채용담당", "is_user": false, "day": 3, "text": "오늘까지 입금 확인되면 내일부터 교육 시작 가능합니다"}
+{"type": "message", "seq": 15, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 3, "text": "다른 알바 알아보겠습니다"}
+{"type": "message", "seq": 16, "room": "1:1 채팅", "sender": "채용담당", "is_user": false, "day": 3, "text": "아쉽네요 다음 기회에 다시 지원해 주세요"}

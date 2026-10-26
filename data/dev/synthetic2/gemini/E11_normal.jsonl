@@ -1,0 +1,17 @@
+{"type": "meta", "case_id": "gemini_E11", "kind": "normal", "scam_type": "중고 명품 직거래", "model": "gemini", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "당근마켓 1:1톡", "sender": "명품매니아", "is_user": false, "day": 0, "text": "안녕하세요! 올려주신 명품 시계 아직 판매 중인가요?"}
+{"type": "message", "seq": 2, "room": "당근마켓 1:1톡", "sender": "나", "is_user": true, "day": 0, "text": "네 안녕하세요! 구매 문의 주셔서 감사합니다. 아직 판매 중입니다."}
+{"type": "message", "seq": 3, "room": "당근마켓 1:1톡", "sender": "명품매니아", "is_user": false, "day": 0, "text": "보증서랑 정품 케이스 다 포함된 구성 맞나요? 시계 용두 쪽에 상처는 없는지 궁금해요."}
+{"type": "message", "seq": 4, "room": "당근마켓 1:1톡", "sender": "나", "is_user": true, "day": 0, "text": "네 보증서, 풀박스 그대로 있구요, 용두 부분 근접 촬영 사진 보내드릴게요."}
+{"type": "message", "seq": 5, "room": "당근마켓 1:1톡", "sender": "나", "is_user": true, "day": 0, "text": "[사진]"}
+{"type": "message", "seq": 6, "room": "당근마켓 1:1톡", "sender": "명품매니아", "is_user": false, "day": 0, "text": "사진 확인했습니다. 상태 깨끗하네요! 450만원에 올려두셨던데 혹시 430만원에 네고 가능할까요?"}
+{"type": "message", "seq": 7, "room": "당근마켓 1:1톡", "sender": "나", "is_user": true, "day": 0, "text": "음... 고가 제품이라 가격을 많이 깎아드리긴 어렵고 440만 원까지는 맞춰드릴 수 있습니다."}
+{"type": "message", "seq": 8, "room": "당근마켓 1:1톡", "sender": "명품매니아", "is_user": false, "day": 0, "text": "네 알겠습니다! 440만원에 구매할게요. 금액이 커서 직거래로 진행하고 싶습니다."}
+{"type": "message", "seq": 9, "room": "당근마켓 1:1톡", "sender": "나", "is_user": true, "day": 0, "text": "좋습니다. 저도 직거래를 선호합니다. 지역이 어디신가요?"}
+{"type": "message", "seq": 10, "room": "당근마켓 1:1톡", "sender": "명품매니아", "is_user": false, "day": 0, "text": "저는 강남역 근처입니다. 오늘 저녁 7시쯤 강남역 인근 은행 내부나 카페에서 볼 수 있을까요?"}
+{"type": "message", "seq": 11, "room": "당근마켓 1:1톡", "sender": "나", "is_user": true, "day": 0, "text": "네 퇴근하고 가면 딱 맞겠네요. 강남역 2번 출구 앞 카페에서 뵙죠."}
+{"type": "message", "seq": 12, "room": "당근마켓 1:1톡", "sender": "명품매니아", "is_user": false, "day": 1, "text": "카페 도착해서 시계 실물 잘 확인했습니다! 상태 아주 마음에 드네요."}
+{"type": "message", "seq": 13, "room": "당근마켓 1:1톡", "sender": "명품매니아", "is_user": false, "day": 1, "text": "현금 440만 원 현장에서 계좌로 바로 뱅킹 이체해 드릴게요. 계좌번호 알려주세요."}
+{"type": "message", "seq": 14, "room": "당근마켓 1:1톡", "sender": "나", "is_user": true, "day": 1, "text": "네! OO은행 (계좌번호) 예금주 홍길동입니다."}
+{"type": "message", "seq": 15, "room": "당근마켓 1:1톡", "sender": "명품매니아", "is_user": false, "day": 1, "text": "사백사십만 원 송금 완료했습니다! 입금 확인해 보세요."}
+{"type": "message", "seq": 16, "room": "당근마켓 1:1톡", "sender": "나", "is_user": true, "day": 1, "text": "네 방금 입금 알림 들어왔습니다. 좋은 거래 감사합니다! 예쁘게 차세요."}

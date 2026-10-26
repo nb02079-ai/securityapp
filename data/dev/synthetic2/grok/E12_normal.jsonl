@@ -1,0 +1,18 @@
+{"type": "meta", "case_id": "grok_E12", "kind": "normal", "scam_type": "회사 동료 중고 노트북 거래", "model": "grok", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1 채팅", "sender": "김대리", "is_user": false, "day": 0, "text": "혹시 노트북 필요하신 분 계세요?"}
+{"type": "message", "seq": 2, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 0, "text": "어떤 사양이에요?"}
+{"type": "message", "seq": 3, "room": "1:1 채팅", "sender": "김대리", "is_user": false, "day": 0, "text": "작년에 산 거고 i5에 16기가 램입니다"}
+{"type": "message", "seq": 4, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 0, "text": "상태 괜찮아요?"}
+{"type": "message", "seq": 5, "room": "1:1 채팅", "sender": "김대리", "is_user": false, "day": 0, "text": "기스 거의 없고 배터리도 아직 양호해요 [사진]"}
+{"type": "message", "seq": 6, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 1, "text": "얼마에 파실 건가요?"}
+{"type": "message", "seq": 7, "room": "1:1 채팅", "sender": "김대리", "is_user": false, "day": 1, "text": "사십오만 원에 드릴게요"}
+{"type": "message", "seq": 8, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 1, "text": "조금 비싸 보이는데요"}
+{"type": "message", "seq": 9, "room": "1:1 채팅", "sender": "김대리", "is_user": false, "day": 1, "text": "그럼 사십만 원에 하시겠어요?"}
+{"type": "message", "seq": 10, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 2, "text": "네 그 정도면 괜찮아요"}
+{"type": "message", "seq": 11, "room": "1:1 채팅", "sender": "김대리", "is_user": false, "day": 2, "text": "계좌는 OO은행 (계좌번호) 입니다"}
+{"type": "message", "seq": 12, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 2, "text": "입금할게요 내일 회사 가서 받을게요"}
+{"type": "message", "seq": 13, "room": "1:1 채팅", "sender": "김대리", "is_user": false, "day": 2, "text": "네 입금 확인되면 바로 챙기겠습니다"}
+{"type": "message", "seq": 14, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 3, "text": "보냈어요"}
+{"type": "message", "seq": 15, "room": "1:1 채팅", "sender": "김대리", "is_user": false, "day": 3, "text": "확인했습니다 내일 오전에 드림"}
+{"type": "message", "seq": 16, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 4, "text": "잘 받았어요 감사합니다"}
+{"type": "message", "seq": 17, "room": "1:1 채팅", "sender": "김대리", "is_user": false, "day": 4, "text": "네 잘 쓰세요"}

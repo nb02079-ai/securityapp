@@ -1,0 +1,18 @@
+{"type": "meta", "case_id": "grok_E04", "kind": "scam", "scam_type": "가상 자산 손실 보전 보험 가입 권유", "model": "grok", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1 채팅", "sender": "상담원", "is_user": false, "day": 0, "text": "고객님 최근 거래 내역 확인 결과 손실이 발생하신 것으로 보입니다"}
+{"type": "message", "seq": 2, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 0, "text": "네 좀 있었어요"}
+{"type": "message", "seq": 3, "room": "1:1 채팅", "sender": "상담원", "is_user": false, "day": 0, "text": "저희 쪽에서 손실 보전 프로그램 안내 드리고 있습니다"}
+{"type": "message", "seq": 4, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 0, "text": "그게 뭔가요?"}
+{"type": "message", "seq": 5, "room": "1:1 채팅", "sender": "상담원", "is_user": false, "day": 0, "text": "일정 조건 충족 시 손실 금액의 일부를 보전해 드리는 제도입니다"}
+{"type": "message", "seq": 6, "room": "1:1 채팅", "sender": "상담원", "is_user": false, "day": 1, "text": "[파일] 약관 자료 보내드립니다"}
+{"type": "message", "seq": 7, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 1, "text": "가입비가 있나요?"}
+{"type": "message", "seq": 8, "room": "1:1 채팅", "sender": "상담원", "is_user": false, "day": 1, "text": "기본 보증 금액으로 일백이십만 원이 필요합니다 보전 완료 후 반환됩니다"}
+{"type": "message", "seq": 9, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 1, "text": "반환되는 거 맞죠?"}
+{"type": "message", "seq": 10, "room": "1:1 채팅", "sender": "상담원", "is_user": false, "day": 2, "text": "네 계약서에 명시되어 있습니다 입금 후 바로 심사가 시작됩니다"}
+{"type": "message", "seq": 11, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 2, "text": "계좌 알려주세요"}
+{"type": "message", "seq": 12, "room": "1:1 채팅", "sender": "상담원", "is_user": false, "day": 2, "text": "OO은행 (계좌번호) 예금주 자산보호센터입니다"}
+{"type": "message", "seq": 13, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 2, "text": "입금했어요"}
+{"type": "message", "seq": 14, "room": "1:1 채팅", "sender": "상담원", "is_user": false, "day": 3, "text": "확인됐습니다 추가 서류가 필요해서 연락드렸습니다"}
+{"type": "message", "seq": 15, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 3, "text": "또 뭐가 필요한데요?"}
+{"type": "message", "seq": 16, "room": "1:1 채팅", "sender": "상담원", "is_user": false, "day": 3, "text": "심사 수수료 성격으로 오십만 원이 더 필요합니다"}
+{"type": "message", "seq": 17, "room": "1:1 채팅", "sender": "나", "is_user": true, "day": 3, "text": "이건 좀 이상한데요 중단할게요"}
