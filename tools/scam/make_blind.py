@@ -27,6 +27,7 @@ import csv
 import json
 import os
 import random
+import re
 import sys
 
 
@@ -40,6 +41,9 @@ def room_names(msgs):
         senders = {x["sender"] for x in msgs if x["room"] == r and not x["is_user"]}
         if r.startswith("sms"):
             names[r] = "문자"
+        elif r in ("call", "video"):
+            # 새 평가 세트(holdout_v2): 전화·영상통화 녹취. 앱 알림에는 없으므로 평가기는 넣지 않지만 라벨러는 흐름을 봐야 함
+            names[r] = "전화 통화" if r == "call" else "영상통화"
         elif r.startswith("group") or len(senders) >= 2:
             n_group += 1
             names[r] = "단체방" if n_group == 1 else f"단체방 {n_group}"
@@ -58,6 +62,10 @@ def display_sender(m, room_label):
     if m["is_user"]:
         return "나"
     name = m["sender"]
+    # holdout_v2: "증권사 비서(사칭)", "지인(계정 도용)"처럼 괄호 속 판단만 지우고, 바람잡이·화력팀은 알림에 보일 법한 이름으로
+    name = re.sub(r"\((사칭|공범|계정 도용|번호 도용)\)", "", name).strip()
+    name = re.sub(r"^바람잡이", "회원", name)
+    name = re.sub(r"^화력팀", "시청자", name)
     if any(w in name for w in JUDGMENT_WORDS):
         return "발신 번호" if room_label == "문자" else "상대"
     return name

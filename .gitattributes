@@ -4,3 +4,5 @@ gradlew     text eol=lf
 *.sh        text eol=lf
 *.jar       binary
 *.xlsx      binary
+# 봉인 원본은 줄바꿈을 바꾸지 않음 (SHA-256이 그대로 맞도록, docs/holdout_v2.md)
+data/eval/holdout_v2/source_sealed.md -text

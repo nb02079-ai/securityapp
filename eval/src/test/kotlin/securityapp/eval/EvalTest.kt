@@ -136,6 +136,16 @@ class EvalTest {
         f.delete()
     }
 
+    @Test fun `전화 녹취 메시지는 엔진에 넣지 않는다`() {
+        val c = conv("scam",
+            msg(1, "상대", "안녕하세요"),
+            """{"type":"message","seq":2,"room":"call","sender":"상대","is_user":false,"channel":"voice","text":"투자 수익 계좌로 입금"}""",
+            msg(3, "상대", "네"))
+        val r = Replay.run(WordBaseline(), c).single()
+        assertEquals(listOf(1, 3), r.levels.map { it.first })
+        assertEquals(Level.OBSERVE, r.maxLevel)
+    }
+
     @Test fun `인자 읽기`() {
         val m = parseArgs(arrayOf("--input", "a", "--input", "b", "--eval-set", "--out", "o"))
         assertEquals(listOf("a", "b"), m["input"])

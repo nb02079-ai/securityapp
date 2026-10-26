@@ -9,6 +9,8 @@ data class ReplayMessage(
     val sender: String,
     val isUser: Boolean?,
     val text: String,
+    /** 전화·영상통화 녹취 (holdout_v2의 channel=voice). 앱 알림에 오지 않으므로 엔진에 넣지 않는다 (결정 26) */
+    val voice: Boolean = false,
 )
 
 /** 재생할 대화 하나 (사기 재구성, 개발용 합성, AI-Hub 일반 대화 모두 같은 모양으로 읽음) */
@@ -71,6 +73,7 @@ object Loader {
                 sender = m["sender"]?.toString() ?: throw IllegalArgumentException("$id: sender 없음"),
                 isUser = m["is_user"] as? Boolean,
                 text = m["text"]?.toString() ?: "",
+                voice = m["channel"] == "voice",
             )
         }
         require(messages.map { it.seq }.zipWithNext().all { (a, b) -> a < b }) { "$id: seq가 커지는 순서가 아닙니다" }

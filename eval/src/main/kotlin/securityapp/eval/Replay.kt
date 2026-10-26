@@ -39,6 +39,7 @@ object Replay {
         val signals = LinkedHashMap<Int, Set<Signal>>()
         val counterpart = ArrayList<Int>()
         for (m in conv.messages) {
+            if (m.voice) continue
             val isUser = if (userSender != null) m.sender == userSender else m.isUser == true
             if (isUser && !includeUser) continue
             val msg = Message(
