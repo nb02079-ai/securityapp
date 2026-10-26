@@ -47,6 +47,12 @@ class ActDetector {
         if (!sellOnly && !hit(Signal.D2, Lexicon.D2) && Lexicon.D2_CONTEXT.containsMatchIn(c)) {
             hit(Signal.D2, Lexicon.D2_GENERIC)
         }
+        // [v1.1] 투자 이야기가 나온 방에서 금액 + 시작·준비·맞춤은 투자금 요구
+        if (!sellOnly && !found.containsKey(Signal.D2) && (ctx.investTalk || Lexicon.G2_TRIGGER.containsMatchIn(c)) &&
+            Lexicon.D2_AMOUNT_VERB.containsMatchIn(c) && !Lexicon.G1.containsMatchIn(c) && !Lexicon.D2_DONE.containsMatchIn(c) &&
+            Amounts.extract(message.text).isNotEmpty()) {
+            Lexicon.D2_AMOUNT_VERB.find(c)?.let { found.putIfAbsent(Signal.D2, n.toOriginal(it.range)) }
+        }
         val d5 = hit(Signal.D5, Lexicon.D5)
         // 출금하려고 내는 돈이면 D5만 (기준표 D3 "붙이지 않는 경우")
         if (!d5) hit(Signal.D3, Lexicon.D3)
@@ -57,7 +63,11 @@ class ActDetector {
         if (!Lexicon.D7_AMOUNT_ONLY.containsMatchIn(c) && !Lexicon.D7_NOT.containsMatchIn(c)) hit(Signal.D7, Lexicon.D7)
 
         // ── P 설득 ──
-        if (!Lexicon.P1_HEDGE.containsMatchIn(c)) hit(Signal.P1, Lexicon.P1)
+        if (!Lexicon.P1_HEDGE.containsMatchIn(c)) {
+            // [v1.1] 부정한 보장("보장하지 않습니다")은 같은 길이의 빈칸으로 바꿔 위치를 지키고 다시 찾음
+            val cP1 = Lexicon.P1_NEG.replace(c) { " ".repeat(it.value.length) }
+            Lexicon.P1.find(cP1)?.let { found.putIfAbsent(Signal.P1, n.toOriginal(it.range)) }
+        }
         hit(Signal.P2, Lexicon.P2)
         hit(Signal.P3, Lexicon.P3)
         hit(Signal.P4, Lexicon.P4)
@@ -101,6 +111,7 @@ class ActDetector {
             ctx.recordUser(Lexicon.USER_REFUSAL.containsMatchIn(NormalizedText.of(message.text).compact))
         } else {
             ctx.recordCounterpart(message.sender, result.moneyTalk, result.demandAmounts)
+            if (Lexicon.G2_TRIGGER.containsMatchIn(NormalizedText.of(message.text).compact)) ctx.investTalk = true
         }
     }
 

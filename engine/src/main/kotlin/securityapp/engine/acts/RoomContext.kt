@@ -18,6 +18,10 @@ class RoomContext {
     var moneyTalkStarted = false
         private set
 
+    /** [v1.1] 상대가 투자·수익·코인 같은 이야기를 한 적이 있는 방인지 (금액 + 시작·준비 표현을 D2로 볼 때 씀) */
+    var investTalk = false
+        internal set
+
     /** 돈 이야기 없이 오간 상대방 메시지 수 (G2 판단용) */
     var nonMoneyCounterpartBefore = 0
         private set
