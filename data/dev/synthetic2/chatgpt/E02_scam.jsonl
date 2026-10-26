@@ -1,0 +1,16 @@
+{"type": "meta", "case_id": "chatgpt_E02", "kind": "scam", "scam_type": "해외 거주자 로맨스 뒤 투자", "model": "chatgpt", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "Alex", "is_user": false, "day": 0, "text": "안녕하세요. 저는 지금 해외에서 일하고 있습니다. 한국어가 조금 서툴러요."}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "안녕하세요. 프로필 보고 연락하신 거예요?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "Alex", "is_user": false, "day": 1, "text": "네. 당신의 소개글이 따뜻한 느낌이 있습니다. 저는 주말에 바다를 보러 가는 것을 좋아합니다."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "한국에는 언제 들어오세요?"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "Alex", "is_user": false, "day": 3, "text": "일정이 아직 정확하지 않습니다. 일이 끝나면 당신과 맛있는 것을 먹고 싶습니다."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "Alex", "is_user": false, "day": 4, "text": "오늘은 제가 투자로 조금 좋은 결과가 있었습니다."}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "나", "is_user": true, "day": 4, "text": "어떤 투자요?"}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "Alex", "is_user": false, "day": 5, "text": "디지털 자산 거래입니다. 복잡하지 않고 저는 작은 금액으로 시작했습니다."}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "Alex", "is_user": false, "day": 6, "text": "당신에게도 방법을 보여줄 수 있습니다. 미래를 같이 준비하는 것은 좋은 일입니다."}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 6, "text": "아직 직접 만나지도 않았는데 돈 얘기는 조금 빠른 것 같아요."}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "Alex", "is_user": false, "day": 7, "text": "미안합니다. 강요하는 뜻은 아닙니다. 다만 오늘 기회가 좋아서 공유하고 싶었습니다."}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "Alex", "is_user": false, "day": 8, "text": "앱을 설치하고 제 안내로 계정을 연결하면 됩니다."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 8, "text": "공식 앱인지 확인할 수 있는 자료부터 주세요."}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "Alex", "is_user": false, "day": 9, "text": "제가 쓰는 전용 화면이라 공개 자료는 많지 않습니다."}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "나", "is_user": true, "day": 9, "text": "그럼 진행하지 않을게요. 신뢰할 수 있는 거래소에서 직접 확인하겠습니다."}

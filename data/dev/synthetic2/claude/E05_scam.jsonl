@@ -1,0 +1,24 @@
+{"type": "meta", "case_id": "claude_E05", "kind": "scam", "scam_type": "소액 수익 선지급 단계형 투자", "model": "claude", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "정팀장", "is_user": false, "day": 0, "text": "안녕하세요. 부업 문의 남기셨죠? 하루 10분, 소액으로 수익 체험부터 해 보시는 프로그램이에요."}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "네 어떻게 하는 건데요"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "정팀장", "is_user": false, "day": 0, "text": "저희가 알려 드리는 종목에 정해진 시간에 참여만 하시면 됩니다. 첫 회는 저희 쪽 체험금으로 진행돼서 회원님 돈은 안 들어가요."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "정팀장", "is_user": false, "day": 0, "text": "체험 수익 정산됐습니다. 회원님 계좌로 30,000원 보내드렸어요. 확인해 보세요."}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "오 진짜 들어왔네요"}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "정팀장", "is_user": false, "day": 1, "text": "2단계부터는 본인 시드로 진행됩니다. 10만 원 참여하시면 당일 13만 원 정산이에요."}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "10만원이면 해 볼게요"}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "정팀장", "is_user": false, "day": 1, "text": "정산 완료. 십삼만 원 입금했습니다. 계좌 확인 부탁드려요."}
+{"type": "message", "seq": 9, "room": "단체방", "sender": "정팀장", "is_user": false, "day": 2, "text": "3단계 회원님들 공지. 오늘 참여 구간은 50만~1백만, 수익률 28%. 14시 정각 마감입니다."}
+{"type": "message", "seq": 10, "room": "단체방", "sender": "회원_은솔맘", "is_user": false, "day": 2, "text": "어제 80 참여해서 102.4 받았어요~ 처음엔 반신반의했는데 [사진]"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "저도 3단계 50 할게요"}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "정팀장", "is_user": false, "day": 2, "text": "확인했습니다. 64만 정산 예정입니다."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "64 들어왔어요 ㅎㅎ 이거 계속 돼요?"}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "정팀장", "is_user": false, "day": 3, "text": "다음은 VIP 단계예요. 오백 이상부터 가능하고 수익률 35%라 한 번에 175만 수익 보시는 거예요."}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "오백은 좀 크네요.."}
+{"type": "message", "seq": 16, "room": "1:1", "sender": "정팀장", "is_user": false, "day": 3, "text": "지금까지 수익 보신 거 생각하시면 리스크 거의 없으세요. 원하시면 3백부터도 맞춰 드릴게요."}
+{"type": "message", "seq": 17, "room": "1:1", "sender": "나", "is_user": true, "day": 4, "text": "5,000,000원 보냈어요 [사진]"}
+{"type": "message", "seq": 18, "room": "1:1", "sender": "정팀장", "is_user": false, "day": 4, "text": "확인 완료. 오늘은 단건이 아니라 연속 3회 미션이라 3회차까지 끝나야 정산됩니다."}
+{"type": "message", "seq": 19, "room": "1:1", "sender": "정팀장", "is_user": false, "day": 4, "text": "회원님 2회차에서 시간 내 참여가 안 돼서 미션 오류가 났어요. 재참여하시려면 같은 금액이 한 번 더 들어가야 해요."}
+{"type": "message", "seq": 20, "room": "1:1", "sender": "나", "is_user": true, "day": 4, "text": "네? 시간 맞춰서 했는데요. 그냥 오백 돌려주세요"}
+{"type": "message", "seq": 21, "room": "1:1", "sender": "정팀장", "is_user": false, "day": 4, "text": "오류 상태에선 출금이 잠겨요. 해제하려면 0.5천 추가 후 3회차 완료하시면 원금이랑 수익 합쳐서 1,350만 한 번에 나갑니다."}
+{"type": "message", "seq": 22, "room": "1:1", "sender": "나", "is_user": true, "day": 5, "text": "대출까지 알아보는 중이에요. 정말 이번이 마지막이죠?"}
+{"type": "message", "seq": 23, "room": "1:1", "sender": "정팀장", "is_user": false, "day": 5, "text": "네 회원님. 이번만 맞추시면 바로 정산 들어갑니다. 저도 회원님 꼭 수익 보시게 해 드리고 싶어요."}

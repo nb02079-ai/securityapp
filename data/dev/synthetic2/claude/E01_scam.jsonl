@@ -1,0 +1,26 @@
+{"type": "meta", "case_id": "claude_E01", "kind": "scam", "scam_type": "선물·옵션 리딩", "model": "claude", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "단체방(무료방)", "sender": "운영매니저 지수", "is_user": false, "day": 0, "text": "금일 공지드립니다. 오늘 밤 22시 30분 해외선물 나스닥 리딩 진행 예정입니다. 참여자분들께서는 21시 50분까지 대기 부탁드립니다."}
+{"type": "message", "seq": 2, "room": "단체방(무료방)", "sender": "회원_봄날", "is_user": false, "day": 0, "text": "어제 리딩 따라가서 +38틱 먹었습니다 감사합니다 [사진]"}
+{"type": "message", "seq": 3, "room": "단체방(무료방)", "sender": "회원_대박기원", "is_user": false, "day": 0, "text": "저도 수익 인증합니다 매니저님 덕분이에요 [사진]"}
+{"type": "message", "seq": 4, "room": "단체방(무료방)", "sender": "운영매니저 지수", "is_user": false, "day": 0, "text": "참여자분들께 알려 드립니다. 무료방은 금주까지만 운영되며 차주부터는 정회원방에서만 진입 시점이 공유됩니다."}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "운영매니저 지수", "is_user": false, "day": 0, "text": "안녕하세요 회원님. 무료방에서 꾸준히 지켜봐 주셔서 개별 안내드립니다. 정회원 전환 관련 안내 받아 보시겠어요?"}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "정회원은 뭐가 다른데요?"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "운영매니저 지수", "is_user": false, "day": 0, "text": "실시간 진입·청산 신호와 전담 매니저 배정이 포함됩니다. 회비는 1개월 기준 이백구십만 원이며 금주 신청 시 1,900,000원으로 조정됩니다."}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "좀 비싸네요. 수익 안 나면요?"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "운영매니저 지수", "is_user": false, "day": 0, "text": "월 목표 수익률 미달 시 회비 전액 반환 규정이 있습니다. 약관 첨부드립니다. [파일]"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "그럼 신청할게요. 어디로 보내면 돼요?"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "운영매니저 지수", "is_user": false, "day": 1, "text": "회원 등록 전용 계좌 안내드립니다. (계좌번호) 예금주 확인 부탁드리며 입금 후 화면 캡처 보내 주시면 됩니다."}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "보냈어요 [사진]"}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "운영매니저 지수", "is_user": false, "day": 1, "text": "확인되었습니다. 정회원방 링크 발송드립니다. (링크) 거래는 지정 HTS에서만 가능하니 설치 부탁드립니다. (링크)"}
+{"type": "message", "seq": 14, "room": "단체방(정회원방)", "sender": "운영매니저 지수", "is_user": false, "day": 2, "text": "정회원분들께 공지드립니다. 21:35 나스닥 매수 진입, 손절 없이 홀딩 바랍니다. 증거금은 최소 1천 이상 유지를 권장드립니다."}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "지정 HTS에 5백 넣고 따라갔는데 마이너스 230이에요"}
+{"type": "message", "seq": 16, "room": "1:1", "sender": "운영매니저 지수", "is_user": false, "day": 2, "text": "일시적 변동입니다. 금일 변동성이 커서 대부분 회원님들이 동일한 상황입니다. 오히려 지금이 추가 진입 구간으로 판단됩니다."}
+{"type": "message", "seq": 17, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "이제 잔고 120만 남았어요. 환불 규정 있다고 하셨잖아요"}
+{"type": "message", "seq": 18, "room": "1:1", "sender": "운영매니저 지수", "is_user": false, "day": 3, "text": "환불은 월 단위 정산 후 진행되며 리딩을 끝까지 이행하신 분에 한합니다. 중도 미이행 시 규정상 어렵습니다."}
+{"type": "message", "seq": 19, "room": "1:1", "sender": "운영매니저 지수", "is_user": false, "day": 3, "text": "대신 손실 복구 전용 VIP 프로그램이 있습니다. 복구 성공률 92%이며 참여금은 0.3천입니다."}
+{"type": "message", "seq": 20, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "0.3천이면 삼백이요? 또 내야 돼요?"}
+{"type": "message", "seq": 21, "room": "1:1", "sender": "운영매니저 지수", "is_user": false, "day": 3, "text": "네 3,000,000원입니다. 금일 마감이라 자리가 하나만 남아 있습니다."}
+{"type": "message", "seq": 22, "room": "1:1", "sender": "나", "is_user": true, "day": 4, "text": "HTS에서 출금 신청했는데 계속 처리중이라고만 떠요"}
+{"type": "message", "seq": 23, "room": "1:1", "sender": "운영매니저 지수", "is_user": false, "day": 4, "text": "출금은 증거금 대비 거래량 기준 충족 시에만 승인됩니다. 고객센터 안내 참고 부탁드립니다."}
+{"type": "message", "seq": 24, "room": "단체방(정회원방)", "sender": "운영매니저 지수", "is_user": false, "day": 5, "text": "공지드립니다. 서버 점검으로 금일 리딩은 휴무입니다. 개인 문의는 담당 매니저에게만 부탁드립니다."}
+{"type": "message", "seq": 25, "room": "1:1", "sender": "나", "is_user": true, "day": 6, "text": "답장 좀 주세요. 출금 언제 되는 거예요?"}

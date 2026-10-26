@@ -1,0 +1,12 @@
+{"type": "meta", "case_id": "chatgpt_E10", "kind": "normal", "scam_type": "사내 주식 스터디 단톡방", "model": "chatgpt", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "단체방", "sender": "스터디장", "is_user": false, "day": 0, "text": "이번 주 스터디 공지입니다. 각자 관심 기업의 실적 자료를 한 건씩 공유해 주세요."}
+{"type": "message", "seq": 2, "room": "단체방", "sender": "나", "is_user": true, "day": 0, "text": "저는 △△증권 리포트 대신 사업보고서 위주로 정리해 보겠습니다."}
+{"type": "message", "seq": 3, "room": "단체방", "sender": "수진", "is_user": false, "day": 0, "text": "좋습니다. 매수 추천보다는 지표와 가정의 근거를 비교하면 좋겠어요."}
+{"type": "message", "seq": 4, "room": "단체방", "sender": "스터디장", "is_user": false, "day": 1, "text": "발표 자료는 [파일] 폴더에 올려 두었습니다."}
+{"type": "message", "seq": 5, "room": "단체방", "sender": "나", "is_user": true, "day": 1, "text": "확인했습니다. 투자 판단은 각자 하고 스터디에서는 분석 방법만 다루죠."}
+{"type": "message", "seq": 6, "room": "단체방", "sender": "현우", "is_user": false, "day": 2, "text": "지난번 모의 포트폴리오 수익률 계산식 공유할게요."}
+{"type": "message", "seq": 7, "room": "단체방", "sender": "나", "is_user": true, "day": 2, "text": "고마워요. 배당금 재투자 여부도 같은 기준으로 맞춰야겠네요."}
+{"type": "message", "seq": 8, "room": "단체방", "sender": "스터디장", "is_user": false, "day": 3, "text": "회식비는 1인당 18,000원입니다. 참석자만 당일 정산하겠습니다."}
+{"type": "message", "seq": 9, "room": "단체방", "sender": "나", "is_user": true, "day": 3, "text": "네, 식사 끝나고 계좌로 보낼게요."}
+{"type": "message", "seq": 10, "room": "단체방", "sender": "수진", "is_user": false, "day": 4, "text": "실제 투자금은 스터디와 무관하니 각자 관리해 주세요."}
+{"type": "message", "seq": 11, "room": "단체방", "sender": "나", "is_user": true, "day": 4, "text": "동의합니다. 회사 내부 정보는 공유하지 않는 걸로 해요."}

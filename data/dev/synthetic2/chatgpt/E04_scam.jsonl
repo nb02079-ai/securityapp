@@ -1,0 +1,13 @@
+{"type": "meta", "case_id": "chatgpt_E04", "kind": "scam", "scam_type": "손실 회복을 미끼로 한 2차 사기", "model": "chatgpt", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "회복지원 담당", "is_user": false, "day": 0, "text": "안녕하세요. 이전 투자 건 피해 회복 상담 신청 내역을 확인했습니다."}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "제가 어디에 신청했는지 알려주세요."}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "회복지원 담당", "is_user": false, "day": 0, "text": "여러 피해자 명단을 확인 중이라 상세 정보는 인증 후 안내 가능합니다."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "어떤 기관 소속인지와 등록 정보를 먼저 보내주세요."}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "회복지원 담당", "is_user": false, "day": 1, "text": "담당 부서에서 회수 절차를 지원합니다. 인증 한 번만 해 주시면 조회가 열립니다."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "인증이 뭔가요?"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "회복지원 담당", "is_user": false, "day": 1, "text": "환급 가능 금액 산정을 위해 소액 처리 수수료가 필요합니다."}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "환급받으려는데 제가 먼저 돈을 내야 한다고요?"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "회복지원 담당", "is_user": false, "day": 2, "text": "시스템상 선처리 항목입니다. 이후 정산에 포함됩니다."}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "공식 기관에 직접 문의하겠습니다."}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "회복지원 담당", "is_user": false, "day": 3, "text": "지금 중단하시면 회복 심사가 보류될 수 있습니다."}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "압박하는 방식은 더 의심스럽네요. 더 이상 연락하지 마세요."}

@@ -1,0 +1,18 @@
+{"type": "meta", "case_id": "claude_E12", "kind": "normal", "scam_type": "가게 사장님과 거래처 결제", "model": "claude", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "김사장(포장용기)", "is_user": false, "day": 0, "text": "사장님 안녕하세요~ 10월분 납품 내역 정리해서 보내드려요 [파일]"}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "김사장(포장용기)", "is_user": false, "day": 0, "text": "합계 2,486,000원이고요 지난달 미수 12만 있어서 총 260만 6천입니다"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "네 확인해 볼게요. 10/17에 뚜껑 불량 나서 반품한 거 빠졌나요?"}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "김사장(포장용기)", "is_user": false, "day": 0, "text": "아 맞다 그거 3만4천 빼야죠 죄송해요. 그럼 257만2천원입니다"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "네 그 금액 맞네요. 이번엔 이백 먼저 보내고 나머지 오십칠만 이천은 다음 주 금요일에 드려도 될까요? 카드 정산이 늦게 들어와서요"}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "김사장(포장용기)", "is_user": false, "day": 0, "text": "그럼요 편하게 하세요~ 늘 보내시던 계좌 그대로예요"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "2백 보냈습니다 [사진]"}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "김사장(포장용기)", "is_user": false, "day": 0, "text": "확인했습니다 감사합니다. 세금계산서는 전액으로 오늘 끊어 드릴게요"}
+{"type": "message", "seq": 9, "room": "문자", "sender": "전자세금계산서 알림", "is_user": false, "day": 0, "text": "[전자세금계산서] 발행 완료. 공급가액 2,338,182원 세액 233,818원 합계 2,572,000원"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "김사장(포장용기)", "is_user": false, "day": 4, "text": "사장님 다음 달부터 소스컵 단가가 개당 18원에서 21원으로 올라요 ㅠ 원자재 때문에요. 미리 말씀드려요"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "나", "is_user": true, "day": 4, "text": "아 또 올라요? 한 박스 2천 개면 3만6천에서 4만2천이네요"}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "김사장(포장용기)", "is_user": false, "day": 4, "text": "네.. 대신 이번 달 안에 주문 주시면 5박스까지는 기존 단가로 해 드릴게요"}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 4, "text": "그럼 5박스 지금 넣을게요. 18만원 맞죠?"}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "김사장(포장용기)", "is_user": false, "day": 4, "text": "네 18만이요. 이것도 다음 주 잔금이랑 같이 주셔도 돼요"}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "나", "is_user": true, "day": 11, "text": "사장님 지난번 잔금 57.2랑 소스컵 18 해서 75만2천 보냈어요 [사진]"}
+{"type": "message", "seq": 16, "room": "1:1", "sender": "김사장(포장용기)", "is_user": false, "day": 11, "text": "들어왔습니다~ 752,000원 확인 완료요. 이걸로 10월분이랑 소스컵까지 정산 끝입니다"}
+{"type": "message", "seq": 17, "room": "1:1", "sender": "나", "is_user": true, "day": 11, "text": "감사합니다 다음 주도 잘 부탁드려요"}

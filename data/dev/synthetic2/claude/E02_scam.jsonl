@@ -1,0 +1,28 @@
+{"type": "meta", "case_id": "claude_E02", "kind": "scam", "scam_type": "로맨스 함께 투자하자", "model": "claude", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 0, "text": "안녕하세요. 잘못 친구 추가를 한 것 같아요. 하지만 프로필의 꽃 사진이 아름다워서 인사를 합니다."}
+{"type": "message", "seq": 2, "room": "1:1(다니엘)", "sender": "나", "is_user": true, "day": 0, "text": "아 네 안녕하세요 ㅎㅎ 누구세요?"}
+{"type": "message", "seq": 3, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 0, "text": "저는 다니엘입니다. 지금은 싱가포르에 살고 있고 건축 엔지니어입니다. 한국어는 배우는 중이라서 번역기의 도움을 받습니다. 이해해 주세요."}
+{"type": "message", "seq": 4, "room": "1:1(다니엘)", "sender": "나", "is_user": true, "day": 0, "text": "한국어 잘하시는데요"}
+{"type": "message", "seq": 5, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 2, "text": "좋은 아침입니다. 오늘 서울의 날씨는 어떻습니까? 여기는 비가 와서 당신의 생각이 났습니다."}
+{"type": "message", "seq": 6, "room": "1:1(다니엘)", "sender": "나", "is_user": true, "day": 2, "text": "여긴 쌀쌀해요 출근중이에요"}
+{"type": "message", "seq": 7, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 2, "text": "따뜻하게 옷을 입으세요. 당신이 감기에 걸리면 내 마음이 아플 것입니다. [사진]"}
+{"type": "message", "seq": 8, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 5, "text": "오늘 현장에서 일이 많아 피곤했습니다. 그래도 당신과 이야기하면 피곤이 사라집니다. 이것은 진심입니다."}
+{"type": "message", "seq": 9, "room": "1:1(다니엘)", "sender": "나", "is_user": true, "day": 5, "text": "ㅋㅋ 오늘 하루도 고생하셨어요"}
+{"type": "message", "seq": 10, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 9, "text": "저의 어머니가 한국 사람이라서 나중에는 한국에서 살고 싶습니다. 당신 같은 사람과 함께 집을 꾸미는 꿈을 꿉니다."}
+{"type": "message", "seq": 11, "room": "1:1(다니엘)", "sender": "나", "is_user": true, "day": 9, "text": "갑자기 진지하시네요 ㅎㅎ"}
+{"type": "message", "seq": 12, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 13, "text": "진지합니다. 우리의 미래를 위해서 나는 준비를 하고 있습니다. 삼촌이 국제 금 거래소의 분석가라서 정보를 받아 작게 투자를 합니다."}
+{"type": "message", "seq": 13, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 13, "text": "지난주에도 금 차액에서 수익을 얻었습니다. 보세요. [사진]"}
+{"type": "message", "seq": 14, "room": "1:1(다니엘)", "sender": "나", "is_user": true, "day": 13, "text": "와 많이 버셨네요"}
+{"type": "message", "seq": 15, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 14, "text": "당신도 함께 하면 좋겠습니다. 우리 둘의 미래 자금을 같이 만드는 것입니다. 나는 당신이 손해 보는 것을 절대 허락하지 않습니다."}
+{"type": "message", "seq": 16, "room": "1:1(다니엘)", "sender": "나", "is_user": true, "day": 14, "text": "저는 투자 잘 몰라요.. 좀 무서워요"}
+{"type": "message", "seq": 17, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 14, "text": "괜찮습니다. 내가 시간을 알려 주면 당신은 버튼만 누르면 됩니다. 처음은 작은 시드로 경험만 해 보세요."}
+{"type": "message", "seq": 18, "room": "1:1(다니엘)", "sender": "나", "is_user": true, "day": 14, "text": "작은 거면 얼마요?"}
+{"type": "message", "seq": 19, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 14, "text": "플랫폼의 최소 개설 금액은 1000달러, 한국 돈으로 약 백사십만 원입니다. 이 앱을 설치하세요. (링크)"}
+{"type": "message", "seq": 20, "room": "1:1(다니엘)", "sender": "나", "is_user": true, "day": 15, "text": "설치했는데 충전은 어떻게 해요?"}
+{"type": "message", "seq": 21, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 15, "text": "앱 안의 고객센터에 말하면 충전 계좌를 알려 줍니다. 계좌가 매번 바뀌는 것은 보안 때문이니 걱정하지 마세요."}
+{"type": "message", "seq": 22, "room": "1:1(앱 고객센터)", "sender": "고객센터", "is_user": false, "day": 15, "text": "안녕하세요 고객님. 충전 신청 확인되었습니다. 이번 회차 입금 계좌는 (계좌번호)이며 30분 내 입금 부탁드립니다."}
+{"type": "message", "seq": 23, "room": "1:1(다니엘)", "sender": "나", "is_user": true, "day": 15, "text": "140 보냈어요. 잔고에 떴어요"}
+{"type": "message", "seq": 24, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 15, "text": "잘했어요 내 사랑. 오늘 밤 9시에 내가 신호를 줄 테니 같이 해요. 우리의 첫 번째 공동 작업입니다."}
+{"type": "message", "seq": 25, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 23, "text": "우리 계좌가 벌써 20% 올랐습니다. 이제 더 크게 넣으면 내년에 당신을 만나러 한국에 갈 수 있습니다."}
+{"type": "message", "seq": 26, "room": "1:1(다니엘)", "sender": "나", "is_user": true, "day": 23, "text": "한번 출금해 보고 싶은데 해 봐도 돼요?"}
+{"type": "message", "seq": 27, "room": "1:1(다니엘)", "sender": "다니엘", "is_user": false, "day": 23, "text": "지금 빼면 아깝습니다. 나를 믿지 않습니까? 그것은 나를 조금 슬프게 합니다."}

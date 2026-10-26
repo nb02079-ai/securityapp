@@ -1,0 +1,23 @@
+{"type": "meta", "case_id": "claude_E04", "kind": "scam", "scam_type": "코인 채굴기 위탁", "model": "claude", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "상담 하은", "is_user": false, "day": 0, "text": "안녕하세요~ 지난번 무료 체험 신청 주신 분 맞으시죠? 바로 본론 말씀드릴게요 ㅎㅎ"}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "상담 하은", "is_user": false, "day": 0, "text": "저희는 해외 데이터센터에 채굴기를 두고 위탁 운영해 드려요. 회원님은 기계 지분만 갖고 계시면 매일 채굴분이 지갑으로 들어가요."}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "그럼 기계를 사야 되는 거예요?"}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "상담 하은", "is_user": false, "day": 0, "text": "사신다기보다 자리를 잡아 두시는 개념이에요~ 참여하시려면 최소 단위가 있어서 그것만 맞춰 주시면 돼요."}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "최소 단위가 얼만데요"}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "상담 하은", "is_user": false, "day": 0, "text": "1구좌가 3.5백이고요, 보통은 2구좌부터 시작하세요. 회수 기간은 넉넉잡아 넉 달이에요."}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "4개월이면 원금 회수요? 그 뒤엔요?"}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "상담 하은", "is_user": false, "day": 0, "text": "그 뒤부터는 온전히 회원님 몫이죠 ㅎㅎ 기계 수명이 3년이라 계산해 보시면 감 오실 거예요."}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "좀 생각해 볼게요"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "상담 하은", "is_user": false, "day": 0, "text": "네네 천천히요~ 다만 이번 차수 자리가 거의 찼어요. 생각 있으시면 자리 표시만 먼저 해 두실래요?"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "자리 표시는 어떻게 하는데요"}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "상담 하은", "is_user": false, "day": 0, "text": "1구좌 분만 먼저 맞춰 주시고 확인되시면 화면 한 장만 보내 주세요. 나머지는 가동 시작하고 나서 하셔도 돼요."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "상담 하은", "is_user": false, "day": 0, "text": "받는 곳은 여기예요 (지갑 주소) 테더로 보내 주시면 제일 빨라요. 거래소에서 사는 방법은 영상으로 드릴게요 [파일]"}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "보냈어요 [사진]"}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "상담 하은", "is_user": false, "day": 1, "text": "확인 완료요! 회원방 초대해 드릴게요~ 가동 현황은 매일 거기 올라가요."}
+{"type": "message", "seq": 16, "room": "단체방", "sender": "운영팀", "is_user": false, "day": 1, "text": "채굴 위탁 3차 회원님들 환영합니다. 금일 가동률 98.7%, 구좌별 일 채굴량은 대시보드에서 확인 바랍니다. (링크)"}
+{"type": "message", "seq": 17, "room": "단체방", "sender": "회원_돌쇠아빠", "is_user": false, "day": 3, "text": "저는 2구좌인데 오늘 누적 확인했어요 든든하네요 [사진]"}
+{"type": "message", "seq": 18, "room": "1:1", "sender": "나", "is_user": true, "day": 8, "text": "대시보드에 채굴량은 쌓이는데 지갑으로는 하나도 안 들어와요"}
+{"type": "message", "seq": 19, "room": "1:1", "sender": "상담 하은", "is_user": false, "day": 8, "text": "아 그건 출금 가능 수량이 쌓여야 열려요~ 1구좌만 있으시면 기준까지 시간이 좀 걸리세요."}
+{"type": "message", "seq": 20, "room": "1:1", "sender": "상담 하은", "is_user": false, "day": 8, "text": "나머지 1구좌까지 채워 두시면 기준이 바로 맞춰져서 이번 주 안에 받아 보실 수 있어요 ㅎㅎ"}
+{"type": "message", "seq": 21, "room": "1:1", "sender": "나", "is_user": true, "day": 8, "text": "일단 쌓인 거 먼저 빼 보고 생각할게요"}
+{"type": "message", "seq": 22, "room": "1:1", "sender": "상담 하은", "is_user": false, "day": 8, "text": "그러시려면 지갑 활성화 확인 차원에서 소액 인증만 한 번 해 주셔야 돼요. 정책상 저희도 어쩔 수 없는 부분이라서요 ㅠ"}

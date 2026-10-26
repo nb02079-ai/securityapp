@@ -1,0 +1,15 @@
+{"type": "meta", "case_id": "chatgpt_E08", "kind": "scam", "scam_type": "쇼핑 리뷰 미션", "model": "chatgpt", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "미션 매니저", "is_user": false, "day": 0, "text": "안녕하세요. 간단한 상품 리뷰 업무로 부수입을 얻으실 수 있어 안내드립니다."}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "어떤 방식으로 진행하나요?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "미션 매니저", "is_user": false, "day": 0, "text": "상품 페이지 확인 후 리뷰 등록, 완료 화면 제출 순서입니다."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "구매를 직접 해야 하나요?"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "미션 매니저", "is_user": false, "day": 1, "text": "처음에는 무료 미션으로 시작하고 완료 수당 3,000원을 지급합니다."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "무료 미션은 해볼 수 있겠네요."}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "미션 매니저", "is_user": false, "day": 1, "text": "[파일] 미션 안내서 보내드립니다."}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "미션 매니저", "is_user": false, "day": 2, "text": "기본 미션은 정산됐습니다. 다음 단계는 묶음 미션이며 참여금이 필요합니다."}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "참여금이 얼마인데요?"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "미션 매니저", "is_user": false, "day": 2, "text": "0.5천 단위로 시작하실 수 있고 완료하면 원금과 보상이 함께 처리됩니다."}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "일을 하는데 제가 돈을 먼저 내야 한다는 건 이해가 안 돼요."}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "미션 매니저", "is_user": false, "day": 3, "text": "이미 배정된 미션이라 중도 종료 시 정산이 지연될 수 있습니다."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "그럼 여기서 그만할게요. 추가 결제는 하지 않겠습니다."}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "미션 매니저", "is_user": false, "day": 3, "text": "진행을 원하시면 고객센터에서 별도 안내를 받으실 수 있습니다."}

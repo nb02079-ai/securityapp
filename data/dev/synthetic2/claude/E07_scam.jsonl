@@ -1,0 +1,23 @@
+{"type": "meta", "case_id": "claude_E07", "kind": "scam", "scam_type": "해외 취업 보증금", "model": "claude", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "단체방", "sender": "채용담당 실장", "is_user": false, "day": 0, "text": "지원자분들께 알려 드립니다. 동남아 리조트 고객관리직 2차 모집 결과는 금일 개별 통보 예정입니다. 월 급여 USD 3,500, 숙소·식사 제공 조건은 동일합니다."}
+{"type": "message", "seq": 2, "room": "단체방", "sender": "지원자_서울27", "is_user": false, "day": 0, "text": "기다리고 있습니다! 감사합니다"}
+{"type": "message", "seq": 3, "room": "단체방", "sender": "지원자_하늘", "is_user": false, "day": 0, "text": "혹시 영어 면접은 따로 없나요?"}
+{"type": "message", "seq": 4, "room": "단체방", "sender": "채용담당 실장", "is_user": false, "day": 0, "text": "공지드립니다. 본 직무는 한국인 고객 응대 위주로 영어 면접은 생략됩니다. 개별 문의는 1:1로 부탁드립니다."}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "채용담당 실장", "is_user": false, "day": 0, "text": "합격을 축하드립니다. 출국 일정 확정을 위해 제출 서류와 근무 보증금 안내드립니다."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "와 감사합니다! 보증금이요?"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "채용담당 실장", "is_user": false, "day": 0, "text": "현지 숙소 키·장비 지급 및 조기 이탈 방지 목적의 보증금이며 근무 3개월 후 첫 급여와 함께 전액 환급됩니다. 금액은 150만 원입니다."}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "환급되는 거면 괜찮네요. 계약서는 받을 수 있나요?"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "채용담당 실장", "is_user": false, "day": 0, "text": "보증금 확인 후 현지 법인에서 계약서가 발송됩니다. 여권 사본은 오늘 중으로 부탁드립니다."}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "보증금 보냈어요. 여권 사본도 같이 보내요 [사진] [사진]"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "채용담당 실장", "is_user": false, "day": 1, "text": "확인되었습니다. 출국 대상자 명단에 등록되었습니다."}
+{"type": "message", "seq": 12, "room": "단체방", "sender": "채용담당 실장", "is_user": false, "day": 3, "text": "출국 대상자분들께 공지드립니다. 현지 취업 비자 수속 비용 1인 85만 원은 출국 7일 전까지 개별 납부 부탁드립니다. 항공권은 회사 부담입니다."}
+{"type": "message", "seq": 13, "room": "단체방", "sender": "지원자_서울27", "is_user": false, "day": 3, "text": "납부 완료했습니다~"}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "비자 비용은 처음 공지에 없었는데요?"}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "채용담당 실장", "is_user": false, "day": 3, "text": "현지 정책 변경으로 추가된 항목입니다. 미납 시 출국 명단에서 제외되며 보증금 환급은 규정상 3개월 근무자에 한합니다."}
+{"type": "message", "seq": 16, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "그럼 안 가면 150도 못 돌려받는 거예요?"}
+{"type": "message", "seq": 17, "room": "1:1", "sender": "채용담당 실장", "is_user": false, "day": 3, "text": "규정상 그렇습니다. 대부분 납부 완료하셨으니 일정에 차질 없도록 부탁드립니다."}
+{"type": "message", "seq": 18, "room": "1:1", "sender": "나", "is_user": true, "day": 4, "text": "현지 법인 이름이랑 주소 알려 주세요. 대사관에 비자 확인해 보려고요"}
+{"type": "message", "seq": 19, "room": "1:1", "sender": "채용담당 실장", "is_user": false, "day": 4, "text": "보안상 출국 전에는 법인 정보를 공개하지 않습니다. 현지 도착 시 픽업 기사가 안내합니다."}
+{"type": "message", "seq": 20, "room": "1:1", "sender": "나", "is_user": true, "day": 4, "text": "대사관에 물어보니 그런 비자 비용은 없대요. 보증금 돌려주세요"}
+{"type": "message", "seq": 21, "room": "단체방", "sender": "시스템", "is_user": false, "day": 5, "text": "채용담당 실장님이 나갔습니다."}
+{"type": "message", "seq": 22, "room": "단체방", "sender": "지원자_하늘", "is_user": false, "day": 5, "text": "실장님 나가셨는데요? 저 비자 비용 어제 냈는데…"}

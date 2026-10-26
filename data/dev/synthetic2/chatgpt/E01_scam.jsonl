@@ -1,0 +1,15 @@
+{"type": "meta", "case_id": "chatgpt_E01", "kind": "scam", "scam_type": "주식 리딩방(무료방 → 유료방)", "model": "chatgpt", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "단체방", "sender": "리딩방 매니저", "is_user": false, "day": 0, "text": "금일 공지드립니다. 무료 시황방 참여자분들께 유료 심화방 운영 일정을 안내합니다."}
+{"type": "message", "seq": 2, "room": "단체방", "sender": "리딩방 매니저", "is_user": false, "day": 0, "text": "이번 주는 변동성 대응과 종목별 매수·매도 기준을 공유할 예정입니다."}
+{"type": "message", "seq": 3, "room": "단체방", "sender": "나", "is_user": true, "day": 0, "text": "무료방에서도 종목 의견을 받을 수 있나요?"}
+{"type": "message", "seq": 4, "room": "단체방", "sender": "리딩방 매니저", "is_user": false, "day": 0, "text": "네, 기본 시황은 무료로 제공됩니다. 다만 실시간 매매 신호는 유료방 전용입니다."}
+{"type": "message", "seq": 5, "room": "단체방", "sender": "참여자 민수", "is_user": false, "day": 1, "text": "어제 알려주신 종목 조금 올랐네요"}
+{"type": "message", "seq": 6, "room": "단체방", "sender": "리딩방 매니저", "is_user": false, "day": 1, "text": "수익 인증은 개인 판단에 참고만 해 주십시오. 원금과 수익을 보장하지 않습니다."}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "리딩방 매니저", "is_user": false, "day": 2, "text": "회원님은 꾸준히 참여하셔서 프리미엄방 초대 대상입니다."}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "유료방은 얼마인가요?"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "리딩방 매니저", "is_user": false, "day": 2, "text": "월 이용료는 39만 원이며, 별도 종목 참여금은 회원님이 선택합니다."}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "수익이 안 나도 이용료는 환불이 안 되나요?"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "리딩방 매니저", "is_user": false, "day": 2, "text": "이용료는 정보 제공 비용이라 매매 결과와 무관합니다."}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "리딩방 매니저", "is_user": false, "day": 3, "text": "오늘만 기존 회원 추천 혜택이 있습니다. 지금 결제하시면 다음 달 자료도 제공됩니다."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "오늘만이라는 말이 계속 나오네요. 좀 더 알아보고 결정할게요."}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "리딩방 매니저", "is_user": false, "day": 3, "text": "물론입니다. 다만 자리가 제한되어 있어 참여 의사를 먼저 남겨 주시면 됩니다."}

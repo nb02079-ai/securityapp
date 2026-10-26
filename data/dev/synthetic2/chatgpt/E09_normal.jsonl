@@ -1,0 +1,12 @@
+{"type": "meta", "case_id": "chatgpt_E09", "kind": "normal", "scam_type": "동창 단톡방 계모임 회비", "model": "chatgpt", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "단체방", "sender": "민지", "is_user": false, "day": 0, "text": "이번 달 계모임 날짜 투표 올렸어. 토요일 저녁 괜찮아?"}
+{"type": "message", "seq": 2, "room": "단체방", "sender": "나", "is_user": true, "day": 0, "text": "난 가능! 장소는 지난번처럼 역 근처로 할까?"}
+{"type": "message", "seq": 3, "room": "단체방", "sender": "준호", "is_user": false, "day": 0, "text": "ㅇㅋ. 이번 달 회비 아직 안 낸 사람은 모임 전에 보내줘."}
+{"type": "message", "seq": 4, "room": "단체방", "sender": "나", "is_user": true, "day": 0, "text": "이번 달 회비 3만 원 맞지?"}
+{"type": "message", "seq": 5, "room": "단체방", "sender": "민지", "is_user": false, "day": 0, "text": "응, 3만원. 계좌는 공지에 있는 거 그대로야."}
+{"type": "message", "seq": 6, "room": "단체방", "sender": "나", "is_user": true, "day": 0, "text": "확인했어. 오늘 저녁에 보낼게."}
+{"type": "message", "seq": 7, "room": "단체방", "sender": "준호", "is_user": false, "day": 1, "text": "회비 입금 확인했어. 고마워."}
+{"type": "message", "seq": 8, "room": "단체방", "sender": "나", "is_user": true, "day": 1, "text": "영수증 필요하면 캡처 올릴까?"}
+{"type": "message", "seq": 9, "room": "단체방", "sender": "민지", "is_user": false, "day": 1, "text": "괜찮아. 통장 내역이랑 같이 내가 정리할게."}
+{"type": "message", "seq": 10, "room": "단체방", "sender": "나", "is_user": true, "day": 2, "text": "다음 달은 내가 장소 예약해볼게."}
+{"type": "message", "seq": 11, "room": "단체방", "sender": "준호", "is_user": false, "day": 2, "text": "좋아. 예약금 있으면 먼저 내고 나중에 회비에서 빼자."}

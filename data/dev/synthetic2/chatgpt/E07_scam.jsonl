@@ -1,0 +1,13 @@
+{"type": "meta", "case_id": "chatgpt_E07", "kind": "scam", "scam_type": "군 관계자 사칭 물품 배송비", "model": "chatgpt", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "문자", "sender": "물품지원 담당", "is_user": false, "day": 0, "text": "안녕하십니까. 군 관계자 물품 전달 관련 배송 담당자입니다."}
+{"type": "message", "seq": 2, "room": "문자", "sender": "나", "is_user": true, "day": 0, "text": "어떤 물품 말씀인가요?"}
+{"type": "message", "seq": 3, "room": "문자", "sender": "물품지원 담당", "is_user": false, "day": 0, "text": "지인분이 회원님께 전달할 물품을 접수했습니다. 주소 확인이 필요합니다."}
+{"type": "message", "seq": 4, "room": "문자", "sender": "나", "is_user": true, "day": 1, "text": "보낸 사람이 누군지 알려주세요."}
+{"type": "message", "seq": 5, "room": "문자", "sender": "물품지원 담당", "is_user": false, "day": 1, "text": "보안상 성함은 바로 공개할 수 없습니다. 배송비 정산 후 안내 가능합니다."}
+{"type": "message", "seq": 6, "room": "문자", "sender": "물품지원 담당", "is_user": false, "day": 1, "text": "배송비는 5,000,000원이 아니라 5만 원입니다. 확인되시면 화면 한 장만 보내 주세요."}
+{"type": "message", "seq": 7, "room": "문자", "sender": "나", "is_user": true, "day": 1, "text": "보낸 사람도 모르는데 비용부터 내라는 건 이상하네요."}
+{"type": "message", "seq": 8, "room": "문자", "sender": "물품지원 담당", "is_user": false, "day": 2, "text": "오늘 미정산 시 보관료가 추가될 수 있습니다."}
+{"type": "message", "seq": 9, "room": "문자", "sender": "나", "is_user": true, "day": 2, "text": "군 관련 공식 대표번호로 확인하겠습니다."}
+{"type": "message", "seq": 10, "room": "문자", "sender": "물품지원 담당", "is_user": false, "day": 2, "text": "개인 전달 건이라 공식 창구에서는 확인이 어렵습니다."}
+{"type": "message", "seq": 11, "room": "문자", "sender": "나", "is_user": true, "day": 2, "text": "확인되지 않은 계좌로는 보내지 않겠습니다."}
+{"type": "message", "seq": 12, "room": "문자", "sender": "물품지원 담당", "is_user": false, "day": 3, "text": "마감 전에 처리하셔야 물품 반환이 가능합니다."}

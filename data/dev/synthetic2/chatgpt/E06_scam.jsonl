@@ -1,0 +1,14 @@
+{"type": "meta", "case_id": "chatgpt_E06", "kind": "scam", "scam_type": "지인의 지인을 통한 투자 소개", "model": "chatgpt", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "지훈", "is_user": false, "day": 0, "text": "야 오랜만. 우리 동호회 형이 투자 쪽 일하는데 관심 있어?"}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "무슨 투자인데?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "지훈", "is_user": false, "day": 0, "text": "비공개로 물량 받아서 짧게 운용하는 거래래."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "어디에 투자하는 건지 정확히 알아야지."}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "지훈", "is_user": false, "day": 1, "text": "내가 직접 하는 건 아니고 아는 형이 소개해 준 거야. 지난달에 수익 났다더라."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "사업자나 상품 설명서 있어?"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "지훈", "is_user": false, "day": 2, "text": "자료는 따로 없고 일단 100만 넣고 흐름 보면 된대."}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "100만 원이든 백이든 설명 없이 넣기는 싫어."}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "지훈", "is_user": false, "day": 2, "text": "나도 처음엔 그랬는데 소개받은 사람만 들어갈 수 있대."}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 3, "text": "그 말이 더 불안한데. 정식 등록 여부부터 확인해 줘."}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "지훈", "is_user": false, "day": 3, "text": "형이 귀찮아할 수도 있는데 물어볼게."}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "지훈", "is_user": false, "day": 4, "text": "오늘 안에 답 달라는데, 자리 빠지기 전에 예약금만 걸면 안 되냐고 하네."}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 4, "text": "안 할게. 내 이름으로 예약금도 보내지 마."}

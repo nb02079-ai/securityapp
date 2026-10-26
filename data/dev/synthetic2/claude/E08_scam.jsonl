@@ -1,0 +1,19 @@
+{"type": "meta", "case_id": "claude_E08", "kind": "scam", "scam_type": "경품 당첨 수수료", "model": "claude", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "문자", "sender": "이벤트사무국", "is_user": false, "day": 0, "text": "[Web발신] 축하드립니다. 지난달 응모하신 고객 감사 이벤트 1등 당첨 안내. 수령 확인: (링크)"}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "이벤트 담당 유나", "is_user": false, "day": 0, "text": "안녕하세요 당첨자님~ 링크 통해 들어와 주셨네요! 경품은 노트북이랑 50만 원 상품권이에요 ㅎㅎ"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "제가 응모한 기억이 잘 안 나는데요"}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "이벤트 담당 유나", "is_user": false, "day": 0, "text": "마트 영수증 응모나 앱 설문으로 자동 응모되셨을 거예요~ 당첨자 명단에서 성함 끝자리랑 번호 뒷자리 일치 확인됐어요."}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "아 그럼 어떻게 받아요?"}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "이벤트 담당 유나", "is_user": false, "day": 0, "text": "배송 전에 간단한 절차가 하나 있어요. 경품이 일정 금액을 넘으면 제세공과금 부분을 당첨자님 쪽에서 먼저 처리해 주셔야 하거든요."}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "그게 얼마인데요"}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "이벤트 담당 유나", "is_user": false, "day": 0, "text": "경품가의 22%라 이십육만 사천 원이에요. 처리 확인되시면 화면 한 장만 보내 주시면 바로 출고 들어가요~"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "세금이면 경품에서 빼고 주면 되잖아요"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "이벤트 담당 유나", "is_user": false, "day": 0, "text": "상품권이 현물이라 차감이 어려워서요 ㅠ 다른 당첨자분들도 다 이렇게 진행하셨어요. 오늘 안에 확인 안 되면 차순위로 넘어가요."}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "주관사 이름이랑 사업자번호 알려 주세요"}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "이벤트 담당 유나", "is_user": false, "day": 0, "text": "저희가 대행사라 주관사 정보는 공개가 어렵고요~ 대신 인증 한 번만 해 주시면 당첨 확인서 바로 발급해 드려요!"}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "인증이 뭔데요"}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "이벤트 담당 유나", "is_user": false, "day": 0, "text": "본인 명의 계좌인지 확인하는 거예요. 이 앱 하나만 깔아 주시면 1분이면 끝나요 (링크)"}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "앱은 안 깔래요. 그냥 경품 포기할게요"}
+{"type": "message", "seq": 16, "room": "1:1", "sender": "이벤트 담당 유나", "is_user": false, "day": 0, "text": "아쉽네요ㅠㅠ 그럼 공과금 절반만 먼저 맞춰 주셔도 돼요. 나머지는 수령하고 나서 처리하시면 되고요!"}
+{"type": "message", "seq": 17, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "괜찮아요. 연락 그만 주세요"}
+{"type": "message", "seq": 18, "room": "문자", "sender": "이벤트사무국", "is_user": false, "day": 1, "text": "[Web발신] 당첨 경품 미수령 시 금일 자정 자동 소멸됩니다. 재확인: (링크)"}

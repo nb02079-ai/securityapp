@@ -1,0 +1,21 @@
+{"type": "meta", "case_id": "claude_E09", "kind": "normal", "scam_type": "대학 동기 투자 정보 잡담", "model": "claude", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "단체방", "sender": "준호", "is_user": false, "day": 0, "text": "야 너네 요즘 주식함?"}
+{"type": "message", "seq": 2, "room": "단체방", "sender": "수빈", "is_user": false, "day": 0, "text": "나 적립식으로 ETF만 넣음 ㅋㅋ 개별종목은 무서웡"}
+{"type": "message", "seq": 3, "room": "단체방", "sender": "나", "is_user": true, "day": 0, "text": "나도 월급날마다 30씩 자동이체 걸어둠"}
+{"type": "message", "seq": 4, "room": "단체방", "sender": "준호", "is_user": false, "day": 0, "text": "ㅇㅈ 근데 회사 선배가 반도체 지금 들어가야된다고 난리던데"}
+{"type": "message", "seq": 5, "room": "단체방", "sender": "태오", "is_user": false, "day": 0, "text": "선배말 듣고 들어가면 고점이더라"}
+{"type": "message", "seq": 6, "room": "단체방", "sender": "태오", "is_user": false, "day": 0, "text": "내가 작년에 그랬음 ㅠ 아직 -12퍼"}
+{"type": "message", "seq": 7, "room": "단체방", "sender": "수빈", "is_user": false, "day": 0, "text": "ㅋㅋㅋㅋㅋ 태오 물렸네"}
+{"type": "message", "seq": 8, "room": "단체방", "sender": "나", "is_user": true, "day": 0, "text": "리딩방 같은데서 연락오는거 다 거르라더라"}
+{"type": "message", "seq": 9, "room": "단체방", "sender": "준호", "is_user": false, "day": 0, "text": "나도 저번주에 모르는 단톡방 초대됨ㅋㅋ 수익인증 사진 막 올라오고"}
+{"type": "message", "seq": 10, "room": "단체방", "sender": "수빈", "is_user": false, "day": 0, "text": "그거 다 짜고치는거래 바로 나와"}
+{"type": "message", "seq": 11, "room": "단체방", "sender": "준호", "is_user": false, "day": 0, "text": "바로 나옴 ㅇㅇ"}
+{"type": "message", "seq": 12, "room": "단체방", "sender": "태오", "is_user": false, "day": 1, "text": "아 그리고 나 연금저축 계좌 새로 팠는데 세액공제 한도 600맞지?"}
+{"type": "message", "seq": 13, "room": "단체방", "sender": "나", "is_user": true, "day": 1, "text": "ㅇㅇ 연금저축은 600이고 irp 합치면 900"}
+{"type": "message", "seq": 14, "room": "단체방", "sender": "태오", "is_user": false, "day": 1, "text": "오 땡큐 연말정산때 덕좀보자"}
+{"type": "message", "seq": 15, "room": "단체방", "sender": "수빈", "is_user": false, "day": 1, "text": "우리 이번달 모임 회비 5만씩 걷는거 누가 총무임?"}
+{"type": "message", "seq": 16, "room": "단체방", "sender": "준호", "is_user": false, "day": 1, "text": "나 ㅋㅋ 이따 모임통장 계좌 올릴게"}
+{"type": "message", "seq": 17, "room": "단체방", "sender": "준호", "is_user": false, "day": 1, "text": "(계좌번호) 여기로 5만씩~ 입금자명 꼭 본인이름으로"}
+{"type": "message", "seq": 18, "room": "단체방", "sender": "나", "is_user": true, "day": 1, "text": "보냄 [사진]"}
+{"type": "message", "seq": 19, "room": "단체방", "sender": "태오", "is_user": false, "day": 1, "text": "나도 ㅇㅋ 근데 이번엔 고깃집 가자 저번 파스타 양 넘 적었음"}
+{"type": "message", "seq": 20, "room": "단체방", "sender": "수빈", "is_user": false, "day": 1, "text": "고기 콜 ㅋㅋㅋ"}

@@ -1,0 +1,17 @@
+{"type": "meta", "case_id": "claude_E11", "kind": "normal", "scam_type": "친구에게 빌린 돈 갚기", "model": "claude", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "하루토", "is_user": false, "day": 0, "text": "안녕! 오랜만입니다. 일본에 돌아와서 정신없이 바빴어요. 연락이 늦어서 미안해요."}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "하루토!! 잘 지냈어? 취업은 했어?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "하루토", "is_user": false, "day": 0, "text": "네, 오사카의 회사에 들어갔습니다. 첫 번째 월급을 받았습니다. 그래서 당신에게 빌린 돈을 돌려주고 싶어요."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "아 그거 천천히 해도 되는데 ㅋㅋ"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "하루토", "is_user": false, "day": 0, "text": "아니요, 너무 늦어서 부끄러워요. 귀국할 때 비행기표 때문에 빌린 45만 원, 맞지요?"}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "응 맞아 45"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "하루토", "is_user": false, "day": 0, "text": "일본에서 해외 송금을 하면 수수료가 비싸서, 한국에 사는 사촌 누나에게 부탁했습니다. 누나 이름으로 들어갈 거예요. 괜찮을까요?"}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "그럼 괜찮지. 내 계좌 알려줄게 (계좌번호)"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "하루토", "is_user": false, "day": 0, "text": "감사합니다. 누나 이름은 '타나카 미유'입니다. 아마 오늘 저녁에 보낼 것입니다."}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "들어왔다! 45만원 확인했어. 고마워 누나한테도 고맙다고 전해줘"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "하루토", "is_user": false, "day": 0, "text": "다행입니다! 그때 도와줘서 정말 고마웠어요. 당신이 없었으면 집에 못 갈 뻔했어요."}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "에이 친구끼리 뭘 ㅋㅋ"}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "하루토", "is_user": false, "day": 0, "text": "다음에 일본에 오면 꼭 연락해 주세요. 내가 맛있는 오코노미야키를 사겠습니다. 이것은 약속입니다."}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "진짜 간다 내년 봄에 벚꽃 보러"}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "하루토", "is_user": false, "day": 0, "text": "좋아요! 숙소는 걱정하지 마세요. 우리 집 근처에 싸고 깨끗한 게스트하우스가 있습니다. [사진]"}
+{"type": "message", "seq": 16, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "오 분위기 좋다. 저장해둘게"}

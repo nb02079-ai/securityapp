@@ -1,0 +1,19 @@
+{"type": "meta", "case_id": "claude_E10", "kind": "normal", "scam_type": "이사 업체 계약금 안내", "model": "claude", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "△△이사 박팀장", "is_user": false, "day": 0, "text": "안녕하세요 고객님, △△이사 박정우 팀장입니다. 어제 방문 견적 받아 주셔서 감사합니다. 견적서 전달드립니다. [파일]"}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "네 감사합니다. 포장이사 기준 금액 맞죠?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "△△이사 박팀장", "is_user": false, "day": 0, "text": "네 맞습니다. 투룸 기준 3.5톤 1대, 인원 4명, 에어컨 이전 설치 포함 총 1,380,000원입니다. 사다리차 비용도 포함된 금액입니다."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "방문하셨을 때 말씀하신 거랑 같네요. 예약은 어떻게 확정해요?"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "△△이사 박팀장", "is_user": false, "day": 0, "text": "날짜 확정을 위해 계약금 10%인 13만 8천 원 입금 부탁드립니다. 잔금은 이사 당일 작업 완료 후 확인하시고 결제해 주시면 됩니다."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "△△이사 박팀장", "is_user": false, "day": 0, "text": "입금 계좌는 견적서 하단의 사업자 명의 계좌입니다. (계좌번호) 예금주는 △△이사(박정우)로 표시됩니다."}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "견적서에 있는 계좌랑 같은 거죠? 사업자번호도 있던데 조회해 봐도 되나요"}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "△△이사 박팀장", "is_user": false, "day": 0, "text": "물론입니다. 사업자 상태 조회로 확인 가능하시고 화물운송 허가증 사본도 보내 드리겠습니다. [사진]"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "확인했어요. 계약금 보냈습니다. 입금자명은 제 이름이에요"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "△△이사 박팀장", "is_user": false, "day": 0, "text": "입금 확인되었습니다. 11월 14일 토요일 오전 8시 작업으로 확정되었으며 계약서는 문자로 함께 발송드립니다."}
+{"type": "message", "seq": 11, "room": "문자", "sender": "△△이사", "is_user": false, "day": 0, "text": "[△△이사] 이사 계약 확정 안내. 일시 11/14(토) 08:00, 계약금 138,000원 수령 완료, 잔금 1,242,000원은 작업 완료 후 결제. 이사일 7일 전까지 취소 시 계약금 전액 환불."}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "나", "is_user": true, "day": 10, "text": "팀장님 혹시 당일 잔금은 카드도 되나요?"}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "△△이사 박팀장", "is_user": false, "day": 10, "text": "네 가능합니다. 카드 결제 시 부가세 10%가 별도이며 계좌 이체 시에는 현금영수증 발행해 드립니다."}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "나", "is_user": true, "day": 10, "text": "그럼 이체로 할게요. 그리고 냉장고 문 분리가 필요할 수도 있대요"}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "△△이사 박팀장", "is_user": false, "day": 10, "text": "기사님께 미리 전달해 두겠습니다. 엘리베이터 사용 예약은 관리사무소에 고객님께서 신청 부탁드립니다."}
+{"type": "message", "seq": 16, "room": "1:1", "sender": "△△이사 박팀장", "is_user": false, "day": 18, "text": "고객님 작업 마무리되었습니다. 파손 여부 확인하시고 이상 없으시면 잔금 1,242,000원 입금 부탁드립니다."}
+{"type": "message", "seq": 17, "room": "1:1", "sender": "나", "is_user": true, "day": 18, "text": "깔끔하게 해 주셨네요. 방금 보냈습니다 [사진]"}
+{"type": "message", "seq": 18, "room": "1:1", "sender": "△△이사 박팀장", "is_user": false, "day": 18, "text": "확인 감사합니다. 현금영수증도 발행해 드렸습니다. 새 집에서 좋은 일만 가득하시길 바랍니다."}

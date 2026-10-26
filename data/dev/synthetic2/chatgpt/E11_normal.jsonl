@@ -1,0 +1,12 @@
+{"type": "meta", "case_id": "chatgpt_E11", "kind": "normal", "scam_type": "부동산 중개인과 계약금 대화", "model": "chatgpt", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "중개사", "is_user": false, "day": 0, "text": "안녕하세요. 어제 보신 집 임대차 계약 일정 관련해 연락드립니다."}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "안녕하세요. 계약서는 언제 확인할 수 있을까요?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "중개사", "is_user": false, "day": 0, "text": "초안은 [파일]로 보내드리겠습니다. 보증금과 잔금 날짜를 확인해 주세요."}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "확인했습니다. 계약금은 총 보증금의 10%로 적혀 있네요."}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "중개사", "is_user": false, "day": 1, "text": "네. 송금 전 임대인 명의와 계좌 예금주가 일치하는지 확인해 주세요."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "등기부도 오늘 발급해서 확인하겠습니다."}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "중개사", "is_user": false, "day": 1, "text": "좋습니다. 계약금 입금 후 영수증을 발급해 드리겠습니다."}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "특약에 수리 범위도 추가해 주세요."}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "중개사", "is_user": false, "day": 2, "text": "요청하신 문구 반영해 수정본 보내드리겠습니다."}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "수정본 확인하고 양쪽 서명 후 송금하겠습니다."}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "중개사", "is_user": false, "day": 3, "text": "네, 확인 전에는 서두르지 않으셔도 됩니다."}

@@ -1,0 +1,12 @@
+{"type": "meta", "case_id": "chatgpt_E12", "kind": "normal", "scam_type": "연인 사이 여행비 나누기", "model": "chatgpt", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "연인", "is_user": false, "day": 0, "text": "우리 여행 숙소 예약했어! 총 24만 원이야."}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "오 좋아. 반반이면 12만 원씩 보내면 되지?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "연인", "is_user": false, "day": 0, "text": "응. 내가 일단 결제했고 예약 내역 캡처 보내줄게. [사진]"}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "확인했어. 교통비는 내가 예매할게."}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "연인", "is_user": false, "day": 1, "text": "기차표는 왕복 8만 4천 원 나왔어."}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "나", "is_user": true, "day": 1, "text": "그럼 교통비는 내가 내고 숙소는 12만 원 보낼게."}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "연인", "is_user": false, "day": 1, "text": "좋아. 둘이 쓴 비용만 나중에 한 번 더 맞춰보자."}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "숙소비 보냈어. 입금 확인해줘."}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "연인", "is_user": false, "day": 2, "text": "확인했어 고마워 ❤️"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "나", "is_user": true, "day": 2, "text": "취소 수수료 있는지도 확인해 두자."}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "연인", "is_user": false, "day": 3, "text": "무료 취소는 출발 사흘 전까지래. 일정 바뀌면 같이 결정하자."}

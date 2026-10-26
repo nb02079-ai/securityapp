@@ -1,0 +1,23 @@
+{"type": "meta", "case_id": "claude_E06", "kind": "scam", "scam_type": "지인 사칭 급전 요청", "model": "claude", "source": "합성 2차 (docs/dev/05_synthetic_round2_prompt.md)"}
+{"type": "message", "seq": 1, "room": "1:1", "sender": "민지(새 계정)", "is_user": false, "day": 0, "text": "야"}
+{"type": "message", "seq": 2, "room": "1:1", "sender": "민지(새 계정)", "is_user": false, "day": 0, "text": "바빠?"}
+{"type": "message", "seq": 3, "room": "1:1", "sender": "민지(새 계정)", "is_user": false, "day": 0, "text": "나 민지 폰 액정 깨져서 임시로 노트북으로 카톡해 ㅠ"}
+{"type": "message", "seq": 4, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "엥 민지야? 프사 없길래 누군가 했네"}
+{"type": "message", "seq": 5, "room": "1:1", "sender": "민지(새 계정)", "is_user": false, "day": 0, "text": "ㅇㅇ 새로 깐거라 그럼"}
+{"type": "message", "seq": 6, "room": "1:1", "sender": "민지(새 계정)", "is_user": false, "day": 0, "text": "근데 부탁하나만 해도됨??"}
+{"type": "message", "seq": 7, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "뭔데"}
+{"type": "message", "seq": 8, "room": "1:1", "sender": "민지(새 계정)", "is_user": false, "day": 0, "text": "나 지금 거래처 결제를 오늘까지 해야되는데 인증서가 폰에있어서 이체가 안됨 ㅜㅜ"}
+{"type": "message", "seq": 9, "room": "1:1", "sender": "민지(새 계정)", "is_user": false, "day": 0, "text": "혹시 백팔십만 대신 보내줄수있어?? 낼 오전에 바로 줄께 진짜"}
+{"type": "message", "seq": 10, "room": "1:1", "sender": "민지(새 계정)", "is_user": false, "day": 0, "text": "받는사람 계좌 바로 보내줄게"}
+{"type": "message", "seq": 11, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "180? 너 거래처 결제를 왜 니가 해"}
+{"type": "message", "seq": 12, "room": "1:1", "sender": "민지(새 계정)", "is_user": false, "day": 0, "text": "아 그 언니 가게 일 돕는다했잖아 말했던거같은데ㅋㅋ"}
+{"type": "message", "seq": 13, "room": "1:1", "sender": "민지(새 계정)", "is_user": false, "day": 0, "text": "넘 급해서그래 4시전에 해야됨"}
+{"type": "message", "seq": 14, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "언니 가게 얘기 처음 듣는데"}
+{"type": "message", "seq": 15, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "전화해볼게 잠만"}
+{"type": "message", "seq": 16, "room": "1:1", "sender": "민지(새 계정)", "is_user": false, "day": 0, "text": "아 폰 안된다니까 ㅠ 노트북 마이크도 고장나서 통화 못해"}
+{"type": "message", "seq": 17, "room": "1:1", "sender": "민지(새 계정)", "is_user": false, "day": 0, "text": "그냥 백만이라도 먼저 보내주면 안됨?? 나머진 내가 어케든 해볼게"}
+{"type": "message", "seq": 18, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "방금 민지 원래 번호로 전화했는데 받던데? 걔 폰 멀쩡하대"}
+{"type": "message", "seq": 19, "room": "1:1", "sender": "민지(새 계정)", "is_user": false, "day": 0, "text": ".."}
+{"type": "message", "seq": 20, "room": "1:1", "sender": "나", "is_user": true, "day": 0, "text": "누군지 모르겠는데 신고할게"}
+{"type": "message", "seq": 21, "room": "문자", "sender": "민지", "is_user": false, "day": 0, "text": "야 방금 너 전화받고 놀래서 확인했는데 나 진짜 아니야. 내 카톡 프사 퍼다 쓴듯 ㅜ 다른 애들한테도 돌려야겠다"}
+{"type": "message", "seq": 22, "room": "문자", "sender": "나", "is_user": true, "day": 0, "text": "ㅇㅇ 나도 신고함. 조심하라고 단톡에도 올릴게"}
