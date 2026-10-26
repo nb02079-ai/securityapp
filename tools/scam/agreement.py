@@ -73,6 +73,11 @@ def load_model(name, msg_path, pts_path, sheet_keys, problems):
     if missing:
         problems.append(f"{name}: 빠진 줄 {len(missing)}개 (예: {sorted(missing)[:3]})")
     pts = {r["case"].strip(): r for r in read_csv(pts_path)}
+    for cid, r in pts.items():
+        for f in ("first_suggest", "first_intent_before", "first_transfer_before"):
+            v = str(r.get(f) or "").strip()
+            if v and (not v.isdigit() or (cid, int(v)) not in sheet_keys):
+                problems.append(f"{name}: {cid} {f}={v} 상대방 메시지 번호가 아님")
     return labels, pts
 
 

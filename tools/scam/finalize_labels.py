@@ -7,6 +7,7 @@
       --labels docs/labeling/label_results/v2 \
       --adjudication <판정을 채운 adjudication .xlsx> \
       --out data/eval/scam/labels
+  홀드아웃: --models chatgpt,gemini,grok (기본 grok,claude,chatgpt)
 
 규칙 (docs/labeling/06_label_round2.md 4장)
   - 신호: 메시지 × 신호마다 세 모델 중 2명 이상이 붙였으면 붙임. 판정한 칸은 판정을 따름
@@ -48,7 +49,11 @@ def load_adjudication(path):
         dec = str(dec).strip()
         if what in NAME_TO_POINT:
             key = ("point", cid, NAME_TO_POINT[what])
-            if not dec.isdigit():
+            if key[2] == "transfer_seen":
+                dec = dec.upper()
+                if dec not in ("Y", "N"):
+                    sys.exit(f"[오류] 송금 있었나 판정은 Y/N: {cid} '{dec}'")
+            elif not dec.isdigit():
                 sys.exit(f"[오류] 금전 지점 판정이 번호가 아님: {cid} {what} '{dec}'")
         elif what == "단계":
             key = ("stage", cid, int(seq))
@@ -72,14 +77,18 @@ def main():
     ap.add_argument("--labels", required=True)
     ap.add_argument("--adjudication", required=True)
     ap.add_argument("--out", required=True)
+    ap.add_argument("--models", default=",".join(MODELS), help="쉼표로 구분한 모델 3개")
     args = ap.parse_args()
+    models = tuple(m.strip() for m in args.models.split(",") if m.strip())
+    if len(models) != 3:
+        sys.exit(f"[오류] 모델은 3개여야 함: {models}")
 
     blind = {}  # 가림판 번호 → (case_id, 메시지들)
     for i, path in enumerate(ordered(args.files, args.shuffle_seed), 1):
         with open(path, encoding="utf-8") as f:
             lines = [json.loads(l) for l in f if l.strip()]
         blind[f"C{i:02d}"] = (lines[0]["case_id"], lines[1:])
-    msgs, pts = load_models(args.labels)
+    msgs, pts = load_models(args.labels, models)
     adj = load_adjudication(args.adjudication)
     used = set()
 
@@ -90,12 +99,12 @@ def main():
             if m["is_user"]:
                 continue
             k = (cid, m["seq"])
-            for mod in MODELS:
+            for mod in models:
                 if k not in msgs[mod]:
                     sys.exit(f"[오류] {mod}에 {k} 없음")
                 if msgs[mod][k]["text"] != m["text"]:
                     sys.exit(f"[오류] {mod} {k} 메시지 내용이 평가 세트와 다름 (번호가 어긋났을 수 있음)")
-            votes = Counter(c for mod in MODELS for c in parse_signals(msgs[mod][k]["signals"]) if c in CODES)
+            votes = Counter(c for mod in models for c in parse_signals(msgs[mod][k]["signals"]) if c in CODES)
             sig, sig_src = set(), "다수결"
             for code in CODES:
                 key = ("sig", cid, m["seq"], code)
@@ -113,7 +122,7 @@ def main():
                 n_adj_stage += 1
                 stage, st_src = adj[key], "판정"
             else:
-                top, cnt = Counter(msgs[mod][k]["stage"] for mod in MODELS).most_common(1)[0]
+                top, cnt = Counter(msgs[mod][k]["stage"] for mod in models).most_common(1)[0]
                 if cnt < 2:
                     sys.exit(f"[오류] {k} 단계 다수결도 판정도 없음")
                 stage, st_src = top, "다수결"
@@ -132,7 +141,7 @@ def main():
                 row[f] = adj[key]
                 src.append(f"{f}=판정")
                 continue
-            vals = {str(pts[mod][cid].get(f, "")).strip().upper() for mod in MODELS}
+            vals = {str(pts[mod][cid].get(f, "")).strip().upper() for mod in models}
             if len(vals) != 1 or "" in vals:
                 sys.exit(f"[오류] {cid} {f}: 모델 값이 갈렸는데 판정이 없음 {vals}")
             row[f] = vals.pop()

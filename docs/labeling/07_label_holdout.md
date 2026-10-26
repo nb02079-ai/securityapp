@@ -49,3 +49,19 @@ python tools/scam/make_label_sheet.py data/eval/holdout_v2/*.jsonl --out "<저�
 3. 갈린 칸과 금전 지점만 사용자가 판정 (`make_adjudication_xlsx.py`)
 4. `finalize_labels.py`로 최종 라벨 → `data/eval/holdout_v2/labels/`
 5. 평가기를 `--eval-set`으로 **한 번** 실행 (engine-v1.1, 비교용으로 engine-v1도 같은 날 함께)
+
+## 진행 기록
+
+### 2026-10-27 라벨 수령·일치율
+- 세 모델 결과를 받아 `label_results/holdout_v2/`에 저장했습니다 (파일 처리 기록은 [difficulties.md](label_results/holdout_v2/difficulties.md) 끝).
+- 일치율 ([agreement_report.md](label_results/holdout_v2/agreement_report.md)): 신호 전체 Fleiss κ 0.77, 단계 κ 0.77. 금전 지점 세 모델 완전 일치는 첫 금전 권유 7/10, 첫 송금 의사 직전 3/10, 첫 송금 직전 8/10.
+- 신호가 가장 갈린 것은 D5(κ 0.47, ChatGPT 1개 vs 다른 두 모델 7·8개)입니다. 신호는 이진 다수결로 정해지므로 판정 대상에 넣지 않았습니다.
+- 판정 대상 18칸 ([adjudication_items.csv](label_results/holdout_v2/adjudication_items.csv)): 세 모델이 모두 다른 단계 5칸, 모델끼리 다른 금전 지점 13칸(송금 있었나 1칸 포함). 규칙 번호 12(4.3)·13(송금 있었나)·14(단계 일반)를 `make_adjudication_xlsx.py` RULES에 더했습니다.
+- 도구 변경: `make_adjudication_xlsx.py`·`finalize_labels.py`에 `--models`(기본값은 기존 grok,claude,chatgpt), 판정 양식에 `--guide`·`--blind-name`, 금전 지점 판정에 `transfer_seen`(Y/N) 추가. `agreement.py`는 금전 지점이 상대방 메시지 번호인지 점검합니다. 기존 평가 세트로 `finalize_labels.py`를 다시 돌려 `data/eval/scam/labels/` 두 파일이 바이트 단위로 같음을 확인했습니다.
+
+판정 양식 만들기:
+```
+py tools/scam/make_adjudication_xlsx.py data/eval/holdout_v2/holdout_C01.jsonl ... holdout_C10.jsonl --shuffle-seed 20261027 ^
+    --items docs/labeling/label_results/holdout_v2/adjudication_items.csv --labels docs/labeling/label_results/holdout_v2 ^
+    --models chatgpt,gemini,grok --guide "기준표 v2.2" --blind-name blind_cases.md --out <파일.xlsx>
+```
