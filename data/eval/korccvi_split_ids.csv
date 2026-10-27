@@ -1,0 +1,1418 @@
+call_id,label,group,split,kind,n_speakers,scammer,n_segments
+d01j01s000050,normal,d01j01s000050,dev,,2,,23
+d01j01s000122,normal,d01j01s000122,train,,2,,16
+d01j01s000318,normal,d01j01s000318,train,,2,,79
+d01j01s000324,normal,d01j01s000324,train,,2,,6
+d01j01s000329,normal,d01j01s000329,train,,2,,34
+d01j01s000551,normal,d01j01s000551,train,,2,,11
+d01j01s000574,normal,d01j01s000574,dev,,2,,26
+d01j01s000576,normal,d01j01s000576,train,,2,,6
+d01j01s000633,normal,d01j01s000633,train,,2,,44
+d01j01s000877,normal,d01j01s000877,train,,2,,5
+d01j01s000950,normal,d01j01s000950,dev,,2,,51
+d01j01s001044,normal,d01j01s001044,test,,2,,26
+d01j01s001132,normal,d01j01s001132,train,,2,,46
+d01j01s001177,normal,d01j01s001177,train,,2,,10
+d01j01s001842,normal,d01j01s001842,train,,2,,4
+d01j01s002030,normal,d01j01s002030,train,,2,,6
+d01j01s002105,normal,d01j01s002105,dev,,1,,5
+d01j01s002166,normal,d01j01s002166,train,,2,,14
+d01j01s002376,normal,d01j01s002376,train,,3,,10
+d01j020s000147,normal,d01j020s000147,train,,2,,41
+d01j020s000160,normal,d01j020s000160,train,,2,,20
+d01j020s000188,normal,d01j020s000188,train,,3,,19
+d01j020s000295,normal,d01j020s000295,train,,2,,22
+d01j020s000296,normal,d01j020s000296,train,,1,,28
+d01j020s000577,normal,d01j020s000577,test,,2,,16
+d01j020s000646,normal,d01j020s000646,train,,2,,37
+d01j020s000664,normal,d01j020s000664,test,,2,,16
+d01j020s000859,normal,d01j020s000859,train,,3,,6
+d01j020s001440,normal,d01j020s001440,test,,2,,11
+d01j020s001582,normal,d01j020s001582,train,,2,,44
+d01j020s001648,normal,d01j020s001648,train,,2,,45
+d01j020s001970,normal,d01j020s001970,train,,2,,22
+d01j020s002364,normal,d01j020s002364,train,,2,,8
+d01j020s002403,normal,d01j020s002403,train,,2,,6
+d01j020s003045,normal,d01j020s003045,train,,2,,6
+d01j020s003078,normal,d01j020s003078,dev,,2,,60
+d01j020s003258,normal,d01j020s003258,train,,2,,54
+d01j020s003648,normal,d01j020s003648,train,,2,,45
+d01j020s003650,normal,d01j020s003650,test,,2,,15
+d01j020s003734,normal,d01j020s003734,train,,2,,11
+d01j020s003787,normal,d01j020s003787,train,,2,,73
+d01j020s003819,normal,d01j020s003819,test,,2,,2
+d01j020s003855,normal,d01j020s003855,train,,2,,23
+d01j020s004061,normal,d01j020s004061,train,,2,,47
+d01j020s004227,normal,d01j020s004227,train,,2,,6
+d01j020s004491,normal,d01j020s004491,dev,,2,,28
+d01j020s004495,normal,d01j020s004495,train,,2,,26
+d01j020s004632,normal,d01j020s004632,train,,2,,14
+d01j020s004651,normal,d01j020s004651,train,,2,,13
+d01j020s004847,normal,d01j020s004847,train,,2,,4
+d01j020s004988,normal,d01j020s004988,train,,2,,37
+d01j020s005345,normal,d01j020s005345,test,,2,,12
+d01j020s005498,normal,d01j020s005498,train,,2,,11
+d01j020s005562,normal,d01j020s005562,dev,,2,,5
+d01j020s006316,normal,d01j020s006316,train,,3,,52
+d01j020s006442,normal,d01j020s006442,train,,2,,24
+d01j020s006507,normal,d01j020s006507,train,,2,,6
+d01j020s006622,normal,d01j020s006622,train,,2,,19
+d01j020s006651,normal,d01j020s006651,train,,2,,11
+d01j020s006667,normal,d01j020s006667,train,,2,,30
+d01j020s006778,normal,d01j020s006778,test,,2,,12
+d01j020s006828,normal,d01j020s006828,train,,2,,10
+d01j020s007361,normal,d01j020s007361,train,,2,,18
+d01j020s007458,normal,d01j020s007458,test,,2,,21
+d01j020s007469,normal,d01j020s007469,train,,2,,6
+d01j020s007496,normal,d01j020s007496,train,,2,,3
+d01j020s007604,normal,d01j020s007604,train,,2,,24
+d01j020s007661,normal,d01j020s007661,train,,2,,15
+d01j020s007763,normal,d01j020s007763,train,,2,,20
+d01j020s007794,normal,d01j020s007794,train,,2,,7
+d01j020s008105,normal,d01j020s008105,train,,2,,33
+d01j020s008136,normal,d01j020s008136,train,,2,,8
+d01j020s008157,normal,d01j020s008157,train,,2,,27
+d01j020s008208,normal,d01j020s008208,train,,2,,32
+d01j020s008347,normal,d01j020s008347,dev,,2,,6
+d01j020s008427,normal,d01j020s008427,train,,2,,14
+d01j020s008463,normal,d01j020s008463,dev,,2,,18
+d01j020s008670,normal,d01j020s008670,train,,2,,24
+d01j020s008676,normal,d01j020s008676,train,,2,,29
+d01j020s008923,normal,d01j020s008923,train,,2,,5
+d01j020s009275,normal,d01j020s009275,test,,2,,15
+d01j020s009328,normal,d01j020s009328,train,,2,,32
+d01j020s009515,normal,d01j020s009515,train,,3,,6
+d01j020s009815,normal,d01j020s009815,train,,2,,12
+d01j020s010043,normal,d01j020s010043,train,,1,,11
+d01j020s010187,normal,d01j020s010187,test,,4,,5
+d01j020s010263,normal,d01j020s010263,test,,2,,27
+d01j020s010523,normal,d01j020s010523,train,,2,,27
+d01j020s010866,normal,d01j020s010866,train,,2,,16
+d01j020s010897,normal,d01j020s010897,test,,2,,18
+d01j020s010970,normal,d01j020s010970,train,,2,,6
+d01j020s011169,normal,d01j020s011169,dev,,2,,11
+d01j020s011199,normal,d01j020s011199,train,,2,,89
+d01j020s011373,normal,d01j020s011373,train,,3,,8
+d01j020s011376,normal,d01j020s011376,train,,2,,25
+d01j020s011686,normal,d01j020s011686,dev,,2,,14
+d01j020s011939,normal,d01j020s011939,train,,2,,7
+d01j020s012960,normal,d01j020s012960,train,,3,,10
+d01j020s013807,normal,d01j020s013807,test,,2,,8
+d01j020s013922,normal,d01j020s013922,train,,2,,33
+d01j020s014152,normal,d01j020s014152,train,,2,,7
+d01j020s014454,normal,d01j020s014454,train,,2,,13
+d01j020s014554,normal,d01j020s014554,train,,2,,10
+d01j020s014870,normal,d01j020s014870,test,,2,,14
+d01j020s015243,normal,d01j020s015243,train,,2,,4
+d01j020s015368,normal,d01j020s015368,dev,,2,,20
+d01j020s015817,normal,d01j020s015817,train,,2,,9
+d01j020s015819,normal,d01j020s015819,train,,3,,3
+d01j020s015876,normal,d01j020s015876,train,,2,,38
+d01j020s016158,normal,d01j020s016158,train,,2,,34
+d01j020s016345,normal,d01j020s016345,train,,2,,13
+d01j020s016429,normal,d01j020s016429,train,,1,,4
+d01j020s016459,normal,d01j020s016459,dev,,2,,10
+d01j020s016464,normal,d01j020s016464,train,,2,,11
+d01j020s016492,normal,d01j020s016492,train,,2,,27
+d01j020s016673,normal,d01j020s016673,train,,2,,36
+d01j020s016753,normal,d01j020s016753,train,,2,,15
+d01j020s016908,normal,d01j020s016908,train,,2,,10
+d01j020s017258,normal,d01j020s017258,train,,2,,25
+d01j020s017428,normal,d01j020s017428,test,,2,,43
+d01j020s017972,normal,d01j020s017972,test,,2,,34
+d01j020s018154,normal,d01j020s018154,dev,,2,,4
+d01j020s018282,normal,d01j020s018282,train,,2,,7
+d01j020s018735,normal,d01j020s018735,train,,2,,6
+d01j020s018900,normal,d01j020s018900,train,,2,,4
+d01j020s019465,normal,d01j020s019465,train,,2,,15
+d01j020s019638,normal,d01j020s019638,train,,1,,1
+d01j020s019639,normal,d01j020s019639,train,,2,,22
+d01j020s019848,normal,d01j020s019848,dev,,2,,7
+d01j020s019872,normal,d01j020s019872,train,,2,,23
+d01j020s019960,normal,d01j020s019960,test,,2,,18
+d01j020s020193,normal,d01j020s020193,train,,2,,43
+d01j020s020299,normal,d01j020s020299,test,,2,,6
+d01j020s020458,normal,d01j020s020458,train,,3,,5
+d01j020s020588,normal,d01j020s020588,test,,2,,9
+d01j020s021170,normal,d01j020s021170,train,,2,,25
+d01j020s021191,normal,d01j020s021191,train,,2,,15
+d01j020s021475,normal,d01j020s021475,train,,2,,12
+d01j020s021963,normal,d01j020s021963,train,,2,,4
+d01j020s022397,normal,d01j020s022397,dev,,4,,7
+d01j020s022511,normal,d01j020s022511,train,,2,,9
+d01j020s022602,normal,d01j020s022602,dev,,2,,15
+d01j020s022695,normal,d01j020s022695,train,,2,,16
+d01j020s022999,normal,d01j020s022999,train,,2,,7
+d01j020s023194,normal,d01j020s023194,train,,2,,12
+d01j020s023216,normal,d01j020s023216,dev,,2,,7
+d01j021s000013,normal,d01j021s000013,test,,2,,9
+d01j021s000774,normal,d01j021s000774,train,,2,,34
+d01j021s000879,normal,d01j021s000879,train,,2,,10
+d01j021s000935,normal,d01j021s000935,train,,2,,7
+d01j021s000952,normal,d01j021s000952,train,,2,,6
+d01j021s001386,normal,d01j021s001386,train,,2,,16
+d01j021s001543,normal,d01j021s001543,train,,2,,9
+d01j021s001632,normal,d01j021s001632,test,,2,,35
+d01j021s001958,normal,d01j021s001958,train,,2,,25
+d01j021s002421,normal,d01j021s002421,dev,,2,,15
+d01j021s003114,normal,d01j021s003114,test,,2,,16
+d01j021s003475,normal,d01j021s003475,train,,2,,21
+d01j021s003634,normal,d01j021s003634,dev,,2,,25
+d01j021s003662,normal,d01j021s003662,train,,2,,11
+d01j021s003690,normal,d01j021s003690,train,,4,,6
+d01j021s003848,normal,d01j021s003848,train,,2,,16
+d01j021s004071,normal,d01j021s004071,dev,,2,,12
+d01j021s004803,normal,d01j021s004803,dev,,3,,5
+d01j021s004991,normal,d01j021s004991,train,,2,,22
+d01j021s005041,normal,d01j021s005041,dev,,2,,18
+d01j021s005127,normal,d01j021s005127,dev,,2,,5
+d01j021s005318,normal,d01j021s005318,train,,2,,15
+d01j021s005819,normal,d01j021s005819,train,,2,,5
+d01j021s006050,normal,d01j021s006050,dev,,2,,20
+d01j021s006287,normal,d01j021s006287,dev,,2,,9
+d01j021s006332,normal,d01j021s006332,train,,2,,15
+d01j021s006557,normal,d01j021s006557,train,,2,,3
+d01j021s006801,normal,d01j021s006801,dev,,2,,3
+d01j021s006882,normal,d01j021s006882,train,,2,,9
+d01j021s007137,normal,d01j021s007137,train,,2,,15
+d01j021s007425,normal,d01j021s007425,train,,2,,20
+d01j03s000659,normal,d01j03s000659,test,,3,,7
+d01j03s001012,normal,d01j03s001012,train,,2,,24
+d01j03s001101,normal,d01j03s001101,train,,2,,15
+d01j03s001111,normal,d01j03s001111,dev,,2,,18
+d01j03s001174,normal,d01j03s001174,train,,2,,6
+d01j03s001261,normal,d01j03s001261,train,,2,,7
+d01j03s001547,normal,d01j03s001547,train,,2,,44
+d01j04s000254,normal,d01j04s000254,train,,2,,69
+d01j04s000327,normal,d01j04s000327,train,,2,,7
+d01j04s000460,normal,d01j04s000460,train,,2,,7
+d01j04s000475,normal,d01j04s000475,train,,2,,12
+d01j04s000840,normal,d01j04s000840,train,,2,,35
+d01j04s001344,normal,d01j04s001344,train,,2,,35
+d01j04s001604,normal,d01j04s001604,train,,2,,14
+d01j04s001634,normal,d01j04s001634,dev,,2,,9
+d01j04s001661,normal,d01j04s001661,test,,2,,35
+d01j04s001732,normal,d01j04s001732,test,,3,,3
+d01j04s001782,normal,d01j04s001782,train,,2,,8
+d01j04s001855,normal,d01j04s001855,test,,2,,47
+d01j04s001869,normal,d01j04s001869,train,,2,,4
+d01j04s001908,normal,d01j04s001908,train,,2,,15
+d01j04s002352,normal,d01j04s002352,train,,2,,7
+d01j04s002575,normal,d01j04s002575,train,,2,,22
+d01j04s002872,normal,d01j04s002872,train,,1,,10
+d01j04s002882,normal,d01j04s002882,test,,2,,43
+d01j04s003747,normal,d01j04s003747,train,,2,,3
+d01j04s004071,normal,d01j04s004071,train,,2,,4
+d01j04s004333,normal,d01j04s004333,train,,1,,25
+d01j04s004826,normal,d01j04s004826,test,,3,,11
+d01j04s004906,normal,d01j04s004906,train,,2,,26
+d01j04s005275,normal,d01j04s005275,train,,3,,11
+d01j04s005296,normal,d01j04s005296,train,,2,,14
+d01j04s005414,normal,d01j04s005414,train,,3,,5
+d01j04s005571,normal,d01j04s005571,train,,2,,3
+d01j04s005717,normal,d01j04s005717,train,,2,,20
+d01j04s006176,normal,d01j04s006176,test,,3,,4
+d01j04s006227,normal,d01j04s006227,train,,2,,47
+d01j04s006276,normal,d01j04s006276,train,,2,,6
+d01j04s006314,normal,d01j04s006314,dev,,2,,11
+d01j04s006408,normal,d01j04s006408,train,,2,,7
+d01j04s006557,normal,d01j04s006557,train,,2,,10
+d01j04s006561,normal,d01j04s006561,train,,2,,10
+d01j04s006605,normal,d01j04s006605,test,,2,,7
+d01j04s006760,normal,d01j04s006760,train,,2,,11
+d01j04s006795,normal,d01j04s006795,train,,2,,28
+d01j04s006800,normal,d01j04s006800,train,,2,,15
+d01j04s006840,normal,d01j04s006840,train,,2,,10
+d01j04s006929,normal,d01j04s006929,train,,1,,7
+d01j04s006963,normal,d01j04s006963,dev,,2,,13
+d01j04s007013,normal,d01j04s007013,test,,2,,8
+d01j04s007114,normal,d01j04s007114,train,,2,,5
+d01j04s007528,normal,d01j04s007528,dev,,2,,13
+d01j04s007713,normal,d01j04s007713,train,,1,,3
+d01j04s007988,normal,d01j04s007988,test,,2,,10
+d01j04s008012,normal,d01j04s008012,train,,2,,5
+d02j05s000060,normal,d02j05s000060,test,,2,,30
+d02j05s000121,normal,d02j05s000121,train,,2,,8
+d02j05s000240,normal,d02j05s000240,train,,2,,6
+d02j05s000463,normal,d02j05s000463,train,,2,,10
+d02j05s000602,normal,d02j05s000602,train,,2,,10
+d02j05s000682,normal,d02j05s000682,dev,,2,,31
+d02j05s000892,normal,d02j05s000892,test,,2,,21
+d02j05s000900,normal,d02j05s000900,train,,2,,15
+d02j05s001066,normal,d02j05s001066,train,,2,,37
+d02j05s001376,normal,d02j05s001376,train,,2,,19
+d02j05s001385,normal,d02j05s001385,train,,2,,23
+d02j05s001770,normal,d02j05s001770,train,,3,,48
+d02j05s001862,normal,d02j05s001862,dev,,2,,45
+d02j05s001957,normal,d02j05s001957,train,,2,,24
+d02j05s002049,normal,d02j05s002049,train,,2,,20
+d02j05s002084,normal,d02j05s002084,train,,2,,39
+d02j05s002139,normal,d02j05s002139,test,,2,,37
+d02j05s002443,normal,d02j05s002443,test,,2,,19
+d02j05s002480,normal,d02j05s002480,train,,2,,13
+d02j05s003120,normal,d02j05s003120,train,,3,,17
+d02j05s003231,normal,d02j05s003231,train,,3,,20
+d02j05s003462,normal,d02j05s003462,dev,,4,,41
+d02j05s004027,normal,d02j05s004027,train,,2,,14
+d02j05s004637,normal,d02j05s004637,train,,2,,18
+d02j05s004737,normal,d02j05s004737,train,,2,,22
+d02j05s004778,normal,d02j05s004778,dev,,2,,32
+d02j05s004863,normal,d02j05s004863,train,,2,,18
+d02j05s005285,normal,d02j05s005285,train,,2,,36
+d02j05s005286,normal,d02j05s005286,train,,2,,17
+d02j05s005303,normal,d02j05s005303,test,,2,,16
+d02j05s005760,normal,d02j05s005760,train,,2,,16
+d02j05s005801,normal,d02j05s005801,train,,2,,31
+d02j05s005836,normal,d02j05s005836,train,,3,,15
+d02j05s005965,normal,d02j05s005965,test,,2,,44
+d02j05s006014,normal,d02j05s006014,train,,3,,22
+d02j05s006022,normal,d02j05s006022,train,,2,,28
+d02j05s006352,normal,d02j05s006352,train,,2,,22
+d02j05s006410,normal,d02j05s006410,train,,2,,24
+d02j05s006430,normal,d02j05s006430,train,,3,,17
+d02j05s006655,normal,d02j05s006655,train,,2,,33
+d02j05s006835,normal,d02j05s006835,test,,2,,12
+d02j05s006898,normal,d02j05s006898,train,,2,,51
+d02j05s007323,normal,d02j05s007323,train,,2,,28
+d02j05s007451,normal,d02j05s007451,dev,,2,,16
+d02j05s007594,normal,d02j05s007594,test,,1,,17
+d02j05s007608,normal,d02j05s007608,train,,1,,8
+d02j05s007747,normal,d02j05s007747,train,,2,,39
+d02j06s000027,normal,d02j06s000027,train,,2,,5
+d02j06s000194,normal,d02j06s000194,train,,2,,3
+d02j06s000483,normal,d02j06s000483,train,,1,,35
+d02j06s000677,normal,d02j06s000677,train,,2,,7
+d02j06s000696,normal,d02j06s000696,train,,2,,30
+d02j06s000758,normal,d02j06s000758,train,,2,,14
+d02j06s000770,normal,d02j06s000770,train,,2,,8
+d02j06s000891,normal,d02j06s000891,train,,2,,6
+d02j06s001030,normal,d02j06s001030,train,,2,,20
+d02j06s001511,normal,d02j06s001511,test,,2,,34
+d02j06s001717,normal,d02j06s001717,train,,1,,16
+d02j06s002216,normal,d02j06s002216,dev,,2,,20
+d02j06s002256,normal,d02j06s002256,train,,1,,20
+d02j06s002600,normal,d02j06s002600,train,,2,,33
+d02j06s002611,normal,d02j06s002611,train,,2,,30
+d02j06s003284,normal,d02j06s003284,test,,2,,69
+d02j06s003696,normal,d02j06s003696,train,,2,,25
+d02j06s003782,normal,d02j06s003782,dev,,2,,11
+d02j07s000046,normal,d02j07s000046,train,,2,,7
+d02j07s000516,normal,d02j07s000516,train,,2,,41
+d02j07s000763,normal,d02j07s000763,train,,2,,5
+d02j07s001117,normal,d02j07s001117,dev,,2,,15
+d02j07s001506,normal,d02j07s001506,train,,2,,17
+d02j07s001771,normal,d02j07s001771,train,,2,,5
+d02j07s002183,normal,d02j07s002183,train,,2,,26
+d02j07s002472,normal,d02j07s002472,train,,2,,16
+d02j07s002486,normal,d02j07s002486,test,,1,,5
+d02j07s002751,normal,d02j07s001117,dev,,2,,16
+d02j07s003215,normal,d02j07s003215,test,,3,,14
+d02j07s003297,normal,d02j07s003297,train,,1,,15
+d02j07s003340,normal,d02j07s003340,train,,1,,15
+d02j07s003345,normal,d02j07s003345,train,,3,,25
+d02j07s003390,normal,d02j07s003390,train,,2,,42
+d02j07s003502,normal,d02j07s003502,test,,3,,7
+d02j07s003835,normal,d02j07s003835,train,,1,,10
+d02j07s003918,normal,d02j07s003918,test,,2,,9
+d02j07s004200,normal,d02j07s004200,train,,2,,9
+d02j07s004577,normal,d02j07s004577,dev,,2,,6
+d02j07s004757,normal,d02j07s004757,train,,3,,27
+d02j07s005200,normal,d02j07s005200,train,,2,,15
+d02j07s005293,normal,d02j07s005293,train,,2,,4
+d02j07s005709,normal,d02j07s005709,train,,2,,10
+d02j07s005742,normal,d02j07s005742,train,,2,,9
+d02j07s005935,normal,d02j07s005935,train,,2,,8
+d02j07s006398,normal,d02j07s006398,train,,2,,4
+d02j07s006489,normal,d02j07s006489,train,,2,,4
+d02j07s006510,normal,d02j07s006510,train,,1,,4
+d02j07s006727,normal,d02j07s006727,train,,2,,5
+d02j07s007029,normal,d02j07s007029,test,,1,,9
+d02j07s007061,normal,d02j07s007061,dev,,3,,10
+d02j07s007424,normal,d02j07s007424,test,,2,,5
+d02j07s007456,normal,d02j07s007456,train,,2,,26
+d02j07s007541,normal,d02j07s007541,test,,2,,6
+d02j07s007565,normal,d02j07s007565,train,,2,,6
+d02j07s007571,normal,d02j07s007571,dev,,2,,18
+d02j07s007629,normal,d02j07s007629,train,,2,,48
+d02j07s007729,normal,d02j07s007729,test,,1,,3
+d02j07s007881,normal,d02j07s007881,dev,,2,,6
+d02j07s007932,normal,d02j07s007932,train,,2,,6
+d02j07s008159,normal,d02j07s008159,train,,2,,3
+d02j07s008294,normal,d02j07s008294,train,,2,,3
+d02j08s000267,normal,d02j08s000267,train,,2,,6
+d02j08s000558,normal,d02j08s000558,dev,,1,,2
+d02j08s000559,normal,d02j08s000559,train,,2,,43
+d02j08s000595,normal,d02j08s000595,train,,2,,29
+d02j08s000629,normal,d02j08s000629,train,,2,,46
+d02j08s000640,normal,d02j08s000640,train,,2,,11
+d02j08s000830,normal,d02j08s000830,test,,2,,18
+d02j08s001053,normal,d02j08s001053,train,,2,,9
+d02j08s001120,normal,d02j08s001120,train,,2,,57
+d02j08s001121,normal,d02j08s001121,train,,2,,9
+d02j08s001200,normal,d02j08s001200,train,,1,,23
+d02j08s001278,normal,d02j08s001278,test,,2,,7
+d02j08s001503,normal,d02j08s001503,train,,2,,5
+d02j08s001889,normal,d02j08s001889,train,,2,,10
+d02j08s001931,normal,d02j08s001931,train,,2,,6
+d02j08s002012,normal,d02j08s002012,train,,2,,21
+d02j08s002133,normal,d02j08s002133,dev,,2,,5
+d02j08s002289,normal,d02j08s002289,train,,2,,14
+d02j08s002483,normal,d02j08s002483,test,,2,,17
+d02j08s002666,normal,d02j08s002666,train,,2,,9
+d02j08s003029,normal,d02j08s003029,train,,2,,20
+d02j08s003142,normal,d02j08s003142,train,,2,,6
+d02j08s003299,normal,d02j08s003299,train,,2,,19
+d02j08s003419,normal,d02j08s003419,test,,2,,8
+d02j08s003632,normal,d02j08s003632,train,,2,,6
+d02j08s003883,normal,d02j08s003883,dev,,2,,11
+d02j08s003896,normal,d02j08s003896,train,,2,,8
+d02j08s004318,normal,d02j08s004318,dev,,2,,14
+d02j08s004333,normal,d02j08s004333,dev,,3,,3
+d02j08s004651,normal,d02j08s004651,train,,2,,5
+d02j08s004710,normal,d02j08s004710,train,,2,,4
+d02j08s004732,normal,d02j08s004732,train,,2,,10
+d02j08s004829,normal,d02j07s001117,dev,,2,,24
+d02j08s004959,normal,d02j08s004959,train,,2,,10
+d02j08s005022,normal,d02j08s005022,dev,,2,,8
+d02j08s005679,normal,d02j08s005679,train,,2,,6
+d02j08s005906,normal,d02j08s005906,test,,3,,6
+d02j08s006167,normal,d02j08s006167,train,,2,,5
+d02j08s006518,normal,d02j08s006518,train,,2,,7
+d02j08s006753,normal,d02j08s006753,test,,2,,16
+d02j08s006789,normal,d02j08s006789,dev,,2,,10
+d02j08s006905,normal,d02j08s006905,train,,2,,8
+d02j08s007464,normal,d02j08s007464,train,,2,,6
+d02j08s007584,normal,d02j08s007584,train,,2,,5
+d02j08s007703,normal,d02j08s007703,train,,2,,7
+d02j08s008082,normal,d02j08s008082,train,,2,,14
+d02j08s008091,normal,d02j08s008091,train,,2,,7
+d02j08s008136,normal,d02j08s008136,test,,2,,16
+d02j08s008354,normal,d02j08s008354,train,,2,,15
+d02j08s008435,normal,d02j08s008435,dev,,2,,16
+d02j08s008464,normal,d02j08s008464,train,,1,,10
+d02j08s008517,normal,d02j08s008517,train,,2,,15
+d02j08s008529,normal,d02j08s008529,train,,2,,13
+d02j08s008655,normal,d02j08s008655,train,,2,,7
+d02j08s008797,normal,d02j08s008797,test,,2,,19
+d02j08s008846,normal,d02j08s008846,test,,1,,11
+d02j08s008990,normal,d02j08s008990,dev,,2,,41
+d02j08s009248,normal,d02j08s009248,train,,2,,25
+d02j08s009288,normal,d02j08s009288,train,,2,,43
+d02j09s000030,normal,d02j09s000030,train,,2,,9
+d02j09s000258,normal,d02j09s000258,train,,2,,29
+d02j09s000285,normal,d02j09s000285,test,,2,,6
+d02j09s000659,normal,d02j09s000659,train,,2,,11
+d02j09s000693,normal,d02j09s000693,dev,,2,,4
+d02j09s000716,normal,d02j09s000716,train,,1,,32
+d02j09s000788,normal,d02j09s000788,train,,2,,17
+d02j09s001068,normal,d02j09s001068,train,,3,,7
+d02j09s001337,normal,d02j09s001337,train,,2,,17
+d02j09s001389,normal,d02j09s001389,train,,2,,14
+d02j09s001642,normal,d02j09s001642,dev,,2,,16
+d02j09s002121,normal,d02j09s002121,train,,2,,6
+d02j09s002368,normal,d02j09s002368,train,,2,,17
+d02j09s002461,normal,d02j09s002461,test,,2,,6
+d02j09s002513,normal,d02j09s002513,train,,2,,8
+d02j09s002554,normal,d02j09s002554,train,,1,,11
+d02j09s002612,normal,d02j09s002612,test,,2,,13
+d02j09s002877,normal,d02j09s002877,train,,1,,9
+d02j09s003019,normal,d02j09s003019,train,,1,,4
+d02j09s003254,normal,d02j09s003254,train,,2,,23
+d02j09s003674,normal,d02j09s003674,test,,2,,16
+d02j09s003771,normal,d02j09s003771,test,,1,,19
+d02j09s004141,normal,d02j09s004141,train,,2,,90
+d02j09s004233,normal,d02j09s004233,train,,2,,26
+d02j09s004553,normal,d02j09s004553,train,,3,,6
+d02j09s004760,normal,d02j09s004760,dev,,2,,8
+d02j09s005202,normal,d02j09s005202,train,,1,,3
+d02j09s005233,normal,d02j09s005233,train,,2,,8
+d02j09s005247,normal,d02j09s005247,train,,2,,7
+d02j09s005328,normal,d02j09s005328,train,,2,,18
+d02j09s005434,normal,d02j09s005434,train,,2,,24
+d02j09s005541,normal,d02j09s005541,dev,,2,,16
+d02j09s005680,normal,d02j09s005680,train,,2,,18
+d02j09s005746,normal,d02j09s005746,test,,2,,7
+d02j09s005963,normal,d02j09s005963,test,,2,,7
+d02j09s006845,normal,d02j09s006845,train,,2,,13
+d02j09s007132,normal,d02j09s007132,train,,2,,15
+d02j09s007294,normal,d02j09s007294,train,,2,,11
+d02j09s007298,normal,d02j09s007298,train,,2,,11
+d02j09s007346,normal,d02j09s007346,train,,2,,5
+d02j09s007363,normal,d02j09s007363,train,,2,,5
+d02j09s007444,normal,d02j09s007444,train,,2,,11
+d02j09s007834,normal,d02j09s007834,train,,2,,9
+d02j09s007919,normal,d02j09s007919,train,,2,,5
+d02j09s008042,normal,d02j09s008042,train,,2,,4
+d02j09s008079,normal,d02j09s008079,train,,2,,3
+d02j09s008301,normal,d02j09s008301,test,,2,,11
+d02j09s008387,normal,d02j09s008387,train,,2,,8
+d02j09s008453,normal,d02j09s008453,test,,2,,15
+d02j09s008487,normal,d02j09s008487,train,,2,,11
+d02j09s008558,normal,d02j09s008558,train,,2,,19
+d02j09s008688,normal,d02j09s008688,train,,2,,8
+d02j09s009113,normal,d02j09s009113,train,,2,,9
+d02j10s000450,normal,d02j10s000450,train,,2,,31
+d02j10s001344,normal,d02j10s001344,train,,1,,34
+d02j10s001560,normal,d02j10s001560,train,,2,,7
+d02j10s001711,normal,d02j10s001711,train,,3,,40
+d02j10s002314,normal,d02j10s002314,train,,2,,5
+d02j10s002523,normal,d02j10s002523,train,,2,,31
+d02j10s002608,normal,d02j10s002608,train,,2,,13
+d02j10s002661,normal,d02j10s002661,train,,1,,4
+d02j10s002980,normal,d02j10s002980,train,,2,,16
+d02j10s003190,normal,d02j10s003190,train,,2,,9
+d02j10s003202,normal,d02j10s003202,train,,2,,17
+d02j10s003391,normal,d02j10s003391,train,,2,,6
+d02j10s004516,normal,d02j10s004516,train,,2,,17
+d02j10s004756,normal,d02j10s004756,dev,,2,,14
+d02j10s004791,normal,d02j10s004791,train,,2,,23
+d02j10s005177,normal,d02j10s005177,dev,,2,,48
+d02j10s005443,normal,d02j10s005443,train,,2,,11
+d02j10s005481,normal,d02j10s005481,train,,2,,18
+d02j10s005572,normal,d02j10s005572,train,,2,,19
+d02j10s005626,normal,d02j10s005626,train,,2,,10
+d02j10s005744,normal,d02j10s005744,train,,2,,12
+d02j10s005773,normal,d02j10s005773,dev,,2,,9
+d02j10s005845,normal,d02j10s005845,train,,3,,7
+d02j10s006331,normal,d02j10s006331,train,,2,,17
+d02j10s006589,normal,d02j10s006589,train,,2,,12
+d02j10s006627,normal,d02j10s006627,train,,3,,6
+d02j10s006972,normal,d02j10s006972,train,,2,,32
+d02j10s007039,normal,d02j10s007039,train,,1,,6
+d02j10s007201,normal,d02j10s007201,dev,,3,,11
+d02j10s007382,normal,d02j10s007382,test,,2,,24
+d02j10s007392,normal,d02j10s007392,train,,2,,7
+d02j11s000233,normal,d02j07s001117,dev,,2,,8
+d02j11s000247,normal,d02j11s000247,train,,2,,10
+d02j11s000339,normal,d02j11s000339,train,,2,,6
+d02j11s000499,normal,d02j07s001117,dev,,2,,8
+d02j11s000500,normal,d02j11s000500,train,,1,,16
+d02j11s000584,normal,d02j11s000584,test,,3,,6
+d02j11s000700,normal,d02j11s000700,dev,,2,,6
+d02j11s001124,normal,d02j11s001124,dev,,2,,10
+d02j11s001181,normal,d02j11s001181,train,,1,,2
+d02j11s001377,normal,d02j11s001377,train,,2,,11
+d02j11s001550,normal,d02j11s001550,train,,2,,19
+d02j11s001714,normal,d02j07s001117,dev,,2,,3
+d02j11s001731,normal,d02j11s001731,train,,2,,26
+d02j11s002339,normal,d02j11s002339,train,,2,,6
+d02j11s002342,normal,d02j11s002342,train,,2,,6
+d02j11s002543,normal,d02j11s002543,train,,1,,3
+d02j11s002782,normal,d02j11s002782,train,,2,,10
+d02j11s002815,normal,d02j11s002815,train,,2,,37
+d02j11s003326,normal,d02j11s003326,test,,2,,4
+d02j11s004179,normal,d02j11s004179,train,,2,,23
+d02j11s004236,normal,d02j11s004236,train,,2,,5
+d02j11s004560,normal,d02j11s004560,dev,,2,,8
+d02j11s004741,normal,d02j11s004741,train,,2,,14
+d02j11s004842,normal,d02j11s004842,train,,4,,13
+d02j11s004961,normal,d02j11s004961,train,,2,,4
+d02j11s005319,normal,d02j11s005319,test,,2,,7
+d02j11s005693,normal,d02j11s005693,test,,2,,4
+d02j11s005784,normal,d02j11s005784,train,,1,,14
+d02j11s005904,normal,d02j11s005904,test,,2,,4
+d02j11s005908,normal,d02j11s005908,train,,1,,2
+d02j11s005917,normal,d02j11s005917,train,,1,,4
+d02j11s005961,normal,d02j11s005961,train,,2,,20
+d02j11s006013,normal,d02j11s006013,train,,2,,20
+d02j11s006026,normal,d02j11s006026,train,,2,,30
+d02j11s006091,normal,d02j11s006091,train,,2,,5
+d02j11s006153,normal,d02j11s006153,train,,2,,4
+d02j11s006438,normal,d02j11s006438,train,,2,,40
+d02j11s006677,normal,d02j11s006677,train,,3,,12
+d02j11s006704,normal,d02j11s006704,dev,,2,,9
+d02j11s007103,normal,d02j11s007103,train,,2,,5
+d02j11s007153,normal,d02j11s007153,train,,2,,36
+d02j11s007358,normal,d02j11s007358,train,,1,,3
+d02j11s007910,normal,d02j11s007910,train,,1,,3
+d02j11s008061,normal,d02j11s008061,dev,,2,,10
+d02j11s008089,normal,d02j11s008089,train,,2,,7
+d02j11s009219,normal,d02j11s009219,dev,,2,,21
+d02j11s009304,normal,d02j11s009304,train,,2,,5
+d02j12s000074,normal,d02j12s000074,dev,,3,,28
+d02j12s000257,normal,d02j12s000257,train,,2,,13
+d02j12s000572,normal,d02j12s000572,test,,1,,7
+d02j12s000680,normal,d02j12s000680,dev,,2,,18
+d02j12s000729,normal,d02j12s000729,train,,2,,12
+d02j12s000741,normal,d02j12s000741,train,,2,,22
+d02j12s000765,normal,d02j12s000765,train,,2,,13
+d02j12s000857,normal,d02j12s000857,dev,,5,,35
+d02j12s001308,normal,d02j12s001308,train,,2,,37
+d02j12s001327,normal,d02j12s001327,test,,2,,22
+d02j12s001991,normal,d02j12s001991,dev,,3,,13
+d02j12s002150,normal,d02j12s002150,test,,2,,22
+d02j12s002375,normal,d02j12s002375,train,,2,,10
+d02j12s002417,normal,d02j12s002417,test,,1,,17
+d02j12s002465,normal,d02j12s002465,dev,,2,,17
+d02j12s002561,normal,d02j12s002561,dev,,2,,36
+d02j12s002779,normal,d02j12s002779,dev,,2,,17
+d02j12s003021,normal,d02j12s003021,train,,2,,14
+d02j12s003073,normal,d02j12s003073,dev,,2,,24
+d02j12s003183,normal,d02j12s003183,train,,2,,8
+d02j12s003531,normal,d02j12s003531,test,,2,,32
+d02j12s003666,normal,d02j12s003666,train,,2,,14
+d02j12s003687,normal,d02j12s003687,train,,2,,11
+d02j12s003877,normal,d02j12s003877,train,,2,,29
+d02j12s004160,normal,d02j12s004160,dev,,2,,9
+d02j12s004344,normal,d02j12s004344,test,,3,,25
+d02j12s004402,normal,d02j12s004402,train,,2,,14
+d02j12s004519,normal,d02j12s004519,dev,,2,,10
+d02j12s004535,normal,d02j12s004535,train,,2,,26
+d02j12s004542,normal,d02j12s004542,test,,2,,43
+d02j12s004598,normal,d02j12s004598,dev,,2,,39
+d02j12s004689,normal,d02j12s004689,test,,2,,12
+d02j12s004943,normal,d02j12s004943,train,,2,,22
+d02j12s005201,normal,d02j12s005201,train,,2,,14
+d02j12s005209,normal,d02j12s005209,train,,2,,13
+d02j12s005273,normal,d02j12s005273,train,,2,,31
+d02j12s005774,normal,d02j12s005774,train,,2,,17
+d03j15s000090,normal,d03j15s000090,train,,2,,23
+d03j15s000115,normal,d03j15s000115,train,,2,,25
+d03j15s000281,normal,d03j15s000281,train,,2,,23
+d03j15s000783,normal,d03j15s000783,train,,2,,18
+d03j15s000908,normal,d03j15s000908,train,,2,,20
+d03j15s000972,normal,d03j15s000972,test,,2,,18
+d03j15s001294,normal,d03j15s001294,train,,2,,30
+d03j15s001325,normal,d03j15s001325,train,,2,,18
+d03j15s001424,normal,d03j15s001424,train,,2,,24
+d03j15s001579,normal,d03j15s001579,train,,2,,18
+d03j15s001825,normal,d03j15s001825,dev,,2,,21
+d03j15s002201,normal,d03j15s002201,train,,2,,18
+d03j15s002301,normal,d03j15s002301,train,,2,,21
+d03j15s002498,normal,d03j15s002498,train,,2,,19
+d03j15s002507,normal,d03j15s002507,dev,,2,,25
+d03j15s002573,normal,d03j15s002573,test,,1,,20
+d04j18s000012,normal,d04j18s000012,train,,2,,16
+d04j18s000033,normal,d04j18s000033,train,,2,,21
+d04j18s000216,normal,d04j18s000216,train,,2,,30
+d04j18s000222,normal,d04j18s000222,test,,2,,21
+d04j18s000300,normal,d04j18s000300,dev,,2,,7
+d04j18s000942,normal,d04j18s000942,train,,2,,18
+d04j18s001448,normal,d04j18s001448,train,,2,,75
+d04j18s001516,normal,d04j18s001516,train,,1,,1
+d04j18s002028,normal,d04j18s002028,dev,,1,,16
+d04j18s002219,normal,d04j18s002219,dev,,2,,11
+d04j18s002517,normal,d04j18s002517,train,,2,,9
+d04j18s002842,normal,d04j18s002842,test,,2,,36
+d04j18s002950,normal,d04j18s002950,train,,2,,12
+d04j18s003001,normal,d04j18s003001,dev,,2,,29
+d04j18s003213,normal,d04j18s003213,train,,2,,12
+d04j18s003752,normal,d04j18s003752,test,,2,,19
+d04j18s003763,normal,d04j18s003763,train,,2,,17
+d04j18s003818,normal,d04j18s003818,train,,2,,39
+d04j18s004207,normal,d04j18s004207,train,,2,,14
+d04j18s004834,normal,d04j18s004834,dev,,2,,33
+d04j18s005126,normal,d04j18s005126,train,,2,,18
+d04j18s005291,normal,d04j18s005291,test,,1,,26
+d04j18s005379,normal,d04j18s005379,train,,2,,10
+d04j18s005532,normal,d04j18s005532,train,,2,,9
+d04j18s005567,normal,d04j18s005567,train,,2,,15
+d04j18s005669,normal,d04j18s005669,train,,2,,27
+d04j18s005715,normal,d04j18s005715,dev,,2,,13
+d04j18s005718,normal,d04j18s005718,train,,1,,3
+d04j18s005800,normal,d04j18s005800,train,,2,,72
+d04j18s006112,normal,d04j18s006112,test,,2,,24
+d04j18s006400,normal,d04j18s006400,train,,2,,15
+d04j18s006458,normal,d04j18s006458,test,,2,,6
+d04j18s006622,normal,d04j18s006622,test,,2,,14
+d04j18s006643,normal,d04j18s006643,train,,2,,26
+d04j18s006886,normal,d04j18s006886,test,,2,,10
+d04j18s006946,normal,d04j18s006946,test,,2,,8
+d04j18s007149,normal,d04j18s007149,dev,,2,,11
+d04j18s007493,normal,d04j18s007493,train,,2,,7
+d04j18s007945,normal,d04j18s007945,train,,2,,80
+d04j18s008189,normal,d04j18s008189,train,,1,,13
+d04j18s008399,normal,d04j18s008399,test,,2,,15
+d04j18s008458,normal,d04j18s008458,train,,2,,50
+d04j18s008592,normal,d04j18s008592,train,,2,,48
+d04j18s008612,normal,d04j18s008612,train,,2,,13
+d04j18s008761,normal,d04j18s008761,train,,2,,7
+d04j18s008938,normal,d04j18s008938,train,,2,,14
+d04j18s009214,normal,d04j18s009214,train,,2,,34
+d04j18s009530,normal,d04j18s009530,train,,2,,9
+d04j18s009559,normal,d04j18s009559,test,,2,,33
+d04j18s010244,normal,d04j18s010244,train,,1,,6
+d04j18s010271,normal,d04j18s010271,train,,2,,12
+d04j18s010797,normal,d04j18s010797,dev,,2,,31
+d04j18s010986,normal,d04j18s010986,train,,2,,15
+d04j18s011012,normal,d04j18s011012,train,,2,,13
+d04j18s011470,normal,d04j18s011470,dev,,2,,16
+d04j18s011793,normal,d04j18s011793,train,,2,,13
+d04j18s011840,normal,d04j18s011840,train,,2,,19
+d04j18s012061,normal,d04j18s012061,train,,2,,27
+d04j18s012098,normal,d04j18s012098,dev,,2,,9
+d04j18s012308,normal,d04j18s012308,dev,,2,,15
+d04j18s012521,normal,d04j18s012521,dev,,2,,10
+d04j18s012642,normal,d04j18s012642,train,,3,,11
+d04j18s012762,normal,d04j18s012762,train,,1,,2
+d04j18s012857,normal,d04j18s012857,test,,2,,23
+d04j18s013092,normal,d04j18s013092,test,,2,,15
+d04j18s013279,normal,d04j18s013279,train,,2,,7
+d04j18s013381,normal,d04j18s013381,train,,2,,22
+d04j18s013389,normal,d04j18s013389,train,,2,,9
+d04j18s013482,normal,d04j18s013482,train,,2,,14
+d04j18s013635,normal,d04j18s013635,train,,2,,15
+d04j18s013646,normal,d04j18s013646,train,,2,,6
+d04j18s013762,normal,d04j18s013762,train,,2,,54
+d04j18s014066,normal,d04j18s014066,train,,2,,21
+d04j18s014208,normal,d04j18s014208,test,,2,,14
+d04j18s014260,normal,d04j18s014260,train,,2,,9
+d04j18s014449,normal,d04j18s014449,train,,2,,16
+d04j18s014500,normal,d04j18s014500,train,,2,,5
+d04j18s014639,normal,d04j18s014639,test,,2,,3
+d04j18s014737,normal,d04j18s014737,train,,2,,9
+d04j18s014894,normal,d04j18s014894,train,,2,,9
+d04j18s015536,normal,d04j18s015536,train,,2,,24
+d04j18s015545,normal,d04j18s015545,train,,2,,24
+d04j18s015644,normal,d04j18s015644,train,,2,,53
+d04j18s016045,normal,d04j18s016045,train,,2,,16
+d04j18s016060,normal,d04j18s016060,test,,2,,62
+d04j18s016315,normal,d04j18s016315,test,,2,,10
+d04j18s016600,normal,d04j18s016600,train,,2,,17
+d04j18s016678,normal,d04j18s016678,train,,2,,10
+d04j18s016695,normal,d04j18s016695,train,,2,,15
+d04j18s016939,normal,d04j18s016939,train,,2,,26
+d04j18s017520,normal,d04j18s017520,train,,2,,23
+d04j18s017639,normal,d04j18s017639,test,,2,,16
+d04j18s017731,normal,d04j18s017731,train,,2,,21
+d04j18s018098,normal,d04j18s018098,train,,2,,18
+d04j18s018176,normal,d04j18s018176,dev,,3,,19
+d04j18s018418,normal,d04j18s018418,train,,2,,23
+d04j18s018447,normal,d04j18s018447,train,,2,,17
+d04j18s018689,normal,d04j18s018689,train,,2,,4
+d04j18s019030,normal,d04j18s019030,dev,,2,,16
+d04j18s019373,normal,d04j18s019373,dev,,2,,37
+d04j18s019502,normal,d04j18s019502,train,,2,,17
+d04j18s019593,normal,d04j18s019593,test,,3,,13
+d04j18s019613,normal,d04j18s019613,dev,,2,,8
+d04j18s019734,normal,d04j18s019734,train,,2,,19
+d04j18s020161,normal,d04j18s020161,train,,2,,42
+d04j18s020291,normal,d04j18s020291,test,,2,,11
+d04j18s020352,normal,d04j18s020352,train,,2,,37
+d04j18s020386,normal,d04j18s020386,dev,,1,,5
+d04j18s020480,normal,d04j18s020480,train,,2,,4
+d04j18s020528,normal,d04j18s020528,train,,2,,25
+d04j18s020590,normal,d04j18s020590,train,,2,,16
+d04j18s020783,normal,d04j18s020783,train,,2,,7
+d04j18s020937,normal,d04j18s020937,train,,2,,25
+d04j18s021058,normal,d04j18s021058,train,,2,,16
+d04j18s021257,normal,d04j18s021257,dev,,1,,2
+d04j18s021308,normal,d04j18s021308,train,,2,,10
+d04j18s021617,normal,d04j18s021617,train,,3,,24
+d04j18s021772,normal,d04j18s021772,train,,2,,27
+d04j18s021884,normal,d04j18s021884,train,,2,,24
+d04j18s021996,normal,d04j18s021996,dev,,2,,6
+d04j18s022189,normal,d04j18s022189,dev,,2,,8
+d04j18s022473,normal,d04j18s022473,train,,2,,36
+d04j18s022700,normal,d04j18s022700,train,,2,,22
+d04j18s022783,normal,d04j18s022783,train,,2,,22
+d04j18s022965,normal,d04j18s022965,dev,,2,,8
+d04j18s023232,normal,d04j18s023232,test,,2,,13
+d04j18s023278,normal,d04j18s023278,dev,,2,,6
+d04j18s023339,normal,d04j18s023339,train,,2,,28
+vishing_1,scam,vishing_1,train,대출,2,1,17
+vishing_10,scam,vishing_10,test,기타,2,2,15
+vishing_100,scam,vishing_100,train,기관 사칭,1,single,9
+vishing_101,scam,vishing_101,train,기관 사칭,2,1,12
+vishing_102,scam,vishing_102,train,기관 사칭,1,single,12
+vishing_103,scam,vishing_103,train,기관 사칭,1,single,6
+vishing_104,scam,vishing_104,test,기관 사칭,1,single,9
+vishing_105,scam,vishing_104,test,기관 사칭,1,single,8
+vishing_106,scam,vishing_104,test,기관 사칭,1,single,10
+vishing_107,scam,vishing_104,test,기관 사칭,1,single,7
+vishing_108,scam,vishing_108,train,기관 사칭,1,single,7
+vishing_109,scam,vishing_108,train,기관 사칭,1,single,9
+vishing_11,scam,vishing_11,test,기타,2,2,8
+vishing_110,scam,vishing_108,train,기관 사칭,2,1,9
+vishing_111,scam,vishing_108,train,기관 사칭,1,single,8
+vishing_112,scam,vishing_112,train,기관 사칭,1,single,12
+vishing_113,scam,vishing_112,train,기관 사칭,2,1,7
+vishing_114,scam,vishing_112,train,기관 사칭,2,2,13
+vishing_115,scam,vishing_112,train,기관 사칭,1,single,15
+vishing_116,scam,vishing_116,train,기관 사칭,1,single,14
+vishing_117,scam,vishing_116,train,기관 사칭,1,single,5
+vishing_118,scam,vishing_116,train,기관 사칭,2,1,15
+vishing_119,scam,vishing_116,train,기타,2,1,6
+vishing_12,scam,vishing_12,train,대출,3,1,50
+vishing_120,scam,vishing_120,train,기타,2,1,6
+vishing_121,scam,vishing_121,test,기관 사칭,1,single,6
+vishing_122,scam,vishing_122,train,기관 사칭,2,1,5
+vishing_123,scam,vishing_123,train,기타,1,single,4
+vishing_124,scam,vishing_124,train,기관 사칭,1,single,8
+vishing_125,scam,vishing_125,train,기타,2,1,7
+vishing_126,scam,vishing_126,train,기타,1,single,4
+vishing_127,scam,vishing_127,test,기타,2,1,4
+vishing_128,scam,vishing_128,train,기타,1,single,5
+vishing_129,scam,vishing_129,dev,기타,1,single,2
+vishing_13,scam,vishing_13,train,대출,2,1,18
+vishing_130,scam,vishing_130,test,대출,1,single,5
+vishing_131,scam,vishing_131,train,대출,2,1,9
+vishing_132,scam,vishing_132,dev,대출,2,1,8
+vishing_133,scam,vishing_133,train,대출,1,single,3
+vishing_134,scam,vishing_134,train,기관 사칭,1,single,9
+vishing_135,scam,vishing_135,dev,대출,1,single,5
+vishing_136,scam,vishing_136,dev,대출,1,single,7
+vishing_137,scam,vishing_137,train,기관 사칭,2,1,9
+vishing_138,scam,vishing_138,train,대출,1,single,6
+vishing_139,scam,vishing_139,train,기관 사칭,1,single,4
+vishing_14,scam,vishing_14,train,대출,1,single,10
+vishing_140,scam,vishing_140,train,기타,1,single,7
+vishing_141,scam,vishing_141,train,기타,1,single,9
+vishing_142,scam,vishing_142,train,기타,1,single,14
+vishing_143,scam,vishing_143,train,기관 사칭,1,single,2
+vishing_144,scam,vishing_144,train,기관 사칭,2,1,15
+vishing_145,scam,vishing_145,train,기관 사칭,2,1,7
+vishing_146,scam,vishing_146,train,기관 사칭,1,single,6
+vishing_147,scam,vishing_147,train,기관 사칭,1,single,4
+vishing_148,scam,vishing_148,test,기관 사칭,1,single,7
+vishing_149,scam,vishing_149,train,기관 사칭,1,single,10
+vishing_15,scam,vishing_15,train,기관 사칭,3,1,122
+vishing_150,scam,vishing_150,dev,기타,1,single,5
+vishing_151,scam,vishing_151,train,기관 사칭,1,single,11
+vishing_152,scam,vishing_152,train,기관 사칭,2,1,6
+vishing_153,scam,vishing_153,train,기관 사칭,1,single,15
+vishing_154,scam,vishing_154,train,기관 사칭,1,single,15
+vishing_155,scam,vishing_155,train,기타,1,single,12
+vishing_156,scam,vishing_156,dev,기관 사칭,2,2,86
+vishing_157,scam,vishing_157,test,기관 사칭,1,single,6
+vishing_158,scam,vishing_158,train,기관 사칭,1,single,4
+vishing_159,scam,vishing_159,dev,기관 사칭,1,single,6
+vishing_16,scam,vishing_16,train,대출,2,1,33
+vishing_160,scam,vishing_160,dev,기관 사칭,1,single,7
+vishing_161,scam,vishing_161,train,기타,1,single,6
+vishing_162,scam,vishing_161,train,기타,1,single,9
+vishing_163,scam,vishing_161,train,기타,1,single,7
+vishing_164,scam,vishing_161,train,기타,1,single,9
+vishing_165,scam,vishing_165,train,기관 사칭,1,single,7
+vishing_166,scam,vishing_166,train,기타,1,single,5
+vishing_167,scam,vishing_167,train,기관 사칭,1,single,10
+vishing_168,scam,vishing_168,train,기타,1,single,7
+vishing_169,scam,vishing_169,dev,기관 사칭,2,1,6
+vishing_17,scam,vishing_17,train,대출,3,1,48
+vishing_170,scam,vishing_169,dev,기관 사칭,1,single,4
+vishing_171,scam,vishing_171,train,대출,3,1,19
+vishing_172,scam,vishing_172,train,기타,2,2,5
+vishing_173,scam,vishing_173,train,기관 사칭,2,1,14
+vishing_174,scam,vishing_174,train,기관 사칭,2,1,14
+vishing_175,scam,vishing_175,train,기타,2,1,7
+vishing_176,scam,vishing_176,train,기관 사칭,2,1,15
+vishing_177,scam,vishing_177,test,기타,2,1,19
+vishing_178,scam,vishing_178,train,기관 사칭,2,1,22
+vishing_179,scam,vishing_179,dev,기관 사칭,2,1,21
+vishing_18,scam,vishing_18,train,기관 사칭,2,1,44
+vishing_180,scam,vishing_180,train,기타,3,2,17
+vishing_181,scam,vishing_181,dev,기관 사칭,2,1,8
+vishing_182,scam,vishing_182,test,기관 사칭,2,1,20
+vishing_183,scam,vishing_183,test,기타,2,1,11
+vishing_184,scam,vishing_184,test,기관 사칭,1,single,12
+vishing_185,scam,vishing_134,train,기관 사칭,1,single,9
+vishing_186,scam,vishing_130,test,대출,2,1,6
+vishing_187,scam,vishing_128,train,기타,1,single,5
+vishing_188,scam,vishing_126,train,기타,1,single,4
+vishing_189,scam,vishing_189,train,기관 사칭,3,3,16
+vishing_19,scam,vishing_19,train,대출,3,1,146
+vishing_190,scam,vishing_190,train,기관 사칭,2,1,19
+vishing_191,scam,vishing_191,test,기관 사칭,2,2,9
+vishing_192,scam,vishing_192,train,기타,2,2,7
+vishing_193,scam,vishing_193,train,기관 사칭,2,1,13
+vishing_194,scam,vishing_194,train,기관 사칭,2,2,9
+vishing_195,scam,vishing_195,train,기관 사칭,2,1,10
+vishing_196,scam,vishing_196,train,기타,1,single,6
+vishing_197,scam,vishing_197,test,기관 사칭,1,single,3
+vishing_198,scam,vishing_198,dev,기관 사칭,1,single,5
+vishing_199,scam,vishing_199,test,기관 사칭,2,1,6
+vishing_2,scam,vishing_2,test,기관 사칭,2,1,107
+vishing_20,scam,vishing_20,test,기타,2,1,23
+vishing_200,scam,vishing_135,dev,대출,1,single,5
+vishing_201,scam,vishing_131,train,대출,2,1,9
+vishing_202,scam,vishing_132,dev,대출,2,1,7
+vishing_203,scam,vishing_133,train,대출,2,1,5
+vishing_204,scam,vishing_204,train,기타,2,1,10
+vishing_205,scam,vishing_205,train,기관 사칭,2,1,17
+vishing_206,scam,vishing_206,train,기관 사칭,2,1,14
+vishing_207,scam,vishing_205,train,기관 사칭,1,single,7
+vishing_208,scam,vishing_205,train,기관 사칭,2,1,11
+vishing_209,scam,vishing_209,train,기관 사칭,1,single,10
+vishing_21,scam,vishing_21,train,기관 사칭,2,1,34
+vishing_210,scam,vishing_210,train,기관 사칭,1,single,15
+vishing_211,scam,vishing_211,train,기관 사칭,1,single,7
+vishing_212,scam,vishing_212,train,기관 사칭,2,1,17
+vishing_213,scam,vishing_213,dev,기관 사칭,1,single,8
+vishing_214,scam,vishing_214,train,기관 사칭,1,single,11
+vishing_215,scam,vishing_215,train,기관 사칭,1,single,5
+vishing_216,scam,vishing_216,train,기관 사칭,1,single,8
+vishing_217,scam,vishing_217,dev,기관 사칭,1,single,12
+vishing_218,scam,vishing_218,train,기관 사칭,1,single,5
+vishing_219,scam,vishing_219,train,기관 사칭,1,single,10
+vishing_22,scam,vishing_104,test,기관 사칭,2,1,37
+vishing_220,scam,vishing_220,train,기타,1,single,5
+vishing_221,scam,vishing_221,dev,기관 사칭,1,single,6
+vishing_222,scam,vishing_222,train,기관 사칭,1,single,5
+vishing_223,scam,vishing_223,train,기관 사칭,1,single,10
+vishing_224,scam,vishing_224,train,기관 사칭,1,single,9
+vishing_225,scam,vishing_225,train,기타,1,single,1
+vishing_226,scam,vishing_226,train,기관 사칭,1,single,7
+vishing_227,scam,vishing_227,train,기타,1,single,9
+vishing_228,scam,vishing_228,train,기관 사칭,1,single,4
+vishing_229,scam,vishing_229,test,기관 사칭,1,single,4
+vishing_23,scam,vishing_108,train,기관 사칭,2,1,30
+vishing_230,scam,vishing_230,train,기관 사칭,1,single,3
+vishing_231,scam,vishing_231,train,기타,1,single,4
+vishing_232,scam,vishing_232,train,기관 사칭,1,single,5
+vishing_233,scam,vishing_233,train,기타,1,single,4
+vishing_234,scam,vishing_234,dev,기관 사칭,1,single,7
+vishing_235,scam,vishing_235,train,기관 사칭,2,1,10
+vishing_236,scam,vishing_236,train,기관 사칭,1,single,7
+vishing_237,scam,vishing_237,train,기타,1,single,8
+vishing_238,scam,vishing_238,train,기관 사칭,1,single,5
+vishing_239,scam,vishing_229,test,기관 사칭,2,1,8
+vishing_24,scam,vishing_112,train,기관 사칭,3,1,46
+vishing_240,scam,vishing_240,train,기관 사칭,1,single,11
+vishing_241,scam,vishing_241,train,기관 사칭,1,single,5
+vishing_242,scam,vishing_242,train,기타,3,1,7
+vishing_243,scam,vishing_243,train,기관 사칭,1,single,9
+vishing_244,scam,vishing_244,train,기관 사칭,2,1,10
+vishing_245,scam,vishing_245,dev,기관 사칭,2,1,18
+vishing_246,scam,vishing_246,train,기타,2,1,7
+vishing_247,scam,vishing_247,train,기타,2,1,9
+vishing_248,scam,vishing_247,train,기타,2,1,11
+vishing_249,scam,vishing_249,train,기관 사칭,1,single,5
+vishing_25,scam,vishing_116,train,기관 사칭,4,1,45
+vishing_250,scam,vishing_250,train,기타,3,1,9
+vishing_251,scam,vishing_251,test,기관 사칭,1,single,4
+vishing_252,scam,vishing_252,train,기타,2,1,7
+vishing_253,scam,vishing_253,train,기타,2,2,7
+vishing_254,scam,vishing_254,dev,기관 사칭,1,single,6
+vishing_255,scam,vishing_255,test,기타,2,1,10
+vishing_256,scam,vishing_256,test,기타,2,1,8
+vishing_257,scam,vishing_257,train,기타,2,1,8
+vishing_258,scam,vishing_258,dev,기타,2,1,6
+vishing_259,scam,vishing_259,train,기관 사칭,3,1,4
+vishing_26,scam,vishing_26,test,대출,2,1,78
+vishing_260,scam,vishing_260,test,대출,2,2,117
+vishing_261,scam,vishing_261,train,대출,2,1,42
+vishing_262,scam,vishing_262,test,대출,2,1,36
+vishing_263,scam,vishing_263,train,대출,2,1,71
+vishing_264,scam,vishing_264,dev,대출,3,1,70
+vishing_265,scam,vishing_265,test,대출,2,1,37
+vishing_266,scam,vishing_266,train,대출,2,1,57
+vishing_267,scam,vishing_267,dev,대출,1,single,2
+vishing_268,scam,vishing_268,test,기타,2,1,17
+vishing_269,scam,vishing_269,train,대출,2,1,8
+vishing_27,scam,vishing_27,train,대출,2,1,29
+vishing_270,scam,vishing_270,train,기관 사칭,2,1,36
+vishing_271,scam,vishing_271,train,기관 사칭,2,1,37
+vishing_272,scam,vishing_272,test,기타,2,2,14
+vishing_273,scam,vishing_273,train,대출,2,1,24
+vishing_274,scam,vishing_274,train,기관 사칭,2,1,21
+vishing_275,scam,vishing_275,train,기관 사칭,2,1,8
+vishing_276,scam,vishing_276,train,기관 사칭,2,1,81
+vishing_277,scam,vishing_277,train,대출,2,1,11
+vishing_278,scam,vishing_278,train,기타,2,1,12
+vishing_279,scam,vishing_279,train,대출,2,2,11
+vishing_28,scam,vishing_28,dev,대출,2,1,27
+vishing_280,scam,vishing_280,train,기타,2,1,19
+vishing_281,scam,vishing_281,train,기타,2,1,68
+vishing_282,scam,vishing_282,train,기관 사칭,4,3,188
+vishing_283,scam,vishing_283,train,대출,2,1,5
+vishing_284,scam,vishing_284,test,기타,2,2,2
+vishing_285,scam,vishing_285,dev,기관 사칭,2,1,10
+vishing_286,scam,vishing_286,train,기관 사칭,2,1,48
+vishing_287,scam,vishing_287,train,기타,2,2,9
+vishing_288,scam,vishing_288,train,기관 사칭,3,1,19
+vishing_289,scam,vishing_289,test,기관 사칭,2,1,11
+vishing_29,scam,vishing_29,dev,대출,2,1,42
+vishing_290,scam,vishing_290,train,기관 사칭,1,single,10
+vishing_291,scam,vishing_291,train,대출,1,single,5
+vishing_292,scam,vishing_292,train,대출,1,single,7
+vishing_293,scam,vishing_293,train,기타,1,single,5
+vishing_294,scam,vishing_294,train,대출,1,single,5
+vishing_295,scam,vishing_292,train,대출,1,single,2
+vishing_296,scam,vishing_294,train,대출,1,single,6
+vishing_297,scam,vishing_297,train,대출,1,single,7
+vishing_298,scam,vishing_298,train,대출,2,1,141
+vishing_299,scam,vishing_299,train,기관 사칭,4,3,226
+vishing_3,scam,vishing_3,train,대출,2,2,31
+vishing_30,scam,vishing_30,train,기타,2,2,38
+vishing_300,scam,vishing_300,dev,기관 사칭,2,1,605
+vishing_301,scam,vishing_301,dev,기관 사칭,3,1,93
+vishing_302,scam,vishing_302,train,기관 사칭,2,1,219
+vishing_303,scam,vishing_303,dev,기관 사칭,2,2,476
+vishing_304,scam,vishing_304,train,기관 사칭,5,1,353
+vishing_305,scam,vishing_305,train,기관 사칭,4,3,288
+vishing_306,scam,vishing_306,train,기관 사칭,3,1,208
+vishing_307,scam,vishing_307,train,대출,2,2,103
+vishing_308,scam,vishing_308,test,기관 사칭,1,single,35
+vishing_309,scam,vishing_309,train,기관 사칭,2,2,19
+vishing_31,scam,vishing_31,train,기타,2,1,53
+vishing_310,scam,vishing_310,test,기관 사칭,1,single,3
+vishing_311,scam,vishing_310,test,기관 사칭,1,single,2
+vishing_312,scam,vishing_312,train,기관 사칭,1,single,5
+vishing_313,scam,vishing_313,test,기타,1,single,1
+vishing_314,scam,vishing_314,train,기타,1,single,3
+vishing_315,scam,vishing_315,dev,기관 사칭,2,1,4
+vishing_316,scam,vishing_310,test,기타,1,single,4
+vishing_317,scam,vishing_317,train,대출,1,single,4
+vishing_318,scam,vishing_318,train,기타,2,1,8
+vishing_319,scam,vishing_319,train,기타,1,single,8
+vishing_32,scam,vishing_32,dev,기관 사칭,3,3,68
+vishing_320,scam,vishing_320,train,대출,2,1,10
+vishing_321,scam,vishing_256,test,기타,2,1,8
+vishing_322,scam,vishing_322,train,대출,2,2,46
+vishing_323,scam,vishing_323,train,기관 사칭,2,1,15
+vishing_324,scam,vishing_324,train,기타,2,2,23
+vishing_325,scam,vishing_325,test,기관 사칭,3,1,109
+vishing_326,scam,vishing_326,train,기관 사칭,3,1,86
+vishing_327,scam,vishing_327,train,기관 사칭,2,1,75
+vishing_328,scam,vishing_328,train,기관 사칭,2,1,140
+vishing_329,scam,vishing_329,test,기관 사칭,2,1,80
+vishing_33,scam,vishing_33,train,기타,3,2,14
+vishing_330,scam,vishing_330,test,기타,1,single,5
+vishing_331,scam,vishing_331,train,기관 사칭,2,1,36
+vishing_332,scam,vishing_332,train,기관 사칭,2,1,79
+vishing_333,scam,vishing_333,train,기관 사칭,3,1,48
+vishing_334,scam,vishing_334,train,기관 사칭,2,1,178
+vishing_335,scam,vishing_335,dev,기타,2,1,14
+vishing_336,scam,vishing_336,dev,기타,2,2,11
+vishing_337,scam,vishing_336,dev,기관 사칭,2,1,97
+vishing_338,scam,vishing_338,train,기관 사칭,3,2,38
+vishing_339,scam,vishing_339,dev,기관 사칭,4,1,60
+vishing_34,scam,vishing_34,train,기관 사칭,3,1,62
+vishing_340,scam,vishing_340,train,기관 사칭,2,2,19
+vishing_341,scam,vishing_341,train,기타,2,1,9
+vishing_342,scam,vishing_342,train,기관 사칭,2,1,20
+vishing_343,scam,vishing_343,train,기관 사칭,2,2,34
+vishing_344,scam,vishing_344,train,기관 사칭,2,2,58
+vishing_345,scam,vishing_345,train,기관 사칭,2,1,14
+vishing_346,scam,vishing_346,train,기관 사칭,5,1,217
+vishing_347,scam,vishing_347,train,기관 사칭,4,4,341
+vishing_348,scam,vishing_348,train,대출,2,1,21
+vishing_349,scam,vishing_349,train,대출,2,1,71
+vishing_35,scam,vishing_35,train,기관 사칭,2,1,52
+vishing_350,scam,vishing_350,train,기관 사칭,3,1,71
+vishing_351,scam,vishing_351,dev,기관 사칭,2,1,9
+vishing_352,scam,vishing_326,train,기관 사칭,3,1,27
+vishing_353,scam,vishing_353,train,대출,1,single,3
+vishing_354,scam,vishing_354,train,대출,2,2,6
+vishing_355,scam,vishing_294,train,대출,2,1,28
+vishing_356,scam,vishing_356,dev,대출,2,1,53
+vishing_357,scam,vishing_357,train,기관 사칭,2,1,25
+vishing_358,scam,vishing_358,test,대출,2,1,73
+vishing_359,scam,vishing_359,train,대출,2,2,48
+vishing_36,scam,vishing_36,train,대출,2,1,73
+vishing_360,scam,vishing_360,train,대출,2,1,31
+vishing_361,scam,vishing_361,dev,대출,2,2,58
+vishing_362,scam,vishing_362,train,기관 사칭,2,1,41
+vishing_363,scam,vishing_363,test,기관 사칭,1,single,27
+vishing_364,scam,vishing_364,train,기관 사칭,1,single,10
+vishing_365,scam,vishing_365,train,기관 사칭,2,1,26
+vishing_366,scam,vishing_291,train,대출,2,1,66
+vishing_367,scam,vishing_367,train,기관 사칭,2,2,56
+vishing_368,scam,vishing_368,train,기관 사칭,3,2,222
+vishing_369,scam,vishing_369,dev,기관 사칭,5,1,491
+vishing_37,scam,vishing_37,train,대출,2,2,16
+vishing_370,scam,vishing_370,train,기관 사칭,2,1,3
+vishing_371,scam,vishing_371,train,기관 사칭,2,1,192
+vishing_372,scam,vishing_372,train,기관 사칭,2,2,46
+vishing_373,scam,vishing_373,dev,기관 사칭,3,1,22
+vishing_374,scam,vishing_374,test,기관 사칭,2,1,23
+vishing_375,scam,vishing_375,train,기관 사칭,2,1,33
+vishing_376,scam,vishing_376,train,기관 사칭,2,1,29
+vishing_377,scam,vishing_377,train,기관 사칭,2,2,37
+vishing_378,scam,vishing_378,test,기관 사칭,2,2,28
+vishing_379,scam,vishing_379,train,기관 사칭,2,1,27
+vishing_38,scam,vishing_38,train,기타,3,2,22
+vishing_380,scam,vishing_380,train,기타,4,1,26
+vishing_381,scam,vishing_381,train,기관 사칭,2,1,34
+vishing_382,scam,vishing_382,dev,기관 사칭,3,2,29
+vishing_383,scam,vishing_383,test,기관 사칭,2,1,57
+vishing_384,scam,vishing_384,test,기관 사칭,3,2,17
+vishing_385,scam,vishing_385,test,기관 사칭,2,2,8
+vishing_386,scam,vishing_386,test,기관 사칭,1,single,18
+vishing_387,scam,vishing_387,test,기관 사칭,2,2,46
+vishing_388,scam,vishing_388,train,기관 사칭,2,1,108
+vishing_389,scam,vishing_389,test,기관 사칭,1,single,2
+vishing_39,scam,vishing_39,train,기타,2,1,54
+vishing_390,scam,vishing_390,train,기관 사칭,2,2,29
+vishing_391,scam,vishing_391,train,대출,3,3,9
+vishing_392,scam,vishing_392,dev,대출,2,2,56
+vishing_393,scam,vishing_393,train,기타,2,2,26
+vishing_394,scam,vishing_263,train,대출,2,1,7
+vishing_395,scam,vishing_395,train,대출,2,1,22
+vishing_396,scam,vishing_396,train,기관 사칭,2,1,75
+vishing_397,scam,vishing_397,train,기관 사칭,3,1,73
+vishing_398,scam,vishing_398,test,대출,1,single,16
+vishing_399,scam,vishing_399,test,기관 사칭,2,2,43
+vishing_4,scam,vishing_4,train,기관 사칭,2,1,29
+vishing_40,scam,vishing_40,train,기타,2,1,21
+vishing_400,scam,vishing_400,train,기관 사칭,2,2,6
+vishing_401,scam,vishing_401,dev,기관 사칭,3,2,171
+vishing_402,scam,vishing_402,train,기관 사칭,3,1,328
+vishing_403,scam,vishing_285,dev,기관 사칭,2,1,8
+vishing_404,scam,vishing_404,train,기관 사칭,3,2,452
+vishing_405,scam,vishing_405,dev,대출,3,1,43
+vishing_406,scam,vishing_315,dev,기관 사칭,4,3,431
+vishing_407,scam,vishing_407,dev,기타,2,1,21
+vishing_408,scam,vishing_408,train,대출,2,1,47
+vishing_409,scam,vishing_409,train,대출,2,1,22
+vishing_41,scam,vishing_41,test,대출,1,single,27
+vishing_410,scam,vishing_410,train,대출,2,1,16
+vishing_411,scam,vishing_411,train,기관 사칭,2,1,59
+vishing_412,scam,vishing_412,test,대출,2,2,43
+vishing_413,scam,vishing_413,train,기관 사칭,2,1,42
+vishing_414,scam,vishing_414,train,기관 사칭,2,1,31
+vishing_415,scam,vishing_415,train,기관 사칭,3,1,61
+vishing_416,scam,vishing_416,train,기관 사칭,1,single,9
+vishing_417,scam,vishing_417,train,대출,1,single,17
+vishing_418,scam,vishing_418,train,기관 사칭,2,1,34
+vishing_419,scam,vishing_419,train,대출,2,1,29
+vishing_42,scam,vishing_42,train,기타,2,1,8
+vishing_420,scam,vishing_260,test,대출,2,1,55
+vishing_421,scam,vishing_261,train,대출,2,1,13
+vishing_422,scam,vishing_262,test,대출,2,1,20
+vishing_423,scam,vishing_263,train,대출,2,1,30
+vishing_424,scam,vishing_264,dev,대출,2,1,17
+vishing_425,scam,vishing_265,test,대출,2,1,26
+vishing_426,scam,vishing_266,train,대출,1,single,20
+vishing_427,scam,vishing_427,test,대출,2,1,37
+vishing_428,scam,vishing_428,test,기관 사칭,2,1,24
+vishing_429,scam,vishing_429,train,대출,2,2,24
+vishing_43,scam,vishing_43,dev,기관 사칭,2,2,11
+vishing_430,scam,vishing_430,dev,대출,2,2,151
+vishing_431,scam,vishing_431,train,대출,2,1,36
+vishing_432,scam,vishing_432,train,대출,2,2,30
+vishing_433,scam,vishing_433,train,대출,2,1,35
+vishing_434,scam,vishing_434,test,대출,2,1,7
+vishing_435,scam,vishing_391,train,대출,2,1,10
+vishing_436,scam,vishing_436,dev,대출,1,single,3
+vishing_437,scam,vishing_437,dev,기타,2,2,21
+vishing_438,scam,vishing_438,train,기타,2,1,9
+vishing_439,scam,vishing_439,train,기관 사칭,2,2,44
+vishing_44,scam,vishing_44,train,기관 사칭,2,1,8
+vishing_440,scam,vishing_440,test,기타,2,1,36
+vishing_441,scam,vishing_441,test,기관 사칭,1,single,65
+vishing_442,scam,vishing_442,train,기타,1,single,2
+vishing_443,scam,vishing_443,train,기관 사칭,3,2,108
+vishing_444,scam,vishing_444,train,기타,2,1,9
+vishing_445,scam,vishing_314,train,기관 사칭,1,single,28
+vishing_446,scam,vishing_446,dev,기관 사칭,2,2,17
+vishing_447,scam,vishing_447,train,대출,2,1,14
+vishing_448,scam,vishing_448,train,대출,2,2,61
+vishing_449,scam,vishing_449,train,기관 사칭,3,3,190
+vishing_45,scam,vishing_45,train,기관 사칭,3,2,19
+vishing_450,scam,vishing_450,train,기관 사칭,3,1,166
+vishing_451,scam,vishing_451,train,기타,2,1,11
+vishing_452,scam,vishing_452,train,기관 사칭,1,single,15
+vishing_453,scam,vishing_453,train,기관 사칭,2,1,108
+vishing_454,scam,vishing_407,dev,기관 사칭,2,1,21
+vishing_455,scam,vishing_455,train,기타,2,1,16
+vishing_456,scam,vishing_456,train,대출,2,1,21
+vishing_457,scam,vishing_457,dev,대출,1,single,5
+vishing_458,scam,vishing_458,train,기타,2,2,84
+vishing_459,scam,vishing_336,dev,기관 사칭,1,single,3
+vishing_46,scam,vishing_46,train,기관 사칭,1,single,7
+vishing_460,scam,vishing_460,train,기타,1,single,1
+vishing_461,scam,vishing_336,dev,기타,1,single,5
+vishing_462,scam,vishing_462,test,기타,2,1,5
+vishing_463,scam,vishing_463,train,기관 사칭,1,single,4
+vishing_464,scam,vishing_464,train,기타,1,single,5
+vishing_465,scam,vishing_465,train,기타,2,1,7
+vishing_466,scam,vishing_336,dev,기관 사칭,2,2,8
+vishing_467,scam,vishing_467,train,기타,2,1,8
+vishing_468,scam,vishing_468,train,기관 사칭,3,1,8
+vishing_469,scam,vishing_469,train,기타,1,single,6
+vishing_47,scam,vishing_47,train,기관 사칭,2,1,11
+vishing_470,scam,vishing_470,dev,기관 사칭,1,single,4
+vishing_471,scam,vishing_471,dev,기관 사칭,1,single,4
+vishing_472,scam,vishing_472,dev,기관 사칭,1,single,5
+vishing_473,scam,vishing_473,train,기관 사칭,2,1,6
+vishing_474,scam,vishing_474,train,기관 사칭,1,single,4
+vishing_475,scam,vishing_475,train,기관 사칭,1,single,3
+vishing_476,scam,vishing_474,train,기관 사칭,1,single,4
+vishing_477,scam,vishing_477,train,기타,2,2,9
+vishing_478,scam,vishing_478,train,기타,1,single,6
+vishing_479,scam,vishing_479,train,기관 사칭,1,single,7
+vishing_48,scam,vishing_48,train,기관 사칭,1,single,4
+vishing_480,scam,vishing_480,train,기관 사칭,1,single,4
+vishing_481,scam,vishing_481,train,대출,2,1,7
+vishing_482,scam,vishing_482,train,기타,1,single,5
+vishing_483,scam,vishing_483,test,기관 사칭,1,single,5
+vishing_484,scam,vishing_484,train,기타,1,single,5
+vishing_485,scam,vishing_485,train,기관 사칭,1,single,7
+vishing_486,scam,vishing_486,test,기관 사칭,1,single,4
+vishing_487,scam,vishing_487,train,기타,1,single,8
+vishing_488,scam,vishing_488,train,기관 사칭,1,single,3
+vishing_489,scam,vishing_489,dev,기타,1,single,7
+vishing_49,scam,vishing_49,train,기타,2,1,9
+vishing_490,scam,vishing_490,test,기관 사칭,1,single,3
+vishing_491,scam,vishing_491,dev,기타,1,single,4
+vishing_492,scam,vishing_492,test,기관 사칭,1,single,5
+vishing_493,scam,vishing_493,train,대출,3,2,20
+vishing_494,scam,vishing_494,train,기관 사칭,3,3,385
+vishing_495,scam,vishing_495,train,기관 사칭,2,1,23
+vishing_496,scam,vishing_496,test,기타,2,1,14
+vishing_497,scam,vishing_497,train,기관 사칭,2,1,117
+vishing_498,scam,vishing_498,train,기관 사칭,2,1,17
+vishing_499,scam,vishing_499,train,기타,2,1,11
+vishing_5,scam,vishing_5,dev,대출,2,2,32
+vishing_50,scam,vishing_50,train,기타,1,single,4
+vishing_500,scam,vishing_500,train,기관 사칭,1,single,32
+vishing_501,scam,vishing_501,train,기관 사칭,2,1,12
+vishing_502,scam,vishing_502,train,기관 사칭,2,1,21
+vishing_503,scam,vishing_503,train,기관 사칭,2,1,9
+vishing_504,scam,vishing_504,test,기관 사칭,2,1,64
+vishing_505,scam,vishing_505,train,기타,1,single,18
+vishing_506,scam,vishing_506,train,기관 사칭,2,1,37
+vishing_507,scam,vishing_507,test,기타,2,1,21
+vishing_508,scam,vishing_442,train,기관 사칭,1,single,7
+vishing_509,scam,vishing_313,test,기관 사칭,2,1,259
+vishing_51,scam,vishing_51,train,기관 사칭,1,single,6
+vishing_510,scam,vishing_336,dev,기관 사칭,2,1,26
+vishing_511,scam,vishing_336,dev,기관 사칭,2,2,10
+vishing_512,scam,vishing_336,dev,기관 사칭,2,2,40
+vishing_513,scam,vishing_513,train,기관 사칭,3,3,63
+vishing_514,scam,vishing_514,train,기관 사칭,2,1,68
+vishing_515,scam,vishing_515,train,기관 사칭,3,1,68
+vishing_516,scam,vishing_516,dev,기관 사칭,1,single,18
+vishing_517,scam,vishing_517,train,기관 사칭,2,1,39
+vishing_518,scam,vishing_518,train,기타,2,1,8
+vishing_519,scam,vishing_519,train,기타,2,2,14
+vishing_52,scam,vishing_52,dev,기타,1,single,3
+vishing_520,scam,vishing_520,dev,기관 사칭,2,1,90
+vishing_521,scam,vishing_521,dev,기관 사칭,2,1,92
+vishing_522,scam,vishing_138,train,기관 사칭,2,1,30
+vishing_523,scam,vishing_523,dev,기관 사칭,2,2,88
+vishing_524,scam,vishing_524,train,기타,2,1,36
+vishing_525,scam,vishing_525,train,기타,1,single,8
+vishing_526,scam,vishing_526,train,기타,1,single,5
+vishing_527,scam,vishing_527,train,기관 사칭,1,single,3
+vishing_528,scam,vishing_528,train,기관 사칭,1,single,11
+vishing_529,scam,vishing_529,train,기관 사칭,1,single,3
+vishing_53,scam,vishing_53,test,기관 사칭,1,single,2
+vishing_530,scam,vishing_530,train,기관 사칭,2,1,15
+vishing_531,scam,vishing_531,test,기관 사칭,2,1,11
+vishing_532,scam,vishing_532,train,기타,1,single,4
+vishing_533,scam,vishing_533,train,기관 사칭,1,single,9
+vishing_534,scam,vishing_534,train,대출,1,single,6
+vishing_535,scam,vishing_334,train,기타,2,1,8
+vishing_536,scam,vishing_536,dev,기관 사칭,1,single,5
+vishing_537,scam,vishing_395,train,기관 사칭,3,2,137
+vishing_538,scam,vishing_538,train,대출,3,3,192
+vishing_539,scam,vishing_470,dev,기관 사칭,1,single,26
+vishing_54,scam,vishing_54,dev,기관 사칭,1,single,6
+vishing_540,scam,vishing_540,train,기타,2,1,85
+vishing_541,scam,vishing_286,train,기관 사칭,2,1,58
+vishing_542,scam,vishing_542,train,대출,2,1,3
+vishing_543,scam,vishing_395,train,기관 사칭,2,1,35
+vishing_544,scam,vishing_544,train,대출,1,single,3
+vishing_545,scam,vishing_292,train,대출,2,1,48
+vishing_546,scam,vishing_293,train,대출,2,1,55
+vishing_547,scam,vishing_547,train,기관 사칭,3,1,21
+vishing_548,scam,vishing_548,train,기관 사칭,2,1,48
+vishing_549,scam,vishing_549,train,대출,2,2,15
+vishing_55,scam,vishing_55,train,기타,2,1,9
+vishing_550,scam,vishing_550,train,기관 사칭,3,1,60
+vishing_551,scam,vishing_551,train,기관 사칭,2,1,29
+vishing_552,scam,vishing_552,dev,기관 사칭,3,2,50
+vishing_553,scam,vishing_553,train,기관 사칭,3,1,36
+vishing_554,scam,vishing_554,train,기관 사칭,2,1,12
+vishing_555,scam,vishing_554,train,기관 사칭,2,1,12
+vishing_556,scam,vishing_556,train,기관 사칭,2,2,48
+vishing_557,scam,vishing_557,test,기관 사칭,2,1,108
+vishing_558,scam,vishing_558,train,기관 사칭,3,1,78
+vishing_559,scam,vishing_559,test,기관 사칭,3,2,61
+vishing_56,scam,vishing_56,test,기타,1,single,5
+vishing_560,scam,vishing_560,train,기관 사칭,2,2,39
+vishing_561,scam,vishing_561,train,기관 사칭,3,3,273
+vishing_562,scam,vishing_562,test,기관 사칭,2,2,25
+vishing_563,scam,vishing_563,train,기관 사칭,2,1,4
+vishing_564,scam,vishing_564,train,기관 사칭,2,2,93
+vishing_565,scam,vishing_565,dev,대출,2,1,65
+vishing_566,scam,vishing_566,train,기관 사칭,1,single,11
+vishing_567,scam,vishing_567,train,기관 사칭,3,2,59
+vishing_568,scam,vishing_568,train,기타,2,1,9
+vishing_569,scam,vishing_336,dev,기관 사칭,3,1,26
+vishing_57,scam,vishing_57,train,기관 사칭,1,single,5
+vishing_570,scam,vishing_570,train,기관 사칭,1,single,38
+vishing_571,scam,vishing_571,test,기관 사칭,1,single,20
+vishing_572,scam,vishing_572,dev,기관 사칭,1,single,10
+vishing_573,scam,vishing_573,train,기관 사칭,2,1,21
+vishing_574,scam,vishing_574,train,대출,3,2,18
+vishing_575,scam,vishing_575,test,기관 사칭,2,2,40
+vishing_576,scam,vishing_576,train,대출,2,1,38
+vishing_577,scam,vishing_577,dev,대출,2,1,53
+vishing_578,scam,vishing_578,train,대출,2,2,231
+vishing_579,scam,vishing_579,train,대출,2,2,27
+vishing_58,scam,vishing_58,train,기타,1,single,6
+vishing_580,scam,vishing_580,train,대출,2,1,27
+vishing_581,scam,vishing_581,train,기관 사칭,4,2,89
+vishing_582,scam,vishing_582,test,대출,2,2,10
+vishing_583,scam,vishing_583,test,대출,2,1,69
+vishing_584,scam,vishing_584,test,대출,1,single,2
+vishing_585,scam,vishing_585,train,대출,2,1,4
+vishing_586,scam,vishing_586,train,대출,2,1,19
+vishing_587,scam,vishing_587,train,기관 사칭,2,2,7
+vishing_588,scam,vishing_588,train,기타,2,1,49
+vishing_589,scam,vishing_589,train,기관 사칭,2,1,42
+vishing_59,scam,vishing_59,dev,기타,1,single,6
+vishing_590,scam,vishing_590,train,대출,2,2,21
+vishing_591,scam,vishing_591,train,기관 사칭,2,2,24
+vishing_592,scam,vishing_592,train,기관 사칭,2,1,48
+vishing_593,scam,vishing_593,train,기타,2,1,5
+vishing_594,scam,vishing_594,train,기관 사칭,3,2,22
+vishing_595,scam,vishing_595,dev,기관 사칭,2,2,19
+vishing_596,scam,vishing_596,train,기타,2,1,7
+vishing_597,scam,vishing_597,train,대출,2,1,104
+vishing_598,scam,vishing_598,test,대출,2,2,15
+vishing_599,scam,vishing_599,train,기관 사칭,3,1,33
+vishing_6,scam,vishing_6,dev,대출,2,1,47
+vishing_60,scam,vishing_60,dev,기관 사칭,2,1,6
+vishing_600,scam,vishing_600,train,대출,1,single,2
+vishing_601,scam,vishing_601,train,대출,2,1,34
+vishing_602,scam,vishing_602,train,대출,2,2,41
+vishing_603,scam,vishing_603,train,대출,2,1,26
+vishing_604,scam,vishing_604,dev,기타,2,1,29
+vishing_605,scam,vishing_605,train,대출,2,1,25
+vishing_606,scam,vishing_606,test,기관 사칭,2,2,7
+vishing_607,scam,vishing_607,train,기타,1,single,19
+vishing_608,scam,vishing_608,test,기관 사칭,3,3,257
+vishing_609,scam,vishing_609,train,기관 사칭,1,single,18
+vishing_61,scam,vishing_58,train,기타,1,single,6
+vishing_610,scam,vishing_392,dev,대출,2,1,8
+vishing_611,scam,vishing_611,train,기관 사칭,2,2,23
+vishing_612,scam,vishing_612,train,대출,2,1,33
+vishing_613,scam,vishing_613,train,대출,3,3,32
+vishing_614,scam,vishing_614,dev,기관 사칭,2,1,113
+vishing_615,scam,vishing_615,train,대출,2,2,29
+vishing_616,scam,vishing_161,train,기관 사칭,2,1,69
+vishing_617,scam,vishing_617,train,기관 사칭,3,3,357
+vishing_618,scam,vishing_287,train,기타,2,2,8
+vishing_619,scam,vishing_533,train,기관 사칭,2,2,45
+vishing_62,scam,vishing_59,dev,기타,1,single,6
+vishing_620,scam,vishing_140,train,기타,2,2,28
+vishing_621,scam,vishing_621,train,대출,2,2,9
+vishing_622,scam,vishing_622,dev,기관 사칭,2,2,48
+vishing_623,scam,vishing_623,train,기관 사칭,4,2,409
+vishing_624,scam,vishing_624,test,대출,2,2,30
+vishing_625,scam,vishing_471,dev,기관 사칭,2,2,35
+vishing_626,scam,vishing_626,train,기타,2,1,12
+vishing_627,scam,vishing_627,test,기관 사칭,2,1,25
+vishing_628,scam,vishing_628,train,기타,1,single,3
+vishing_629,scam,vishing_629,train,기관 사칭,3,3,203
+vishing_63,scam,vishing_60,dev,기관 사칭,1,single,6
+vishing_630,scam,vishing_630,train,기관 사칭,2,1,14
+vishing_631,scam,vishing_631,test,기관 사칭,2,2,27
+vishing_632,scam,vishing_632,dev,기관 사칭,2,1,8
+vishing_633,scam,vishing_633,train,기관 사칭,2,1,136
+vishing_634,scam,vishing_462,test,기관 사칭,2,1,63
+vishing_635,scam,vishing_635,train,기관 사칭,3,3,130
+vishing_636,scam,vishing_636,train,기관 사칭,2,1,116
+vishing_637,scam,vishing_637,train,기관 사칭,3,1,311
+vishing_638,scam,vishing_638,train,대출,2,1,19
+vishing_639,scam,vishing_585,train,대출,2,2,24
+vishing_64,scam,vishing_64,dev,기관 사칭,1,single,4
+vishing_640,scam,vishing_640,train,기관 사칭,2,1,40
+vishing_641,scam,vishing_641,train,기관 사칭,2,1,14
+vishing_642,scam,vishing_642,train,기관 사칭,3,3,126
+vishing_643,scam,vishing_643,test,기타,2,1,76
+vishing_644,scam,vishing_644,train,대출,2,2,22
+vishing_645,scam,vishing_645,train,대출,2,1,52
+vishing_646,scam,vishing_646,train,기관 사칭,2,2,18
+vishing_647,scam,vishing_647,train,기관 사칭,3,1,100
+vishing_648,scam,vishing_648,train,기관 사칭,4,4,210
+vishing_649,scam,vishing_649,train,기타,2,1,11
+vishing_65,scam,vishing_319,train,기타,1,single,8
+vishing_650,scam,vishing_427,test,대출,2,1,43
+vishing_651,scam,vishing_651,train,기관 사칭,2,2,16
+vishing_652,scam,vishing_652,train,기관 사칭,2,1,70
+vishing_653,scam,vishing_653,dev,기관 사칭,3,2,131
+vishing_654,scam,vishing_654,dev,대출,1,single,21
+vishing_655,scam,vishing_655,train,기관 사칭,2,1,10
+vishing_656,scam,vishing_656,train,기관 사칭,2,1,6
+vishing_657,scam,vishing_657,train,대출,2,1,70
+vishing_658,scam,vishing_658,train,기관 사칭,2,1,13
+vishing_659,scam,vishing_659,test,기타,2,2,16
+vishing_66,scam,vishing_66,train,기관 사칭,2,1,6
+vishing_660,scam,vishing_310,test,기관 사칭,4,3,305
+vishing_661,scam,vishing_661,train,대출,1,single,4
+vishing_662,scam,vishing_662,train,기관 사칭,1,single,5
+vishing_663,scam,vishing_663,train,기관 사칭,2,1,120
+vishing_664,scam,vishing_664,train,기관 사칭,4,1,114
+vishing_665,scam,vishing_138,train,기관 사칭,3,1,60
+vishing_666,scam,vishing_666,dev,대출,2,1,24
+vishing_667,scam,vishing_667,train,기타,2,1,49
+vishing_668,scam,vishing_668,train,기관 사칭,1,single,49
+vishing_669,scam,vishing_669,train,기관 사칭,3,1,80
+vishing_67,scam,vishing_67,train,기관 사칭,2,1,9
+vishing_670,scam,vishing_670,train,대출,2,1,27
+vishing_671,scam,vishing_671,train,기관 사칭,1,single,3
+vishing_672,scam,vishing_672,train,기관 사칭,2,1,3
+vishing_673,scam,vishing_673,train,기관 사칭,2,1,10
+vishing_674,scam,vishing_401,dev,기관 사칭,2,1,49
+vishing_675,scam,vishing_675,train,기관 사칭,4,2,471
+vishing_676,scam,vishing_676,train,대출,1,single,11
+vishing_677,scam,vishing_677,train,대출,2,1,8
+vishing_678,scam,vishing_678,train,기관 사칭,2,2,76
+vishing_679,scam,vishing_679,train,기관 사칭,1,single,11
+vishing_68,scam,vishing_68,train,기타,2,1,4
+vishing_680,scam,vishing_680,train,기타,3,1,30
+vishing_681,scam,vishing_469,train,기관 사칭,3,3,81
+vishing_682,scam,vishing_437,dev,기타,2,2,39
+vishing_683,scam,vishing_683,train,기타,2,1,13
+vishing_684,scam,vishing_684,train,기관 사칭,3,3,92
+vishing_685,scam,vishing_685,train,기관 사칭,1,single,10
+vishing_686,scam,vishing_686,test,기타,3,2,8
+vishing_687,scam,vishing_687,train,대출,2,2,33
+vishing_688,scam,vishing_428,test,기관 사칭,1,single,22
+vishing_689,scam,vishing_360,train,대출,1,single,5
+vishing_69,scam,vishing_69,test,기관 사칭,2,1,8
+vishing_690,scam,vishing_690,dev,기관 사칭,3,2,9
+vishing_691,scam,vishing_449,train,기관 사칭,2,1,19
+vishing_692,scam,vishing_692,train,기관 사칭,2,1,149
+vishing_693,scam,vishing_693,train,기관 사칭,2,2,70
+vishing_694,scam,vishing_694,dev,기관 사칭,2,2,23
+vishing_695,scam,vishing_695,test,기관 사칭,2,1,19
+vishing_696,scam,vishing_696,train,기타,1,single,3
+vishing_697,scam,vishing_631,test,기관 사칭,1,single,20
+vishing_698,scam,vishing_698,dev,기관 사칭,2,1,46
+vishing_699,scam,vishing_340,train,기관 사칭,1,single,4
+vishing_7,scam,vishing_7,train,기타,1,single,2
+vishing_70,scam,vishing_70,train,대출,2,2,16
+vishing_700,scam,vishing_137,train,기관 사칭,5,4,345
+vishing_701,scam,vishing_701,train,대출,2,2,19
+vishing_702,scam,vishing_702,test,기타,2,1,36
+vishing_703,scam,vishing_703,train,기타,3,1,21
+vishing_704,scam,vishing_704,train,기관 사칭,1,single,39
+vishing_705,scam,vishing_705,train,대출,2,2,15
+vishing_706,scam,vishing_706,train,기관 사칭,2,1,9
+vishing_71,scam,vishing_71,train,기관 사칭,2,2,190
+vishing_72,scam,vishing_72,train,기관 사칭,3,1,38
+vishing_73,scam,vishing_73,train,기관 사칭,2,1,10
+vishing_74,scam,vishing_74,train,기타,1,single,7
+vishing_75,scam,vishing_75,dev,기관 사칭,2,1,10
+vishing_76,scam,vishing_76,train,대출,2,1,15
+vishing_77,scam,vishing_370,train,기관 사칭,1,single,16
+vishing_78,scam,vishing_78,train,기타,1,single,5
+vishing_79,scam,vishing_79,train,기관 사칭,2,1,5
+vishing_8,scam,vishing_8,train,기관 사칭,2,1,24
+vishing_80,scam,vishing_80,dev,기관 사칭,1,single,3
+vishing_81,scam,vishing_81,train,기관 사칭,1,single,3
+vishing_82,scam,vishing_82,dev,기타,2,2,6
+vishing_83,scam,vishing_83,train,기관 사칭,1,single,2
+vishing_84,scam,vishing_84,train,기타,2,1,3
+vishing_85,scam,vishing_85,train,기타,1,single,3
+vishing_86,scam,vishing_86,train,기관 사칭,1,single,5
+vishing_87,scam,vishing_87,train,기타,2,1,6
+vishing_88,scam,vishing_88,train,기관 사칭,2,1,18
+vishing_89,scam,vishing_89,train,기관 사칭,1,single,19
+vishing_9,scam,vishing_9,train,기관 사칭,2,1,26
+vishing_90,scam,vishing_90,dev,기관 사칭,1,single,4
+vishing_91,scam,vishing_91,train,기관 사칭,1,single,4
+vishing_92,scam,vishing_92,train,기타,1,single,4
+vishing_93,scam,vishing_93,train,기타,1,single,8
+vishing_94,scam,vishing_94,train,기관 사칭,1,single,14
+vishing_95,scam,vishing_95,train,기관 사칭,1,single,13
+vishing_96,scam,vishing_96,dev,기타,1,single,10
+vishing_97,scam,vishing_97,train,기타,1,single,5
+vishing_98,scam,vishing_97,train,기타,1,single,7
+vishing_99,scam,vishing_97,train,기타,1,single,7
