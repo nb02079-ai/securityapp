@@ -1,0 +1,11 @@
+case_id,first_suggest,first_intent_before,first_transfer_before,transfer_seen,source
+holdout_C06,8,8,8,Y,세 모델 일치
+holdout_C08,2,4,9,Y,first_intent_before=판정; first_transfer_before=판정
+holdout_C09,6,6,6,N,first_intent_before=판정
+holdout_C04,4,11,15,Y,first_intent_before=판정; transfer_seen=판정
+holdout_C07,1,1,3,Y,first_intent_before=판정
+holdout_C05,8,8,8,Y,first_intent_before=판정; first_transfer_before=판정
+holdout_C02,7,11,11,Y,first_suggest=판정; first_intent_before=판정
+holdout_C10,8,10,10,Y,세 모델 일치
+holdout_C01,13,13,13,Y,first_suggest=판정
+holdout_C03,9,12,12,Y,first_suggest=판정; first_intent_before=판정

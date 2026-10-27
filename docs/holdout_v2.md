@@ -59,3 +59,9 @@
 ### 변환 점검 (`check_case.py`)
 - 8건은 통과했습니다.
 - 2건(C01 seq 8, C09 seq 7)은 "나"의 연결 메시지에 '투자', '송금' 같은 낱말이 있다고 표시됐습니다. 상대 메시지가 아니라 엔진에 들어가지 않으므로, 봉인 원본이라 고치지 않고 그대로 둡니다.
+
+## 평가 실행 기록 (2026-10-27)
+- 최종 라벨: `data/eval/holdout_v2/labels/` (판정 18칸, [label_results/holdout_v2/adjudication_final.xlsx](labeling/label_results/holdout_v2/adjudication_final.xlsx))
+- engine-v1.1과 engine-v1을 `--eval-set`으로 한 번씩 실행했습니다. 결과는 [results/holdout_v2_results.md](results/holdout_v2_results.md)에 있습니다.
+- 행위 + 흐름 송금 전 경고: v1.1 2/10, v1 2/10. 행위 단독은 8/10과 7/10, 단어 기준선은 6/10입니다.
+- 이후 이 세트로 낸 숫자는 모두 "평가 후 수정"입니다.
