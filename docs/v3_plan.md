@@ -7,8 +7,9 @@
 ## 1단계 데이터 정리 (마감 10-28)
 - [x] KorCCVi 변환, 묶기, 나누기, 봉인 — [korccvi.md](korccvi.md), `data/eval/korccvi_split_ids.csv`
 - [x] 개발 세트 기준선(규칙 v1.1): 사기 경고 6/107, 일반 경고 1/107
-- [ ] 금융 콜센터(AI-Hub 민원 질의응답, 금융/보험) 받기 — 사용자. 압축 파일 하나의 구조를 먼저 확인
-- [ ] 콜센터 변환 도구 `tools/aihub/import_callcenter.py`, 평가용 1,000건 이상 봉인
+- [x] 금융 콜센터 구조 확인 (여러 턴 대화, 중앙값 20문장) — [callcenter.md](callcenter.md)
+- [x] 콜센터 변환 도구 `tools/aihub/import_callcenter.py` (Validation → 평가 봉인, Training → 학습·개발)
+- [ ] 사용자 PC에서 금융/보험 Training·Validation 라벨링데이터 변환 → split CSV 커밋, 해시 기록
 - [ ] 집 PC에서 KorCCVi 재현: `--check`로 나누기 결과가 같은지 확인
 
 ## 2단계 평가 라벨 (마감 10-30)
