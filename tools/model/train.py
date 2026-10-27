@@ -9,6 +9,8 @@
 - 손실: 사기/일반 예시 수 차이를 가중치로 맞춤
 - 에포크마다 개발 예시 AUC를 적고, AUC가 가장 높은 에포크를 <out>/best 에 저장
 - --smoke: 예시 2,000개·에포크 1로 빠르게 돌려 설치·코드 점검만
+- --amp: 혼합 정밀도. 기본 none(fp32). fp16은 일부 torch·GPU 조합에서 GradScaler가
+  "CUDA error: invalid argument"를 냄(torch 2.14 + RTX 3060 Ti에서 확인) → 필요하면 bf16
 """
 import argparse
 import json
@@ -55,6 +57,9 @@ def main():
     ap.add_argument("--max-len", type=int, default=256)
     ap.add_argument("--seed", type=int, default=20261028)
     ap.add_argument("--smoke", action="store_true")
+    ap.add_argument("--amp", choices=("none", "bf16", "fp16"), default="none")
+    ap.add_argument("--attn", choices=("eager", "sdpa"), default="eager",
+                    help="어텐션 구현. sdpa는 torch 2.14(Windows)에서 CUDA illegal memory access가 남 → 기본 eager")
     a = ap.parse_args()
 
     import torch
@@ -77,7 +82,9 @@ def main():
 
     tok = AutoTokenizer.from_pretrained(a.model)
     tok.truncation_side = "left"
-    model = AutoModelForSequenceClassification.from_pretrained(a.model, num_labels=2).to(dev_name)
+    model = AutoModelForSequenceClassification.from_pretrained(a.model, num_labels=2,
+                                                               attn_implementation=a.attn).to(dev_name)
+    print("어텐션:", a.attn)
 
     def collate(batch):
         enc = tok([r["text"] for r in batch], truncation=True, max_length=a.max_len, padding=True, return_tensors="pt")
@@ -91,8 +98,11 @@ def main():
     sch = get_linear_schedule_with_warmup(opt, int(0.06 * steps), steps)
     weight = torch.tensor([len(train) / (2 * neg), len(train) / (2 * pos)], dtype=torch.float, device=dev_name)
     lossf = torch.nn.CrossEntropyLoss(weight=weight)
-    use_amp = dev_name == "cuda"
-    scaler = torch.amp.GradScaler("cuda", enabled=use_amp)
+    use_amp = dev_name == "cuda" and a.amp != "none"
+    amp_dtype = torch.bfloat16 if a.amp == "bf16" else torch.float16
+    use_scaler = use_amp and a.amp == "fp16"
+    scaler = torch.amp.GradScaler("cuda", enabled=use_scaler) if use_scaler else None
+    print("정밀도:", a.amp if use_amp else "fp32")
 
     os.makedirs(a.out, exist_ok=True)
     best, log = -1.0, []
@@ -102,15 +112,20 @@ def main():
         for i, b in enumerate(tl, 1):
             labels = b.pop("labels").to(dev_name)
             b = {k: v.to(dev_name) for k, v in b.items()}
-            with torch.autocast(device_type="cuda", dtype=torch.float16, enabled=use_amp):
+            with torch.autocast(device_type="cuda", dtype=amp_dtype, enabled=use_amp):
                 logits = model(**b).logits
             loss = lossf(logits.float(), labels)
             opt.zero_grad()
-            scaler.scale(loss).backward()
-            scaler.unscale_(opt)
-            torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
-            scaler.step(opt)
-            scaler.update()
+            if scaler is not None:
+                scaler.scale(loss).backward()
+                scaler.unscale_(opt)
+                torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+                scaler.step(opt)
+                scaler.update()
+            else:
+                loss.backward()
+                torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+                opt.step()
             sch.step()
             total += loss.item()
             if i % 200 == 0 or i == len(tl):
@@ -121,7 +136,7 @@ def main():
             for b in dl:
                 ys += b.pop("labels").tolist()
                 b = {k: v.to(dev_name) for k, v in b.items()}
-                with torch.autocast(device_type="cuda", dtype=torch.float16, enabled=use_amp):
+                with torch.autocast(device_type="cuda", dtype=amp_dtype, enabled=use_amp):
                     p = torch.softmax(model(**b).logits.float(), -1)[:, 1]
                 scores += p.tolist()
         a_ = auc(scores, ys)

@@ -57,7 +57,7 @@ def main():
         dev = "cuda" if torch.cuda.is_available() else "cpu"
         tok = AutoTokenizer.from_pretrained(a.model)
         tok.truncation_side = "left"
-        model = AutoModelForSequenceClassification.from_pretrained(a.model).to(dev).eval()
+        model = AutoModelForSequenceClassification.from_pretrained(a.model, attn_implementation="eager").to(dev).eval()
 
         def score_batch(texts):
             with torch.no_grad():

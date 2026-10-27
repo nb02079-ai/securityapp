@@ -54,9 +54,10 @@ def read_decisive(path):
         return {r["call_id"]: (None if r["decisive_seq"] == "none" else int(r["decisive_seq"])) for r in csv.DictReader(f)}
 
 
-def pick_threshold(convs, target):
+def pick_threshold(convs, target, source=None):
     maxima = sorted((max((s for v in c["persp"].values() for _, s in v), default=0.0)
-                     for c in convs.values() if c["label"] == "normal"), reverse=True)
+                     for c in convs.values() if c["label"] == "normal" and (source is None or c["source"] == source)),
+                    reverse=True)
     if not maxima:
         raise SystemExit("[오류] 일반 대화가 없어 문턱을 고를 수 없음")
     allowed = math.floor(target * len(maxima) + 1e-9)
@@ -147,6 +148,8 @@ def main():
     ap.add_argument("--mode", default="상대만")
     ap.add_argument("--threshold", type=float)
     ap.add_argument("--pick-fp", type=float)
+    ap.add_argument("--pick-by", choices=("pooled", "each"), default="pooled",
+                    help="pooled: 일반 대화 전체 오탐이 목표 이하 / each: 출처마다 오탐이 목표 이하 (더 엄격)")
     ap.add_argument("--decisive")
     ap.add_argument("--title", default="탐지율·오탐률")
     ap.add_argument("--out", required=True)
@@ -160,7 +163,13 @@ def main():
         convs = read_scores(a.scores)
         if (a.threshold is None) == (a.pick_fp is None):
             raise SystemExit("[오류] --threshold 와 --pick-fp 중 하나만")
-        th = a.threshold if a.threshold is not None else pick_threshold(convs, a.pick_fp)
+        if a.threshold is not None:
+            th = a.threshold
+        elif a.pick_by == "each":
+            srcs = sorted({c["source"] for c in convs.values() if c["label"] == "normal"})
+            th = max(pick_threshold(convs, a.pick_fp, s) for s in srcs)
+        else:
+            th = pick_threshold(convs, a.pick_fp)
         res = evaluate(convs, th, dec)
     if dec:
         missing = [k for k in dec if k not in {r["conv"] for r in res["scam"]}]
