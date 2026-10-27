@@ -7,6 +7,8 @@ data/eval/*
 !data/eval/*_ids.csv
 !data/eval/scam/
 !data/eval/holdout_v2/
+# KorCCVi 평가 통화의 첫 결정적 지시 라벨 (통화 ID·번호·종류만, 원문 없음)
+!data/eval/korccvi_labels/
 # 개발 세트: 직접 만든 합성 대화와 ID 목록만 (AI-Hub 원문·재생 파일은 계속 제외)
 !data/dev/
 data/dev/*

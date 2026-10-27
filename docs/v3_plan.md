@@ -13,6 +13,7 @@
 - [ ] 집 PC에서 KorCCVi 재현: `--check`로 나누기 결과가 같은지 확인
 
 ## 2단계 평가 라벨 (마감 10-30)
+- [x] **완료 (10-27)**: 세 모델 일치 68, 둘 일치 30, 사용자 판정 5 → none 77 / 번호 26 ([08](labeling/08_label_decisive.md))
 - 평가용 사기 통화 103건마다 **첫 결정적 지시** 지점 하나를 정합니다.
   - 결정적 지시: 피해로 이어지는 첫 지시. 이체·송금, 현금 인출·전달, 앱 설치·원격 제어, 계좌·카드·인증번호 같은 금융 정보 제공 등이 해당합니다.
   - 지시가 없는 통화(잘린 녹음 등)는 `none`으로 둡니다. `none`인 통화는 탐지율 분모에서 빼지 않고, "통화가 끝나기 전까지 경고"로 셉니다. 이 기준은 라벨을 받기 전에 정해 둡니다.
@@ -41,3 +42,42 @@
 ## 5단계 앱 (그 뒤)
 - ONNX 또는 LiteRT로 바꾸고 int8로 줄입니다. 기기 안 처리 시간을 잽니다.
 - 카카오톡 알림 연결, 인터넷 권한 없음, 공유 버튼(plan.md 4장).
+
+## 3단계 실행 순서 (집 PC, cmd)
+
+코드는 `tools/model/`에 있습니다.
+- `common.py`: 정규화와 관점 처리
+- `build_examples.py`: 학습 예시 만들기
+- `train.py`: 미세조정
+- `score.py`: 위험 점수 매기기
+- `metrics.py`: 탐지율·오탐률 계산
+
+평가(test) 폴더는 `build_examples.py`가 받지 않습니다. `score.py`도 `--eval-set` 없이는 멈춥니다.
+
+```
+:: 0) 준비 (한 번만)
+py -m pip install torch --index-url https://download.pytorch.org/whl/cu121
+py -m pip install -r tools\model\requirements.txt
+set D=%USERPROFILE%\Desktop
+set K=%D%\korccvi_calls
+set C=%D%\callcenter_calls
+set M=%D%\model_v1
+
+:: 1) 데이터 다시 만들기 (집 PC) — 나누기가 같은지 확인
+py tools\korccvi\import_calls.py --korccvi %D%\KorCCVi --out %K% --check data\eval\korccvi_split_ids.csv
+py tools\aihub\import_callcenter.py --input %D%\data --out %C% --check data\eval\callcenter_split_ids.csv
+
+:: 2) 예시 만들기 (학습·개발만)
+py tools\model\build_examples.py --input %K%\train --input %C%\train --max-convs-per-source callcenter=3000 --out %M%\train.jsonl
+py tools\model\build_examples.py --input %K%\dev --input %C%\dev --max-convs-per-source callcenter=500 --out %M%\dev.jsonl
+
+:: 3) 점검용 짧은 학습 → 본 학습
+py tools\model\train.py --train %M%\train.jsonl --dev %M%\dev.jsonl --out %M%\smoke --smoke
+py tools\model\train.py --train %M%\train.jsonl --dev %M%\dev.jsonl --out %M%
+
+:: 4) 개발 세트 점수 → 오탐 3% 문턱 고르기
+py tools\model\score.py --model %M%\best --input %K%\dev --input %C%\dev --out %M%\dev_scores.csv
+py tools\model\metrics.py --scores %M%\dev_scores.csv --pick-fp 0.03 --title "model-v1 개발 세트" --out %M%\dev_report.md
+```
+
+- 확인용 기준(단어 기준선): KorCCVi 개발 세트에서 Python 단어 점수기(`score.py --scorer words`)와 재생 평가기 결과가 같았습니다. 사기 59/107, 일반 11/107입니다.
