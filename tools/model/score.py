@@ -13,7 +13,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import load_dir, perspectives, prefix_text  # noqa: E402
+from common import load_dir, perspectives, prefix_text, read_split  # noqa: E402
 
 WORDS = ("송금", "입금", "계좌", "투자", "수익")  # plan.md 7.2 단어 기준선
 
@@ -28,12 +28,17 @@ def main():
     ap.add_argument("--max-len", type=int, default=256)
     ap.add_argument("--max-chars", type=int, default=600)
     ap.add_argument("--eval-set", action="store_true")
+    ap.add_argument("--split-file")
+    ap.add_argument("--split", default="dev")
     a = ap.parse_args()
     for p in a.input:
         norm = os.path.abspath(p).replace("\\", "/").rstrip("/")
         if (norm.endswith("/test") or "/data/eval" in norm) and not a.eval_set:
             sys.exit(f"[멈춤] 평가 세트입니다: {p}. 모델을 고정한 뒤 --eval-set 을 붙여 한 번만 돌립니다.")
     convs = [c for p in a.input for c in load_dir(p)]
+    if a.split_file:
+        keep, listed = read_split(a.split_file, a.split)
+        convs = [c for c in convs if c["id"] not in listed or c["id"] in keep]
     items = []
     for c in convs:
         ps = perspectives(c)

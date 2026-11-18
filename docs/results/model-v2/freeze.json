@@ -1,0 +1,42 @@
+{
+ "name": "model-v2",
+ "threshold": 0.843446001,
+ "files": {
+  "config.json": "2b081a5e6857fcfb99882c787cae0de8cd1e96f3ebe575043cd1e6328be38753",
+  "model.safetensors": "349e7794d56a200780871ca673475eb27f970890c686d8d437f1816922666070",
+  "tokenizer.json": "163fcd600577ab9da314663378feee0585c1f1ea83257282203cfb8c2415dce9",
+  "tokenizer_config.json": "55f686f3c1111e477bcd12bd9736d6b554fa2e3f94f1c3fbd2c16c467cdbf0eb"
+ },
+ "threshold_rule": "개발 세트에서 KorCCVi 일반 통화·금융 콜센터가 각각 오탐 3% 이하가 되는 가장 낮은 값 (결정 29)",
+ "train": {
+  "args": {
+   "model": "monologg/koelectra-small-v3-discriminator",
+   "epochs": 3,
+   "batch": 32,
+   "lr": 5e-05,
+   "max_len": 256,
+   "seed": 20261028,
+   "smoke": false,
+   "amp": "none",
+   "attn": "eager"
+  },
+  "log": [
+   {
+    "epoch": 1,
+    "train_loss": 0.12101024232613854,
+    "dev_auc": 0.9891492910068157
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.01764415378244923,
+    "dev_auc": 0.9907200754501295
+   },
+   {
+    "epoch": 3,
+    "train_loss": 0.006965434752113634,
+    "dev_auc": 0.9882419360478325
+   }
+  ],
+  "best_dev_auc": 0.9907200754501295
+ }
+}

@@ -150,6 +150,7 @@ def main():
     ap.add_argument("--pick-fp", type=float)
     ap.add_argument("--pick-by", choices=("pooled", "each"), default="pooled",
                     help="pooled: 일반 대화 전체 오탐이 목표 이하 / each: 출처마다 오탐이 목표 이하 (더 엄격)")
+    ap.add_argument("--pick-sources", help="문턱을 고를 때 쓸 일반 대화 출처 (쉼표, 기본 전부). 예: korccvi,callcenter")
     ap.add_argument("--decisive")
     ap.add_argument("--title", default="탐지율·오탐률")
     ap.add_argument("--out", required=True)
@@ -167,6 +168,10 @@ def main():
             th = a.threshold
         elif a.pick_by == "each":
             srcs = sorted({c["source"] for c in convs.values() if c["label"] == "normal"})
+            if a.pick_sources:
+                srcs = [x for x in srcs if x in a.pick_sources.split(",")]
+                if not srcs:
+                    raise SystemExit("[오류] --pick-sources에 맞는 일반 대화 출처가 없음")
             th = max(pick_threshold(convs, a.pick_fp, s) for s in srcs)
         else:
             th = pick_threshold(convs, a.pick_fp)

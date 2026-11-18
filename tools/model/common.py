@@ -24,20 +24,50 @@ def load_conv(path):
         rows = [json.loads(l) for l in f if l.strip()]
     meta = rows[0] if rows[0].get("type") == "meta" else {}
     msgs = [r for r in rows if r.get("type") == "message" or "seq" in r]
-    cid = meta.get("case_id") or os.path.splitext(os.path.basename(path))[0]
+    cid = meta.get("case_id") or meta.get("candidate_id") or os.path.splitext(os.path.basename(path))[0]
     label = meta.get("label") or meta.get("kind")
     if label not in ("scam", "normal"):
         raise ValueError(f"{cid}: label 없음")
-    src = cid.split("_")[0] if "_" in cid else "other"
-    return {"id": cid, "label": label, "source": src, "messages": msgs}
+    return {"id": cid, "label": label, "source": source_of(cid, meta), "messages": msgs}
+
+
+def source_of(cid, meta):
+    """출처 이름 (출처별 오탐·학습 비율에 씀)."""
+    for pre in ("korccvi", "callcenter", "holdout"):
+        if cid.startswith(pre + "_"):
+            return pre
+    if "candidate_id" in meta:
+        return "aihub"
+    if re.match(r"scam\d\d_", cid):
+        return "scam_eval"
+    if re.match(r"K\d\d_", cid):
+        return "recon"
+    if "model" in meta or re.match(r"(chatgpt|claude|gemini|grok)_", cid):
+        return "synthetic"
+    return "other"
+
+
+def read_split(path, split):
+    """--split-file CSV(conv_id,split)에서 그 나누기에 속한 대화 ID 집합."""
+    import csv
+    with open(path, encoding="utf-8-sig", newline="") as f:
+        rows = list(csv.DictReader(f))
+    ids = {r["conv_id"] for r in rows if r["split"] == split}
+    if not ids:
+        raise SystemExit(f"[오류] {path}에 split={split} 줄이 없음")
+    return ids, {r["conv_id"] for r in rows}
 
 
 def load_dir(folder):
+    if not os.path.isdir(folder):
+        raise SystemExit(f"[오류] 폴더가 없습니다: {folder}")
     out = []
     for root, _, files in os.walk(folder):
         for f in sorted(files):
             if f.endswith(".jsonl"):
                 out.append(load_conv(os.path.join(root, f)))
+    if not out:
+        raise SystemExit(f"[오류] .jsonl 대화가 하나도 없습니다: {folder}")
     out.sort(key=lambda c: c["id"])
     return out
 

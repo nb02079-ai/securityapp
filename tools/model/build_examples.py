@@ -14,7 +14,7 @@ import random
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import load_dir, perspectives, prefix_text  # noqa: E402
+from common import load_dir, perspectives, prefix_text, read_split  # noqa: E402
 
 
 def positions(n, k):
@@ -31,6 +31,9 @@ def main():
     ap.add_argument("--per-conv", type=int, default=16)
     ap.add_argument("--max-convs-per-source", action="append", default=[], help="출처=최대 대화 수 (예: callcenter=3000)")
     ap.add_argument("--max-chars", type=int, default=600)
+    ap.add_argument("--split-file", help="conv_id,split CSV. 이 파일에 있는 대화는 --split과 같은 줄만 씀 (없는 대화는 그대로)")
+    ap.add_argument("--split", default="train")
+    ap.add_argument("--repeat", action="append", default=[], help="출처=배수 또는 출처:라벨=배수 (예: synthetic=8, synthetic:normal=20). 적은 출처를 여러 번 넣음; 출처:라벨이 우선")
     ap.add_argument("--seed", type=int, default=20261028)
     a = ap.parse_args()
     for p in a.input:
@@ -40,6 +43,12 @@ def main():
     caps = {k: int(v) for k, v in (x.split("=") for x in a.max_convs_per_source)}
     rng = random.Random(a.seed)
     convs = [c for p in a.input for c in load_dir(p)]
+    if a.split_file:
+        keep, listed = read_split(a.split_file, a.split)
+        before = len(convs)
+        convs = [c for c in convs if c["id"] not in listed or c["id"] in keep]
+        print(f"split 파일: {before - len(convs)}개 대화를 뺌 (split={a.split}이 아님)")
+    reps = {k: int(v) for k, v in (x.split("=") for x in a.repeat)}
     by_src = {}
     for c in convs:
         by_src.setdefault(c["source"], []).append(c)
@@ -48,6 +57,10 @@ def main():
         if src in caps and len(cs) > caps[src]:
             cs = rng.sample(cs, caps[src])
         chosen += cs
+    def times(c):
+        return reps.get(f'{c["source"]}:{c["label"]}', reps.get(c["source"], 1))
+
+    chosen = [c for c in chosen for _ in range(times(c))]
     n = {0: 0, 1: 0}
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     with open(a.out, "w", encoding="utf-8") as f:
@@ -63,7 +76,9 @@ def main():
                     n[y] += 1
     print(f"대화 {len(chosen)}개 → 예시 {n[0] + n[1]}개 (사기 {n[1]}, 일반 {n[0]}) → {a.out}")
     for src, cs in sorted(by_src.items()):
-        print(f"  {src}: {sum(1 for c in chosen if c['source'] == src)}/{len(cs)} 대화")
+        n_src = len({c["id"] for c in chosen if c["source"] == src})
+        mult = sorted({times(c) for c in cs})
+        print(f"  {src}: {n_src}/{len(cs)} 대화" + (f" (×{'/'.join(map(str, mult))})" if mult != [1] else ""))
 
 
 if __name__ == "__main__":
