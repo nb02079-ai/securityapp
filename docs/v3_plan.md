@@ -213,3 +213,22 @@ py tools\model\metrics.py --kotlin %M2%\kotlin_msg --method "단어 기준선" -
 - 메신저(보조): 탐지 13/20, 오탐 3/43
 - 같은 평가 세트에서 규칙 v1.1은 통화 탐지 0/103, 단어 기준선은 49/103(콜센터 오탐 31.7%)
 - 다음: 5단계 앱 (ONNX/LiteRT, 카카오톡 알림 연결)
+
+## 5단계-1 모델 변환 (집 PC, cmd, 저장소 폴더)
+- 목표: model-v2를 ONNX로 바꾸고 int8로 줄입니다. 개발 세트에서 원래 모델과 판정이 같은지 확인합니다.
+- 합격 기준: 대화별 경고 여부가 99% 이상 같을 것. 달라진 대화는 목록으로 남깁니다.
+- 평가 세트는 다시 쓰지 않습니다. 비교는 개발 세트로만 합니다.
+```
+py -m pip install onnx onnxruntime onnxscript
+set O=%D%\model_v2_onnx
+py tools\model\export_onnx.py --model %M2%\best --out %O%
+py tools\model\score.py --onnx %O%\model.onnx --model %O% --input %K%\dev --input %C%\dev --input data\dev\synthetic2 --input "%R%" --split-file %SP% --split dev --out %O%\dev_scores_fp32.csv
+py tools\model\score.py --onnx %O%\model_int8.onnx --model %O% --input %K%\dev --input %C%\dev --input data\dev\synthetic2 --input "%R%" --split-file %SP% --split dev --out %O%\dev_scores_int8.csv
+py tools\model\compare_scores.py --a %M2%\dev_scores.csv --b %O%\dev_scores_fp32.csv --threshold 0.843446001
+py tools\model\compare_scores.py --a %M2%\dev_scores.csv --b %O%\dev_scores_int8.csv --threshold 0.843446001
+py tools\model\metrics.py --scores %O%\dev_scores_int8.csv --threshold 0.843446001 --title "model-v2 int8 개발 세트" --out %O%\dev_report_int8.md
+```
+
+## 5단계-1 결과 (11-18)
+- [x] ONNX 변환과 int8 양자화. 대화별 경고 여부 일치 99.85%로 통과 → [results/model-v2/onnx.md](results/model-v2/onnx.md)
+- 다음(5단계-2): 정규화·토큰 나누기·ONNX 호출을 Kotlin으로 옮기고, PC(JVM)에서 Python과 같은 토큰·같은 점수가 나오는지 확인합니다. 그다음 Android Studio를 설치하고, 태블릿(Android 14)에서 앱을 시험합니다.

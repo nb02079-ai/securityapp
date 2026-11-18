@@ -2,3 +2,7 @@
 #   py -m pip install torch --index-url https://download.pytorch.org/whl/cu121
 transformers>=4.40
 sentencepiece
+# 5단계 변환 (export_onnx.py, score.py --onnx)
+onnx
+onnxruntime
+onnxscript

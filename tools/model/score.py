@@ -11,6 +11,7 @@ import argparse
 import csv
 import os
 import sys
+import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import load_dir, perspectives, prefix_text, read_split  # noqa: E402
@@ -22,7 +23,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--input", action="append", required=True)
     ap.add_argument("--out", required=True)
-    ap.add_argument("--model")
+    ap.add_argument("--model", help="모델 폴더 (--onnx와 함께 쓰면 토크나이저 폴더)")
+    ap.add_argument("--onnx", help="ONNX 파일로 점수 (export_onnx.py 결과). CPU에서 돌림")
     ap.add_argument("--scorer", choices=("model", "words"), default="model")
     ap.add_argument("--batch", type=int, default=64)
     ap.add_argument("--max-len", type=int, default=256)
@@ -54,6 +56,22 @@ def main():
     if a.scorer == "words":
         def score_batch(texts):
             return [1.0 if any(w in t for w in WORDS) else 0.0 for t in texts]
+    elif a.onnx:
+        import numpy as np
+        import onnxruntime as ort
+        from transformers import AutoTokenizer
+        tok = AutoTokenizer.from_pretrained(a.model or os.path.dirname(a.onnx))
+        tok.truncation_side = "left"
+        sess = ort.InferenceSession(a.onnx, providers=["CPUExecutionProvider"])
+        names = [i.name for i in sess.get_inputs()]
+
+        def score_batch(texts):
+            enc = tok(texts, truncation=True, max_length=a.max_len, padding=True, return_tensors="np")
+            if "token_type_ids" not in enc:
+                enc["token_type_ids"] = np.zeros_like(enc["input_ids"])
+            lg = sess.run(None, {n: enc[n].astype(np.int64) for n in names})[0]
+            e = np.exp(lg - lg.max(-1, keepdims=True))
+            return (e[:, 1] / e.sum(-1)).tolist()
     else:
         if not a.model:
             sys.exit("[오류] --model 이 필요합니다")
@@ -70,6 +88,7 @@ def main():
                 return torch.softmax(model(**enc).logits.float(), -1)[:, 1].tolist()
 
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
+    t0 = time.time()
     with open(a.out, "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
         w.writerow(["conv", "label", "source", "persp", "seq", "score"])
@@ -83,7 +102,7 @@ def main():
                 w.writerow([c["id"], c["label"], c["source"], pname, seq, f"{sc:.6f}"])
             if (s // a.batch) % 50 == 0:
                 print(f"  {s + len(chunk)}/{len(todo)}", flush=True)
-    print("→", a.out)
+    print(f"→ {a.out} ({time.time() - t0:.1f}초, 위치당 {1000 * (time.time() - t0) / max(1, len(todo)):.1f}ms)")
 
 
 if __name__ == "__main__":
