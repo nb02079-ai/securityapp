@@ -1,0 +1,361 @@
+# model-v2 고정·평가 실행 기록 (2026-11-18, 집 PC cmd 화면 그대로, 사용자 경로만 %USERPROFILE%로 바꿈)
+
+## 1차 (고정 → 평가 → 비교 일부)
+%USERPROFILE%\Documents\GitHub\securityapp>set D=%USERPROFILE%\Desktop
+
+%USERPROFILE%\Documents\GitHub\securityapp>set K=%D%\korccvi_calls
+
+%USERPROFILE%\Documents\GitHub\securityapp>set C=%D%\callcenter_calls
+
+%USERPROFILE%\Documents\GitHub\securityapp>set M2=%D%\model_v2
+
+%USERPROFILE%\Documents\GitHub\securityapp>set V=%D%\replay_validation
+
+%USERPROFILE%\Documents\GitHub\securityapp>xcopy /E /I /Y "%D%\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation" %V%
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\BAND_13_14__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\BAND_13_16__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\BAND_16_05__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\BAND_16_18__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\BAND_20_05__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\FACEBOOK_51_04__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\FACEBOOK_79_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\INSTAGRAM_32_18__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\INSTAGRAM_37_20__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\INSTAGRAM_39_10__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_457_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_468_14__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_470_14__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_473_02__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_488_06__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_498_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_509_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_516_06__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_516_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_526_18__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_528_04__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_533_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_537_14__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_542_18__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_556_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_558_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_571_16__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_617_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_625_14__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_685_12__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_688_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_697_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_702_18__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_717_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_720_14__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_728_04__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_764_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_764_14__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_770_18__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_827_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_836_15__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_881_08__s1.jsonl
+%USERPROFILE%\Desktop\020.주제별 텍스트 일상 대화 데이터\candidates_out\replay_validation\KAKAO_887_11__s1.jsonl
+43개 파일이 복사되었습니다.
+
+%USERPROFILE%\Documents\GitHub\securityapp>py tools\model\freeze.py --model %M2%\best --threshold 0.843446001 --train-log %M2%\train_log.json --name model-v2 --out docs\results\model-v2\freeze.json
+고정 기록 → docs\results\model-v2\freeze.json
+  config.json: 2b081a5e6857fcfb…
+  model.safetensors: 349e7794d56a2007…
+  tokenizer.json: 163fcd600577ab9d…
+  tokenizer_config.json: 55f686f3c1111e47…
+
+%USERPROFILE%\Documents\GitHub\securityapp>::    (GitHub Desktop으로 커밋 "model-v2 고정" → push)
+%USERPROFILE%\Documents\GitHub\securityapp>git tag model-v2
+
+%USERPROFILE%\Documents\GitHub\securityapp>git push origin model-v2
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/nb02079-ai/securityapp.git
+ * [new tag]         model-v2 -> model-v2
+
+%USERPROFILE%\Documents\GitHub\securityapp>py tools\model\freeze.py --verify docs\results\model-v2\freeze.json --model %M2%\best
+고정한 모델과 같음 (model-v2, 문턱 0.843446001)
+
+%USERPROFILE%\Documents\GitHub\securityapp>py tools\model\score.py --model %M2%\best --input %K%\test --input %C%\test --eval-set --out %M2%\test_call_scores.csv
+대화 2248개, 점수 매길 위치 44510개
+Loading weights: 100%|█████████████████████████████████████████████████████████████| 203/203 [00:00<00:00, 4728.33it/s]
+  64/44510
+  3264/44510
+  6464/44510
+  9664/44510
+  12864/44510
+  16064/44510
+  19264/44510
+  22464/44510
+  25664/44510
+  28864/44510
+  32064/44510
+  35264/44510
+  38464/44510
+  41664/44510
+→ %USERPROFILE%\Desktop\model_v2\test_call_scores.csv
+
+%USERPROFILE%\Documents\GitHub\securityapp>py tools\model\metrics.py --scores %M2%\test_call_scores.csv --threshold 0.843446001 --decisive data\eval\korccvi_labels\final_decisive.csv --title "model-v2 test (call)" --out docs\results\model-v2\test_call.md
+# model-v2 test (call)
+
+- 문턱: 0.843446001
+
+| 지표 | 값 | 목표 |
+|---|---|---|
+| **탐지율** (사기 대화) | 100/103 (97.1%, 95% CI 91.8–99.0) | 90% 이상 |
+| **오탐률** (일반 대화) | 11/2145 (0.5%, 95% CI 0.3–0.9) | 3% 이하 |
+| 지시가 있는 사기 대화에서 지시 전 경고 | 25/26 (96.2%, 95% CI 81.1–99.3) | (보조) |
+| 지시 없는(none) 사기 대화에서 경고 | 75/77 (97.4%, 95% CI 91.0–99.3) | (보조) |
+| 첫 경고 위치 (상대 메시지 몇 번째, 중앙값) | 1.0 (대화 길이의 10% 지점) | (보조) |
+
+## 출처별 오탐
+
+| 출처 | 오탐 |
+|---|---|
+| callcenter | 1/2039 (0.0%, 95% CI 0.0–0.3) |
+| korccvi | 10/106 (9.4%, 95% CI 5.2–16.5) |
+
+## 출처별 탐지
+
+| 출처 | 탐지 |
+|---|---|
+| korccvi | 100/103 (97.1%, 95% CI 91.8–99.0) |
+
+
+%USERPROFILE%\Documents\GitHub\securityapp>py tools\model\score.py --model %M2%\best --input data\eval\scam --input data\eval\holdout_v2 --input %V% --eval-set --out %M2%\test_msg_scores.csv
+대화 63개, 점수 매길 위치 1344개
+Loading weights: 100%|█████████████████████████████████████████████████████████████| 203/203 [00:00<00:00, 5343.90it/s]
+  64/1344
+→ %USERPROFILE%\Desktop\model_v2\test_msg_scores.csv
+
+%USERPROFILE%\Documents\GitHub\securityapp>py tools\model\metrics.py --scores %M2%\test_msg_scores.csv --threshold 0.843446001 --title "model-v2 test (messenger)" --out docs\results\model-v2\test_msg.md
+# model-v2 test (messenger)
+
+- 문턱: 0.843446001
+
+| 지표 | 값 | 목표 |
+|---|---|---|
+| **탐지율** (사기 대화) | 13/20 (65.0%, 95% CI 43.3–81.9) | 90% 이상 |
+| **오탐률** (일반 대화) | 3/43 (7.0%, 95% CI 2.4–18.6) | 3% 이하 |
+| 첫 경고 위치 (상대 메시지 몇 번째, 중앙값) | 2 (대화 길이의 14% 지점) | (보조) |
+
+## 출처별 오탐
+
+| 출처 | 오탐 |
+|---|---|
+| aihub | 3/43 (7.0%, 95% CI 2.4–18.6) |
+
+## 출처별 탐지
+
+| 출처 | 탐지 |
+|---|---|
+| holdout | 7/10 (70.0%, 95% CI 39.7–89.2) |
+| scam_eval | 6/10 (60.0%, 95% CI 31.3–83.2) |
+
+
+%USERPROFILE%\Documents\GitHub\securityapp>gradlew.bat :eval:run --args="--input %K%\test --input %C%\test --out %M2%\kotlin_call --title baseline-call"
+Starting a Gradle Daemon, 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+
+> Task :eval:run
+?⑥뼱 湲곗??? ?ш린 寃쎄퀬 50/103, ?쇰컲 ???寃쎄퀬 655/2145, 二쇱쓽 0/2145
+?됱쐞 ?⑤룆: ?ш린 寃쎄퀬 65/103, ?쇰컲 ???寃쎄퀬 1021/2145, 二쇱쓽 0/2145
+?됱쐞 + ?먮쫫: ?ш린 寃쎄퀬 4/103, ?쇰컲 ???寃쎄퀬 40/2145, 二쇱쓽 160/2145
+寃곌낵: %USERPROFILE%\Desktop\model_v2\kotlin_call
+<===========--> 91% EXECUTING [30s]
+> :eval:run
+py tools\model\metrics.py --kotlin %M2%\kotlin_call --method "행위 + 흐름" --decisive data\eval\korccvi_labels\final_decisive.csv --title "rules v1.1 test (call)" --out docs\results\model-v2\baseline_rules_call.md
+py tools\model\metrics.py --kotlin %M2%\kotlin_call --method "단어 기준선" --decisive data\eval\korccvi_labels\final_decisive.csv --title "words test (call)" --out docs\results\model-v2\baseline_words_call.md
+gradlew.bat :eval:run --args="--input data/eval/scam --input data/eval/holdout_v2 --input %V% --eval-set --out %M2%\kotlin_msg --title baseline-msg"
+
+BUILD SUCCESSFUL in 33seline_rules_msg.md
+4 actionable tasks: 2 executed, 2 up-to-date
+%USERPROFILE%\Documents\GitHub\securityapp>py tools\model\metrics.py --kotlin %M2%\kotlin_msg --method "단어 기준선" --title "words test (messenger)" --out docs\results\model-v2\baseline_words_msg.md
+Traceback (most recent call last):
+  File "%USERPROFILE%\Documents\GitHub\securityapp\tools\model\metrics.py", line 192, in <module>
+    main()
+    ~~~~^^
+  File "%USERPROFILE%\Documents\GitHub\securityapp\tools\model\metrics.py", line 160, in main
+    res, th = from_kotlin(a.kotlin, a.method, a.mode, dec), None
+              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "%USERPROFILE%\Documents\GitHub\securityapp\tools\model\metrics.py", line 88, in from_kotlin
+    with open(f"{folder}/normals.csv", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '%USERPROFILE%\\Desktop\\model_v2\\kotlin_msg/normals.csv'
+## 2차 (비교 나머지 → 태그 바로잡기)
+%USERPROFILE%\Documents\GitHub\securityapp>py tools\model\metrics.py --kotlin %M2%\kotlin_call --method "행위 + 흐름" --decisive data\eval\korccvi_labels\final_decisive.csv --title "rules v1.1 test (call)" --out docs\results\model-v2\baseline_rules_call.md
+# rules v1.1 test (call)
+
+- 문턱: (규칙 엔진)
+
+| 지표 | 값 | 목표 |
+|---|---|---|
+| **탐지율** (사기 대화) | 0/103 (0.0%, 95% CI 0.0–3.6) | 90% 이상 |
+| **오탐률** (일반 대화) | 40/2145 (1.9%, 95% CI 1.4–2.5) | 3% 이하 |
+| 지시가 있는 사기 대화에서 지시 전 경고 | 0/26 (0.0%, 95% CI 0.0–12.9) | (보조) |
+| 지시 없는(none) 사기 대화에서 경고 | 0/77 (0.0%, 95% CI 0.0–4.8) | (보조) |
+
+## 출처별 오탐
+
+| 출처 | 오탐 |
+|---|---|
+| callcenter | 38/2039 (1.9%, 95% CI 1.4–2.5) |
+| korccvi | 2/106 (1.9%, 95% CI 0.5–6.6) |
+
+## 출처별 탐지
+
+| 출처 | 탐지 |
+|---|---|
+| korccvi | 0/103 (0.0%, 95% CI 0.0–3.6) |
+
+
+%USERPROFILE%\Documents\GitHub\securityapp>py tools\model\metrics.py --kotlin %M2%\kotlin_call --method "단어 기준선" --decisive data\eval\korccvi_labels\final_decisive.csv --title "words test (call)" --out docs\results\model-v2\baseline_words_call.md
+# words test (call)
+
+- 문턱: (규칙 엔진)
+
+| 지표 | 값 | 목표 |
+|---|---|---|
+| **탐지율** (사기 대화) | 49/103 (47.6%, 95% CI 38.2–57.1) | 90% 이상 |
+| **오탐률** (일반 대화) | 655/2145 (30.5%, 95% CI 28.6–32.5) | 3% 이하 |
+| 지시가 있는 사기 대화에서 지시 전 경고 | 11/26 (42.3%, 95% CI 25.5–61.1) | (보조) |
+| 지시 없는(none) 사기 대화에서 경고 | 38/77 (49.4%, 95% CI 38.5–60.3) | (보조) |
+
+## 출처별 오탐
+
+| 출처 | 오탐 |
+|---|---|
+| callcenter | 647/2039 (31.7%, 95% CI 29.7–33.8) |
+| korccvi | 8/106 (7.5%, 95% CI 3.9–14.2) |
+
+## 출처별 탐지
+
+| 출처 | 탐지 |
+|---|---|
+| korccvi | 49/103 (47.6%, 95% CI 38.2–57.1) |
+
+
+%USERPROFILE%\Documents\GitHub\securityapp>gradlew.bat :eval:run --args="--input data/eval/scam --input data/eval/holdout_v2 --input %V% --eval-set --out %M2%\kotlin_msg --title baseline-msg"
+
+> Task :eval:run
+?⑥뼱 湲곗??? ?ш린 寃쎄퀬 14/20, ?쇰컲 ???寃쎄퀬 6/43, 二쇱쓽 0/43
+?됱쐞 ?⑤룆: ?ш린 寃쎄퀬 19/20, ?쇰컲 ???寃쎄퀬 14/43, 二쇱쓽 0/43
+?됱쐞 + ?먮쫫: ?ш린 寃쎄퀬 8/20, ?쇰컲 ???寃쎄퀬 0/43, 二쇱쓽 0/43
+寃곌낵: %USERPROFILE%\Desktop\model_v2\kotlin_msg
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 1 executed, 3 up-to-date
+%USERPROFILE%\Documents\GitHub\securityapp>py tools\model\metrics.py --kotlin %M2%\kotlin_msg --method "행위 + 흐름" --title "rules v1.1 test (messenger)" --out docs\results\model-v2\baseline_rules_msg.md
+# rules v1.1 test (messenger)
+
+- 문턱: (규칙 엔진)
+
+| 지표 | 값 | 목표 |
+|---|---|---|
+| **탐지율** (사기 대화) | 8/20 (40.0%, 95% CI 21.9–61.3) | 90% 이상 |
+| **오탐률** (일반 대화) | 0/43 (0.0%, 95% CI 0.0–8.2) | 3% 이하 |
+
+## 출처별 오탐
+
+| 출처 | 오탐 |
+|---|---|
+| BAND | 0/5 (0.0%, 95% CI 0.0–43.4) |
+| FACEBOOK | 0/2 (0.0%, 95% CI 0.0–65.8) |
+| INSTAGRAM | 0/3 (0.0%, 95% CI 0.0–56.2) |
+| KAKAO | 0/33 (0.0%, 95% CI 0.0–10.4) |
+
+## 출처별 탐지
+
+| 출처 | 탐지 |
+|---|---|
+| holdout | 3/10 (30.0%, 95% CI 10.8–60.3) |
+| scam01 | 1/1 (100.0%, 95% CI 20.7–100.0) |
+| scam02 | 0/1 (0.0%, 95% CI 0.0–79.3) |
+| scam03 | 0/1 (0.0%, 95% CI 0.0–79.3) |
+| scam04 | 1/1 (100.0%, 95% CI 20.7–100.0) |
+| scam05 | 0/1 (0.0%, 95% CI 0.0–79.3) |
+| scam06 | 1/1 (100.0%, 95% CI 20.7–100.0) |
+| scam07 | 0/1 (0.0%, 95% CI 0.0–79.3) |
+| scam08 | 0/1 (0.0%, 95% CI 0.0–79.3) |
+| scam09 | 1/1 (100.0%, 95% CI 20.7–100.0) |
+| scam10 | 1/1 (100.0%, 95% CI 20.7–100.0) |
+
+
+%USERPROFILE%\Documents\GitHub\securityapp>py tools\model\metrics.py --kotlin %M2%\kotlin_msg --method "단어 기준선" --title "words test (messenger)" --out docs\results\model-v2\baseline_words_msg.md
+# words test (messenger)
+
+- 문턱: (규칙 엔진)
+
+| 지표 | 값 | 목표 |
+|---|---|---|
+| **탐지율** (사기 대화) | 14/20 (70.0%, 95% CI 48.1–85.5) | 90% 이상 |
+| **오탐률** (일반 대화) | 6/43 (14.0%, 95% CI 6.6–27.3) | 3% 이하 |
+
+## 출처별 오탐
+
+| 출처 | 오탐 |
+|---|---|
+| BAND | 0/5 (0.0%, 95% CI 0.0–43.4) |
+| FACEBOOK | 0/2 (0.0%, 95% CI 0.0–65.8) |
+| INSTAGRAM | 1/3 (33.3%, 95% CI 6.1–79.2) |
+| KAKAO | 5/33 (15.2%, 95% CI 6.7–30.9) |
+
+## 출처별 탐지
+
+| 출처 | 탐지 |
+|---|---|
+| holdout | 7/10 (70.0%, 95% CI 39.7–89.2) |
+| scam01 | 1/1 (100.0%, 95% CI 20.7–100.0) |
+| scam02 | 1/1 (100.0%, 95% CI 20.7–100.0) |
+| scam03 | 0/1 (0.0%, 95% CI 0.0–79.3) |
+| scam04 | 0/1 (0.0%, 95% CI 0.0–79.3) |
+| scam05 | 1/1 (100.0%, 95% CI 20.7–100.0) |
+| scam06 | 1/1 (100.0%, 95% CI 20.7–100.0) |
+| scam07 | 1/1 (100.0%, 95% CI 20.7–100.0) |
+| scam08 | 0/1 (0.0%, 95% CI 0.0–79.3) |
+| scam09 | 1/1 (100.0%, 95% CI 20.7–100.0) |
+| scam10 | 1/1 (100.0%, 95% CI 20.7–100.0) |
+
+
+%USERPROFILE%\Documents\GitHub\securityapp>del copy
+%USERPROFILE%\Documents\GitHub\securityapp\copy을(를) 찾을 수 없습니다.
+
+%USERPROFILE%\Documents\GitHub\securityapp>git add -A tools data\dev\messenger_split_ids.csv docs\decisions.md docs\v3_plan.md docs\results\model-v2\freeze.json copy
+warning: in the working copy of 'docs/decisions.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/v3_plan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tools/model/build_examples.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tools/model/common.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tools/model/metrics.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tools/model/score.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tools/model/sweep.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tools/model/train.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/dev/messenger_split_ids.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tools/model/freeze.py', LF will be replaced by CRLF the next time Git touches it
+
+%USERPROFILE%\Documents\GitHub\securityapp>git commit -m "ver28-30: model-v2 code and freeze record"
+[main 9d6a37d] ver28-30: model-v2 code and freeze record
+ 10 files changed, 569 insertions(+), 7 deletions(-)
+ delete mode 100644 copy
+ create mode 100644 data/dev/messenger_split_ids.csv
+ create mode 100644 docs/results/model-v2/freeze.json
+ create mode 100644 tools/model/freeze.py
+
+%USERPROFILE%\Documents\GitHub\securityapp>git tag -d model-v2
+Deleted tag 'model-v2' (was 0fb391d)
+
+%USERPROFILE%\Documents\GitHub\securityapp>git push origin :refs/tags/model-v2
+To https://github.com/nb02079-ai/securityapp.git
+ - [deleted]         model-v2
+
+%USERPROFILE%\Documents\GitHub\securityapp>git tag model-v2
+
+%USERPROFILE%\Documents\GitHub\securityapp>git push origin HEAD
+Enumerating objects: 31, done.
+Counting objects: 100% (31/31), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (18/18), 13.17 KiB | 2.63 MiB/s, done.
+Total 18 (delta 10), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (10/10), completed with 10 local objects.
+To https://github.com/nb02079-ai/securityapp.git
+   0fb391d..9d6a37d  HEAD -> main
+
+%USERPROFILE%\Documents\GitHub\securityapp>git push origin model-v2

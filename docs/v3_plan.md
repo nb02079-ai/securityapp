@@ -206,3 +206,10 @@ py tools\model\metrics.py --kotlin %M2%\kotlin_msg --method "행위 + 흐름" --
 py tools\model\metrics.py --kotlin %M2%\kotlin_msg --method "단어 기준선" --title "words test (messenger)" --out docs\results\model-v2\baseline_words_msg.md
 ```
 - 평가 결과 파일(`docs\results\model-v2\*.md`, `*.json`)에는 대화 ID와 숫자만 들어갑니다. 점수 CSV(`%M2%\*_scores.csv`)는 저장소 밖에 둡니다.
+
+## 4단계 결과 (11-18)
+- [x] model-v2 고정(태그 9d6a37d) → 평가 세트 1회 → [results/model-v2/results.md](results/model-v2/results.md)
+- 통화 탐지 100/103 (97.1%) **달성**. 오탐은 콜센터 1/2039로 달성, KorCCVi 일반 통화 10/106 (9.4%)으로 **미달**
+- 메신저(보조): 탐지 13/20, 오탐 3/43
+- 같은 평가 세트에서 규칙 v1.1은 통화 탐지 0/103, 단어 기준선은 49/103(콜센터 오탐 31.7%)
+- 다음: 5단계 앱 (ONNX/LiteRT, 카카오톡 알림 연결)
