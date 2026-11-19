@@ -6,4 +6,4 @@ dependencyResolutionManagement {
     }
 }
 
-include("engine", "eval")
+include("engine", "scorer", "eval")

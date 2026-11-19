@@ -232,3 +232,44 @@ py tools\model\metrics.py --scores %O%\dev_scores_int8.csv --threshold 0.8434460
 ## 5단계-1 결과 (11-18)
 - [x] ONNX 변환과 int8 양자화. 대화별 경고 여부 일치 99.85%로 통과 → [results/model-v2/onnx.md](results/model-v2/onnx.md)
 - 다음(5단계-2): 정규화·토큰 나누기·ONNX 호출을 Kotlin으로 옮기고, PC(JVM)에서 Python과 같은 토큰·같은 점수가 나오는지 확인합니다. 그다음 Android Studio를 설치하고, 태블릿(Android 14)에서 앱을 시험합니다.
+
+## 5단계-2 Kotlin 이식 (결정 34)
+- `scorer` 모듈 (순수 Kotlin, 안드로이드 앱에 그대로 넣음)
+  - `TextPrep`: `common.py`의 `normalize`·`prefix_text`. 파이썬 re의 `\w \d \s`와 같도록 글자 분류를 직접 씀. 글자 수는 코드 포인트로 셈
+  - `WordPieceTokenizer`: `tokenizer.json`을 읽어 BertNormalizer → BertPreTokenizer → WordPiece → `[CLS] … [SEP]`. 긴 글은 앞쪽을 자름(256 토큰)
+  - `OnnxBackend`: ONNX Runtime으로 점수. ONNX Runtime은 `compileOnly`이고, PC에서는 `onnxruntime`, 앱에서는 `onnxruntime-android`를 넣음
+  - `ScamModel`: 상대 메시지 목록 → 점수, 경고 여부 (문턱 0.843446001)
+- 이 작업 공간에서 확인한 것 (11-19)
+  - 단위 시험 10개 통과(`scorer/src/test`)
+  - 글 정리 유니코드 전체 대조: 서로게이트를 뺀 코드 포인트 1,112,064개를 하나씩 넣어 파이썬 3.13과 비교. 유니코드 15.1에 새로 들어간 한자 확장 I(U+2EBF0–2EE5D) 622자만 다름. Java 21과 Android 14는 유니코드 15.0이라 이 글자를 모름. 실제 대화에 나올 일이 거의 없어 한계로 둠
+  - 저장소의 합성·재구성 대화 100개 관점, 903개 위치에서 접두 글이 파이썬과 모두 같음
+  - 토큰과 ONNX 점수는 실제 `tokenizer.json`·모델이 있는 집 PC에서 확인
+
+### 실행 순서 (집 PC, cmd, 저장소 폴더)
+```
+set D=%USERPROFILE%\Desktop
+set O=%D%\model_v2_onnx
+set M2=%D%\model_v2
+py tools\model\make_parity_vectors.py --onnx %O%\model_int8.onnx --out %O%\parity_vectors.jsonl
+gradlew.bat :scorer:test
+chcp 65001
+gradlew.bat :eval:parity --args="--vectors %O%\parity_vectors.jsonl --tokenizer %O%\tokenizer.json --onnx %O%\model_int8.onnx"
+```
+- 합격 기준(결정 34): 1번 글 정리 다름 0, 2번 토큰 다름 0, 3번 판정 다름 0, 점수 최대 차이 0.001 이하 → "→ 같음"
+- ONNX Runtime Java 판은 파이썬과 같은 1.32.0입니다(`build.gradle.kts`의 `ortVersion`). 다른 판으로 시험하려면 `gradlew.bat :eval:parity -PortVersion=<판> --args=…`
+- `tokenizer.json` 해시가 고정 기록(freeze.json)과 다른 문제(5단계-1) 확인: 고정한 모델 폴더(`%M2%\best`)의 토크나이저로 벡터를 만들고, 앱에 넣을 `%O%\tokenizer.json`으로 Kotlin이 같은 토큰을 내는지 봅니다. 2번이 0이면 두 토크나이저는 이 글들에서 같습니다
+```
+py tools\model\make_parity_vectors.py --onnx %O%\model_int8.onnx --model %M2%\best --no-score --out %O%\parity_vectors_m2tok.jsonl
+gradlew.bat :eval:parity --args="--vectors %O%\parity_vectors_m2tok.jsonl --tokenizer %O%\tokenizer.json"
+```
+
+## 5단계-2 결과 (11-19, 집 PC)
+- [x] 글 정리·토큰·점수 일치 (저장소의 합성·재구성 대화와 경계 문장, 위치 903개)
+
+| ONNX Runtime (Kotlin / 파이썬) | 글 정리 다름 | 토큰 다름 | 점수 최대 차이 | 0.001 넘음 | 판정 다름 | 결과 |
+|---|---|---|---|---|---|---|
+| 1.22.0 / 1.32.0 | 0 | 0 | 0.354 | 45 | 0 | 다름 |
+| **1.32.0 / 1.32.0** | **0** | **0** | **1.19e-07** | **0** | **0** | **같음** |
+
+- 판이 다르면 int8 모델 점수가 최대 0.354까지 달랐습니다. 판정은 이번 903개에서 모두 같았지만, 문턱 근처에서는 바뀔 수 있습니다. 그래서 **앱의 ONNX Runtime도 1.32.0으로 고정**합니다(파이썬에서 잰 개발·평가 결과와 같은 계산).
+- Kotlin 점수 계산은 위치당 18.8ms였습니다(PC CPU 1스레드, 토큰 나누기 포함).

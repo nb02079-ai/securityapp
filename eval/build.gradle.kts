@@ -10,6 +10,8 @@ kotlin {
 
 dependencies {
     implementation(project(":engine"))
+    implementation(project(":scorer"))
+    implementation("com.microsoft.onnxruntime:onnxruntime:${rootProject.extra["ortVersion"]}")
     testImplementation(kotlin("test"))
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
@@ -26,4 +28,14 @@ tasks.named<JavaExec>("run") {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+// 파이썬·Kotlin 판정기 일치 확인 (Parity.kt, 5단계-2)
+tasks.register<JavaExec>("parity") {
+    group = "verification"
+    description = "make_parity_vectors.py 결과와 Kotlin 판정기 비교"
+    classpath = sourceSets["main"].runtimeClasspath
+    mainClass.set("securityapp.eval.ParityKt")
+    workingDir = rootProject.projectDir
+    jvmArgs("-Dfile.encoding=UTF-8", "-Dstdout.encoding=UTF-8", "-Dstderr.encoding=UTF-8")
 }
